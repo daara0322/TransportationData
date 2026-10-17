@@ -9,6 +9,9 @@
 | raw/seoul_lowfloor_exceptions_2026_03.png | https://news.seoul.go.kr/traffic/archives/513625 | https://news.seoul.go.kr/traffic/files/2025/01/6979ce7991a467.02151287.png | 2026년 예외노선표. 이미지 원본 보존 |
 | raw/seoul_bus_status_2026_01.html | https://news.seoul.go.kr/traffic/archives/300 | 동일 | 총량 검산용 웹페이지 |
 | raw/bus_positions/ | https://www.data.go.kr/data/15000332/openapi.do | http://ws.bus.go.kr/api/rest/buspos/getBusPosByRtid | 2026-10-17 실시간 응답. 키와 쿼리 URL은 보관하지 않음. fuel 정보 없음 |
+| raw/tdata_route_master.csv | https://t-data.seoul.go.kr/dataprovide/trafficdataviewfile.do?data_id=53 | https://t-data.seoul.go.kr/dataprovide/download.do?id=10246 | 1,751행. 유형·지역코드·기종점·거리 등. 차량별 연료 없음 |
+| raw/tdata_vehicle_routes.csv | https://t-data.seoul.go.kr/dataprovide/trafficdataviewfile.do?data_id=60 | https://t-data.seoul.go.kr/dataprovide/download.do?id=10253 | 16,130행. 차량·노선·회사 ID. 시점 일치 검증 필요 |
+| raw/tdata_route_details.csv | https://t-data.seoul.go.kr/dataprovide/trafficdataviewfile.do?data_id=54 | https://t-data.seoul.go.kr/dataprovide/download.do?id=10247 | 1,797행. 기종점·회차 정류장 ID와 순번. 후속 대조용 |
 
 확대 수집의 합본은 `raw/bus_positions/authorization_snapshot.json`이다. 후보 393개 요청, 350개 차량 기록 있음, 43개 데이터 없음, 요청 오류 0개다. 40개 이하 묶음별 원본 XML과 스냅샷은 `raw/bus_positions/census/`에 보존한다. 그전에 수집한 19개 목적표본은 확대 수집과 별개이며 두 표본을 중복 합산하지 않는다. 원본 응답에는 차량 식별·위치가 있으므로 공개 결과는 노선별 집계만 사용한다.
 

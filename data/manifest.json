@@ -1,0 +1,2612 @@
+[
+  {
+    "file": "bus_positions/20261017T071516184378Z/100100006.xml",
+    "bytes": 10240,
+    "sha256": "F289480B4EA82A8D2CE84E23B33CFCF6E363224CC6A7EA1BC2CCC574FE8D72CA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/20261017T071516184378Z/100100124.xml",
+    "bytes": 3316,
+    "sha256": "C0FA352A9ABB7110605AB77A9EB4003B93616AA698C950645B78D92D605D7C18",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/20261017T071516184378Z/100100129.xml",
+    "bytes": 4618,
+    "sha256": "678E4531DF3321E291C5BEE8AA6EF6AFC1E32AC598000B38569F7C906C68379D",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/20261017T071516184378Z/100100134.xml",
+    "bytes": 2107,
+    "sha256": "B8C33E8FA13C06D65C06753C4F6DC096BD441C02E73F3B18E1DED1506251F3C0",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/20261017T071516184378Z/100100142.xml",
+    "bytes": 7125,
+    "sha256": "1F377DCDD1482F763AAE0B89C8D11492957C943151405D0859CA1BCA04F844F4",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/20261017T071516184378Z/100100151.xml",
+    "bytes": 2740,
+    "sha256": "0208BAA2B7B9EE364049E6E3F79F32048D67CD374AF318FAC2BD964A0569CEA0",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/20261017T071516184378Z/100100170.xml",
+    "bytes": 2745,
+    "sha256": "918F49BF3814E4FBB76A5FDDFE40657E6AB8669717CC7D06C00A662F86B81BB9",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/20261017T071516184378Z/100100193.xml",
+    "bytes": 6472,
+    "sha256": "E95737C2D1EF53610DC1185D42A0356EDE09E65585546D5A143C1AF2CC42D02F",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/20261017T071516184378Z/100100247.xml",
+    "bytes": 2747,
+    "sha256": "264D0D32CD16DC1BF3D07179BE6FE27C7E906A51D84C865CADFCBE89F8DFFEB5",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/20261017T071516184378Z/100100255.xml",
+    "bytes": 1496,
+    "sha256": "A103B0261B09E1CB6E5F4A1191DBDE0F99F97694435CDCCC850697A30B0AD307",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/20261017T071516184378Z/100100278.xml",
+    "bytes": 3368,
+    "sha256": "F82F2B07A3CA8B05E29D48114F56AAE6C74202726913B28370C09814A779269C",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/20261017T071516184378Z/100100302.xml",
+    "bytes": 7728,
+    "sha256": "E235C45704BDF1027359CC7D64E2836C8F609AFC7EC1D4134ABD38F644065B2C",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/20261017T071516184378Z/100100342.xml",
+    "bytes": 1499,
+    "sha256": "79022C1FF6B03EE1AB7FA10FE56FDE1F016768F6CC5ECB8B6547ED349218830E",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/20261017T071516184378Z/100100425.xml",
+    "bytes": 5234,
+    "sha256": "D7D3B8819CD55EE8C42AE5D4F04D3509B6A6FA79F7FFE327BFCFECB7821AE8A3",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/20261017T071516184378Z/100100549.xml",
+    "bytes": 14008,
+    "sha256": "3429DB79E467314924C40B48E8F19A83B5225ADA305E7CD4BEC1609F17B8EAB1",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/20261017T071516184378Z/100100598.xml",
+    "bytes": 12726,
+    "sha256": "9ADE26B2AF0A7A07AD9C796592C9823AC83D601B9B5CFE55B12ACFEB853B9331",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/20261017T071516184378Z/100900003.xml",
+    "bytes": 3307,
+    "sha256": "D82363C32F6F80776DD3B6F544D59CA74F91AAB36A703CB586C61F225AA6D770",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/20261017T071516184378Z/107900008.xml",
+    "bytes": 3304,
+    "sha256": "8DEA4ACF7DE5157116B20B78A39BC12D302E1699A48420C8B9C710B875BCD57E",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/20261017T071516184378Z/115000010.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/20261017T071516184378Z/snapshot.json",
+    "bytes": 44090,
+    "sha256": "6BB0E49D1AE87E3BE26EC54E68F035E83D3226112049E7C623AB9D6DBF42A45A",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/authorization_snapshot.json",
+    "bytes": 1325737,
+    "sha256": "99107CD13AA1ECA885A7BBAED905622234DE76031350DD492CB149A36C2CEE03",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100001.xml",
+    "bytes": 1491,
+    "sha256": "E9A5D3533736F75359283493A6E9C45726B205D20ACB5405C578BA0887A1F09D",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100006.xml",
+    "bytes": 9621,
+    "sha256": "030603216EE26323E42E271ED5D95E1DEE3361FB0418904326C07437226AEE5C",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100007.xml",
+    "bytes": 7747,
+    "sha256": "59BAA5D932193510CAB80D99794684C2FA128E33020F7A1BA286506CDFBEBAA2",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100008.xml",
+    "bytes": 10697,
+    "sha256": "565465A255893A59D05518E284D73E61AE81BEBCF83B4FB005D1EAEF0CE92891",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100009.xml",
+    "bytes": 11474,
+    "sha256": "802C060CD6CA449ABD376922B8A961CEDF8EBD22C17C222EE2510C52707A2B0E",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100010.xml",
+    "bytes": 9004,
+    "sha256": "BBA49D45CA42E1DBED29F757F00432869704964D894C6DAB14C35B4F77AC3B6B",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100012.xml",
+    "bytes": 8965,
+    "sha256": "13D4CEAB6DB820DFF305A5980E1D8CED2430C4346FE47F886FE028CD219459BA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100014.xml",
+    "bytes": 4000,
+    "sha256": "B513D816030F4F14F73D2866DA05465BB63EA4D4ED494269BD04B6ACF432DCEA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100017.xml",
+    "bytes": 14642,
+    "sha256": "5ED5CA7B5B111C1491209E4E7C8AF487562D2D7082B09084B0B1BAE84E0FA7EC",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100018.xml",
+    "bytes": 18677,
+    "sha256": "1B39B4192A7B877C6FC80BBDEBC0A2E7272E5744C2BD27803106FFCAB16EAB38",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100019.xml",
+    "bytes": 16477,
+    "sha256": "282320BAA693466AB390FE4E424F10C72E3FE2A907D79CB4BA5BE7321CD7B455",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100020.xml",
+    "bytes": 17752,
+    "sha256": "290FE7AFEF43ABCB911691C6781E07CEA7024AF8010C287BD0CC35AE5D00F327",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100021.xml",
+    "bytes": 19625,
+    "sha256": "2E2F51D4713C33CCE3D5FDE5E609A4E3FB7F5BC2E1773C1674BA941C6C2D1493",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100022.xml",
+    "bytes": 23369,
+    "sha256": "01036F8D53EB1A07D94A9373608FFB0A99A1467D3EB4D6F6F2C44D2A9712179B",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100023.xml",
+    "bytes": 14609,
+    "sha256": "320BECA80403EF5D5E4FFB07DD5A30274BCDC6C82A9E0DBC754E6454D8750279",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100024.xml",
+    "bytes": 12737,
+    "sha256": "56A390EB2B34882CBB68442D8099D654F46AD24D2C8BDC842571CD1A192CCE30",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100025.xml",
+    "bytes": 17740,
+    "sha256": "4263AE614449C6369A4CE8E0D18AC673B01AF8120DBA89F8DA72C201B8483264",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100026.xml",
+    "bytes": 15882,
+    "sha256": "FC5E6FCCC7ED129A6C0A4B4A7576366520B989976F7412917162FF3045D94A08",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100027.xml",
+    "bytes": 12733,
+    "sha256": "700CCB931183FD0B9F6A664986A3D40A8CB29D97B710BC7EA1756F0FAEFB639D",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100029.xml",
+    "bytes": 19000,
+    "sha256": "F9160587B06D7F98DE72A69E6EE588A42E8FEE193A493C23B9DD1F18FBFFA2C5",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100030.xml",
+    "bytes": 13390,
+    "sha256": "2D973127D1B7B55C8CD0650C3D4681F8D6C0831D142D0D192D18647288BAE9A4",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100031.xml",
+    "bytes": 14651,
+    "sha256": "C11D9B02C85933BB2F481A59277ABB049ED10862899C37EC291ED736460B0CAC",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100032.xml",
+    "bytes": 14602,
+    "sha256": "F4ADD3544F9322263A6C06B19779B7664EEC87540FF24A4FFE5C2EF013311B14",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100033.xml",
+    "bytes": 16498,
+    "sha256": "545DEE3E63B1CD6733432CFC1B38A8B611841D69F46BEC5E8148CB5E34032AA6",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100034.xml",
+    "bytes": 11492,
+    "sha256": "80A16465BF0EFA00AF90F391A4FB600CD97351CC9FB778180CF4F62F7ACB6D47",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100036.xml",
+    "bytes": 10897,
+    "sha256": "1C3F0884B1F07E233F85FE99E2146FEA027F589EA4FD699F0866DC9BA4409981",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100037.xml",
+    "bytes": 12692,
+    "sha256": "9137185CBA8CA4970A44CC0BB934E993B6A14D921D795D9F96872865CBCDD268",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100038.xml",
+    "bytes": 8365,
+    "sha256": "A1320170A7F382F39AAEEAEB5D268C0DB83C9C20310ACACD8807138ACB052097",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100039.xml",
+    "bytes": 15590,
+    "sha256": "2EC4F55222F1CCECFDB43217DDFBDAFF4473B3724B8163F60BDABFF49CCF5DFE",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100042.xml",
+    "bytes": 13755,
+    "sha256": "DD7F9F52307DBDD001DB1F13B12C18189EE7482BDC2E6D2EFA33681181550310",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100043.xml",
+    "bytes": 13979,
+    "sha256": "2C6089041B0CCB5A8EE282CC11154F98DB4E0E14911AF4A6C99F4A4197F13F83",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100044.xml",
+    "bytes": 15874,
+    "sha256": "840EC93F50028CCE367BCA07A3C0A22A9A71EB2F27EE0FADD3006E142F9229AC",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100046.xml",
+    "bytes": 12736,
+    "sha256": "0F2BE988C5039C95EAE579F3168F0AEE5B617B41F3EA1AD64EEB641BB811D9EE",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100047.xml",
+    "bytes": 19030,
+    "sha256": "4C70C114837089C7DF22FF4847936E1E8FB2C56BE0EB16416E8680CDBA58CCEA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100048.xml",
+    "bytes": 18968,
+    "sha256": "0D9D2EBA5D8C126955B58BF2EBFE81EDED04343C0CDEC709D579DF4424A7EF43",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100049.xml",
+    "bytes": 15193,
+    "sha256": "28A29C99E6FFA41DA5D05BC2924F93032B93EA005ED3E2455801E8C4086145AE",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100051.xml",
+    "bytes": 15244,
+    "sha256": "B76E8F2A4C6AE09A3762B811A2020F5A1765F5506D43B62DE234E596CFB1668A",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100052.xml",
+    "bytes": 11508,
+    "sha256": "46D5EBE76C0C67A4A49F9DFF778012A2C66A3783A3643B025C3B5422FF0DD684",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100053.xml",
+    "bytes": 14001,
+    "sha256": "E0E9E0D828133D40E2127215E7D2CEA891F05058C381BFDA797520DD57D386A0",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/100100055.xml",
+    "bytes": 14007,
+    "sha256": "F0B892AEB04A6E608CB0FCD7BB741031D5988B7379C3EA0B2CAFC252D81D773D",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071639710700Z/snapshot.json",
+    "bytes": 255236,
+    "sha256": "92EE54B1BAD2E8A30A164774F78F09DFB1F9A1A7BAE8DAE13C3254F7EC40E0C1",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100056.xml",
+    "bytes": 8989,
+    "sha256": "82E02F63EE57652CC0AACF0F491D042F8874A81CF95077D003BC2F23F9B7DF7A",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100057.xml",
+    "bytes": 17735,
+    "sha256": "F457D20321266364CD21EC8FC44BDE71776945780180EBFC5E20A87D109291CA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100061.xml",
+    "bytes": 17115,
+    "sha256": "3CD6D84F6AFA7249249EF2F9CFA71841E303F233B3F361AA182233E1389B08D5",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100062.xml",
+    "bytes": 11493,
+    "sha256": "8D2481F7075C490851C3FA95473B324F148F45D7F71D67F1E385A2809ED26BF1",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100063.xml",
+    "bytes": 15267,
+    "sha256": "246D6EED90FA922711AEE31E406778F2433D65562B2ADC8C9D3CA1378793C1DD",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100064.xml",
+    "bytes": 7752,
+    "sha256": "970BD93F69A0F16DB8F5C735047C039C23E8DF394D09A0B6442D0F3964EC39BD",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100068.xml",
+    "bytes": 11920,
+    "sha256": "CEBBFF9B0E71C045A46D95F560F7CD1C0E1332AE53C83E8677815C33E8FC8117",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100070.xml",
+    "bytes": 12064,
+    "sha256": "8E6EC153F1179BFBE1F3AE5CC3595C2620ECB6DFDE80215E9E5822B57BE5BD86",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100071.xml",
+    "bytes": 16514,
+    "sha256": "5BDE7A12B4A53D767B15966C804B75EC1BDB085CE5C37FA15C7E216CC11BE476",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100073.xml",
+    "bytes": 11509,
+    "sha256": "7505BC6EE5A1AAAE1949A43BE5620F92123325802E5AE9AAD1FFD87367E91E43",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100075.xml",
+    "bytes": 11511,
+    "sha256": "1680E3ACDB17C61B300511E3982929B9F73C535BEB1C2787EA53013B29DF5CA6",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100076.xml",
+    "bytes": 10863,
+    "sha256": "6B6A09F46B6462C5AFF99243D85E5625D253BFCBB0F3291A603C536E6541B5FB",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100077.xml",
+    "bytes": 8371,
+    "sha256": "7BD926D26EA5713C801EE874C55A96148DC87C35FE62B73D3370DE8FA5A44594",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100078.xml",
+    "bytes": 6470,
+    "sha256": "C7CDB81594E0604EC416546FFDC3582F69350C169656F6041CCA5834F1BCA047",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100079.xml",
+    "bytes": 15260,
+    "sha256": "09286B3D9F0045747BBCAC119F7A37C6EC400770AE19BB7F2977BEC47CE33090",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100080.xml",
+    "bytes": 10239,
+    "sha256": "D850EF290E71749A1487F1B637E830D2EDF8AA93F368966F609CE7DEFC31957D",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100081.xml",
+    "bytes": 8398,
+    "sha256": "F493C669FDC1B639BC68D448192DCBE86695A9A6F077DC73F49B6EFE32DE3513",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100082.xml",
+    "bytes": 12156,
+    "sha256": "964B3E0D148A126B7221A1B0052A298438103E208631627FE215234F35575CC9",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100083.xml",
+    "bytes": 10202,
+    "sha256": "198B146B1F045F297E6ED36B28FF51FE1C0A13898DC2E10001A09725FE050A79",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100084.xml",
+    "bytes": 11498,
+    "sha256": "63098FBFE5E9067C82DCED24910E0E6B857DDA6B4F0B86468EC6C355830894D7",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100085.xml",
+    "bytes": 8322,
+    "sha256": "9F815BC0362F18E1DD2A8EED036F830E4B0E1AEE3BA2E6430102CA5DB8BBC483",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100086.xml",
+    "bytes": 10870,
+    "sha256": "DB08654EDC81224A04AD10B56250B2092C66D60A8E400F553D195EEC30085EDC",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100087.xml",
+    "bytes": 9614,
+    "sha256": "B9FD2934418964D8CA7F5BFB3C223F731C3CE2B75A0F1DF8D9EFC60A73A69B53",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100088.xml",
+    "bytes": 7112,
+    "sha256": "9EA8CD833A557017CE04343F2A3E4B4DE14C1F91696EE9C06E63BCB947922507",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100089.xml",
+    "bytes": 8370,
+    "sha256": "AAA51DF8A0B9972373E9157ACABFF3744A6626D4E4B541DC932279536012B6B8",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100090.xml",
+    "bytes": 12746,
+    "sha256": "5D767D30C7400466F1E24F70AE70205B179253EED67D1510E164026CD01D081F",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100091.xml",
+    "bytes": 8852,
+    "sha256": "77A8E290A1479C4EE7D70805DF0ECE223ABA5CD9079BAB56D30B6DF0CE0983EB",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100093.xml",
+    "bytes": 8997,
+    "sha256": "DDCE9D5A7EBE908D572D3BC01EED397692F5810B16F750F3FBA46159DFE91F06",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100094.xml",
+    "bytes": 13142,
+    "sha256": "E14FDD394FEC3D1537CCD54C60BCC0A21C7389563318E5CE89E1079300C97A43",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100096.xml",
+    "bytes": 12076,
+    "sha256": "E5FEABFAB56A7D044A90148C0F7FC11DDA56464FEC205DDBB0DDBF0414EA7DAB",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100097.xml",
+    "bytes": 9003,
+    "sha256": "BBBA713D13714B434DD359A2DBF14F985FE52BAA25E89DFE49DC32C0973C9F20",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100098.xml",
+    "bytes": 11492,
+    "sha256": "87DCEC6C97DEE52CB84CB4F975AC58726BFA5D2CCCF762F6A5519A0B44CCFF62",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100099.xml",
+    "bytes": 10242,
+    "sha256": "3F751DA604601C0B3F928DAC667801E70FE68FA6C99A61127AA9534E71FC5368",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100102.xml",
+    "bytes": 5868,
+    "sha256": "C719FB8A6CBFB5B5FAFE1F60CE594220A4D124AFC49BE5CD759C11ED2C4968C2",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100103.xml",
+    "bytes": 7740,
+    "sha256": "1D3493D7247BE6C193519B542D3D7077AA7CE62A250DC27E20B2D3C0EABBBA59",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100104.xml",
+    "bytes": 9613,
+    "sha256": "1E7D448A85128F87B54866D8B479A00DA8C5A29445EE35FCA90B96E71154FA96",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100105.xml",
+    "bytes": 5873,
+    "sha256": "6488853F014B37D7B05C698A137D4B0B13BFCC9E147300AF36134100146220BF",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100107.xml",
+    "bytes": 7588,
+    "sha256": "3ED28D1983551B7AEF5EF15F8FE5F62E6ABBB5464BAC64B622646971F6C460ED",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100110.xml",
+    "bytes": 10868,
+    "sha256": "DD83FFBAE6475DB6C313A5AE940A12AC46A0BEFB4332511BB83CF94A063909FD",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/100100111.xml",
+    "bytes": 14644,
+    "sha256": "4428B96BDD18E907F6E513CB8BDE12DEF0EC22B1B86FC9D93A30E5511249F426",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071650138428Z/snapshot.json",
+    "bytes": 198959,
+    "sha256": "C47289048E14F908CF59A56D2FDE6E90EFE472827756F218154AEC21C70C7386",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100112.xml",
+    "bytes": 12118,
+    "sha256": "F430840341974618CE71FAC5E4AD2F48E3831E3ED0873497C96EA95E41A5E405",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100114.xml",
+    "bytes": 7117,
+    "sha256": "7EB2AEFD94A23021189DE58D61FA73ACB28EB317F4379DC7B0611034AE3D16CB",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100116.xml",
+    "bytes": 12751,
+    "sha256": "B4BC926AD3657C2BA02C47CF4E59722ED31D5765409893E30D5FEE9E59B31848",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100117.xml",
+    "bytes": 10870,
+    "sha256": "FD58C0B1BF2B440277EC5A49C9EB1219EC3CF1CE4D24062CDDE3D1CC0580CEFA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100118.xml",
+    "bytes": 8992,
+    "sha256": "6CBA05B16683706EE484A7110DB2EAAAC11408F514FFB650700D466A4DEC5537",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100124.xml",
+    "bytes": 3318,
+    "sha256": "6B172F21701238BCC367F8ABEF4B85544A83873A8F6C7D5C881139DF84E6AECB",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100129.xml",
+    "bytes": 4610,
+    "sha256": "79F293CFAC9D1DF8054F4074D8BB02B6558AB0E8446D24E664D5695432786D93",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100130.xml",
+    "bytes": 4002,
+    "sha256": "FB11A17017A652C92A5C215CC32D5B6BA57668316F89199A0698A51F62B24352",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100131.xml",
+    "bytes": 7117,
+    "sha256": "C4268CCAC5C424670F686CA45F9D08E612346EF87C11BCA7D731DA30ECB68330",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100132.xml",
+    "bytes": 9002,
+    "sha256": "EC148DBEC73A1242EFBE013F2281188D89CE7CE3E7309E5F82B032B8A7F168AE",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100133.xml",
+    "bytes": 2123,
+    "sha256": "59F60F66DE8248904D69CB59737FE32306A091220460909004376951D409955C",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100134.xml",
+    "bytes": 2112,
+    "sha256": "918F2F403BACE86B6EAF599CC1B036B2A6CECED988975E7646043A0982E4C73D",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100137.xml",
+    "bytes": 7752,
+    "sha256": "06AC26C9515D704AD969769E7E245504CC6C7B14AB53B5F8DC875E38DE51FB6F",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100138.xml",
+    "bytes": 5168,
+    "sha256": "CCFBF994E17FA403937A35ED6C388160C33C9747210559CF7358F234E6B2DBF8",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100139.xml",
+    "bytes": 2745,
+    "sha256": "5BBFEF4A75359AB5ECAB2E571E645246F6CBB8007EB33E0707241A636A657DAF",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100142.xml",
+    "bytes": 7754,
+    "sha256": "CFE80DDA549A1ACDAF863F90C3D1819AB47688A80CC214D32DDDB21CCF8FBBCF",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100143.xml",
+    "bytes": 3985,
+    "sha256": "87512748604F03AD0427E28B11F75B46990C453F16D73E8DC17CD51DC1E92D93",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100144.xml",
+    "bytes": 5245,
+    "sha256": "7172287B28F2F71AE8F217FD68D24FC4BE8AEB4F568BBE6E063567900F66F042",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100145.xml",
+    "bytes": 2116,
+    "sha256": "D4BBFB8B0924969A20FE4CA342DD7076D3C41A191DAD82BA146E22CDB66A9412",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100146.xml",
+    "bytes": 2737,
+    "sha256": "AFB55B1A39279B07C3D672D1262953B29867B585FDC9F293AB53C38B0C966676",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100147.xml",
+    "bytes": 2753,
+    "sha256": "0760BB738C53CEA7F8FB2B45EB8692D67BB19B5B6A2A8D841C1E8A93429206B2",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100148.xml",
+    "bytes": 8382,
+    "sha256": "6E2A1D78C3C24644F929308B1B53AD2A2FF62EEAA9861A47EAB4C700B3DB04E1",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100149.xml",
+    "bytes": 2751,
+    "sha256": "4BDBCC1868F911C63037170C14DE209422C0B5975D3A94205A341A6E20C8FC2D",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100150.xml",
+    "bytes": 3985,
+    "sha256": "5803B4F6D3828A68B1D4AE8B7A96755142514A846FB8C08FD0C8FF02FDDA7A38",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100151.xml",
+    "bytes": 2746,
+    "sha256": "AE13001E3F6CF81A1B668BEA1753944D336BE86DEAFD084240E3FD8C15A496C8",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100152.xml",
+    "bytes": 7713,
+    "sha256": "843FB5FD9D8AF0EC989C793424ED2698B57F1D241B8B871F68B6C6E050BC1750",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100153.xml",
+    "bytes": 3361,
+    "sha256": "94B8DF8E5EF8D7CDF10189303A3F86FACFFF85A9F6361B9F3C860F2A6FFE0C9B",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100154.xml",
+    "bytes": 5256,
+    "sha256": "B0BABD4A8BF873ED1E43315D606EBBB19010C2EFEB530E1E78CF9AEC61CD2AB2",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100155.xml",
+    "bytes": 2746,
+    "sha256": "8C19C7D74D84A4434E0711EE32BF69708F418F484A901704A1FD789C8A87CDC4",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100156.xml",
+    "bytes": 2742,
+    "sha256": "413C13FED7EE09A531D8B672E63A031EB150CA5AB27A0F766144EE79BCF54513",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100157.xml",
+    "bytes": 3985,
+    "sha256": "7A818EB00A9E9FA27D98326EBA60D6352E8BC5DC4FD5521165BEC7C0DB53B34F",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100158.xml",
+    "bytes": 3334,
+    "sha256": "A4DC674B553E94A65DE3B8E6D6F8B55C063C20E57448E9B65E5465FE30A2DCDB",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100159.xml",
+    "bytes": 3998,
+    "sha256": "4BBC1D771FDC56F77F018B200B96ADBE452C53A9A6DF7886D50961637FBB5E2E",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100164.xml",
+    "bytes": 5255,
+    "sha256": "05445937F9E58D18F935FEB5D6EF48C9FBA7131EBA9B2BF35CA835B691C5996A",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100166.xml",
+    "bytes": 4000,
+    "sha256": "C2A49C5A4796657AA3515EDBDDDFF7B8547ACC4C9BDF091DB513EB8E3A82BB6C",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100170.xml",
+    "bytes": 2748,
+    "sha256": "60DD500885B9246E2F70371B41BD96C699359756F43FEE7E614634CD1AD5C12F",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100171.xml",
+    "bytes": 3992,
+    "sha256": "F51F6C06970DC10E33BBD8FE6B963E072555F401F104060178E786D045A81023",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100172.xml",
+    "bytes": 6989,
+    "sha256": "4446B1342CF9930BEBF9FD67F4A4C90AA9D8DAAD7DEE42DF7DDA95778BF9E2CD",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100175.xml",
+    "bytes": 8331,
+    "sha256": "DE25425BEC0E06C77E4582DF78E7ABA0AACEC0342E83BDC3ED659ED076D73D1D",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/100100177.xml",
+    "bytes": 10234,
+    "sha256": "7CF429232A84C34902162BB2795E94888A2745D97DEB3DAACDD23694B7385545",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071659604159Z/snapshot.json",
+    "bytes": 100361,
+    "sha256": "0894DD4384888836275B7085C76FE17E3C498C60EF7461609616E078AD8BFC87",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100178.xml",
+    "bytes": 1498,
+    "sha256": "11A086401C3ED10F5D1CE2431B7EC2BA26F0DC9316C8622C651B36FE62E0EA1F",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100179.xml",
+    "bytes": 4621,
+    "sha256": "096AD342928BBD7B4EE4D5B8BFCAAF0A76369822B7328204EB9AEA6EFFB76B65",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100181.xml",
+    "bytes": 10244,
+    "sha256": "0D2932D82DD9C32FE6E919BBC570837194579C59F2D9EBAFAD5691112410EC21",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100183.xml",
+    "bytes": 1478,
+    "sha256": "36B941443268F4D47396A2D0D50EC9CEA35C666DE57960678764A1FF0064CE5A",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100184.xml",
+    "bytes": 3997,
+    "sha256": "CCF0A3FA89A455D475DD91CDAFC7B1404F1D8B957F762F10D4C2EE813EE40EC3",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100185.xml",
+    "bytes": 10250,
+    "sha256": "B11BC4EDF6DF39EF44AB3EDE3E1226AD3E90C536167F5169F59A22BC68D56406",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100186.xml",
+    "bytes": 8970,
+    "sha256": "4518951DA054524BA7905696D816B034647EC1ADEB85C75A9ECD1274259230FC",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100188.xml",
+    "bytes": 4617,
+    "sha256": "8BAF8FEADBC8BD1CAFE4C567B7088AEF2DC9ECEDADE53FA6B2E5BC3D10587788",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100189.xml",
+    "bytes": 5860,
+    "sha256": "314013B97D93D891D82CC50C8E2A4316034E4F4AF3021F7D38D5E81D5A5893AE",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100190.xml",
+    "bytes": 10088,
+    "sha256": "DFFA0EA32AB5E39F00DCA370D7E482D8C0746CAC315ECBBFBC8698546EFD6156",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100191.xml",
+    "bytes": 7108,
+    "sha256": "1A7CF1ED8E1EAE140A19A0AA0DADADA76797743D22EFDCF90EA69BFF2A80BABC",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100192.xml",
+    "bytes": 7107,
+    "sha256": "4F9DEDBC7035CF0DFCAEE03D37E47673B7BB71A182111B5F2372E8633CCC9814",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100193.xml",
+    "bytes": 6473,
+    "sha256": "BBEFB75AA7518E06A9FF5E28F286BBF06E0C8E5CB1806A86AE54099179EF651B",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100194.xml",
+    "bytes": 7747,
+    "sha256": "196542135BE3F98B3F3EFB9D37A940DA6B219268704D194B0B0BE09F1857F585",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100198.xml",
+    "bytes": 8982,
+    "sha256": "F64602E0B49E502A8F96E083DDD62B6FDC32ADA586B9F6EB376AF31D20046C39",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100199.xml",
+    "bytes": 4619,
+    "sha256": "2334A5EAAF43CE4F9E84D785B0737DEA75308411238DF5C9236E40E8C51C2376",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100201.xml",
+    "bytes": 4615,
+    "sha256": "9D2FBE255220E6B3DF71873AC4824E3B29607191B496F44E57AF62E525D6561E",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100202.xml",
+    "bytes": 8990,
+    "sha256": "B938E7EEEB5698DB4B60B434D7F8FF05967604D0CC867B32B437374BB862A02E",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100203.xml",
+    "bytes": 8367,
+    "sha256": "E658D6E3F45161461E8C0C3B9AA94DD41BE9FF36B53ACD9E5195509A53E9FDB3",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100204.xml",
+    "bytes": 7742,
+    "sha256": "9513892CE64D1B23E593C27E890B19DFD952285F44D00FF4A438F1B74254D56B",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100209.xml",
+    "bytes": 6481,
+    "sha256": "DEE0524F11354F9F867BF279A3B19DEF0E34178B4324764EAEC172754FEA9C60",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100210.xml",
+    "bytes": 3994,
+    "sha256": "73FD52A0AC4F4CBBD6D771D0ECABF9EAE805063C11A2F60B1E177201963A095E",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100211.xml",
+    "bytes": 7744,
+    "sha256": "5F79D170ABFA76276DBB3640F6DAA443E6DD9F1B838F44AF862D3702404AD0A5",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100212.xml",
+    "bytes": 3994,
+    "sha256": "26A04E6E17AEE85748423C4FDCEB1A9BFD62BAEE7A473A632EEF83CC74351FC4",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100213.xml",
+    "bytes": 5247,
+    "sha256": "7B6B1C89433ACBA7595060AB71E899AA54FF5CE1690D85E32A32E0EDB87F1427",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100215.xml",
+    "bytes": 7747,
+    "sha256": "0EBB466F9652B1FEA5E604FEE85527036FF41C1E996438E52D981057939FE224",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100216.xml",
+    "bytes": 13359,
+    "sha256": "7C8AB5B3AF554A434320150E968D91B8F074DA983BAE047A836A8736BCA5E4AA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100218.xml",
+    "bytes": 7754,
+    "sha256": "BD09CCE5ACE90B20C75AF044068A51B3973F1B57D3ACDEA24C10B6AA5F3FB361",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100219.xml",
+    "bytes": 5842,
+    "sha256": "01B5227F73C1A6E8467BADF246AEDD418455474ED009D21CFAEFF6233E481D99",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100220.xml",
+    "bytes": 6478,
+    "sha256": "5D1C1E74CA45DA9E345BBA93CB2D72793C967AD97E0DA99676CD985C2FF82582",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100221.xml",
+    "bytes": 10237,
+    "sha256": "077361ECFEC388892DA59863C63C52859E96AF71A04306A70E41D779CC952129",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100222.xml",
+    "bytes": 4002,
+    "sha256": "4829E86BE259ACF40D2A587D4059DDB001BB1C0B99C0002FD89041D585F3EDA6",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100223.xml",
+    "bytes": 7733,
+    "sha256": "6312ADCB5A163BE30BD500FAFB4AE787E58EA09DB0F7DF1AB4AD4156610DCE60",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100224.xml",
+    "bytes": 10864,
+    "sha256": "37BFC8DFAA1F5D4D2D12AAD43FCB8749DB5A682CEFBA625CB17F6A520F51A603",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100225.xml",
+    "bytes": 10824,
+    "sha256": "1E5DCA8ECD135A56BE27886B230D6AA176B9DF40F2687886EC57B5083CD9C229",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100226.xml",
+    "bytes": 7645,
+    "sha256": "C838FC6D7154EC969772C3D9D480C27CDF8CED1F1ED9B6C25CF65A4769E3B469",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100228.xml",
+    "bytes": 5237,
+    "sha256": "5151555F93A44C6B8A2FE298C21171DA0EB61DF1794A7C543199917BD1F681E5",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100229.xml",
+    "bytes": 8365,
+    "sha256": "E40E632D9A8437F18CC75DC6D5E0C6A168984A82A1711A57CB18C39427C3BD3A",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100232.xml",
+    "bytes": 7003,
+    "sha256": "42378AF8EAA5F2DE735E9D6E7348BEF5424A1C058975B17192E8A27D0C4DB154",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/100100234.xml",
+    "bytes": 12124,
+    "sha256": "EC63A90635AA565B9D022C16D0B51843420FB0E7197F57FE239E2929D4EE50B2",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071709039113Z/snapshot.json",
+    "bytes": 132631,
+    "sha256": "A0A26837CB9DE43F35FBCC3836A37E56212FC5744015DC302564BE735E929F22",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100237.xml",
+    "bytes": 15251,
+    "sha256": "1F568744BC2158DE0722734A7AB8E9C183DAC8994D4D345964AF1DE1BABC23AF",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100246.xml",
+    "bytes": 5243,
+    "sha256": "D1E83D0B711C9862784C409699EB7C24B4F809FD735B57D2F12274C759C96568",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100247.xml",
+    "bytes": 2743,
+    "sha256": "99B66A34DD201D8FE3E1AC2785998D5F1AC899C5D00C7E62966B9ABB86BE51AD",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100248.xml",
+    "bytes": 7107,
+    "sha256": "1C4D10A71DA2EF6A6B9BF86496AD756D412E3137273988DC9E3C519835E90E00",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100249.xml",
+    "bytes": 10871,
+    "sha256": "5DD15A6AF28BD37C327B4F346DC9501ACD81E38A1A32DBA2CBC7C1816C60DB1D",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100250.xml",
+    "bytes": 5240,
+    "sha256": "2DBD9341418E67463CDC933F0779C1384CD42A405E29ACF41138A390A0B2F024",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100251.xml",
+    "bytes": 4000,
+    "sha256": "95ACFFE07305EF17719E134F5FC72F6B3406EEB8A3A9B03376B5BB72C9153A96",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100252.xml",
+    "bytes": 5226,
+    "sha256": "54F97D39B1404FE0F23A4DC9A9BE0F10DAB7F1647016A0100D45BE905E35107A",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100253.xml",
+    "bytes": 7115,
+    "sha256": "FB78144FE4797275A1CBA89960C718A33B310145ECA820942C15A9A9B307FFEA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100254.xml",
+    "bytes": 7139,
+    "sha256": "37193522248F661A4788D716CDDEAFE957D753B34F2C8F333F15D8C52B0F815D",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100255.xml",
+    "bytes": 1497,
+    "sha256": "0A849EEDC8A4522295D1260E35C4A39C33E2BCEA4A798AEC3498DD21B7300370",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100259.xml",
+    "bytes": 2112,
+    "sha256": "86EFF716B02C781D83248CFA92917BC17B7F2CB8B151F10AF5937D8A63F65CB4",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100260.xml",
+    "bytes": 10277,
+    "sha256": "91D5871F6DB9D2EC675BFF8D7704E1369278669B66DAE2A7F8BECFB561130309",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100261.xml",
+    "bytes": 2751,
+    "sha256": "CF1F2368F72340DA9FFB4AB81287563791E44918703D701C1FF3636C0A4D07EA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100263.xml",
+    "bytes": 8377,
+    "sha256": "C6542BBEB2612766A4115DE0AAA07108BD35D9CED57E1BF0D52A04822AC76F9A",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100264.xml",
+    "bytes": 13176,
+    "sha256": "33F6A83B9C83E26F38E1CE550B590FA1D3F055BA4A304B71B8449CBF8FEB7452",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100265.xml",
+    "bytes": 17041,
+    "sha256": "F40462A271B29D50920F265319E3A565F50206BB8EEF3B476C599D6F44311EFC",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100266.xml",
+    "bytes": 4620,
+    "sha256": "C2E098FFA8D7917EBC58167C45CAB26C67FEAB07DE029B4A90BDEE7382A828E1",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100267.xml",
+    "bytes": 10224,
+    "sha256": "830AD40814D402776DD09E07663136B651F0A070522B64BC9C5570775B2AAA06",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100268.xml",
+    "bytes": 7118,
+    "sha256": "41F24AE6DD5F0C201AA8F2CF81A0C235719E028BB01B83D262A70E398830233E",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100269.xml",
+    "bytes": 2120,
+    "sha256": "8E5D5ACFA8569A196443CA6536811C1BD0C5A14DE45EBD30F7780E06BD8C7DC7",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100272.xml",
+    "bytes": 6501,
+    "sha256": "10C35967F47E13A19AC56920D9819FB73D2ECCE87E2D2B0CA35183C652EE23F1",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100273.xml",
+    "bytes": 8378,
+    "sha256": "1B4F6B912F144CE27AE6AE189DA0913938E49DA312C145A9B58BDC21038AD3DE",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100274.xml",
+    "bytes": 2746,
+    "sha256": "B80A18FDAB2B6C5EF8A0A474C250FA756578F3801D5FCEF747A3E5537E4280D1",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100275.xml",
+    "bytes": 5167,
+    "sha256": "64CEB6F739AB901114E0CE823105D4C137288B51596B7BD518800687810BDD09",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100276.xml",
+    "bytes": 4004,
+    "sha256": "8D6ACEE5AAF9B354370505B9EA70A1E8F998E37CB3E643398361208FFDED9659",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100277.xml",
+    "bytes": 8366,
+    "sha256": "EB1340854452ECFA3FB4C3FFEBE80340ACEBFC01C42FF885C81B00D96CF14D5A",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100278.xml",
+    "bytes": 3986,
+    "sha256": "DBCDC7557CE81183434D941BC0214A3987C96065F7D0FFFCC774423006286F37",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100279.xml",
+    "bytes": 15804,
+    "sha256": "0EE20935922E2A2FC733ACFE6C817C2699DF6B187CF635747C8E7B2F4AF3F5A5",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100281.xml",
+    "bytes": 8968,
+    "sha256": "BD66D088255AE599D89C211082CA0FBA17AC184B15F53030731CB0F856DB96D0",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100282.xml",
+    "bytes": 12074,
+    "sha256": "44CD1C3C9C2EA78BD3E976FBAAC51BF24036A609D6B32C6FBA8CDBC9C8B6376E",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100283.xml",
+    "bytes": 4627,
+    "sha256": "97736142D5BCEAC706529328590DD36ABB0727171DA7B9D3DAEB007F6ECA4A28",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100284.xml",
+    "bytes": 3998,
+    "sha256": "3A18DC34D4CB53C793B31ECBEAF8352E0081CF66CB3E2AC7D5D6881E7966E8B3",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100285.xml",
+    "bytes": 7748,
+    "sha256": "D75C094C9C80BBA314B7DDFCE6BB8A36F5282EDDEA6CC0AB0B701CA232AECD9E",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100286.xml",
+    "bytes": 12727,
+    "sha256": "C63C32E8961DF21C1EDBD0592BE7DCCE71C95F5ED6607CAADF7499185466D2A3",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100287.xml",
+    "bytes": 9578,
+    "sha256": "A8A4C0C31A6EDA88B184729AE0CC5190208BBD935F54B515B982BD126BC0D5FA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100288.xml",
+    "bytes": 13387,
+    "sha256": "72D0A3311B45CDD65803AC9B7D71EB4F153519D04F8A9079211FDA5E9BBA1CDB",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100289.xml",
+    "bytes": 10266,
+    "sha256": "AC0995C3FF21E7AFBC59790FFACE87937A5EA8F8202D27EBF3264371E3798757",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100290.xml",
+    "bytes": 11932,
+    "sha256": "80E96038B30D0A34948F1F5C0713C1C48C906D09DF9C8487F6A11B46E0A0507C",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/100100291.xml",
+    "bytes": 5245,
+    "sha256": "5BEE1791C4963A09D54E5DB90B4820F069C89896964233AC8A4AFEB56C79C270",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071717048235Z/snapshot.json",
+    "bytes": 141355,
+    "sha256": "1CC97591A54B812F772E5C0647B91011E29A06CB9B9B6A4A98BA52C18C57E46E",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100292.xml",
+    "bytes": 7128,
+    "sha256": "42EA17D1FE57779E2AC06383DE9AD42BDBCC451A4210F707EDB3E8F37FE3F255",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100293.xml",
+    "bytes": 8392,
+    "sha256": "CD88ED9A54DBDE674F99A6ADDAE9638CFA835B0E6FE2E26CEA4D17371727ECF0",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100294.xml",
+    "bytes": 10231,
+    "sha256": "3C5331F52A84545C6BD13822C34B899A96CCF04FAAAC8BEBBBE0DEC31BEADF86",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100295.xml",
+    "bytes": 2086,
+    "sha256": "46DA81687DCD37A386F9450976DA697AE2ECA3B5D119326FE5EECACD2E5B60CA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100297.xml",
+    "bytes": 5851,
+    "sha256": "0D424A897321ACB07A916F50FD3303CA6D77271536773EAA1C978656D93C3949",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100298.xml",
+    "bytes": 5247,
+    "sha256": "4DEA7C8E615D9309203E82E76211D445996E51748C2D96B85A48DA4E5B3F88A9",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100299.xml",
+    "bytes": 3982,
+    "sha256": "40FBCB4077F92C4CB7121652333E5F80FD1B420BBFA414E4E591A50950D3C43D",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100300.xml",
+    "bytes": 3370,
+    "sha256": "5B6C15BE27E37D703440251E16F24F5E7EF685F446F424BDA55384832FA09F7A",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100301.xml",
+    "bytes": 5873,
+    "sha256": "A2292CA5C516B3FCEDEE7FC4D64501B12DB7C572224ABF2368FFA5D937FA72AD",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100302.xml",
+    "bytes": 7731,
+    "sha256": "FD69AE87D20F8036EB238885C56AFFCB7516773EAB0990155E09479443D0B755",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100303.xml",
+    "bytes": 5239,
+    "sha256": "1D1D4287F46BFAE5EEEC951AD34078AC1E2F52F8F7FF651DD4CB3233AB313DBF",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100304.xml",
+    "bytes": 4630,
+    "sha256": "EFE450F052262C31427DA23536DDE11AEC8A81D79EF1F95BEFCDD04D1272653B",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100305.xml",
+    "bytes": 10263,
+    "sha256": "DD5773FD5325CD8C59C9BD7314B30A9DD4578C9AF48AE5F2F373CBF9CC062F9F",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100306.xml",
+    "bytes": 10198,
+    "sha256": "9AC9FD42BF4E5AFD6C717349594FCFBF7AFDCBCE5C2C22EAFDB21E5723B36CE6",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100307.xml",
+    "bytes": 5249,
+    "sha256": "4D66030131E00A2A5BC5757EBCCE6AE964E6BEBBCFF494E75E5322B09B6CB970",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100308.xml",
+    "bytes": 8992,
+    "sha256": "BFCB9511B1F1608360254101C93E28860F5A269792A7C8249045D52BED8E06AD",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100309.xml",
+    "bytes": 7124,
+    "sha256": "3809AEEB8363CC4B1A3B5FDD72616F14E814419B84128CDABC87C57559922B87",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100312.xml",
+    "bytes": 11472,
+    "sha256": "5411D27AAF43E75719041E6FFBD879FD258464FF3A588714E477601442B53709",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100313.xml",
+    "bytes": 5247,
+    "sha256": "DF33CAAB22E1E9167B1533EB0B33339AEB6EC8001029522CB4E235A8B45B3D67",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100316.xml",
+    "bytes": 6380,
+    "sha256": "5D6F2A59476F36D4726D042A1CDF6FE1FA1E4687FE87DE386E4470FF39C9AA63",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100318.xml",
+    "bytes": 5172,
+    "sha256": "D8FF4A4D3F4328BBB8FFF0A34622E9C92699FE7186DBB988B52ED835A071114A",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100320.xml",
+    "bytes": 5153,
+    "sha256": "B203FA1F4A8EDF46D5327FBAD69DD1BE6C07C1D8D3310BAD41EBF0FE8DB1B5D3",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100329.xml",
+    "bytes": 3374,
+    "sha256": "767B14B9FACDAB72AEC8C335279CD08E6DA091FB235EB2B5F49A8258137C3709",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100330.xml",
+    "bytes": 6500,
+    "sha256": "B684E2A08AB464B7E3B8422BF9E6ABCA560D6644F347F004BE0D6D580AC38633",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100331.xml",
+    "bytes": 3993,
+    "sha256": "39FEB7C06FF3E280FA7174D9DC4B4C3A897E3BFFA2A7A259B5824F9BEE0682C3",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100332.xml",
+    "bytes": 7117,
+    "sha256": "1AC8FD2A34BFE1FEE7F2036ABB6263880DCB2843A84E37CAEEED83C752D8AA0D",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100337.xml",
+    "bytes": 9612,
+    "sha256": "8AA85FB98B9FBA776436B9FCC4BEDA3D3ADB88F96AAAFD658BD49E610178990B",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100338.xml",
+    "bytes": 5242,
+    "sha256": "9A7FBF69E8FEEB5E0EE57C56ADDE81B8F1ED556EC3B5DA1770E0D3C31205C666",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100339.xml",
+    "bytes": 9584,
+    "sha256": "13D72422F236BBCAE916E6E3729FC6D39004DD8001E208A5ADFE143C94248592",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100340.xml",
+    "bytes": 9618,
+    "sha256": "D197DB024E8D8A8832C7EAB3E8E54BC020FD4BDD674CF0CA4F55852CBE69CB53",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100341.xml",
+    "bytes": 6500,
+    "sha256": "C76A90DFDEC23D9C1AAA95D1E628F259B883C09B99EF3CF51948AA83C1A47266",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100342.xml",
+    "bytes": 1500,
+    "sha256": "AF3C2E936E6465964B3B86826C655DA8283485D36C4E3C3C86035200769A26CC",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100344.xml",
+    "bytes": 9607,
+    "sha256": "07ED5F0835DF37F6A94F39ADA8E9DB436DC23E569F36EE5962B42D2C53CDD8AA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100345.xml",
+    "bytes": 7130,
+    "sha256": "BD276156E50177EC9BBDA600A247F3A9093531854C4100DBD603C635D1801394",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100346.xml",
+    "bytes": 7756,
+    "sha256": "1E2B37B260BC5D69B03F3CB2AB786F1B499CCE4B542066EC3AEAAD0B5F14924B",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100347.xml",
+    "bytes": 7007,
+    "sha256": "3F3E03CA82344F25FEB9E418654E17EE7630BC897E7D018F856BD05017EE320B",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100348.xml",
+    "bytes": 2746,
+    "sha256": "07904B0094936AE2177F32A5B7CA6058A0FA15EC293F8B33513AFF7272A4F5D3",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100349.xml",
+    "bytes": 5857,
+    "sha256": "4AC97A437F4EDC9EA806F86529D02E8B722A13E9F0E44DF7966C7D0066EA6A7E",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100352.xml",
+    "bytes": 7757,
+    "sha256": "EC66BE0D0E0E1F5B3D17CCC1BC5C0B0F79BB0B01C61834041F7B7925FFDFAD42",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/100100353.xml",
+    "bytes": 4003,
+    "sha256": "745F46DF6C89DFAE5D3325B6F1AFD5A5CFD3781BF2FBFC981119BB65C7091D1B",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071726205269Z/snapshot.json",
+    "bytes": 120397,
+    "sha256": "3107564A210DA2E09E1928E0A3A694288C7FE96D2B3480500ABFB06981FA7EB8",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100354.xml",
+    "bytes": 2709,
+    "sha256": "5FFB68E018909ADEFE506FEE8B898901FE1C1C8D4A288B951187331E2EDB621D",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100357.xml",
+    "bytes": 2741,
+    "sha256": "D525AED90DA3052CCFF19AE83E20192541A797D3AB3F6240177DA0DA1E912529",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100358.xml",
+    "bytes": 11483,
+    "sha256": "B5691183B1F880E893B1B987D70B189523B32A6BD111654D22FD247D076C6A2A",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100359.xml",
+    "bytes": 9004,
+    "sha256": "314F70B3B0BF1A2C6F3B574C63A7A7FB888E64E9FA63E77C76AAEB8A1E0025CD",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100360.xml",
+    "bytes": 7104,
+    "sha256": "CFE4F49319B5930C1C223403C35ABAFBCAA54A77905CFB3B400F2D4C53A652DC",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100363.xml",
+    "bytes": 5880,
+    "sha256": "5E67412EA2B3AE1A365520092F9843522D133B6D423826F7750EC2607D840AC6",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100364.xml",
+    "bytes": 5243,
+    "sha256": "BCEB603B862554721E0F9B0ED102E959D8616AA1546B7D23B0446709054003D2",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100383.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100387.xml",
+    "bytes": 2118,
+    "sha256": "26795E9DC8563B171AD2D85040E797E301551A44491E972B57A78C1B72F87705",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100389.xml",
+    "bytes": 17796,
+    "sha256": "128EE2022C7D7513AAC3D761EA7749EFF11D5DF47400F2DAF5F70E03A06F3DCB",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100391.xml",
+    "bytes": 10221,
+    "sha256": "92C749775F098317ECB4516EC5EAC7034799D0746FE905B56DD3AF58839D21B1",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100392.xml",
+    "bytes": 7118,
+    "sha256": "39C55AB058FDF4E6A7A3621E72E7835254C47713779157EBA485B4B3361F7469",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100400.xml",
+    "bytes": 10242,
+    "sha256": "447F52007976426E895D7705E3AC29F5694F314A9C837EAE1F561E8EB7531213",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100407.xml",
+    "bytes": 9458,
+    "sha256": "56AF67CA0CD441DA4E30266A7B2002D97A5BA9C0AC538E6CAA2B536F8202B1FE",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100409.xml",
+    "bytes": 15897,
+    "sha256": "211B094B003EFB56AA6E7C32C263EC6D6A985ADD692D237ED679F295EC10CE92",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100410.xml",
+    "bytes": 10884,
+    "sha256": "DE8669397FEB46C6E160B2E6B20CF798750122C7C83E57ABD173701C187BA178",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100425.xml",
+    "bytes": 4618,
+    "sha256": "A7C1DAD9F0D8E61DEA52617F721FD367389E336869A3C9A0B18A2446A62712AC",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100427.xml",
+    "bytes": 7124,
+    "sha256": "D1510096ED8ACAFA54F3AB7BF405D2278FF01D518A89AFB4BC4E015311E0D784",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100437.xml",
+    "bytes": 3982,
+    "sha256": "120E37F0ED0EE52DCA434D05DEA2C61DC20384C82777B50615F94276B68A951E",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100438.xml",
+    "bytes": 7738,
+    "sha256": "CC123EF62CB1AE4151379CFD11BE905EF260703EADA6E440FA01582B0E1C08BF",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100440.xml",
+    "bytes": 8379,
+    "sha256": "53EFCF9A493132803B2101D843AF0C5D07B25416A8245975D3A9EF6B6AA2FB43",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100446.xml",
+    "bytes": 7094,
+    "sha256": "FE3F7BCF1ED6271C45CD38A75903ED36DD44BD45A84BCB0E9FB928F0F70293D3",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100447.xml",
+    "bytes": 9578,
+    "sha256": "CB234E1A37B71E1E05FCD8CE0BDD71CDB245A9F20B5995FDED359D39F81F2423",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100448.xml",
+    "bytes": 3363,
+    "sha256": "A46A0A3B68C58C38B245F6FDC66CE10B0A1ED61F621841488BBFD19513CAC8BE",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100449.xml",
+    "bytes": 2739,
+    "sha256": "819CA6A3A74615D3643EE074A273CE21A3895C5C7972FF327828158A16BFD1CC",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100450.xml",
+    "bytes": 10242,
+    "sha256": "932ED3210119640FFE6F681C501C2BBCCD71F32FC08B0D22E793724963703C5D",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100451.xml",
+    "bytes": 7736,
+    "sha256": "B563DB8572E4885CC70CE67A87F04CE48979741F42320B1D623C5041C3FF5EE6",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100453.xml",
+    "bytes": 5229,
+    "sha256": "370D2D585F807E392FA990F7D8F9F951F33F38330AFDAC9DAAEBCC63C8B2E961",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100454.xml",
+    "bytes": 10234,
+    "sha256": "A20DC7EEDFAADDCF0B58C2E16B8C1F072E446504945DBC65B43FD665027B2C5E",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100459.xml",
+    "bytes": 11448,
+    "sha256": "CB870A527EFBAB1163E38CBC21CAEA7F9829AAF87524C211AB33F416641AEC82",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100462.xml",
+    "bytes": 5864,
+    "sha256": "5FA7285D445BA4183B39FE8DF4F36F0B12A54EF181D58B439998B4983A120562",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100478.xml",
+    "bytes": 5229,
+    "sha256": "B95487A3687EE1612D5357D6EC0F601A7030A1C0B5EC2445D66CB1103A0F6A79",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100495.xml",
+    "bytes": 6464,
+    "sha256": "55BF0A229E6C82DB5A600DC1FFB3A19B16545FEA96A37D0CACFF09BD1E0FB124",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100496.xml",
+    "bytes": 11486,
+    "sha256": "1FF947E9CF3092EEB8CA062DF29B72CBA6C9253B8EA1083F2EC17FF5F0D44523",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100497.xml",
+    "bytes": 3372,
+    "sha256": "51E252A8B3ACA3DA127ED59D33B8B6F300D351B2527E73C9AD6CDF6470652D6D",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100498.xml",
+    "bytes": 8204,
+    "sha256": "28CDC8221972E6F20F1EA2174974E8BE72EA946522194C654599D2905D2C21B0",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100499.xml",
+    "bytes": 12702,
+    "sha256": "276F2AFEF10DE57787AA0BA07B9A04250725CCFE31225F4141164C509228F6D4",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100500.xml",
+    "bytes": 8340,
+    "sha256": "848A79C6D3B5DCEA613DB78F85010CFA78BB7A0750F012A279180ABF7AF211C5",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100501.xml",
+    "bytes": 3992,
+    "sha256": "FDD027C41B7F853AEB5D9BBF3385427BA6AB001C75A78EFF31B997A40670B05C",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/100100511.xml",
+    "bytes": 10246,
+    "sha256": "188010EE6E49210939E98F41CC122FC628DCF7457B58ED6843C176773B261A8C",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071734179284Z/snapshot.json",
+    "bytes": 140829,
+    "sha256": "B45577AA1D65381506C84DCC1CC2BBEBB5CFEA5C1337C96D375BB2BD2ED9EE52",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/100100521.xml",
+    "bytes": 13334,
+    "sha256": "CF19BA481C74C818D4051C58EF7FB2C5093D319227F41438EF74E0FC04C21ADE",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/100100522.xml",
+    "bytes": 11486,
+    "sha256": "8AD009FF9784F442C49E36E48CCB224A7300D8BEDCB2428E940F05541C23F31E",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/100100537.xml",
+    "bytes": 12713,
+    "sha256": "604329228FC59147454C30688421EB8F765CDF297C736326C3858FFEEC1BF942",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/100100549.xml",
+    "bytes": 13376,
+    "sha256": "8BBD900D7C1EC819BF6F5A898B2BA2371BB16C3E4B937CDD9B7132505D318900",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/100100550.xml",
+    "bytes": 5775,
+    "sha256": "488F7AECF3FB3800D752713E16A0C27EB5514C73592711E747077DA13EB5955D",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/100100551.xml",
+    "bytes": 5849,
+    "sha256": "1DCE04C93BB34DFBE904438E1889A7316CB2CB95AEE8500B369D0D0539731BA4",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/100100552.xml",
+    "bytes": 3357,
+    "sha256": "61AC3E083DA865875CB1A9377801372A9D1660794886681D10DF1EDAEC73F6C9",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/100100553.xml",
+    "bytes": 10242,
+    "sha256": "0EA4C90373BC27CE925E6A47649F740ECCAA66AF84597BC234C6ADA1A50B34EB",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/100100564.xml",
+    "bytes": 10856,
+    "sha256": "BD02B5E47FA7AE13957D27E01B80BEF01BB60577F9988053308957BC9E74250D",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/100100565.xml",
+    "bytes": 6465,
+    "sha256": "6B753863D2A8B22DFCF105B41BE3FFC4C2E308B57FCD9D2C9763785F56E705E5",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/100100566.xml",
+    "bytes": 2128,
+    "sha256": "B960F265124E8C23937D97E533F5CC38CBA9267814CCF4C7B422CECD66FBFC87",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/100100574.xml",
+    "bytes": 7742,
+    "sha256": "D37344D907BDB8CA3D041356E39B5D2893F1DDE3F3E7E7F32C01D94F1CFF17AE",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/100100576.xml",
+    "bytes": 6483,
+    "sha256": "1D5914F5E75CF71FCEC3FE0B8CA7808D1375640E6EB1979AB9628354DDA5991C",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/100100578.xml",
+    "bytes": 4559,
+    "sha256": "548654A26E025BA571EB6727059DED01982B76F99ABB73F6AF8F1430222B00C8",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/100100579.xml",
+    "bytes": 10845,
+    "sha256": "6202C393BE25FCF0DE5C2AFBED96B14B64908BD6E07429D0E5B8D002FA27B065",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/100100583.xml",
+    "bytes": 10229,
+    "sha256": "3B74652CA7492BDE9045A34FBEE4FEC643847263DE6F7B3C2072C839A5E1FD71",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/100100587.xml",
+    "bytes": 5760,
+    "sha256": "528CB59327DD4AFEAE9DAA3FE01CB5BA4A6D11F058A488875EC1118582306F1E",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/100100591.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/100100595.xml",
+    "bytes": 12078,
+    "sha256": "99CA5413098E81D86B88304021CF09FFACBBEF2325282DF6EE8578E2B9C408F6",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/100100596.xml",
+    "bytes": 10231,
+    "sha256": "17A96BDD2033206147DE1AB759A6ABBCD14D7CBAFAEE09FA9521B8D3426702FE",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/100100597.xml",
+    "bytes": 8348,
+    "sha256": "6D67CBA28DEC2463D53A24848B98B67A2D3093AF2576B8FFA91E4AB41065DD9E",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/100100599.xml",
+    "bytes": 8980,
+    "sha256": "B54BBE4D56571F04395986D01F1AB5BBB94879610671BDBB9723C1C219C774F6",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/100100601.xml",
+    "bytes": 3946,
+    "sha256": "9031A4B3FB7478FB7939F49A063610B6E92AF7F9F60A1C5D6C9B310FA75DDC4B",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/100100602.xml",
+    "bytes": 3936,
+    "sha256": "116EA1CDF444FF4212936001D73E8F19394E79A96765037DCE8B360202113CDE",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/100100604.xml",
+    "bytes": 5860,
+    "sha256": "1497D6D672B871F466E7E558ED02C864D91797B1194DDCAA1D81481F22BBD6B9",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/100100605.xml",
+    "bytes": 11311,
+    "sha256": "683D56D365181E6D19C2CA5C2F72933AE35DE35893B4A85981121EE1DA9BFCE4",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/100100607.xml",
+    "bytes": 9014,
+    "sha256": "CE77F679A5CDC1633955F8FCC047FB3E2EE7491B2D405C4923E279070E0E0DA1",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/100100609.xml",
+    "bytes": 5769,
+    "sha256": "EA6F42880F4E1836DEAC3037982248DC90D55B28ADFD24A4AD0A682495DBB82F",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/100100611.xml",
+    "bytes": 1475,
+    "sha256": "1823B6CC1061213AEFDB794EE0BE4A3008BD00CFCDE66B3A5D33884565346B49",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/100100612.xml",
+    "bytes": 7122,
+    "sha256": "9D004682EAAB6E3E25A3E62596F71C11F03329EDCAC669D87F451817FFDA88A7",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/100100613.xml",
+    "bytes": 7741,
+    "sha256": "6469B7ED6A4B654CE8B667EE56E7D50987811F5C666A32B4C0C052499FF04FAE",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/102000001.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/103000001.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/104000006.xml",
+    "bytes": 8833,
+    "sha256": "77DA0460AFEDFAD1FA5F1E4E873D74DA7BFF5C3AF0A628774BD1B01FDBAF6BA8",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/104000009.xml",
+    "bytes": 5773,
+    "sha256": "DA10964647007DA28F9E7683A0AEAAC57BF22D74F71E1A8CFF0C6F4A36790BA1",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/104000010.xml",
+    "bytes": 6385,
+    "sha256": "8ADF8DB902E80E4986957591464AA52D7BCA385978C796D40CE45DEAD6ABA643",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/104000012.xml",
+    "bytes": 10662,
+    "sha256": "34F417DAB9621F16C6059A25FE276492163655B714132B44A54670B72CF67149",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/104000013.xml",
+    "bytes": 5158,
+    "sha256": "35FA61DBF1FFC9E7058528942936164F5215C4AECCE1DEF8AD0A22319765F260",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/104000014.xml",
+    "bytes": 5169,
+    "sha256": "F372DC4DE7DBB378DD8BE41E4AEB1470D1DD6361987CC2CD0A686F1AF86D46A5",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/106000001.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071742181611Z/snapshot.json",
+    "bytes": 130318,
+    "sha256": "6D5D5FD43437BD068835E0A97F228B0F476BD77F364FF625AAAC670958714F56",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/106000004.xml",
+    "bytes": 3944,
+    "sha256": "1C1A36C269A380D1133E87A6F570321A50F9600638823ECD95AFF2B0B688C634",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/106000005.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/106000006.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/106000008.xml",
+    "bytes": 6378,
+    "sha256": "E5848FB1A7F5ED97BE7446E9364DE9B51370B64D7EB262EEB7A5D26DC4F1DCC4",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/107000001.xml",
+    "bytes": 2084,
+    "sha256": "1DB8A155295253377B324865ED9E241749369F766B4A0073D3DFB04C22855979",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/107000002.xml",
+    "bytes": 7013,
+    "sha256": "A969D7B2C7080C6EB00B26955AD46D057E5ECE14B87C317396BAC4995FDD2B48",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/107000004.xml",
+    "bytes": 860,
+    "sha256": "13B5A26E594290398F376017146A5E3429ED8236CEDCEBCF879D8423619FBF51",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/107000005.xml",
+    "bytes": 3309,
+    "sha256": "54E0F7C233FCA45F6C0A20A2C2737041D1B267E5BFD1EECE360797DA8268372A",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/107000006.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/107000007.xml",
+    "bytes": 4539,
+    "sha256": "8C24FC8855BE6856A19B88A1F5627A9CD81641C0D28084045318D8D388A934C6",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/107000008.xml",
+    "bytes": 7622,
+    "sha256": "533796E8C51B390E892D5AE99F3FE57A263015415C2A7D0BDEBC7BFD967E3EBA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/107000009.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/107000010.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/108000001.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/108000002.xml",
+    "bytes": 5152,
+    "sha256": "A211E5EC52EFC650464959C4EFFD647983F7BFADFF42A30FF2C05455BD298E3B",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/109000002.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/109000003.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/109000004.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/109000005.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/109000006.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/110000002.xml",
+    "bytes": 8846,
+    "sha256": "39E415A66332B65AEC7D59D12058B4E0FA55E087572D32B7FDC5CBCEB990A048",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/110000004.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/110000005.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/110000006.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/110000007.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/110000008.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/110000009.xml",
+    "bytes": 4529,
+    "sha256": "E663CAA2350B518D72702288B5713A17A9B631BF8488BD303EF4E428D2D2DBE8",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/111000008.xml",
+    "bytes": 4538,
+    "sha256": "624070EAB20E6E41D639E5DD078A2B58BC6F457A3E77FD5162F13896EBB3F9FF",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/111000009.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/111000010.xml",
+    "bytes": 8835,
+    "sha256": "143F2C189C8C6A407DF799CE1F972397C1E238F1F755570C8FA76B50DC7CED22",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/111000014.xml",
+    "bytes": 10205,
+    "sha256": "CBA5BA251AAFC64AFCC82E786EF8FB493684809265B97589B18A07AC4DBDDAD8",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/111000019.xml",
+    "bytes": 6988,
+    "sha256": "2BF6AE77FA6E056E6DC92184B77439EC2A301AD26BAE762B80B67698890EAF48",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/111000020.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/111000021.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/111000022.xml",
+    "bytes": 11935,
+    "sha256": "2099D8FDFBCD83CCE6DAFA7AB2ADCAADBD79474C1D5499B3BCEDD379682F5FC0",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/111000023.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/111000024.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/111000025.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/111000026.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/111000027.xml",
+    "bytes": 4528,
+    "sha256": "3902599F9D0F6A1C89A427C4CC7F401EAF15904EDA64C52B689E757EC17D60BF",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071750072402Z/snapshot.json",
+    "bytes": 49764,
+    "sha256": "BC59E830BAE0A29F8002E1EDB5B89856AA1A984DCD1B498DA304A1D7A19AD6CB",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071758584322Z/111000028.xml",
+    "bytes": 5762,
+    "sha256": "E43A2FBAF37C75C955EEE3168CCC4FB9459620687B9C828BA23E8B243BD86232",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071758584322Z/111000029.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071758584322Z/112000005.xml",
+    "bytes": 2094,
+    "sha256": "D882207AE63A5398AA1A4281FB222F2ED50287AB63BFC9983966601CD7559676",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071758584322Z/112000006.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071758584322Z/113000002.xml",
+    "bytes": 15898,
+    "sha256": "E895EC77397207C5853B7752530DCB77E5883A94DFF1B0915E9907594791AAE6",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071758584322Z/113000003.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071758584322Z/113000004.xml",
+    "bytes": 3929,
+    "sha256": "19AB9718FB7B4926B3B413A5E6933C1298ADAFA3A82C4274D7FF46C03A3F077A",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071758584322Z/113000005.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071758584322Z/113000007.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071758584322Z/114000002.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071758584322Z/114000003.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071758584322Z/115000005.xml",
+    "bytes": 5772,
+    "sha256": "FED89F4805351B2E2DF787357219061E9562460C4AB78B8635A02C6ED2A1B545",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071758584322Z/115000007.xml",
+    "bytes": 8857,
+    "sha256": "E5B946BEFC7859EC55A80BB8D38E48E86359503F35B9C03AB7D036E2E9BCEF84",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071758584322Z/115000011.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071758584322Z/115000012.xml",
+    "bytes": 5150,
+    "sha256": "D1CF2FBB55601923C8593EFAFD0ED206EFA62E0528DFF1042B4371147646042A",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071758584322Z/115000013.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071758584322Z/115000014.xml",
+    "bytes": 3930,
+    "sha256": "47973E8E5F5ACFCD375EE95F778976E7909AB08B84CFDDF6B0F85869704BFDAB",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071758584322Z/116000001.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071758584322Z/116000002.xml",
+    "bytes": 2709,
+    "sha256": "A025A467C9208529F5E9BFCAD0B1A44F5BE54402091E95B2AE6C7AF4A2A2D471",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071758584322Z/116000004.xml",
+    "bytes": 7020,
+    "sha256": "126327B6F2A436318437F313F6B7EFB1E8771A1370C8497A7DE1E1480116A7EC",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071758584322Z/116000005.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071758584322Z/116000006.xml",
+    "bytes": 6371,
+    "sha256": "D9FBEDFAF1DE134ACEC1991A3D616FB8332157B00E420ED8C457E28057C6FE1C",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071758584322Z/120000003.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071758584322Z/121000002.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071758584322Z/122000001.xml",
+    "bytes": 5155,
+    "sha256": "4D1D2A131C3DD436EEC5CFED36AB30EBBD81C708A96B02B7F7F00ADB92E55FBD",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071758584322Z/123000010.xml",
+    "bytes": 11309,
+    "sha256": "921A68DE65A066A8415A3BA8429A2E8C50548F7E88A39404F72C63157B4E74F5",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071758584322Z/123000011.xml",
+    "bytes": 5144,
+    "sha256": "507ACE094135FC64ECE9007C201A560ECC99C62BD75794484CB4705B63D7EC01",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071758584322Z/124000008.xml",
+    "bytes": 1474,
+    "sha256": "E21041563144701283AEAD320EE0A94FB423198A69A9D4D7563A3DEA3A373D71",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071758584322Z/124000010.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071758584322Z/124000036.xml",
+    "bytes": 10210,
+    "sha256": "BD5E0F91B80D834968CAA13016CBFE4A1FC34FA12165CCE2675495D28D2C0750",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071758584322Z/124000038.xml",
+    "bytes": 11460,
+    "sha256": "C2546E70FB9EA0A5D4A4650FD99387E5AE8475B324CBE65DBB34B4C93DFE95C0",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071758584322Z/124000039.xml",
+    "bytes": 6386,
+    "sha256": "D7046B8040D294CF582CBF52F14937EC8C532E64C4216D5E329CFA4891CD9F59",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071758584322Z/124000040.xml",
+    "bytes": 226,
+    "sha256": "1550441DF6750D382013337D0F6EB7C143AE809E488F9EAE6411747F7ADFBFCA",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "bus_positions/census/20261017T071758584322Z/snapshot.json",
+    "bytes": 56980,
+    "sha256": "DB1BEEDD54AF62882BA7E64FE08B211BCE123A41990A36657EE032E09C448963",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "buspos_probe_100100012.xml",
+    "bytes": 9562,
+    "sha256": "AB3C21DB793451DC3CED0CA4146BA9FF87486117CB1E805DE25A84C32F181C82",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "linkage_run.log",
+    "bytes": 124641,
+    "sha256": "B424E0B1552FBF980EBA0395EFA587D16958EEF98AB8C2FC74228572EA90F33B",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "portal_electric_bus_search.html",
+    "bytes": 447267,
+    "sha256": "F9D20B165E6490E2F278ACBDD780FF04FEA137193C7C5BB52F27D1EC1334AEE6",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "seoul_bus_authorization_2026_01.xlsx",
+    "bytes": 54296,
+    "sha256": "B8133A38C600DB6C343A2E7C742F3E8955D00C8310B99B9BC283E1A7E4FE3C6E",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "seoul_bus_status_2026_01.html",
+    "bytes": 110176,
+    "sha256": "2C31274F7A44CD38DDB19E4C35EA8FB1720ADEFA0474B5D6CA211DB0A959761E",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "seoul_lowfloor_exceptions_2026_03.png",
+    "bytes": 50829,
+    "sha256": "32E2A660B034C91E6F6875A51A731F0CCC448984C70A0EEAFFBEB3E4011DC390",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "tdata_catalog.html",
+    "bytes": 134280,
+    "sha256": "42B99BA8815D96C634AD9DDA11482DC3B3E1B18AC6E1A461DBB313745207E571",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "tdata_vehicle_operations.csv",
+    "bytes": 113208259,
+    "sha256": "A2127FF7A6F603901B2A145B56A743BE34AD2F9E6460A3A340BE4F9802128A77",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "tdata_vehicle_operations_page.html",
+    "bytes": 27155,
+    "sha256": "242A70B041665E2B93AF3720F24355F60EEC22BB972E60DB9F549F17EDAA1EAD",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "tdata_vehicle_search.html",
+    "bytes": 134559,
+    "sha256": "73AEE73597CD2917411187FE532168220FBA6E5B2BB89BE59B461F71E36706C0",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "tdata_vehicle_search_page2.html",
+    "bytes": 133580,
+    "sha256": "88497624E6FB63B906A8C87C79CA7B489223BB3942B4E1DE04FC8D7359EC0056",
+    "acquired_date_kst": "2026-10-17"
+  }
+]

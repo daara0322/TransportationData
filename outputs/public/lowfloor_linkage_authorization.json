@@ -1,0 +1,6294 @@
+{
+  "routes": [
+    {
+      "route_id": "100100001",
+      "route_names": [
+        "01A"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 2,
+      "historical_rows": 387,
+      "historical_vehicles": 13,
+      "matched_vehicles": 2,
+      "classified_vehicles": 2,
+      "low_floor_vehicles": 2,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 11,
+      "classification_coverage": 0.15384615384615385
+    },
+    {
+      "route_id": "100100006",
+      "route_names": [
+        "101"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 15,
+      "historical_rows": 482,
+      "historical_vehicles": 31,
+      "matched_vehicles": 15,
+      "classified_vehicles": 15,
+      "low_floor_vehicles": 12,
+      "regular_vehicles": 3,
+      "unclassified_vehicles": 16,
+      "classification_coverage": 0.4838709677419355
+    },
+    {
+      "route_id": "100100007",
+      "route_names": [
+        "102"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 12,
+      "historical_rows": 398,
+      "historical_vehicles": 21,
+      "matched_vehicles": 12,
+      "classified_vehicles": 12,
+      "low_floor_vehicles": 12,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 9,
+      "classification_coverage": 0.5714285714285714
+    },
+    {
+      "route_id": "100100008",
+      "route_names": [
+        "103"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 17,
+      "historical_rows": 508,
+      "historical_vehicles": 24,
+      "matched_vehicles": 17,
+      "classified_vehicles": 17,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 17,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.7083333333333334
+    },
+    {
+      "route_id": "100100009",
+      "route_names": [
+        "104"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 18,
+      "historical_rows": 456,
+      "historical_vehicles": 24,
+      "matched_vehicles": 18,
+      "classified_vehicles": 18,
+      "low_floor_vehicles": 2,
+      "regular_vehicles": 16,
+      "unclassified_vehicles": 6,
+      "classification_coverage": 0.75
+    },
+    {
+      "route_id": "100100010",
+      "route_names": [
+        "105"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 14,
+      "historical_rows": 297,
+      "historical_vehicles": 19,
+      "matched_vehicles": 14,
+      "classified_vehicles": 14,
+      "low_floor_vehicles": 14,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.7368421052631579
+    },
+    {
+      "route_id": "100100012",
+      "route_names": [
+        "107"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 14,
+      "historical_rows": 288,
+      "historical_vehicles": 24,
+      "matched_vehicles": 14,
+      "classified_vehicles": 14,
+      "low_floor_vehicles": 14,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 10,
+      "classification_coverage": 0.5833333333333334
+    },
+    {
+      "route_id": "100100014",
+      "route_names": [
+        "109"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 6,
+      "historical_rows": 300,
+      "historical_vehicles": 14,
+      "matched_vehicles": 6,
+      "classified_vehicles": 6,
+      "low_floor_vehicles": 6,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 8,
+      "classification_coverage": 0.42857142857142855
+    },
+    {
+      "route_id": "100100017",
+      "route_names": [
+        "120"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 23,
+      "historical_rows": 558,
+      "historical_vehicles": 32,
+      "matched_vehicles": 23,
+      "classified_vehicles": 23,
+      "low_floor_vehicles": 22,
+      "regular_vehicles": 1,
+      "unclassified_vehicles": 9,
+      "classification_coverage": 0.71875
+    },
+    {
+      "route_id": "100100018",
+      "route_names": [
+        "130"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 30,
+      "historical_rows": 589,
+      "historical_vehicles": 41,
+      "matched_vehicles": 29,
+      "classified_vehicles": 29,
+      "low_floor_vehicles": 25,
+      "regular_vehicles": 4,
+      "unclassified_vehicles": 12,
+      "classification_coverage": 0.7073170731707317
+    },
+    {
+      "route_id": "100100019",
+      "route_names": [
+        "140"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 26,
+      "historical_rows": 528,
+      "historical_vehicles": 46,
+      "matched_vehicles": 26,
+      "classified_vehicles": 26,
+      "low_floor_vehicles": 26,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 20,
+      "classification_coverage": 0.5652173913043478
+    },
+    {
+      "route_id": "100100020",
+      "route_names": [
+        "141"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 28,
+      "historical_rows": 423,
+      "historical_vehicles": 39,
+      "matched_vehicles": 28,
+      "classified_vehicles": 28,
+      "low_floor_vehicles": 28,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 11,
+      "classification_coverage": 0.717948717948718
+    },
+    {
+      "route_id": "100100021",
+      "route_names": [
+        "142"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 31,
+      "historical_rows": 426,
+      "historical_vehicles": 38,
+      "matched_vehicles": 31,
+      "classified_vehicles": 31,
+      "low_floor_vehicles": 31,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.8157894736842105
+    },
+    {
+      "route_id": "100100022",
+      "route_names": [
+        "143"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 37,
+      "historical_rows": 552,
+      "historical_vehicles": 49,
+      "matched_vehicles": 37,
+      "classified_vehicles": 37,
+      "low_floor_vehicles": 37,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 12,
+      "classification_coverage": 0.7551020408163265
+    },
+    {
+      "route_id": "100100023",
+      "route_names": [
+        "144"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 23,
+      "historical_rows": 499,
+      "historical_vehicles": 39,
+      "matched_vehicles": 23,
+      "classified_vehicles": 23,
+      "low_floor_vehicles": 19,
+      "regular_vehicles": 4,
+      "unclassified_vehicles": 16,
+      "classification_coverage": 0.5897435897435898
+    },
+    {
+      "route_id": "100100024",
+      "route_names": [
+        "145"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 20,
+      "historical_rows": 468,
+      "historical_vehicles": 34,
+      "matched_vehicles": 20,
+      "classified_vehicles": 20,
+      "low_floor_vehicles": 11,
+      "regular_vehicles": 9,
+      "unclassified_vehicles": 14,
+      "classification_coverage": 0.5882352941176471
+    },
+    {
+      "route_id": "100100025",
+      "route_names": [
+        "146"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 28,
+      "historical_rows": 439,
+      "historical_vehicles": 41,
+      "matched_vehicles": 28,
+      "classified_vehicles": 28,
+      "low_floor_vehicles": 28,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 13,
+      "classification_coverage": 0.6829268292682927
+    },
+    {
+      "route_id": "100100026",
+      "route_names": [
+        "147"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 25,
+      "historical_rows": 444,
+      "historical_vehicles": 38,
+      "matched_vehicles": 25,
+      "classified_vehicles": 25,
+      "low_floor_vehicles": 25,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 13,
+      "classification_coverage": 0.6578947368421053
+    },
+    {
+      "route_id": "100100027",
+      "route_names": [
+        "148"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 20,
+      "historical_rows": 426,
+      "historical_vehicles": 31,
+      "matched_vehicles": 20,
+      "classified_vehicles": 20,
+      "low_floor_vehicles": 19,
+      "regular_vehicles": 1,
+      "unclassified_vehicles": 11,
+      "classification_coverage": 0.6451612903225806
+    },
+    {
+      "route_id": "100100029",
+      "route_names": [
+        "150"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 30,
+      "historical_rows": 471,
+      "historical_vehicles": 50,
+      "matched_vehicles": 30,
+      "classified_vehicles": 30,
+      "low_floor_vehicles": 30,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 20,
+      "classification_coverage": 0.6
+    },
+    {
+      "route_id": "100100030",
+      "route_names": [
+        "151"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 21,
+      "historical_rows": 461,
+      "historical_vehicles": 37,
+      "matched_vehicles": 21,
+      "classified_vehicles": 21,
+      "low_floor_vehicles": 13,
+      "regular_vehicles": 8,
+      "unclassified_vehicles": 16,
+      "classification_coverage": 0.5675675675675675
+    },
+    {
+      "route_id": "100100031",
+      "route_names": [
+        "152"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 23,
+      "historical_rows": 446,
+      "historical_vehicles": 52,
+      "matched_vehicles": 23,
+      "classified_vehicles": 23,
+      "low_floor_vehicles": 18,
+      "regular_vehicles": 5,
+      "unclassified_vehicles": 29,
+      "classification_coverage": 0.4423076923076923
+    },
+    {
+      "route_id": "100100032",
+      "route_names": [
+        "163"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 23,
+      "historical_rows": 495,
+      "historical_vehicles": 45,
+      "matched_vehicles": 23,
+      "classified_vehicles": 23,
+      "low_floor_vehicles": 12,
+      "regular_vehicles": 11,
+      "unclassified_vehicles": 22,
+      "classification_coverage": 0.5111111111111111
+    },
+    {
+      "route_id": "100100033",
+      "route_names": [
+        "160"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 26,
+      "historical_rows": 462,
+      "historical_vehicles": 49,
+      "matched_vehicles": 26,
+      "classified_vehicles": 26,
+      "low_floor_vehicles": 26,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 23,
+      "classification_coverage": 0.5306122448979592
+    },
+    {
+      "route_id": "100100034",
+      "route_names": [
+        "162"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 18,
+      "historical_rows": 466,
+      "historical_vehicles": 30,
+      "matched_vehicles": 18,
+      "classified_vehicles": 18,
+      "low_floor_vehicles": 18,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 12,
+      "classification_coverage": 0.6
+    },
+    {
+      "route_id": "100100036",
+      "route_names": [
+        "171"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 17,
+      "historical_rows": 440,
+      "historical_vehicles": 29,
+      "matched_vehicles": 17,
+      "classified_vehicles": 17,
+      "low_floor_vehicles": 13,
+      "regular_vehicles": 4,
+      "unclassified_vehicles": 12,
+      "classification_coverage": 0.5862068965517241
+    },
+    {
+      "route_id": "100100037",
+      "route_names": [
+        "172"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 20,
+      "historical_rows": 298,
+      "historical_vehicles": 27,
+      "matched_vehicles": 20,
+      "classified_vehicles": 20,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 20,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.7407407407407407
+    },
+    {
+      "route_id": "100100038",
+      "route_names": [
+        "201"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 13,
+      "historical_rows": 231,
+      "historical_vehicles": 19,
+      "matched_vehicles": 13,
+      "classified_vehicles": 13,
+      "low_floor_vehicles": 13,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 6,
+      "classification_coverage": 0.6842105263157895
+    },
+    {
+      "route_id": "100100039",
+      "route_names": [
+        "202"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 25,
+      "historical_rows": 447,
+      "historical_vehicles": 38,
+      "matched_vehicles": 25,
+      "classified_vehicles": 25,
+      "low_floor_vehicles": 25,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 13,
+      "classification_coverage": 0.6578947368421053
+    },
+    {
+      "route_id": "100100042",
+      "route_names": [
+        "260"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 22,
+      "historical_rows": 435,
+      "historical_vehicles": 31,
+      "matched_vehicles": 22,
+      "classified_vehicles": 22,
+      "low_floor_vehicles": 22,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 9,
+      "classification_coverage": 0.7096774193548387
+    },
+    {
+      "route_id": "100100043",
+      "route_names": [
+        "261"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 22,
+      "historical_rows": 384,
+      "historical_vehicles": 33,
+      "matched_vehicles": 22,
+      "classified_vehicles": 22,
+      "low_floor_vehicles": 19,
+      "regular_vehicles": 3,
+      "unclassified_vehicles": 11,
+      "classification_coverage": 0.6666666666666666
+    },
+    {
+      "route_id": "100100044",
+      "route_names": [
+        "262"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 25,
+      "historical_rows": 356,
+      "historical_vehicles": 35,
+      "matched_vehicles": 25,
+      "classified_vehicles": 25,
+      "low_floor_vehicles": 17,
+      "regular_vehicles": 8,
+      "unclassified_vehicles": 10,
+      "classification_coverage": 0.7142857142857143
+    },
+    {
+      "route_id": "100100046",
+      "route_names": [
+        "270"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 20,
+      "historical_rows": 384,
+      "historical_vehicles": 33,
+      "matched_vehicles": 20,
+      "classified_vehicles": 20,
+      "low_floor_vehicles": 20,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 13,
+      "classification_coverage": 0.6060606060606061
+    },
+    {
+      "route_id": "100100047",
+      "route_names": [
+        "271"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 30,
+      "historical_rows": 522,
+      "historical_vehicles": 45,
+      "matched_vehicles": 30,
+      "classified_vehicles": 30,
+      "low_floor_vehicles": 26,
+      "regular_vehicles": 4,
+      "unclassified_vehicles": 15,
+      "classification_coverage": 0.6666666666666666
+    },
+    {
+      "route_id": "100100048",
+      "route_names": [
+        "272"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 30,
+      "historical_rows": 601,
+      "historical_vehicles": 41,
+      "matched_vehicles": 30,
+      "classified_vehicles": 30,
+      "low_floor_vehicles": 23,
+      "regular_vehicles": 7,
+      "unclassified_vehicles": 11,
+      "classification_coverage": 0.7317073170731707
+    },
+    {
+      "route_id": "100100049",
+      "route_names": [
+        "273"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 24,
+      "historical_rows": 480,
+      "historical_vehicles": 40,
+      "matched_vehicles": 24,
+      "classified_vehicles": 24,
+      "low_floor_vehicles": 24,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 16,
+      "classification_coverage": 0.6
+    },
+    {
+      "route_id": "100100051",
+      "route_names": [
+        "301"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 24,
+      "historical_rows": 507,
+      "historical_vehicles": 42,
+      "matched_vehicles": 24,
+      "classified_vehicles": 24,
+      "low_floor_vehicles": 19,
+      "regular_vehicles": 5,
+      "unclassified_vehicles": 18,
+      "classification_coverage": 0.5714285714285714
+    },
+    {
+      "route_id": "100100052",
+      "route_names": [
+        "302"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 18,
+      "historical_rows": 337,
+      "historical_vehicles": 29,
+      "matched_vehicles": 18,
+      "classified_vehicles": 18,
+      "low_floor_vehicles": 17,
+      "regular_vehicles": 1,
+      "unclassified_vehicles": 11,
+      "classification_coverage": 0.6206896551724138
+    },
+    {
+      "route_id": "100100053",
+      "route_names": [
+        "303"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 22,
+      "historical_rows": 454,
+      "historical_vehicles": 40,
+      "matched_vehicles": 22,
+      "classified_vehicles": 22,
+      "low_floor_vehicles": 21,
+      "regular_vehicles": 1,
+      "unclassified_vehicles": 18,
+      "classification_coverage": 0.55
+    },
+    {
+      "route_id": "100100055",
+      "route_names": [
+        "340"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 22,
+      "historical_rows": 510,
+      "historical_vehicles": 34,
+      "matched_vehicles": 22,
+      "classified_vehicles": 22,
+      "low_floor_vehicles": 22,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 12,
+      "classification_coverage": 0.6470588235294118
+    },
+    {
+      "route_id": "100100056",
+      "route_names": [
+        "341"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 14,
+      "historical_rows": 276,
+      "historical_vehicles": 25,
+      "matched_vehicles": 14,
+      "classified_vehicles": 14,
+      "low_floor_vehicles": 14,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 11,
+      "classification_coverage": 0.56
+    },
+    {
+      "route_id": "100100057",
+      "route_names": [
+        "360"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 28,
+      "historical_rows": 587,
+      "historical_vehicles": 51,
+      "matched_vehicles": 28,
+      "classified_vehicles": 28,
+      "low_floor_vehicles": 26,
+      "regular_vehicles": 2,
+      "unclassified_vehicles": 23,
+      "classification_coverage": 0.5490196078431373
+    },
+    {
+      "route_id": "100100061",
+      "route_names": [
+        "370"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 27,
+      "historical_rows": 513,
+      "historical_vehicles": 38,
+      "matched_vehicles": 27,
+      "classified_vehicles": 27,
+      "low_floor_vehicles": 27,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 11,
+      "classification_coverage": 0.7105263157894737
+    },
+    {
+      "route_id": "100100062",
+      "route_names": [
+        "401"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 18,
+      "historical_rows": 312,
+      "historical_vehicles": 28,
+      "matched_vehicles": 18,
+      "classified_vehicles": 18,
+      "low_floor_vehicles": 15,
+      "regular_vehicles": 3,
+      "unclassified_vehicles": 10,
+      "classification_coverage": 0.6428571428571429
+    },
+    {
+      "route_id": "100100063",
+      "route_names": [
+        "402"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 24,
+      "historical_rows": 408,
+      "historical_vehicles": 36,
+      "matched_vehicles": 24,
+      "classified_vehicles": 24,
+      "low_floor_vehicles": 23,
+      "regular_vehicles": 1,
+      "unclassified_vehicles": 12,
+      "classification_coverage": 0.6666666666666666
+    },
+    {
+      "route_id": "100100064",
+      "route_names": [
+        "406"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 12,
+      "historical_rows": 309,
+      "historical_vehicles": 19,
+      "matched_vehicles": 12,
+      "classified_vehicles": 12,
+      "low_floor_vehicles": 12,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.631578947368421
+    },
+    {
+      "route_id": "100100068",
+      "route_names": [
+        "420"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 19,
+      "historical_rows": 457,
+      "historical_vehicles": 37,
+      "matched_vehicles": 19,
+      "classified_vehicles": 19,
+      "low_floor_vehicles": 19,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 18,
+      "classification_coverage": 0.5135135135135135
+    },
+    {
+      "route_id": "100100070",
+      "route_names": [
+        "441"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 19,
+      "historical_rows": 312,
+      "historical_vehicles": 27,
+      "matched_vehicles": 19,
+      "classified_vehicles": 19,
+      "low_floor_vehicles": 19,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 8,
+      "classification_coverage": 0.7037037037037037
+    },
+    {
+      "route_id": "100100071",
+      "route_names": [
+        "461"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 26,
+      "historical_rows": 345,
+      "historical_vehicles": 39,
+      "matched_vehicles": 26,
+      "classified_vehicles": 26,
+      "low_floor_vehicles": 22,
+      "regular_vehicles": 4,
+      "unclassified_vehicles": 13,
+      "classification_coverage": 0.6666666666666666
+    },
+    {
+      "route_id": "100100073",
+      "route_names": [
+        "470"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 18,
+      "historical_rows": 380,
+      "historical_vehicles": 33,
+      "matched_vehicles": 18,
+      "classified_vehicles": 18,
+      "low_floor_vehicles": 17,
+      "regular_vehicles": 1,
+      "unclassified_vehicles": 15,
+      "classification_coverage": 0.5454545454545454
+    },
+    {
+      "route_id": "100100075",
+      "route_names": [
+        "472"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 18,
+      "historical_rows": 438,
+      "historical_vehicles": 31,
+      "matched_vehicles": 18,
+      "classified_vehicles": 18,
+      "low_floor_vehicles": 18,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 13,
+      "classification_coverage": 0.5806451612903226
+    },
+    {
+      "route_id": "100100076",
+      "route_names": [
+        "500"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 17,
+      "historical_rows": 432,
+      "historical_vehicles": 32,
+      "matched_vehicles": 17,
+      "classified_vehicles": 17,
+      "low_floor_vehicles": 15,
+      "regular_vehicles": 2,
+      "unclassified_vehicles": 15,
+      "classification_coverage": 0.53125
+    },
+    {
+      "route_id": "100100077",
+      "route_names": [
+        "501"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 13,
+      "historical_rows": 361,
+      "historical_vehicles": 18,
+      "matched_vehicles": 13,
+      "classified_vehicles": 13,
+      "low_floor_vehicles": 13,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.7222222222222222
+    },
+    {
+      "route_id": "100100078",
+      "route_names": [
+        "503"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 10,
+      "historical_rows": 215,
+      "historical_vehicles": 16,
+      "matched_vehicles": 10,
+      "classified_vehicles": 10,
+      "low_floor_vehicles": 10,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 6,
+      "classification_coverage": 0.625
+    },
+    {
+      "route_id": "100100079",
+      "route_names": [
+        "504"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 24,
+      "historical_rows": 443,
+      "historical_vehicles": 32,
+      "matched_vehicles": 24,
+      "classified_vehicles": 24,
+      "low_floor_vehicles": 24,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 8,
+      "classification_coverage": 0.75
+    },
+    {
+      "route_id": "100100080",
+      "route_names": [
+        "505"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 16,
+      "historical_rows": 327,
+      "historical_vehicles": 27,
+      "matched_vehicles": 16,
+      "classified_vehicles": 16,
+      "low_floor_vehicles": 8,
+      "regular_vehicles": 8,
+      "unclassified_vehicles": 11,
+      "classification_coverage": 0.5925925925925926
+    },
+    {
+      "route_id": "100100081",
+      "route_names": [
+        "506"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 13,
+      "historical_rows": 275,
+      "historical_vehicles": 20,
+      "matched_vehicles": 13,
+      "classified_vehicles": 13,
+      "low_floor_vehicles": 13,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.65
+    },
+    {
+      "route_id": "100100082",
+      "route_names": [
+        "507"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 19,
+      "historical_rows": 360,
+      "historical_vehicles": 29,
+      "matched_vehicles": 19,
+      "classified_vehicles": 19,
+      "low_floor_vehicles": 15,
+      "regular_vehicles": 4,
+      "unclassified_vehicles": 10,
+      "classification_coverage": 0.6551724137931034
+    },
+    {
+      "route_id": "100100083",
+      "route_names": [
+        "540"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 16,
+      "historical_rows": 414,
+      "historical_vehicles": 27,
+      "matched_vehicles": 16,
+      "classified_vehicles": 16,
+      "low_floor_vehicles": 16,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 11,
+      "classification_coverage": 0.5925925925925926
+    },
+    {
+      "route_id": "100100084",
+      "route_names": [
+        "571"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 18,
+      "historical_rows": 286,
+      "historical_vehicles": 28,
+      "matched_vehicles": 18,
+      "classified_vehicles": 18,
+      "low_floor_vehicles": 18,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 10,
+      "classification_coverage": 0.6428571428571429
+    },
+    {
+      "route_id": "100100085",
+      "route_names": [
+        "600"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 13,
+      "historical_rows": 462,
+      "historical_vehicles": 28,
+      "matched_vehicles": 13,
+      "classified_vehicles": 13,
+      "low_floor_vehicles": 13,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 15,
+      "classification_coverage": 0.4642857142857143
+    },
+    {
+      "route_id": "100100086",
+      "route_names": [
+        "601"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 17,
+      "historical_rows": 405,
+      "historical_vehicles": 30,
+      "matched_vehicles": 17,
+      "classified_vehicles": 17,
+      "low_floor_vehicles": 17,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 13,
+      "classification_coverage": 0.5666666666666667
+    },
+    {
+      "route_id": "100100087",
+      "route_names": [
+        "602"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 15,
+      "historical_rows": 396,
+      "historical_vehicles": 26,
+      "matched_vehicles": 15,
+      "classified_vehicles": 15,
+      "low_floor_vehicles": 15,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 11,
+      "classification_coverage": 0.5769230769230769
+    },
+    {
+      "route_id": "100100088",
+      "route_names": [
+        "603"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 11,
+      "historical_rows": 336,
+      "historical_vehicles": 19,
+      "matched_vehicles": 11,
+      "classified_vehicles": 11,
+      "low_floor_vehicles": 11,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 8,
+      "classification_coverage": 0.5789473684210527
+    },
+    {
+      "route_id": "100100089",
+      "route_names": [
+        "604"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 13,
+      "historical_rows": 284,
+      "historical_vehicles": 20,
+      "matched_vehicles": 13,
+      "classified_vehicles": 13,
+      "low_floor_vehicles": 13,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.65
+    },
+    {
+      "route_id": "100100090",
+      "route_names": [
+        "605"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 20,
+      "historical_rows": 313,
+      "historical_vehicles": 27,
+      "matched_vehicles": 20,
+      "classified_vehicles": 20,
+      "low_floor_vehicles": 10,
+      "regular_vehicles": 10,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.7407407407407407
+    },
+    {
+      "route_id": "100100091",
+      "route_names": [
+        "606"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 14,
+      "historical_rows": 242,
+      "historical_vehicles": 22,
+      "matched_vehicles": 14,
+      "classified_vehicles": 14,
+      "low_floor_vehicles": 14,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 8,
+      "classification_coverage": 0.6363636363636364
+    },
+    {
+      "route_id": "100100093",
+      "route_names": [
+        "640"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 14,
+      "historical_rows": 330,
+      "historical_vehicles": 21,
+      "matched_vehicles": 14,
+      "classified_vehicles": 14,
+      "low_floor_vehicles": 12,
+      "regular_vehicles": 2,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.6666666666666666
+    },
+    {
+      "route_id": "100100094",
+      "route_names": [
+        "641"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 21,
+      "historical_rows": 510,
+      "historical_vehicles": 35,
+      "matched_vehicles": 21,
+      "classified_vehicles": 21,
+      "low_floor_vehicles": 19,
+      "regular_vehicles": 2,
+      "unclassified_vehicles": 14,
+      "classification_coverage": 0.6
+    },
+    {
+      "route_id": "100100096",
+      "route_names": [
+        "643"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 19,
+      "historical_rows": 411,
+      "historical_vehicles": 29,
+      "matched_vehicles": 19,
+      "classified_vehicles": 19,
+      "low_floor_vehicles": 19,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 10,
+      "classification_coverage": 0.6551724137931034
+    },
+    {
+      "route_id": "100100097",
+      "route_names": [
+        "650"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 14,
+      "historical_rows": 354,
+      "historical_vehicles": 25,
+      "matched_vehicles": 14,
+      "classified_vehicles": 14,
+      "low_floor_vehicles": 10,
+      "regular_vehicles": 4,
+      "unclassified_vehicles": 11,
+      "classification_coverage": 0.56
+    },
+    {
+      "route_id": "100100098",
+      "route_names": [
+        "651"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 18,
+      "historical_rows": 320,
+      "historical_vehicles": 25,
+      "matched_vehicles": 18,
+      "classified_vehicles": 18,
+      "low_floor_vehicles": 16,
+      "regular_vehicles": 2,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.72
+    },
+    {
+      "route_id": "100100099",
+      "route_names": [
+        "652"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 16,
+      "historical_rows": 326,
+      "historical_vehicles": 27,
+      "matched_vehicles": 16,
+      "classified_vehicles": 16,
+      "low_floor_vehicles": 8,
+      "regular_vehicles": 8,
+      "unclassified_vehicles": 11,
+      "classification_coverage": 0.5925925925925926
+    },
+    {
+      "route_id": "100100102",
+      "route_names": [
+        "661"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 9,
+      "historical_rows": 200,
+      "historical_vehicles": 17,
+      "matched_vehicles": 9,
+      "classified_vehicles": 9,
+      "low_floor_vehicles": 9,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 8,
+      "classification_coverage": 0.5294117647058824
+    },
+    {
+      "route_id": "100100103",
+      "route_names": [
+        "701"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 12,
+      "historical_rows": 300,
+      "historical_vehicles": 19,
+      "matched_vehicles": 12,
+      "classified_vehicles": 12,
+      "low_floor_vehicles": 12,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.631578947368421
+    },
+    {
+      "route_id": "100100104",
+      "route_names": [
+        "702A"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 15,
+      "historical_rows": 415,
+      "historical_vehicles": 26,
+      "matched_vehicles": 15,
+      "classified_vehicles": 15,
+      "low_floor_vehicles": 15,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 11,
+      "classification_coverage": 0.5769230769230769
+    },
+    {
+      "route_id": "100100105",
+      "route_names": [
+        "702B"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 9,
+      "historical_rows": 222,
+      "historical_vehicles": 14,
+      "matched_vehicles": 9,
+      "classified_vehicles": 9,
+      "low_floor_vehicles": 9,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.6428571428571429
+    },
+    {
+      "route_id": "100100107",
+      "route_names": [
+        "704"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 12,
+      "historical_rows": 267,
+      "historical_vehicles": 17,
+      "matched_vehicles": 12,
+      "classified_vehicles": 12,
+      "low_floor_vehicles": 12,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.7058823529411765
+    },
+    {
+      "route_id": "100100110",
+      "route_names": [
+        "710"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 17,
+      "historical_rows": 361,
+      "historical_vehicles": 24,
+      "matched_vehicles": 17,
+      "classified_vehicles": 17,
+      "low_floor_vehicles": 17,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.7083333333333334
+    },
+    {
+      "route_id": "100100111",
+      "route_names": [
+        "720"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 23,
+      "historical_rows": 432,
+      "historical_vehicles": 36,
+      "matched_vehicles": 23,
+      "classified_vehicles": 23,
+      "low_floor_vehicles": 23,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 13,
+      "classification_coverage": 0.6388888888888888
+    },
+    {
+      "route_id": "100100112",
+      "route_names": [
+        "721"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 19,
+      "historical_rows": 454,
+      "historical_vehicles": 33,
+      "matched_vehicles": 19,
+      "classified_vehicles": 19,
+      "low_floor_vehicles": 18,
+      "regular_vehicles": 1,
+      "unclassified_vehicles": 14,
+      "classification_coverage": 0.5757575757575758
+    },
+    {
+      "route_id": "100100114",
+      "route_names": [
+        "750A"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 11,
+      "historical_rows": 249,
+      "historical_vehicles": 17,
+      "matched_vehicles": 11,
+      "classified_vehicles": 11,
+      "low_floor_vehicles": 11,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 6,
+      "classification_coverage": 0.6470588235294118
+    },
+    {
+      "route_id": "100100116",
+      "route_names": [
+        "742"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 20,
+      "historical_rows": 342,
+      "historical_vehicles": 32,
+      "matched_vehicles": 20,
+      "classified_vehicles": 20,
+      "low_floor_vehicles": 20,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 12,
+      "classification_coverage": 0.625
+    },
+    {
+      "route_id": "100100117",
+      "route_names": [
+        "752"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 17,
+      "historical_rows": 355,
+      "historical_vehicles": 27,
+      "matched_vehicles": 17,
+      "classified_vehicles": 17,
+      "low_floor_vehicles": 17,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 10,
+      "classification_coverage": 0.6296296296296297
+    },
+    {
+      "route_id": "100100118",
+      "route_names": [
+        "753"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 14,
+      "historical_rows": 265,
+      "historical_vehicles": 20,
+      "matched_vehicles": 14,
+      "classified_vehicles": 14,
+      "low_floor_vehicles": 14,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 6,
+      "classification_coverage": 0.7
+    },
+    {
+      "route_id": "100100124",
+      "route_names": [
+        "0017"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 5,
+      "historical_rows": 283,
+      "historical_vehicles": 9,
+      "matched_vehicles": 5,
+      "classified_vehicles": 5,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 5,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.5555555555555556
+    },
+    {
+      "route_id": "100100129",
+      "route_names": [
+        "1014"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 7,
+      "historical_rows": 431,
+      "historical_vehicles": 11,
+      "matched_vehicles": 7,
+      "classified_vehicles": 7,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 7,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.6363636363636364
+    },
+    {
+      "route_id": "100100130",
+      "route_names": [
+        "1017"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 6,
+      "historical_rows": 269,
+      "historical_vehicles": 11,
+      "matched_vehicles": 6,
+      "classified_vehicles": 6,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 6,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.5454545454545454
+    },
+    {
+      "route_id": "100100131",
+      "route_names": [
+        "1020"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 11,
+      "historical_rows": 391,
+      "historical_vehicles": 13,
+      "matched_vehicles": 11,
+      "classified_vehicles": 11,
+      "low_floor_vehicles": 3,
+      "regular_vehicles": 8,
+      "unclassified_vehicles": 2,
+      "classification_coverage": 0.8461538461538461
+    },
+    {
+      "route_id": "100100132",
+      "route_names": [
+        "1111"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 14,
+      "historical_rows": 384,
+      "historical_vehicles": 18,
+      "matched_vehicles": 13,
+      "classified_vehicles": 13,
+      "low_floor_vehicles": 13,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.7222222222222222
+    },
+    {
+      "route_id": "100100133",
+      "route_names": [
+        "1113"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 3,
+      "historical_rows": 210,
+      "historical_vehicles": 6,
+      "matched_vehicles": 3,
+      "classified_vehicles": 3,
+      "low_floor_vehicles": 2,
+      "regular_vehicles": 1,
+      "unclassified_vehicles": 3,
+      "classification_coverage": 0.5
+    },
+    {
+      "route_id": "100100134",
+      "route_names": [
+        "1114"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 3,
+      "historical_rows": 240,
+      "historical_vehicles": 5,
+      "matched_vehicles": 3,
+      "classified_vehicles": 3,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 3,
+      "unclassified_vehicles": 2,
+      "classification_coverage": 0.6
+    },
+    {
+      "route_id": "100100137",
+      "route_names": [
+        "1119"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 12,
+      "historical_rows": 468,
+      "historical_vehicles": 21,
+      "matched_vehicles": 12,
+      "classified_vehicles": 12,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 12,
+      "unclassified_vehicles": 9,
+      "classification_coverage": 0.5714285714285714
+    },
+    {
+      "route_id": "100100138",
+      "route_names": [
+        "1120"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 8,
+      "historical_rows": 225,
+      "historical_vehicles": 15,
+      "matched_vehicles": 8,
+      "classified_vehicles": 8,
+      "low_floor_vehicles": 8,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.5333333333333333
+    },
+    {
+      "route_id": "100100139",
+      "route_names": [
+        "1124"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 4,
+      "historical_rows": 325,
+      "historical_vehicles": 6,
+      "matched_vehicles": 4,
+      "classified_vehicles": 4,
+      "low_floor_vehicles": 1,
+      "regular_vehicles": 3,
+      "unclassified_vehicles": 2,
+      "classification_coverage": 0.6666666666666666
+    },
+    {
+      "route_id": "100100142",
+      "route_names": [
+        "1126"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 12,
+      "historical_rows": 498,
+      "historical_vehicles": 19,
+      "matched_vehicles": 12,
+      "classified_vehicles": 12,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 12,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.631578947368421
+    },
+    {
+      "route_id": "100100143",
+      "route_names": [
+        "1127"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 6,
+      "historical_rows": 240,
+      "historical_vehicles": 8,
+      "matched_vehicles": 6,
+      "classified_vehicles": 6,
+      "low_floor_vehicles": 6,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 2,
+      "classification_coverage": 0.75
+    },
+    {
+      "route_id": "100100144",
+      "route_names": [
+        "1128"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 8,
+      "historical_rows": 288,
+      "historical_vehicles": 14,
+      "matched_vehicles": 8,
+      "classified_vehicles": 8,
+      "low_floor_vehicles": 8,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 6,
+      "classification_coverage": 0.5714285714285714
+    },
+    {
+      "route_id": "100100145",
+      "route_names": [
+        "1129"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 3,
+      "historical_rows": 174,
+      "historical_vehicles": 3,
+      "matched_vehicles": 3,
+      "classified_vehicles": 3,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 3,
+      "unclassified_vehicles": 0,
+      "classification_coverage": 1.0
+    },
+    {
+      "route_id": "100100146",
+      "route_names": [
+        "1130"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 4,
+      "historical_rows": 324,
+      "historical_vehicles": 5,
+      "matched_vehicles": 4,
+      "classified_vehicles": 4,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 4,
+      "unclassified_vehicles": 1,
+      "classification_coverage": 0.8
+    },
+    {
+      "route_id": "100100147",
+      "route_names": [
+        "1131"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 4,
+      "historical_rows": 198,
+      "historical_vehicles": 7,
+      "matched_vehicles": 4,
+      "classified_vehicles": 4,
+      "low_floor_vehicles": 1,
+      "regular_vehicles": 3,
+      "unclassified_vehicles": 3,
+      "classification_coverage": 0.5714285714285714
+    },
+    {
+      "route_id": "100100148",
+      "route_names": [
+        "1132"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 13,
+      "historical_rows": 486,
+      "historical_vehicles": 17,
+      "matched_vehicles": 13,
+      "classified_vehicles": 13,
+      "low_floor_vehicles": 12,
+      "regular_vehicles": 1,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.7647058823529411
+    },
+    {
+      "route_id": "100100149",
+      "route_names": [
+        "1133"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 4,
+      "historical_rows": 289,
+      "historical_vehicles": 7,
+      "matched_vehicles": 4,
+      "classified_vehicles": 4,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 4,
+      "unclassified_vehicles": 3,
+      "classification_coverage": 0.5714285714285714
+    },
+    {
+      "route_id": "100100150",
+      "route_names": [
+        "1135"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 6,
+      "historical_rows": 288,
+      "historical_vehicles": 10,
+      "matched_vehicles": 6,
+      "classified_vehicles": 6,
+      "low_floor_vehicles": 6,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.6
+    },
+    {
+      "route_id": "100100151",
+      "route_names": [
+        "1136"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 4,
+      "historical_rows": 255,
+      "historical_vehicles": 5,
+      "matched_vehicles": 4,
+      "classified_vehicles": 4,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 4,
+      "unclassified_vehicles": 1,
+      "classification_coverage": 0.8
+    },
+    {
+      "route_id": "100100152",
+      "route_names": [
+        "1137"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 12,
+      "historical_rows": 348,
+      "historical_vehicles": 17,
+      "matched_vehicles": 12,
+      "classified_vehicles": 12,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 12,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.7058823529411765
+    },
+    {
+      "route_id": "100100153",
+      "route_names": [
+        "1138"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 5,
+      "historical_rows": 222,
+      "historical_vehicles": 8,
+      "matched_vehicles": 5,
+      "classified_vehicles": 5,
+      "low_floor_vehicles": 3,
+      "regular_vehicles": 2,
+      "unclassified_vehicles": 3,
+      "classification_coverage": 0.625
+    },
+    {
+      "route_id": "100100154",
+      "route_names": [
+        "1139"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 8,
+      "historical_rows": 264,
+      "historical_vehicles": 11,
+      "matched_vehicles": 8,
+      "classified_vehicles": 8,
+      "low_floor_vehicles": 8,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 3,
+      "classification_coverage": 0.7272727272727273
+    },
+    {
+      "route_id": "100100155",
+      "route_names": [
+        "1140"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 4,
+      "historical_rows": 191,
+      "historical_vehicles": 5,
+      "matched_vehicles": 4,
+      "classified_vehicles": 4,
+      "low_floor_vehicles": 4,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 1,
+      "classification_coverage": 0.8
+    },
+    {
+      "route_id": "100100156",
+      "route_names": [
+        "1141"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 4,
+      "historical_rows": 198,
+      "historical_vehicles": 6,
+      "matched_vehicles": 4,
+      "classified_vehicles": 4,
+      "low_floor_vehicles": 1,
+      "regular_vehicles": 3,
+      "unclassified_vehicles": 2,
+      "classification_coverage": 0.6666666666666666
+    },
+    {
+      "route_id": "100100157",
+      "route_names": [
+        "1142"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 6,
+      "historical_rows": 513,
+      "historical_vehicles": 12,
+      "matched_vehicles": 6,
+      "classified_vehicles": 6,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 6,
+      "unclassified_vehicles": 6,
+      "classification_coverage": 0.5
+    },
+    {
+      "route_id": "100100158",
+      "route_names": [
+        "1143"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 5,
+      "historical_rows": 240,
+      "historical_vehicles": 11,
+      "matched_vehicles": 5,
+      "classified_vehicles": 5,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 5,
+      "unclassified_vehicles": 6,
+      "classification_coverage": 0.45454545454545453
+    },
+    {
+      "route_id": "100100159",
+      "route_names": [
+        "1144"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 6,
+      "historical_rows": 259,
+      "historical_vehicles": 9,
+      "matched_vehicles": 6,
+      "classified_vehicles": 6,
+      "low_floor_vehicles": 1,
+      "regular_vehicles": 5,
+      "unclassified_vehicles": 3,
+      "classification_coverage": 0.6666666666666666
+    },
+    {
+      "route_id": "100100164",
+      "route_names": [
+        "1154"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 8,
+      "historical_rows": 269,
+      "historical_vehicles": 11,
+      "matched_vehicles": 8,
+      "classified_vehicles": 8,
+      "low_floor_vehicles": 8,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 3,
+      "classification_coverage": 0.7272727272727273
+    },
+    {
+      "route_id": "100100166",
+      "route_names": [
+        "2212"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 6,
+      "historical_rows": 210,
+      "historical_vehicles": 11,
+      "matched_vehicles": 6,
+      "classified_vehicles": 6,
+      "low_floor_vehicles": 1,
+      "regular_vehicles": 5,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.5454545454545454
+    },
+    {
+      "route_id": "100100170",
+      "route_names": [
+        "1162"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 4,
+      "historical_rows": 350,
+      "historical_vehicles": 8,
+      "matched_vehicles": 4,
+      "classified_vehicles": 4,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 4,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.5
+    },
+    {
+      "route_id": "100100171",
+      "route_names": [
+        "1164"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 6,
+      "historical_rows": 599,
+      "historical_vehicles": 13,
+      "matched_vehicles": 6,
+      "classified_vehicles": 6,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 6,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.46153846153846156
+    },
+    {
+      "route_id": "100100172",
+      "route_names": [
+        "1165"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 11,
+      "historical_rows": 490,
+      "historical_vehicles": 22,
+      "matched_vehicles": 11,
+      "classified_vehicles": 11,
+      "low_floor_vehicles": 10,
+      "regular_vehicles": 1,
+      "unclassified_vehicles": 11,
+      "classification_coverage": 0.5
+    },
+    {
+      "route_id": "100100175",
+      "route_names": [
+        "1213"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 13,
+      "historical_rows": 395,
+      "historical_vehicles": 21,
+      "matched_vehicles": 13,
+      "classified_vehicles": 13,
+      "low_floor_vehicles": 13,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 8,
+      "classification_coverage": 0.6190476190476191
+    },
+    {
+      "route_id": "100100177",
+      "route_names": [
+        "1218"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 16,
+      "historical_rows": 360,
+      "historical_vehicles": 20,
+      "matched_vehicles": 16,
+      "classified_vehicles": 16,
+      "low_floor_vehicles": 4,
+      "regular_vehicles": 12,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.8
+    },
+    {
+      "route_id": "100100178",
+      "route_names": [
+        "1221"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 2,
+      "historical_rows": 180,
+      "historical_vehicles": 5,
+      "matched_vehicles": 2,
+      "classified_vehicles": 2,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 2,
+      "unclassified_vehicles": 3,
+      "classification_coverage": 0.4
+    },
+    {
+      "route_id": "100100179",
+      "route_names": [
+        "1222"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 7,
+      "historical_rows": 315,
+      "historical_vehicles": 11,
+      "matched_vehicles": 7,
+      "classified_vehicles": 7,
+      "low_floor_vehicles": 7,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.6363636363636364
+    },
+    {
+      "route_id": "100100181",
+      "route_names": [
+        "1224"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 16,
+      "historical_rows": 408,
+      "historical_vehicles": 23,
+      "matched_vehicles": 16,
+      "classified_vehicles": 16,
+      "low_floor_vehicles": 16,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.6956521739130435
+    },
+    {
+      "route_id": "100100183",
+      "route_names": [
+        "1226"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 2,
+      "historical_rows": 126,
+      "historical_vehicles": 2,
+      "matched_vehicles": 2,
+      "classified_vehicles": 2,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 2,
+      "unclassified_vehicles": 0,
+      "classification_coverage": 1.0
+    },
+    {
+      "route_id": "100100184",
+      "route_names": [
+        "1227"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 6,
+      "historical_rows": 299,
+      "historical_vehicles": 14,
+      "matched_vehicles": 6,
+      "classified_vehicles": 6,
+      "low_floor_vehicles": 6,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 8,
+      "classification_coverage": 0.42857142857142855
+    },
+    {
+      "route_id": "100100185",
+      "route_names": [
+        "1711"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 16,
+      "historical_rows": 482,
+      "historical_vehicles": 23,
+      "matched_vehicles": 16,
+      "classified_vehicles": 16,
+      "low_floor_vehicles": 12,
+      "regular_vehicles": 4,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.6956521739130435
+    },
+    {
+      "route_id": "100100186",
+      "route_names": [
+        "2012"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 14,
+      "historical_rows": 298,
+      "historical_vehicles": 20,
+      "matched_vehicles": 14,
+      "classified_vehicles": 14,
+      "low_floor_vehicles": 11,
+      "regular_vehicles": 3,
+      "unclassified_vehicles": 6,
+      "classification_coverage": 0.7
+    },
+    {
+      "route_id": "100100188",
+      "route_names": [
+        "2013"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 7,
+      "historical_rows": 265,
+      "historical_vehicles": 11,
+      "matched_vehicles": 7,
+      "classified_vehicles": 7,
+      "low_floor_vehicles": 7,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.6363636363636364
+    },
+    {
+      "route_id": "100100189",
+      "route_names": [
+        "2014"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 9,
+      "historical_rows": 303,
+      "historical_vehicles": 14,
+      "matched_vehicles": 9,
+      "classified_vehicles": 9,
+      "low_floor_vehicles": 9,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.6428571428571429
+    },
+    {
+      "route_id": "100100190",
+      "route_names": [
+        "2015"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 16,
+      "historical_rows": 414,
+      "historical_vehicles": 24,
+      "matched_vehicles": 16,
+      "classified_vehicles": 16,
+      "low_floor_vehicles": 16,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 8,
+      "classification_coverage": 0.6666666666666666
+    },
+    {
+      "route_id": "100100191",
+      "route_names": [
+        "2112"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 11,
+      "historical_rows": 222,
+      "historical_vehicles": 15,
+      "matched_vehicles": 11,
+      "classified_vehicles": 11,
+      "low_floor_vehicles": 1,
+      "regular_vehicles": 10,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.7333333333333333
+    },
+    {
+      "route_id": "100100192",
+      "route_names": [
+        "2113"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 11,
+      "historical_rows": 339,
+      "historical_vehicles": 13,
+      "matched_vehicles": 11,
+      "classified_vehicles": 11,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 11,
+      "unclassified_vehicles": 2,
+      "classification_coverage": 0.8461538461538461
+    },
+    {
+      "route_id": "100100193",
+      "route_names": [
+        "2114"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 10,
+      "historical_rows": 295,
+      "historical_vehicles": 13,
+      "matched_vehicles": 10,
+      "classified_vehicles": 10,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 10,
+      "unclassified_vehicles": 3,
+      "classification_coverage": 0.7692307692307693
+    },
+    {
+      "route_id": "100100194",
+      "route_names": [
+        "2211"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 12,
+      "historical_rows": 560,
+      "historical_vehicles": 17,
+      "matched_vehicles": 12,
+      "classified_vehicles": 12,
+      "low_floor_vehicles": 7,
+      "regular_vehicles": 5,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.7058823529411765
+    },
+    {
+      "route_id": "100100198",
+      "route_names": [
+        "2221"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 14,
+      "historical_rows": 417,
+      "historical_vehicles": 20,
+      "matched_vehicles": 14,
+      "classified_vehicles": 14,
+      "low_floor_vehicles": 12,
+      "regular_vehicles": 2,
+      "unclassified_vehicles": 6,
+      "classification_coverage": 0.7
+    },
+    {
+      "route_id": "100100199",
+      "route_names": [
+        "2222"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 7,
+      "historical_rows": 312,
+      "historical_vehicles": 14,
+      "matched_vehicles": 7,
+      "classified_vehicles": 7,
+      "low_floor_vehicles": 7,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.5
+    },
+    {
+      "route_id": "100100201",
+      "route_names": [
+        "2224"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 7,
+      "historical_rows": 270,
+      "historical_vehicles": 11,
+      "matched_vehicles": 7,
+      "classified_vehicles": 7,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 7,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.6363636363636364
+    },
+    {
+      "route_id": "100100202",
+      "route_names": [
+        "2227"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 14,
+      "historical_rows": 315,
+      "historical_vehicles": 22,
+      "matched_vehicles": 14,
+      "classified_vehicles": 14,
+      "low_floor_vehicles": 14,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 8,
+      "classification_coverage": 0.6363636363636364
+    },
+    {
+      "route_id": "100100203",
+      "route_names": [
+        "2230"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 13,
+      "historical_rows": 351,
+      "historical_vehicles": 19,
+      "matched_vehicles": 13,
+      "classified_vehicles": 13,
+      "low_floor_vehicles": 7,
+      "regular_vehicles": 6,
+      "unclassified_vehicles": 6,
+      "classification_coverage": 0.6842105263157895
+    },
+    {
+      "route_id": "100100204",
+      "route_names": [
+        "2233"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 12,
+      "historical_rows": 225,
+      "historical_vehicles": 17,
+      "matched_vehicles": 12,
+      "classified_vehicles": 12,
+      "low_floor_vehicles": 7,
+      "regular_vehicles": 5,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.7058823529411765
+    },
+    {
+      "route_id": "100100209",
+      "route_names": [
+        "2412"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 10,
+      "historical_rows": 288,
+      "historical_vehicles": 15,
+      "matched_vehicles": 10,
+      "classified_vehicles": 10,
+      "low_floor_vehicles": 10,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.6666666666666666
+    },
+    {
+      "route_id": "100100210",
+      "route_names": [
+        "2413"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 6,
+      "historical_rows": 210,
+      "historical_vehicles": 10,
+      "matched_vehicles": 6,
+      "classified_vehicles": 6,
+      "low_floor_vehicles": 6,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.6
+    },
+    {
+      "route_id": "100100211",
+      "route_names": [
+        "2415"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 12,
+      "historical_rows": 417,
+      "historical_vehicles": 19,
+      "matched_vehicles": 12,
+      "classified_vehicles": 12,
+      "low_floor_vehicles": 12,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.631578947368421
+    },
+    {
+      "route_id": "100100212",
+      "route_names": [
+        "3212"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 6,
+      "historical_rows": 241,
+      "historical_vehicles": 12,
+      "matched_vehicles": 6,
+      "classified_vehicles": 6,
+      "low_floor_vehicles": 6,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 6,
+      "classification_coverage": 0.5
+    },
+    {
+      "route_id": "100100213",
+      "route_names": [
+        "3214"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 8,
+      "historical_rows": 264,
+      "historical_vehicles": 11,
+      "matched_vehicles": 8,
+      "classified_vehicles": 8,
+      "low_floor_vehicles": 4,
+      "regular_vehicles": 4,
+      "unclassified_vehicles": 3,
+      "classification_coverage": 0.7272727272727273
+    },
+    {
+      "route_id": "100100215",
+      "route_names": [
+        "3216"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 12,
+      "historical_rows": 285,
+      "historical_vehicles": 20,
+      "matched_vehicles": 12,
+      "classified_vehicles": 12,
+      "low_floor_vehicles": 4,
+      "regular_vehicles": 8,
+      "unclassified_vehicles": 8,
+      "classification_coverage": 0.6
+    },
+    {
+      "route_id": "100100216",
+      "route_names": [
+        "3217"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 21,
+      "historical_rows": 396,
+      "historical_vehicles": 27,
+      "matched_vehicles": 21,
+      "classified_vehicles": 21,
+      "low_floor_vehicles": 21,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 6,
+      "classification_coverage": 0.7777777777777778
+    },
+    {
+      "route_id": "100100218",
+      "route_names": [
+        "3220"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 12,
+      "historical_rows": 286,
+      "historical_vehicles": 19,
+      "matched_vehicles": 12,
+      "classified_vehicles": 12,
+      "low_floor_vehicles": 12,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.631578947368421
+    },
+    {
+      "route_id": "100100219",
+      "route_names": [
+        "3313"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 9,
+      "historical_rows": 396,
+      "historical_vehicles": 18,
+      "matched_vehicles": 9,
+      "classified_vehicles": 9,
+      "low_floor_vehicles": 9,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 9,
+      "classification_coverage": 0.5
+    },
+    {
+      "route_id": "100100220",
+      "route_names": [
+        "3314"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 10,
+      "historical_rows": 372,
+      "historical_vehicles": 17,
+      "matched_vehicles": 10,
+      "classified_vehicles": 10,
+      "low_floor_vehicles": 10,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.5882352941176471
+    },
+    {
+      "route_id": "100100221",
+      "route_names": [
+        "3315"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 16,
+      "historical_rows": 508,
+      "historical_vehicles": 24,
+      "matched_vehicles": 16,
+      "classified_vehicles": 16,
+      "low_floor_vehicles": 15,
+      "regular_vehicles": 1,
+      "unclassified_vehicles": 8,
+      "classification_coverage": 0.6666666666666666
+    },
+    {
+      "route_id": "100100222",
+      "route_names": [
+        "3316"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 6,
+      "historical_rows": 323,
+      "historical_vehicles": 10,
+      "matched_vehicles": 6,
+      "classified_vehicles": 6,
+      "low_floor_vehicles": 6,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.6
+    },
+    {
+      "route_id": "100100223",
+      "route_names": [
+        "3411"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 12,
+      "historical_rows": 276,
+      "historical_vehicles": 17,
+      "matched_vehicles": 12,
+      "classified_vehicles": 12,
+      "low_floor_vehicles": 12,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.7058823529411765
+    },
+    {
+      "route_id": "100100224",
+      "route_names": [
+        "3412"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 17,
+      "historical_rows": 262,
+      "historical_vehicles": 22,
+      "matched_vehicles": 17,
+      "classified_vehicles": 17,
+      "low_floor_vehicles": 17,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.7727272727272727
+    },
+    {
+      "route_id": "100100225",
+      "route_names": [
+        "3413"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 17,
+      "historical_rows": 379,
+      "historical_vehicles": 27,
+      "matched_vehicles": 17,
+      "classified_vehicles": 17,
+      "low_floor_vehicles": 16,
+      "regular_vehicles": 1,
+      "unclassified_vehicles": 10,
+      "classification_coverage": 0.6296296296296297
+    },
+    {
+      "route_id": "100100226",
+      "route_names": [
+        "3414"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 12,
+      "historical_rows": 288,
+      "historical_vehicles": 20,
+      "matched_vehicles": 12,
+      "classified_vehicles": 12,
+      "low_floor_vehicles": 8,
+      "regular_vehicles": 4,
+      "unclassified_vehicles": 8,
+      "classification_coverage": 0.6
+    },
+    {
+      "route_id": "100100228",
+      "route_names": [
+        "3416"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 8,
+      "historical_rows": 300,
+      "historical_vehicles": 11,
+      "matched_vehicles": 8,
+      "classified_vehicles": 8,
+      "low_floor_vehicles": 8,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 3,
+      "classification_coverage": 0.7272727272727273
+    },
+    {
+      "route_id": "100100229",
+      "route_names": [
+        "3417"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 13,
+      "historical_rows": 504,
+      "historical_vehicles": 22,
+      "matched_vehicles": 13,
+      "classified_vehicles": 13,
+      "low_floor_vehicles": 11,
+      "regular_vehicles": 2,
+      "unclassified_vehicles": 9,
+      "classification_coverage": 0.5909090909090909
+    },
+    {
+      "route_id": "100100232",
+      "route_names": [
+        "3422"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 11,
+      "historical_rows": 240,
+      "historical_vehicles": 17,
+      "matched_vehicles": 11,
+      "classified_vehicles": 11,
+      "low_floor_vehicles": 10,
+      "regular_vehicles": 1,
+      "unclassified_vehicles": 6,
+      "classification_coverage": 0.6470588235294118
+    },
+    {
+      "route_id": "100100234",
+      "route_names": [
+        "4212"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 19,
+      "historical_rows": 459,
+      "historical_vehicles": 28,
+      "matched_vehicles": 19,
+      "classified_vehicles": 19,
+      "low_floor_vehicles": 19,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 9,
+      "classification_coverage": 0.6785714285714286
+    },
+    {
+      "route_id": "100100237",
+      "route_names": [
+        "4318"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 24,
+      "historical_rows": 421,
+      "historical_vehicles": 36,
+      "matched_vehicles": 24,
+      "classified_vehicles": 24,
+      "low_floor_vehicles": 8,
+      "regular_vehicles": 16,
+      "unclassified_vehicles": 12,
+      "classification_coverage": 0.6666666666666666
+    },
+    {
+      "route_id": "100100246",
+      "route_names": [
+        "4432"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 8,
+      "historical_rows": 318,
+      "historical_vehicles": 13,
+      "matched_vehicles": 8,
+      "classified_vehicles": 8,
+      "low_floor_vehicles": 5,
+      "regular_vehicles": 3,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.6153846153846154
+    },
+    {
+      "route_id": "100100247",
+      "route_names": [
+        "4433"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 4,
+      "historical_rows": 366,
+      "historical_vehicles": 8,
+      "matched_vehicles": 4,
+      "classified_vehicles": 4,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 4,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.5
+    },
+    {
+      "route_id": "100100248",
+      "route_names": [
+        "5012"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 11,
+      "historical_rows": 287,
+      "historical_vehicles": 21,
+      "matched_vehicles": 11,
+      "classified_vehicles": 11,
+      "low_floor_vehicles": 10,
+      "regular_vehicles": 1,
+      "unclassified_vehicles": 10,
+      "classification_coverage": 0.5238095238095238
+    },
+    {
+      "route_id": "100100249",
+      "route_names": [
+        "5413"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 17,
+      "historical_rows": 463,
+      "historical_vehicles": 27,
+      "matched_vehicles": 17,
+      "classified_vehicles": 17,
+      "low_floor_vehicles": 17,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 10,
+      "classification_coverage": 0.6296296296296297
+    },
+    {
+      "route_id": "100100250",
+      "route_names": [
+        "5511"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 8,
+      "historical_rows": 528,
+      "historical_vehicles": 15,
+      "matched_vehicles": 8,
+      "classified_vehicles": 8,
+      "low_floor_vehicles": 8,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.5333333333333333
+    },
+    {
+      "route_id": "100100251",
+      "route_names": [
+        "5513"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 6,
+      "historical_rows": 343,
+      "historical_vehicles": 11,
+      "matched_vehicles": 6,
+      "classified_vehicles": 6,
+      "low_floor_vehicles": 6,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.5454545454545454
+    },
+    {
+      "route_id": "100100252",
+      "route_names": [
+        "5515"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 8,
+      "historical_rows": 507,
+      "historical_vehicles": 14,
+      "matched_vehicles": 8,
+      "classified_vehicles": 8,
+      "low_floor_vehicles": 8,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 6,
+      "classification_coverage": 0.5714285714285714
+    },
+    {
+      "route_id": "100100253",
+      "route_names": [
+        "5516"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 11,
+      "historical_rows": 652,
+      "historical_vehicles": 19,
+      "matched_vehicles": 11,
+      "classified_vehicles": 11,
+      "low_floor_vehicles": 11,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 8,
+      "classification_coverage": 0.5789473684210527
+    },
+    {
+      "route_id": "100100254",
+      "route_names": [
+        "5517"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 11,
+      "historical_rows": 270,
+      "historical_vehicles": 16,
+      "matched_vehicles": 11,
+      "classified_vehicles": 11,
+      "low_floor_vehicles": 11,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.6875
+    },
+    {
+      "route_id": "100100255",
+      "route_names": [
+        "5519"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 2,
+      "historical_rows": 246,
+      "historical_vehicles": 6,
+      "matched_vehicles": 2,
+      "classified_vehicles": 2,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 2,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.3333333333333333
+    },
+    {
+      "route_id": "100100259",
+      "route_names": [
+        "5523"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 3,
+      "historical_rows": 344,
+      "historical_vehicles": 10,
+      "matched_vehicles": 3,
+      "classified_vehicles": 3,
+      "low_floor_vehicles": 2,
+      "regular_vehicles": 1,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.3
+    },
+    {
+      "route_id": "100100260",
+      "route_names": [
+        "5524"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 16,
+      "historical_rows": 403,
+      "historical_vehicles": 29,
+      "matched_vehicles": 16,
+      "classified_vehicles": 16,
+      "low_floor_vehicles": 16,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 13,
+      "classification_coverage": 0.5517241379310345
+    },
+    {
+      "route_id": "100100261",
+      "route_names": [
+        "5525"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 4,
+      "historical_rows": 198,
+      "historical_vehicles": 8,
+      "matched_vehicles": 4,
+      "classified_vehicles": 4,
+      "low_floor_vehicles": 4,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.5
+    },
+    {
+      "route_id": "100100263",
+      "route_names": [
+        "5528"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 13,
+      "historical_rows": 309,
+      "historical_vehicles": 21,
+      "matched_vehicles": 13,
+      "classified_vehicles": 13,
+      "low_floor_vehicles": 12,
+      "regular_vehicles": 1,
+      "unclassified_vehicles": 8,
+      "classification_coverage": 0.6190476190476191
+    },
+    {
+      "route_id": "100100264",
+      "route_names": [
+        "5530"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 21,
+      "historical_rows": 324,
+      "historical_vehicles": 27,
+      "matched_vehicles": 21,
+      "classified_vehicles": 21,
+      "low_floor_vehicles": 21,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 6,
+      "classification_coverage": 0.7777777777777778
+    },
+    {
+      "route_id": "100100265",
+      "route_names": [
+        "5531"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 27,
+      "historical_rows": 509,
+      "historical_vehicles": 41,
+      "matched_vehicles": 27,
+      "classified_vehicles": 27,
+      "low_floor_vehicles": 26,
+      "regular_vehicles": 1,
+      "unclassified_vehicles": 14,
+      "classification_coverage": 0.6585365853658537
+    },
+    {
+      "route_id": "100100266",
+      "route_names": [
+        "5634"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 7,
+      "historical_rows": 289,
+      "historical_vehicles": 15,
+      "matched_vehicles": 7,
+      "classified_vehicles": 7,
+      "low_floor_vehicles": 7,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 8,
+      "classification_coverage": 0.4666666666666667
+    },
+    {
+      "route_id": "100100267",
+      "route_names": [
+        "5535"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 16,
+      "historical_rows": 365,
+      "historical_vehicles": 25,
+      "matched_vehicles": 16,
+      "classified_vehicles": 16,
+      "low_floor_vehicles": 6,
+      "regular_vehicles": 10,
+      "unclassified_vehicles": 9,
+      "classification_coverage": 0.64
+    },
+    {
+      "route_id": "100100268",
+      "route_names": [
+        "5536"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 11,
+      "historical_rows": 428,
+      "historical_vehicles": 24,
+      "matched_vehicles": 11,
+      "classified_vehicles": 11,
+      "low_floor_vehicles": 9,
+      "regular_vehicles": 2,
+      "unclassified_vehicles": 13,
+      "classification_coverage": 0.4583333333333333
+    },
+    {
+      "route_id": "100100269",
+      "route_names": [
+        "5537"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 3,
+      "historical_rows": 249,
+      "historical_vehicles": 6,
+      "matched_vehicles": 3,
+      "classified_vehicles": 3,
+      "low_floor_vehicles": 3,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 3,
+      "classification_coverage": 0.5
+    },
+    {
+      "route_id": "100100272",
+      "route_names": [
+        "5615"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 10,
+      "historical_rows": 366,
+      "historical_vehicles": 19,
+      "matched_vehicles": 10,
+      "classified_vehicles": 10,
+      "low_floor_vehicles": 2,
+      "regular_vehicles": 8,
+      "unclassified_vehicles": 9,
+      "classification_coverage": 0.5263157894736842
+    },
+    {
+      "route_id": "100100273",
+      "route_names": [
+        "5616"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 13,
+      "historical_rows": 219,
+      "historical_vehicles": 18,
+      "matched_vehicles": 13,
+      "classified_vehicles": 13,
+      "low_floor_vehicles": 13,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.7222222222222222
+    },
+    {
+      "route_id": "100100274",
+      "route_names": [
+        "5617"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 4,
+      "historical_rows": 384,
+      "historical_vehicles": 9,
+      "matched_vehicles": 4,
+      "classified_vehicles": 4,
+      "low_floor_vehicles": 4,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.4444444444444444
+    },
+    {
+      "route_id": "100100275",
+      "route_names": [
+        "5618"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 8,
+      "historical_rows": 426,
+      "historical_vehicles": 23,
+      "matched_vehicles": 8,
+      "classified_vehicles": 8,
+      "low_floor_vehicles": 8,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 15,
+      "classification_coverage": 0.34782608695652173
+    },
+    {
+      "route_id": "100100276",
+      "route_names": [
+        "5619"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 6,
+      "historical_rows": 342,
+      "historical_vehicles": 13,
+      "matched_vehicles": 6,
+      "classified_vehicles": 6,
+      "low_floor_vehicles": 6,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.46153846153846156
+    },
+    {
+      "route_id": "100100277",
+      "route_names": [
+        "5620"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 13,
+      "historical_rows": 420,
+      "historical_vehicles": 22,
+      "matched_vehicles": 13,
+      "classified_vehicles": 13,
+      "low_floor_vehicles": 12,
+      "regular_vehicles": 1,
+      "unclassified_vehicles": 9,
+      "classification_coverage": 0.5909090909090909
+    },
+    {
+      "route_id": "100100278",
+      "route_names": [
+        "5621"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 6,
+      "historical_rows": 450,
+      "historical_vehicles": 8,
+      "matched_vehicles": 6,
+      "classified_vehicles": 6,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 6,
+      "unclassified_vehicles": 2,
+      "classification_coverage": 0.75
+    },
+    {
+      "route_id": "100100279",
+      "route_names": [
+        "5623"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 25,
+      "historical_rows": 424,
+      "historical_vehicles": 37,
+      "matched_vehicles": 25,
+      "classified_vehicles": 25,
+      "low_floor_vehicles": 25,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 12,
+      "classification_coverage": 0.6756756756756757
+    },
+    {
+      "route_id": "100100281",
+      "route_names": [
+        "5625"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 14,
+      "historical_rows": 308,
+      "historical_vehicles": 18,
+      "matched_vehicles": 14,
+      "classified_vehicles": 14,
+      "low_floor_vehicles": 11,
+      "regular_vehicles": 3,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.7777777777777778
+    },
+    {
+      "route_id": "100100282",
+      "route_names": [
+        "5626"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 19,
+      "historical_rows": 343,
+      "historical_vehicles": 27,
+      "matched_vehicles": 19,
+      "classified_vehicles": 19,
+      "low_floor_vehicles": 19,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 8,
+      "classification_coverage": 0.7037037037037037
+    },
+    {
+      "route_id": "100100283",
+      "route_names": [
+        "5627"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 7,
+      "historical_rows": 211,
+      "historical_vehicles": 11,
+      "matched_vehicles": 7,
+      "classified_vehicles": 7,
+      "low_floor_vehicles": 5,
+      "regular_vehicles": 2,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.6363636363636364
+    },
+    {
+      "route_id": "100100284",
+      "route_names": [
+        "5630"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 6,
+      "historical_rows": 249,
+      "historical_vehicles": 14,
+      "matched_vehicles": 6,
+      "classified_vehicles": 6,
+      "low_floor_vehicles": 6,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 8,
+      "classification_coverage": 0.42857142857142855
+    },
+    {
+      "route_id": "100100285",
+      "route_names": [
+        "5633"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 12,
+      "historical_rows": 252,
+      "historical_vehicles": 21,
+      "matched_vehicles": 12,
+      "classified_vehicles": 12,
+      "low_floor_vehicles": 10,
+      "regular_vehicles": 2,
+      "unclassified_vehicles": 9,
+      "classification_coverage": 0.5714285714285714
+    },
+    {
+      "route_id": "100100286",
+      "route_names": [
+        "5712"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 20,
+      "historical_rows": 390,
+      "historical_vehicles": 27,
+      "matched_vehicles": 20,
+      "classified_vehicles": 20,
+      "low_floor_vehicles": 20,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.7407407407407407
+    },
+    {
+      "route_id": "100100287",
+      "route_names": [
+        "5713"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 15,
+      "historical_rows": 360,
+      "historical_vehicles": 26,
+      "matched_vehicles": 15,
+      "classified_vehicles": 15,
+      "low_floor_vehicles": 15,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 11,
+      "classification_coverage": 0.5769230769230769
+    },
+    {
+      "route_id": "100100288",
+      "route_names": [
+        "5714"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 21,
+      "historical_rows": 441,
+      "historical_vehicles": 33,
+      "matched_vehicles": 21,
+      "classified_vehicles": 21,
+      "low_floor_vehicles": 21,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 12,
+      "classification_coverage": 0.6363636363636364
+    },
+    {
+      "route_id": "100100289",
+      "route_names": [
+        "6211"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 16,
+      "historical_rows": 277,
+      "historical_vehicles": 25,
+      "matched_vehicles": 16,
+      "classified_vehicles": 16,
+      "low_floor_vehicles": 12,
+      "regular_vehicles": 4,
+      "unclassified_vehicles": 9,
+      "classification_coverage": 0.64
+    },
+    {
+      "route_id": "100100290",
+      "route_names": [
+        "6411"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 19,
+      "historical_rows": 282,
+      "historical_vehicles": 27,
+      "matched_vehicles": 19,
+      "classified_vehicles": 19,
+      "low_floor_vehicles": 17,
+      "regular_vehicles": 2,
+      "unclassified_vehicles": 8,
+      "classification_coverage": 0.7037037037037037
+    },
+    {
+      "route_id": "100100291",
+      "route_names": [
+        "6511"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 8,
+      "historical_rows": 180,
+      "historical_vehicles": 13,
+      "matched_vehicles": 8,
+      "classified_vehicles": 8,
+      "low_floor_vehicles": 3,
+      "regular_vehicles": 5,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.6153846153846154
+    },
+    {
+      "route_id": "100100292",
+      "route_names": [
+        "6512"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 11,
+      "historical_rows": 368,
+      "historical_vehicles": 23,
+      "matched_vehicles": 11,
+      "classified_vehicles": 11,
+      "low_floor_vehicles": 11,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 12,
+      "classification_coverage": 0.4782608695652174
+    },
+    {
+      "route_id": "100100293",
+      "route_names": [
+        "6713"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 13,
+      "historical_rows": 311,
+      "historical_vehicles": 20,
+      "matched_vehicles": 13,
+      "classified_vehicles": 13,
+      "low_floor_vehicles": 13,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.65
+    },
+    {
+      "route_id": "100100294",
+      "route_names": [
+        "6514"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 16,
+      "historical_rows": 311,
+      "historical_vehicles": 26,
+      "matched_vehicles": 16,
+      "classified_vehicles": 16,
+      "low_floor_vehicles": 16,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 10,
+      "classification_coverage": 0.6153846153846154
+    },
+    {
+      "route_id": "100100295",
+      "route_names": [
+        "5611"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 3,
+      "historical_rows": 208,
+      "historical_vehicles": 5,
+      "matched_vehicles": 3,
+      "classified_vehicles": 3,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 3,
+      "unclassified_vehicles": 2,
+      "classification_coverage": 0.6
+    },
+    {
+      "route_id": "100100297",
+      "route_names": [
+        "6614"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 9,
+      "historical_rows": 252,
+      "historical_vehicles": 14,
+      "matched_vehicles": 9,
+      "classified_vehicles": 9,
+      "low_floor_vehicles": 1,
+      "regular_vehicles": 8,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.6428571428571429
+    },
+    {
+      "route_id": "100100298",
+      "route_names": [
+        "6616"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 8,
+      "historical_rows": 249,
+      "historical_vehicles": 12,
+      "matched_vehicles": 8,
+      "classified_vehicles": 8,
+      "low_floor_vehicles": 8,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.6666666666666666
+    },
+    {
+      "route_id": "100100299",
+      "route_names": [
+        "6617"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 6,
+      "historical_rows": 270,
+      "historical_vehicles": 9,
+      "matched_vehicles": 6,
+      "classified_vehicles": 6,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 6,
+      "unclassified_vehicles": 3,
+      "classification_coverage": 0.6666666666666666
+    },
+    {
+      "route_id": "100100300",
+      "route_names": [
+        "6620"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 5,
+      "historical_rows": 212,
+      "historical_vehicles": 9,
+      "matched_vehicles": 5,
+      "classified_vehicles": 5,
+      "low_floor_vehicles": 1,
+      "regular_vehicles": 4,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.5555555555555556
+    },
+    {
+      "route_id": "100100301",
+      "route_names": [
+        "6623"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 9,
+      "historical_rows": 261,
+      "historical_vehicles": 13,
+      "matched_vehicles": 9,
+      "classified_vehicles": 9,
+      "low_floor_vehicles": 9,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.6923076923076923
+    },
+    {
+      "route_id": "100100302",
+      "route_names": [
+        "6624"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 12,
+      "historical_rows": 398,
+      "historical_vehicles": 18,
+      "matched_vehicles": 12,
+      "classified_vehicles": 12,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 12,
+      "unclassified_vehicles": 6,
+      "classification_coverage": 0.6666666666666666
+    },
+    {
+      "route_id": "100100303",
+      "route_names": [
+        "6625"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 8,
+      "historical_rows": 252,
+      "historical_vehicles": 12,
+      "matched_vehicles": 8,
+      "classified_vehicles": 8,
+      "low_floor_vehicles": 3,
+      "regular_vehicles": 5,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.6666666666666666
+    },
+    {
+      "route_id": "100100304",
+      "route_names": [
+        "6627"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 7,
+      "historical_rows": 237,
+      "historical_vehicles": 12,
+      "matched_vehicles": 7,
+      "classified_vehicles": 7,
+      "low_floor_vehicles": 7,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.5833333333333334
+    },
+    {
+      "route_id": "100100305",
+      "route_names": [
+        "6628"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 16,
+      "historical_rows": 513,
+      "historical_vehicles": 25,
+      "matched_vehicles": 16,
+      "classified_vehicles": 16,
+      "low_floor_vehicles": 12,
+      "regular_vehicles": 4,
+      "unclassified_vehicles": 9,
+      "classification_coverage": 0.64
+    },
+    {
+      "route_id": "100100306",
+      "route_names": [
+        "6629"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 16,
+      "historical_rows": 266,
+      "historical_vehicles": 21,
+      "matched_vehicles": 16,
+      "classified_vehicles": 16,
+      "low_floor_vehicles": 14,
+      "regular_vehicles": 2,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.7619047619047619
+    },
+    {
+      "route_id": "100100307",
+      "route_names": [
+        "6630"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 8,
+      "historical_rows": 208,
+      "historical_vehicles": 14,
+      "matched_vehicles": 8,
+      "classified_vehicles": 8,
+      "low_floor_vehicles": 8,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 6,
+      "classification_coverage": 0.5714285714285714
+    },
+    {
+      "route_id": "100100308",
+      "route_names": [
+        "6631"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 14,
+      "historical_rows": 348,
+      "historical_vehicles": 22,
+      "matched_vehicles": 14,
+      "classified_vehicles": 14,
+      "low_floor_vehicles": 12,
+      "regular_vehicles": 2,
+      "unclassified_vehicles": 8,
+      "classification_coverage": 0.6363636363636364
+    },
+    {
+      "route_id": "100100309",
+      "route_names": [
+        "6632"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 11,
+      "historical_rows": 313,
+      "historical_vehicles": 17,
+      "matched_vehicles": 11,
+      "classified_vehicles": 11,
+      "low_floor_vehicles": 6,
+      "regular_vehicles": 5,
+      "unclassified_vehicles": 6,
+      "classification_coverage": 0.6470588235294118
+    },
+    {
+      "route_id": "100100312",
+      "route_names": [
+        "6637"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 18,
+      "historical_rows": 521,
+      "historical_vehicles": 31,
+      "matched_vehicles": 18,
+      "classified_vehicles": 18,
+      "low_floor_vehicles": 11,
+      "regular_vehicles": 7,
+      "unclassified_vehicles": 13,
+      "classification_coverage": 0.5806451612903226
+    },
+    {
+      "route_id": "100100313",
+      "route_names": [
+        "6638"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 8,
+      "historical_rows": 295,
+      "historical_vehicles": 14,
+      "matched_vehicles": 8,
+      "classified_vehicles": 8,
+      "low_floor_vehicles": 8,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 6,
+      "classification_coverage": 0.5714285714285714
+    },
+    {
+      "route_id": "100100316",
+      "route_names": [
+        "6642"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 10,
+      "historical_rows": 270,
+      "historical_vehicles": 13,
+      "matched_vehicles": 10,
+      "classified_vehicles": 10,
+      "low_floor_vehicles": 4,
+      "regular_vehicles": 6,
+      "unclassified_vehicles": 3,
+      "classification_coverage": 0.7692307692307693
+    },
+    {
+      "route_id": "100100318",
+      "route_names": [
+        "6645"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 8,
+      "historical_rows": 270,
+      "historical_vehicles": 13,
+      "matched_vehicles": 8,
+      "classified_vehicles": 8,
+      "low_floor_vehicles": 3,
+      "regular_vehicles": 5,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.6153846153846154
+    },
+    {
+      "route_id": "100100320",
+      "route_names": [
+        "6647"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 8,
+      "historical_rows": 378,
+      "historical_vehicles": 13,
+      "matched_vehicles": 8,
+      "classified_vehicles": 8,
+      "low_floor_vehicles": 3,
+      "regular_vehicles": 5,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.6153846153846154
+    },
+    {
+      "route_id": "100100329",
+      "route_names": [
+        "6657"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 5,
+      "historical_rows": 162,
+      "historical_vehicles": 6,
+      "matched_vehicles": 5,
+      "classified_vehicles": 5,
+      "low_floor_vehicles": 5,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 1,
+      "classification_coverage": 0.8333333333333334
+    },
+    {
+      "route_id": "100100330",
+      "route_names": [
+        "6712"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 10,
+      "historical_rows": 246,
+      "historical_vehicles": 16,
+      "matched_vehicles": 10,
+      "classified_vehicles": 10,
+      "low_floor_vehicles": 8,
+      "regular_vehicles": 2,
+      "unclassified_vehicles": 6,
+      "classification_coverage": 0.625
+    },
+    {
+      "route_id": "100100331",
+      "route_names": [
+        "6714"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 6,
+      "historical_rows": 210,
+      "historical_vehicles": 10,
+      "matched_vehicles": 6,
+      "classified_vehicles": 6,
+      "low_floor_vehicles": 6,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.6
+    },
+    {
+      "route_id": "100100332",
+      "route_names": [
+        "6715"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 11,
+      "historical_rows": 411,
+      "historical_vehicles": 20,
+      "matched_vehicles": 11,
+      "classified_vehicles": 11,
+      "low_floor_vehicles": 6,
+      "regular_vehicles": 5,
+      "unclassified_vehicles": 9,
+      "classification_coverage": 0.55
+    },
+    {
+      "route_id": "100100337",
+      "route_names": [
+        "7017"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 15,
+      "historical_rows": 353,
+      "historical_vehicles": 23,
+      "matched_vehicles": 15,
+      "classified_vehicles": 15,
+      "low_floor_vehicles": 15,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 8,
+      "classification_coverage": 0.6521739130434783
+    },
+    {
+      "route_id": "100100338",
+      "route_names": [
+        "7018"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 8,
+      "historical_rows": 351,
+      "historical_vehicles": 15,
+      "matched_vehicles": 8,
+      "classified_vehicles": 8,
+      "low_floor_vehicles": 8,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.5333333333333333
+    },
+    {
+      "route_id": "100100339",
+      "route_names": [
+        "7019"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 15,
+      "historical_rows": 431,
+      "historical_vehicles": 26,
+      "matched_vehicles": 15,
+      "classified_vehicles": 15,
+      "low_floor_vehicles": 10,
+      "regular_vehicles": 5,
+      "unclassified_vehicles": 11,
+      "classification_coverage": 0.5769230769230769
+    },
+    {
+      "route_id": "100100340",
+      "route_names": [
+        "7021"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 15,
+      "historical_rows": 398,
+      "historical_vehicles": 23,
+      "matched_vehicles": 15,
+      "classified_vehicles": 15,
+      "low_floor_vehicles": 15,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 8,
+      "classification_coverage": 0.6521739130434783
+    },
+    {
+      "route_id": "100100341",
+      "route_names": [
+        "7022"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 10,
+      "historical_rows": 363,
+      "historical_vehicles": 19,
+      "matched_vehicles": 10,
+      "classified_vehicles": 10,
+      "low_floor_vehicles": 10,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 9,
+      "classification_coverage": 0.5263157894736842
+    },
+    {
+      "route_id": "100100342",
+      "route_names": [
+        "7024"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 2,
+      "historical_rows": 201,
+      "historical_vehicles": 5,
+      "matched_vehicles": 2,
+      "classified_vehicles": 2,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 2,
+      "unclassified_vehicles": 3,
+      "classification_coverage": 0.4
+    },
+    {
+      "route_id": "100100344",
+      "route_names": [
+        "7211"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 15,
+      "historical_rows": 372,
+      "historical_vehicles": 29,
+      "matched_vehicles": 15,
+      "classified_vehicles": 15,
+      "low_floor_vehicles": 15,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 14,
+      "classification_coverage": 0.5172413793103449
+    },
+    {
+      "route_id": "100100345",
+      "route_names": [
+        "7611"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 11,
+      "historical_rows": 308,
+      "historical_vehicles": 17,
+      "matched_vehicles": 11,
+      "classified_vehicles": 11,
+      "low_floor_vehicles": 10,
+      "regular_vehicles": 1,
+      "unclassified_vehicles": 6,
+      "classification_coverage": 0.6470588235294118
+    },
+    {
+      "route_id": "100100346",
+      "route_names": [
+        "7612"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 12,
+      "historical_rows": 495,
+      "historical_vehicles": 19,
+      "matched_vehicles": 12,
+      "classified_vehicles": 12,
+      "low_floor_vehicles": 12,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.631578947368421
+    },
+    {
+      "route_id": "100100347",
+      "route_names": [
+        "7613"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 11,
+      "historical_rows": 249,
+      "historical_vehicles": 16,
+      "matched_vehicles": 11,
+      "classified_vehicles": 11,
+      "low_floor_vehicles": 11,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.6875
+    },
+    {
+      "route_id": "100100348",
+      "route_names": [
+        "7711"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 4,
+      "historical_rows": 339,
+      "historical_vehicles": 9,
+      "matched_vehicles": 4,
+      "classified_vehicles": 4,
+      "low_floor_vehicles": 4,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.4444444444444444
+    },
+    {
+      "route_id": "100100349",
+      "route_names": [
+        "7713"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 9,
+      "historical_rows": 338,
+      "historical_vehicles": 17,
+      "matched_vehicles": 9,
+      "classified_vehicles": 9,
+      "low_floor_vehicles": 9,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 8,
+      "classification_coverage": 0.5294117647058824
+    },
+    {
+      "route_id": "100100352",
+      "route_names": [
+        "7720"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 12,
+      "historical_rows": 323,
+      "historical_vehicles": 15,
+      "matched_vehicles": 12,
+      "classified_vehicles": 12,
+      "low_floor_vehicles": 12,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 3,
+      "classification_coverage": 0.8
+    },
+    {
+      "route_id": "100100353",
+      "route_names": [
+        "7722"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 6,
+      "historical_rows": 312,
+      "historical_vehicles": 13,
+      "matched_vehicles": 6,
+      "classified_vehicles": 6,
+      "low_floor_vehicles": 6,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.46153846153846156
+    },
+    {
+      "route_id": "100100354",
+      "route_names": [
+        "7723"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 4,
+      "historical_rows": 288,
+      "historical_vehicles": 8,
+      "matched_vehicles": 4,
+      "classified_vehicles": 4,
+      "low_floor_vehicles": 3,
+      "regular_vehicles": 1,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.5
+    },
+    {
+      "route_id": "100100357",
+      "route_names": [
+        "7726"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 4,
+      "historical_rows": 165,
+      "historical_vehicles": 7,
+      "matched_vehicles": 4,
+      "classified_vehicles": 4,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 4,
+      "unclassified_vehicles": 3,
+      "classification_coverage": 0.5714285714285714
+    },
+    {
+      "route_id": "100100358",
+      "route_names": [
+        "7727"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 18,
+      "historical_rows": 291,
+      "historical_vehicles": 22,
+      "matched_vehicles": 18,
+      "classified_vehicles": 18,
+      "low_floor_vehicles": 18,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.8181818181818182
+    },
+    {
+      "route_id": "100100359",
+      "route_names": [
+        "7728"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 14,
+      "historical_rows": 258,
+      "historical_vehicles": 22,
+      "matched_vehicles": 14,
+      "classified_vehicles": 14,
+      "low_floor_vehicles": 14,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 8,
+      "classification_coverage": 0.6363636363636364
+    },
+    {
+      "route_id": "100100360",
+      "route_names": [
+        "7730"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 11,
+      "historical_rows": 356,
+      "historical_vehicles": 20,
+      "matched_vehicles": 11,
+      "classified_vehicles": 11,
+      "low_floor_vehicles": 11,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 9,
+      "classification_coverage": 0.55
+    },
+    {
+      "route_id": "100100363",
+      "route_names": [
+        "7737"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 9,
+      "historical_rows": 300,
+      "historical_vehicles": 14,
+      "matched_vehicles": 9,
+      "classified_vehicles": 9,
+      "low_floor_vehicles": 8,
+      "regular_vehicles": 1,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.6428571428571429
+    },
+    {
+      "route_id": "100100364",
+      "route_names": [
+        "7738"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 8,
+      "historical_rows": 396,
+      "historical_vehicles": 13,
+      "matched_vehicles": 8,
+      "classified_vehicles": 8,
+      "low_floor_vehicles": 8,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.6153846153846154
+    },
+    {
+      "route_id": "100100383",
+      "route_names": [
+        "8541"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 9,
+      "historical_vehicles": 3,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 3,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "100100387",
+      "route_names": [
+        "8774"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 3,
+      "historical_rows": 138,
+      "historical_vehicles": 5,
+      "matched_vehicles": 3,
+      "classified_vehicles": 3,
+      "low_floor_vehicles": 3,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 2,
+      "classification_coverage": 0.6
+    },
+    {
+      "route_id": "100100389",
+      "route_names": [
+        "9401"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 28,
+      "historical_rows": 733,
+      "historical_vehicles": 51,
+      "matched_vehicles": 28,
+      "classified_vehicles": 28,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 28,
+      "unclassified_vehicles": 23,
+      "classification_coverage": 0.5490196078431373
+    },
+    {
+      "route_id": "100100391",
+      "route_names": [
+        "9404"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 16,
+      "historical_rows": 462,
+      "historical_vehicles": 26,
+      "matched_vehicles": 16,
+      "classified_vehicles": 16,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 16,
+      "unclassified_vehicles": 10,
+      "classification_coverage": 0.6153846153846154
+    },
+    {
+      "route_id": "100100392",
+      "route_names": [
+        "9408"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 11,
+      "historical_rows": 213,
+      "historical_vehicles": 18,
+      "matched_vehicles": 11,
+      "classified_vehicles": 11,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 11,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.6111111111111112
+    },
+    {
+      "route_id": "100100400",
+      "route_names": [
+        "9707"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 16,
+      "historical_rows": 418,
+      "historical_vehicles": 23,
+      "matched_vehicles": 16,
+      "classified_vehicles": 16,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 16,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.6956521739130435
+    },
+    {
+      "route_id": "100100407",
+      "route_names": [
+        "240"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 15,
+      "historical_rows": 261,
+      "historical_vehicles": 22,
+      "matched_vehicles": 15,
+      "classified_vehicles": 15,
+      "low_floor_vehicles": 15,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.6818181818181818
+    },
+    {
+      "route_id": "100100409",
+      "route_names": [
+        "421"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 25,
+      "historical_rows": 378,
+      "historical_vehicles": 38,
+      "matched_vehicles": 25,
+      "classified_vehicles": 25,
+      "low_floor_vehicles": 17,
+      "regular_vehicles": 8,
+      "unclassified_vehicles": 13,
+      "classification_coverage": 0.6578947368421053
+    },
+    {
+      "route_id": "100100410",
+      "route_names": [
+        "502"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 17,
+      "historical_rows": 292,
+      "historical_vehicles": 25,
+      "matched_vehicles": 17,
+      "classified_vehicles": 17,
+      "low_floor_vehicles": 17,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 8,
+      "classification_coverage": 0.68
+    },
+    {
+      "route_id": "100100425",
+      "route_names": [
+        "1122"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 7,
+      "historical_rows": 450,
+      "historical_vehicles": 16,
+      "matched_vehicles": 7,
+      "classified_vehicles": 7,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 7,
+      "unclassified_vehicles": 9,
+      "classification_coverage": 0.4375
+    },
+    {
+      "route_id": "100100427",
+      "route_names": [
+        "4319"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 11,
+      "historical_rows": 342,
+      "historical_vehicles": 19,
+      "matched_vehicles": 11,
+      "classified_vehicles": 11,
+      "low_floor_vehicles": 11,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 8,
+      "classification_coverage": 0.5789473684210527
+    },
+    {
+      "route_id": "100100437",
+      "route_names": [
+        "771"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 6,
+      "historical_rows": 159,
+      "historical_vehicles": 11,
+      "matched_vehicles": 6,
+      "classified_vehicles": 6,
+      "low_floor_vehicles": 6,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.5454545454545454
+    },
+    {
+      "route_id": "100100438",
+      "route_names": [
+        "3011"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 12,
+      "historical_rows": 303,
+      "historical_vehicles": 21,
+      "matched_vehicles": 12,
+      "classified_vehicles": 12,
+      "low_floor_vehicles": 11,
+      "regular_vehicles": 1,
+      "unclassified_vehicles": 9,
+      "classification_coverage": 0.5714285714285714
+    },
+    {
+      "route_id": "100100440",
+      "route_names": [
+        "700"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 13,
+      "historical_rows": 302,
+      "historical_vehicles": 24,
+      "matched_vehicles": 13,
+      "classified_vehicles": 13,
+      "low_floor_vehicles": 13,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 11,
+      "classification_coverage": 0.5416666666666666
+    },
+    {
+      "route_id": "100100446",
+      "route_names": [
+        "7025"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 11,
+      "historical_rows": 330,
+      "historical_vehicles": 17,
+      "matched_vehicles": 11,
+      "classified_vehicles": 11,
+      "low_floor_vehicles": 11,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 6,
+      "classification_coverage": 0.6470588235294118
+    },
+    {
+      "route_id": "100100447",
+      "route_names": [
+        "7016"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 15,
+      "historical_rows": 409,
+      "historical_vehicles": 32,
+      "matched_vehicles": 15,
+      "classified_vehicles": 15,
+      "low_floor_vehicles": 15,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 17,
+      "classification_coverage": 0.46875
+    },
+    {
+      "route_id": "100100448",
+      "route_names": [
+        "7013B"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 5,
+      "historical_rows": 135,
+      "historical_vehicles": 9,
+      "matched_vehicles": 5,
+      "classified_vehicles": 5,
+      "low_floor_vehicles": 5,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.5555555555555556
+    },
+    {
+      "route_id": "100100449",
+      "route_names": [
+        "7013A"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 4,
+      "historical_rows": 135,
+      "historical_vehicles": 9,
+      "matched_vehicles": 4,
+      "classified_vehicles": 4,
+      "low_floor_vehicles": 2,
+      "regular_vehicles": 2,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.4444444444444444
+    },
+    {
+      "route_id": "100100450",
+      "route_names": [
+        "7011"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 16,
+      "historical_rows": 318,
+      "historical_vehicles": 21,
+      "matched_vehicles": 16,
+      "classified_vehicles": 16,
+      "low_floor_vehicles": 16,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.7619047619047619
+    },
+    {
+      "route_id": "100100451",
+      "route_names": [
+        "6716"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 12,
+      "historical_rows": 390,
+      "historical_vehicles": 27,
+      "matched_vehicles": 12,
+      "classified_vehicles": 12,
+      "low_floor_vehicles": 12,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 15,
+      "classification_coverage": 0.4444444444444444
+    },
+    {
+      "route_id": "100100453",
+      "route_names": [
+        "6613"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 8,
+      "historical_rows": 202,
+      "historical_vehicles": 11,
+      "matched_vehicles": 8,
+      "classified_vehicles": 8,
+      "low_floor_vehicles": 1,
+      "regular_vehicles": 7,
+      "unclassified_vehicles": 3,
+      "classification_coverage": 0.7272727272727273
+    },
+    {
+      "route_id": "100100454",
+      "route_names": [
+        "361"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 16,
+      "historical_rows": 288,
+      "historical_vehicles": 25,
+      "matched_vehicles": 16,
+      "classified_vehicles": 16,
+      "low_floor_vehicles": 13,
+      "regular_vehicles": 3,
+      "unclassified_vehicles": 9,
+      "classification_coverage": 0.64
+    },
+    {
+      "route_id": "100100459",
+      "route_names": [
+        "440"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 18,
+      "historical_rows": 333,
+      "historical_vehicles": 28,
+      "matched_vehicles": 18,
+      "classified_vehicles": 18,
+      "low_floor_vehicles": 18,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 10,
+      "classification_coverage": 0.6428571428571429
+    },
+    {
+      "route_id": "100100462",
+      "route_names": [
+        "7715"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 9,
+      "historical_rows": 301,
+      "historical_vehicles": 13,
+      "matched_vehicles": 9,
+      "classified_vehicles": 9,
+      "low_floor_vehicles": 9,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.6923076923076923
+    },
+    {
+      "route_id": "100100478",
+      "route_names": [
+        "3317"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 8,
+      "historical_rows": 343,
+      "historical_vehicles": 11,
+      "matched_vehicles": 8,
+      "classified_vehicles": 8,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 8,
+      "unclassified_vehicles": 3,
+      "classification_coverage": 0.7272727272727273
+    },
+    {
+      "route_id": "100100495",
+      "route_names": [
+        "672"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 10,
+      "historical_rows": 228,
+      "historical_vehicles": 15,
+      "matched_vehicles": 10,
+      "classified_vehicles": 10,
+      "low_floor_vehicles": 10,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.6666666666666666
+    },
+    {
+      "route_id": "100100496",
+      "route_names": [
+        "333"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 18,
+      "historical_rows": 318,
+      "historical_vehicles": 28,
+      "matched_vehicles": 18,
+      "classified_vehicles": 18,
+      "low_floor_vehicles": 18,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 10,
+      "classification_coverage": 0.6428571428571429
+    },
+    {
+      "route_id": "100100497",
+      "route_names": [
+        "653"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 5,
+      "historical_rows": 216,
+      "historical_vehicles": 10,
+      "matched_vehicles": 5,
+      "classified_vehicles": 5,
+      "low_floor_vehicles": 1,
+      "regular_vehicles": 4,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.5
+    },
+    {
+      "route_id": "100100498",
+      "route_names": [
+        "3318"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 13,
+      "historical_rows": 282,
+      "historical_vehicles": 20,
+      "matched_vehicles": 13,
+      "classified_vehicles": 13,
+      "low_floor_vehicles": 13,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.65
+    },
+    {
+      "route_id": "100100499",
+      "route_names": [
+        "7212"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 20,
+      "historical_rows": 273,
+      "historical_vehicles": 26,
+      "matched_vehicles": 20,
+      "classified_vehicles": 20,
+      "low_floor_vehicles": 20,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 6,
+      "classification_coverage": 0.7692307692307693
+    },
+    {
+      "route_id": "100100500",
+      "route_names": [
+        "4312"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 13,
+      "historical_rows": 315,
+      "historical_vehicles": 24,
+      "matched_vehicles": 13,
+      "classified_vehicles": 13,
+      "low_floor_vehicles": 13,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 11,
+      "classification_coverage": 0.5416666666666666
+    },
+    {
+      "route_id": "100100501",
+      "route_names": [
+        "3319"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 6,
+      "historical_rows": 252,
+      "historical_vehicles": 11,
+      "matched_vehicles": 6,
+      "classified_vehicles": 6,
+      "low_floor_vehicles": 6,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.5454545454545454
+    },
+    {
+      "route_id": "100100511",
+      "route_names": [
+        "760"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 16,
+      "historical_rows": 242,
+      "historical_vehicles": 21,
+      "matched_vehicles": 16,
+      "classified_vehicles": 16,
+      "low_floor_vehicles": 16,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.7619047619047619
+    },
+    {
+      "route_id": "100100521",
+      "route_names": [
+        "6515"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 21,
+      "historical_rows": 385,
+      "historical_vehicles": 33,
+      "matched_vehicles": 21,
+      "classified_vehicles": 21,
+      "low_floor_vehicles": 21,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 12,
+      "classification_coverage": 0.6363636363636364
+    },
+    {
+      "route_id": "100100522",
+      "route_names": [
+        "2016"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 18,
+      "historical_rows": 273,
+      "historical_vehicles": 25,
+      "matched_vehicles": 18,
+      "classified_vehicles": 18,
+      "low_floor_vehicles": 14,
+      "regular_vehicles": 4,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.72
+    },
+    {
+      "route_id": "100100537",
+      "route_names": [
+        "740"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 20,
+      "historical_rows": 411,
+      "historical_vehicles": 29,
+      "matched_vehicles": 20,
+      "classified_vehicles": 20,
+      "low_floor_vehicles": 20,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 9,
+      "classification_coverage": 0.6896551724137931
+    },
+    {
+      "route_id": "100100549",
+      "route_names": [
+        "100"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 21,
+      "historical_rows": 370,
+      "historical_vehicles": 30,
+      "matched_vehicles": 21,
+      "classified_vehicles": 21,
+      "low_floor_vehicles": 21,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 9,
+      "classification_coverage": 0.7
+    },
+    {
+      "route_id": "100100550",
+      "route_names": [
+        "662"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 9,
+      "historical_rows": 288,
+      "historical_vehicles": 17,
+      "matched_vehicles": 9,
+      "classified_vehicles": 9,
+      "low_floor_vehicles": 8,
+      "regular_vehicles": 1,
+      "unclassified_vehicles": 8,
+      "classification_coverage": 0.5294117647058824
+    },
+    {
+      "route_id": "100100551",
+      "route_names": [
+        "673"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 9,
+      "historical_rows": 210,
+      "historical_vehicles": 17,
+      "matched_vehicles": 9,
+      "classified_vehicles": 9,
+      "low_floor_vehicles": 9,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 8,
+      "classification_coverage": 0.5294117647058824
+    },
+    {
+      "route_id": "100100552",
+      "route_names": [
+        "7739"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 5,
+      "historical_rows": 234,
+      "historical_vehicles": 8,
+      "matched_vehicles": 5,
+      "classified_vehicles": 5,
+      "low_floor_vehicles": 2,
+      "regular_vehicles": 3,
+      "unclassified_vehicles": 3,
+      "classification_coverage": 0.625
+    },
+    {
+      "route_id": "100100553",
+      "route_names": [
+        "350"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 16,
+      "historical_rows": 306,
+      "historical_vehicles": 27,
+      "matched_vehicles": 16,
+      "classified_vehicles": 16,
+      "low_floor_vehicles": 16,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 11,
+      "classification_coverage": 0.5925925925925926
+    },
+    {
+      "route_id": "100100564",
+      "route_names": [
+        "320"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 17,
+      "historical_rows": 420,
+      "historical_vehicles": 26,
+      "matched_vehicles": 17,
+      "classified_vehicles": 17,
+      "low_floor_vehicles": 16,
+      "regular_vehicles": 1,
+      "unclassified_vehicles": 9,
+      "classification_coverage": 0.6538461538461539
+    },
+    {
+      "route_id": "100100565",
+      "route_names": [
+        "750B"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 10,
+      "historical_rows": 272,
+      "historical_vehicles": 17,
+      "matched_vehicles": 10,
+      "classified_vehicles": 10,
+      "low_floor_vehicles": 10,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.5882352941176471
+    },
+    {
+      "route_id": "100100566",
+      "route_names": [
+        "1115"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 3,
+      "historical_rows": 288,
+      "historical_vehicles": 6,
+      "matched_vehicles": 3,
+      "classified_vehicles": 3,
+      "low_floor_vehicles": 3,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 3,
+      "classification_coverage": 0.5
+    },
+    {
+      "route_id": "100100574",
+      "route_names": [
+        "541"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 12,
+      "historical_rows": 288,
+      "historical_vehicles": 20,
+      "matched_vehicles": 12,
+      "classified_vehicles": 12,
+      "low_floor_vehicles": 12,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 8,
+      "classification_coverage": 0.6
+    },
+    {
+      "route_id": "100100576",
+      "route_names": [
+        "6516"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 10,
+      "historical_rows": 210,
+      "historical_vehicles": 19,
+      "matched_vehicles": 10,
+      "classified_vehicles": 10,
+      "low_floor_vehicles": 10,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 9,
+      "classification_coverage": 0.5263157894736842
+    },
+    {
+      "route_id": "100100578",
+      "route_names": [
+        "3321"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 7,
+      "historical_rows": 240,
+      "historical_vehicles": 10,
+      "matched_vehicles": 7,
+      "classified_vehicles": 7,
+      "low_floor_vehicles": 7,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 3,
+      "classification_coverage": 0.7
+    },
+    {
+      "route_id": "100100579",
+      "route_names": [
+        "3420"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 17,
+      "historical_rows": 291,
+      "historical_vehicles": 24,
+      "matched_vehicles": 17,
+      "classified_vehicles": 17,
+      "low_floor_vehicles": 14,
+      "regular_vehicles": 3,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.7083333333333334
+    },
+    {
+      "route_id": "100100583",
+      "route_names": [
+        "121"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 16,
+      "historical_rows": 444,
+      "historical_vehicles": 26,
+      "matched_vehicles": 16,
+      "classified_vehicles": 16,
+      "low_floor_vehicles": 13,
+      "regular_vehicles": 3,
+      "unclassified_vehicles": 10,
+      "classification_coverage": 0.6153846153846154
+    },
+    {
+      "route_id": "100100587",
+      "route_names": [
+        "705"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 9,
+      "historical_rows": 237,
+      "historical_vehicles": 14,
+      "matched_vehicles": 9,
+      "classified_vehicles": 9,
+      "low_floor_vehicles": 9,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.6428571428571429
+    },
+    {
+      "route_id": "100100591",
+      "route_names": [
+        "N30"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 33,
+      "historical_vehicles": 4,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "100100595",
+      "route_names": [
+        "241"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 19,
+      "historical_rows": 339,
+      "historical_vehicles": 29,
+      "matched_vehicles": 19,
+      "classified_vehicles": 19,
+      "low_floor_vehicles": 10,
+      "regular_vehicles": 9,
+      "unclassified_vehicles": 10,
+      "classification_coverage": 0.6551724137931034
+    },
+    {
+      "route_id": "100100596",
+      "route_names": [
+        "400"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 16,
+      "historical_rows": 300,
+      "historical_vehicles": 25,
+      "matched_vehicles": 16,
+      "classified_vehicles": 16,
+      "low_floor_vehicles": 12,
+      "regular_vehicles": 4,
+      "unclassified_vehicles": 9,
+      "classification_coverage": 0.64
+    },
+    {
+      "route_id": "100100597",
+      "route_names": [
+        "405"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 13,
+      "historical_rows": 234,
+      "historical_vehicles": 17,
+      "matched_vehicles": 13,
+      "classified_vehicles": 13,
+      "low_floor_vehicles": 8,
+      "regular_vehicles": 5,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.7647058823529411
+    },
+    {
+      "route_id": "100100599",
+      "route_names": [
+        "2311"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 14,
+      "historical_rows": 268,
+      "historical_vehicles": 20,
+      "matched_vehicles": 14,
+      "classified_vehicles": 14,
+      "low_floor_vehicles": 7,
+      "regular_vehicles": 7,
+      "unclassified_vehicles": 6,
+      "classification_coverage": 0.7
+    },
+    {
+      "route_id": "100100601",
+      "route_names": [
+        "6640A"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 6,
+      "historical_rows": 266,
+      "historical_vehicles": 9,
+      "matched_vehicles": 6,
+      "classified_vehicles": 6,
+      "low_floor_vehicles": 1,
+      "regular_vehicles": 5,
+      "unclassified_vehicles": 3,
+      "classification_coverage": 0.6666666666666666
+    },
+    {
+      "route_id": "100100602",
+      "route_names": [
+        "6640B"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 6,
+      "historical_rows": 270,
+      "historical_vehicles": 10,
+      "matched_vehicles": 6,
+      "classified_vehicles": 6,
+      "low_floor_vehicles": 2,
+      "regular_vehicles": 4,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.6
+    },
+    {
+      "route_id": "100100604",
+      "route_names": [
+        "4211"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 9,
+      "historical_rows": 270,
+      "historical_vehicles": 16,
+      "matched_vehicles": 9,
+      "classified_vehicles": 9,
+      "low_floor_vehicles": 8,
+      "regular_vehicles": 1,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.5625
+    },
+    {
+      "route_id": "100100605",
+      "route_names": [
+        "463"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 18,
+      "historical_rows": 360,
+      "historical_vehicles": 30,
+      "matched_vehicles": 18,
+      "classified_vehicles": 18,
+      "low_floor_vehicles": 17,
+      "regular_vehicles": 1,
+      "unclassified_vehicles": 12,
+      "classification_coverage": 0.6
+    },
+    {
+      "route_id": "100100607",
+      "route_names": [
+        "9711"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 14,
+      "historical_rows": 277,
+      "historical_vehicles": 24,
+      "matched_vehicles": 14,
+      "classified_vehicles": 14,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 14,
+      "unclassified_vehicles": 10,
+      "classification_coverage": 0.5833333333333334
+    },
+    {
+      "route_id": "100100609",
+      "route_names": [
+        "4425"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 9,
+      "historical_rows": 223,
+      "historical_vehicles": 19,
+      "matched_vehicles": 9,
+      "classified_vehicles": 9,
+      "low_floor_vehicles": 8,
+      "regular_vehicles": 1,
+      "unclassified_vehicles": 10,
+      "classification_coverage": 0.47368421052631576
+    },
+    {
+      "route_id": "100100611",
+      "route_names": [
+        "2312B"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 2,
+      "historical_rows": 45,
+      "historical_vehicles": 3,
+      "matched_vehicles": 2,
+      "classified_vehicles": 2,
+      "low_floor_vehicles": 2,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 1,
+      "classification_coverage": 0.6666666666666666
+    },
+    {
+      "route_id": "100100612",
+      "route_names": [
+        "3426"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 11,
+      "historical_rows": 331,
+      "historical_vehicles": 21,
+      "matched_vehicles": 11,
+      "classified_vehicles": 11,
+      "low_floor_vehicles": 10,
+      "regular_vehicles": 1,
+      "unclassified_vehicles": 10,
+      "classification_coverage": 0.5238095238095238
+    },
+    {
+      "route_id": "100100613",
+      "route_names": [
+        "3322"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 12,
+      "historical_rows": 369,
+      "historical_vehicles": 18,
+      "matched_vehicles": 12,
+      "classified_vehicles": 12,
+      "low_floor_vehicles": 12,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 6,
+      "classification_coverage": 0.6666666666666666
+    },
+    {
+      "route_id": "102000001",
+      "route_names": [
+        "서울07출근"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 12,
+      "historical_vehicles": 4,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "103000001",
+      "route_names": [
+        "8441"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 39,
+      "historical_vehicles": 5,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "104000006",
+      "route_names": [
+        "242"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 14,
+      "historical_rows": 261,
+      "historical_vehicles": 21,
+      "matched_vehicles": 14,
+      "classified_vehicles": 14,
+      "low_floor_vehicles": 14,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.6666666666666666
+    },
+    {
+      "route_id": "104000009",
+      "route_names": [
+        "111"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 9,
+      "historical_rows": 156,
+      "historical_vehicles": 13,
+      "matched_vehicles": 9,
+      "classified_vehicles": 9,
+      "low_floor_vehicles": 9,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.6923076923076923
+    },
+    {
+      "route_id": "104000010",
+      "route_names": [
+        "2416"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 10,
+      "historical_rows": 211,
+      "historical_vehicles": 15,
+      "matched_vehicles": 10,
+      "classified_vehicles": 10,
+      "low_floor_vehicles": 10,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.6666666666666666
+    },
+    {
+      "route_id": "104000012",
+      "route_names": [
+        "0411"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 17,
+      "historical_rows": 262,
+      "historical_vehicles": 22,
+      "matched_vehicles": 17,
+      "classified_vehicles": 17,
+      "low_floor_vehicles": 17,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.7727272727272727
+    },
+    {
+      "route_id": "104000013",
+      "route_names": [
+        "3324"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 8,
+      "historical_rows": 252,
+      "historical_vehicles": 13,
+      "matched_vehicles": 8,
+      "classified_vehicles": 8,
+      "low_floor_vehicles": 8,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.6153846153846154
+    },
+    {
+      "route_id": "104000014",
+      "route_names": [
+        "040"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 8,
+      "historical_rows": 213,
+      "historical_vehicles": 15,
+      "matched_vehicles": 8,
+      "classified_vehicles": 8,
+      "low_floor_vehicles": 8,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.5333333333333333
+    },
+    {
+      "route_id": "106000001",
+      "route_names": [
+        "8221"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 52,
+      "historical_vehicles": 6,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 6,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "106000004",
+      "route_names": [
+        "01B"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 6,
+      "historical_rows": 259,
+      "historical_vehicles": 7,
+      "matched_vehicles": 6,
+      "classified_vehicles": 6,
+      "low_floor_vehicles": 6,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 1,
+      "classification_coverage": 0.8571428571428571
+    },
+    {
+      "route_id": "106000005",
+      "route_names": [
+        "서울07퇴근"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 6,
+      "historical_vehicles": 2,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 2,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "106000006",
+      "route_names": [
+        "8442퇴근"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 6,
+      "historical_vehicles": 1,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 1,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "106000008",
+      "route_names": [
+        "2312A"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 10,
+      "historical_rows": 255,
+      "historical_vehicles": 19,
+      "matched_vehicles": 10,
+      "classified_vehicles": 10,
+      "low_floor_vehicles": 5,
+      "regular_vehicles": 5,
+      "unclassified_vehicles": 9,
+      "classification_coverage": 0.5263157894736842
+    },
+    {
+      "route_id": "107000001",
+      "route_names": [
+        "1116"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 3,
+      "historical_rows": 211,
+      "historical_vehicles": 6,
+      "matched_vehicles": 3,
+      "classified_vehicles": 3,
+      "low_floor_vehicles": 1,
+      "regular_vehicles": 2,
+      "unclassified_vehicles": 3,
+      "classification_coverage": 0.5
+    },
+    {
+      "route_id": "107000002",
+      "route_names": [
+        "343"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 11,
+      "historical_rows": 246,
+      "historical_vehicles": 17,
+      "matched_vehicles": 11,
+      "classified_vehicles": 11,
+      "low_floor_vehicles": 11,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 6,
+      "classification_coverage": 0.6470588235294118
+    },
+    {
+      "route_id": "107000004",
+      "route_names": [
+        "8003"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 1,
+      "historical_rows": 135,
+      "historical_vehicles": 2,
+      "matched_vehicles": 1,
+      "classified_vehicles": 1,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 1,
+      "unclassified_vehicles": 1,
+      "classification_coverage": 0.5
+    },
+    {
+      "route_id": "107000005",
+      "route_names": [
+        "9409"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 5,
+      "historical_rows": 110,
+      "historical_vehicles": 8,
+      "matched_vehicles": 5,
+      "classified_vehicles": 5,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 5,
+      "unclassified_vehicles": 3,
+      "classification_coverage": 0.625
+    },
+    {
+      "route_id": "107000006",
+      "route_names": [
+        "서울01출근"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 9,
+      "historical_vehicles": 3,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 3,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "107000007",
+      "route_names": [
+        "1112"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 7,
+      "historical_rows": 288,
+      "historical_vehicles": 11,
+      "matched_vehicles": 7,
+      "classified_vehicles": 7,
+      "low_floor_vehicles": 7,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.6363636363636364
+    },
+    {
+      "route_id": "107000008",
+      "route_names": [
+        "422"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 12,
+      "historical_rows": 179,
+      "historical_vehicles": 15,
+      "matched_vehicles": 12,
+      "classified_vehicles": 12,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 12,
+      "unclassified_vehicles": 3,
+      "classification_coverage": 0.8
+    },
+    {
+      "route_id": "107000009",
+      "route_names": [
+        "8111"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 30,
+      "historical_vehicles": 6,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 6,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "107000010",
+      "route_names": [
+        "서울01퇴근"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 6,
+      "historical_vehicles": 2,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 2,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "108000001",
+      "route_names": [
+        "8551"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 42,
+      "historical_vehicles": 7,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "108000002",
+      "route_names": [
+        "1167"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 8,
+      "historical_rows": 379,
+      "historical_vehicles": 13,
+      "matched_vehicles": 8,
+      "classified_vehicles": 8,
+      "low_floor_vehicles": 8,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.6153846153846154
+    },
+    {
+      "route_id": "109000002",
+      "route_names": [
+        "서울05출근"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 12,
+      "historical_vehicles": 4,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "109000003",
+      "route_names": [
+        "서울10출근"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 12,
+      "historical_vehicles": 4,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "109000004",
+      "route_names": [
+        "서울05퇴근"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 6,
+      "historical_vehicles": 2,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 2,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "109000005",
+      "route_names": [
+        "서울06퇴근"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 6,
+      "historical_vehicles": 2,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 2,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "109000006",
+      "route_names": [
+        "서울10퇴근"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 6,
+      "historical_vehicles": 2,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 2,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "110000002",
+      "route_names": [
+        "173"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 14,
+      "historical_rows": 323,
+      "historical_vehicles": 25,
+      "matched_vehicles": 14,
+      "classified_vehicles": 14,
+      "low_floor_vehicles": 14,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 11,
+      "classification_coverage": 0.56
+    },
+    {
+      "route_id": "110000004",
+      "route_names": [
+        "8146"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 12,
+      "historical_vehicles": 4,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "110000005",
+      "route_names": [
+        "8101"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 21,
+      "historical_vehicles": 7,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "110000006",
+      "route_names": [
+        "8112"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 32,
+      "historical_vehicles": 4,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "110000007",
+      "route_names": [
+        "서울09출근"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 11,
+      "historical_vehicles": 5,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "110000008",
+      "route_names": [
+        "서울09퇴근"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 6,
+      "historical_vehicles": 2,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 2,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "110000009",
+      "route_names": [
+        "2155"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 7,
+      "historical_rows": 351,
+      "historical_vehicles": 14,
+      "matched_vehicles": 7,
+      "classified_vehicles": 7,
+      "low_floor_vehicles": 7,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.5
+    },
+    {
+      "route_id": "111000008",
+      "route_names": [
+        "674"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 7,
+      "historical_rows": 264,
+      "historical_vehicles": 13,
+      "matched_vehicles": 7,
+      "classified_vehicles": 7,
+      "low_floor_vehicles": 3,
+      "regular_vehicles": 4,
+      "unclassified_vehicles": 6,
+      "classification_coverage": 0.5384615384615384
+    },
+    {
+      "route_id": "111000009",
+      "route_names": [
+        "8771"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 36,
+      "historical_vehicles": 4,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "111000010",
+      "route_names": [
+        "7734"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 14,
+      "historical_rows": 421,
+      "historical_vehicles": 29,
+      "matched_vehicles": 14,
+      "classified_vehicles": 14,
+      "low_floor_vehicles": 14,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 15,
+      "classification_coverage": 0.4827586206896552
+    },
+    {
+      "route_id": "111000014",
+      "route_names": [
+        "761"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 16,
+      "historical_rows": 321,
+      "historical_vehicles": 23,
+      "matched_vehicles": 16,
+      "classified_vehicles": 16,
+      "low_floor_vehicles": 16,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.6956521739130435
+    },
+    {
+      "route_id": "111000019",
+      "route_names": [
+        "2236"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 11,
+      "historical_rows": 252,
+      "historical_vehicles": 15,
+      "matched_vehicles": 11,
+      "classified_vehicles": 11,
+      "low_floor_vehicles": 4,
+      "regular_vehicles": 7,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.7333333333333333
+    },
+    {
+      "route_id": "111000020",
+      "route_names": [
+        "서울03출근"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 9,
+      "historical_vehicles": 3,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 3,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "111000021",
+      "route_names": [
+        "서울04출근"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 12,
+      "historical_vehicles": 4,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "111000022",
+      "route_names": [
+        "707"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 19,
+      "historical_rows": 314,
+      "historical_vehicles": 24,
+      "matched_vehicles": 19,
+      "classified_vehicles": 19,
+      "low_floor_vehicles": 19,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.7916666666666666
+    },
+    {
+      "route_id": "111000023",
+      "route_names": [
+        "서울08출근"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 9,
+      "historical_vehicles": 3,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 3,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "111000024",
+      "route_names": [
+        "서울03퇴근"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 6,
+      "historical_vehicles": 2,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 2,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "111000025",
+      "route_names": [
+        "서울04퇴근"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 9,
+      "historical_vehicles": 3,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 3,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "111000026",
+      "route_names": [
+        "서울08퇴근"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 6,
+      "historical_vehicles": 2,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 2,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "111000027",
+      "route_names": [
+        "706"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 7,
+      "historical_rows": 279,
+      "historical_vehicles": 14,
+      "matched_vehicles": 7,
+      "classified_vehicles": 7,
+      "low_floor_vehicles": 6,
+      "regular_vehicles": 1,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.5
+    },
+    {
+      "route_id": "111000028",
+      "route_names": [
+        "709"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 9,
+      "historical_rows": 253,
+      "historical_vehicles": 14,
+      "matched_vehicles": 9,
+      "classified_vehicles": 9,
+      "low_floor_vehicles": 9,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.6428571428571429
+    },
+    {
+      "route_id": "111000029",
+      "route_names": [
+        "8775퇴근"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 36,
+      "historical_vehicles": 4,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "112000005",
+      "route_names": [
+        "7716"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 3,
+      "historical_rows": 168,
+      "historical_vehicles": 7,
+      "matched_vehicles": 3,
+      "classified_vehicles": 3,
+      "low_floor_vehicles": 1,
+      "regular_vehicles": 2,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.42857142857142855
+    },
+    {
+      "route_id": "112000006",
+      "route_names": [
+        "8762퇴근"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 36,
+      "historical_vehicles": 4,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "113000002",
+      "route_names": [
+        "452"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 25,
+      "historical_rows": 370,
+      "historical_vehicles": 34,
+      "matched_vehicles": 25,
+      "classified_vehicles": 25,
+      "low_floor_vehicles": 14,
+      "regular_vehicles": 11,
+      "unclassified_vehicles": 9,
+      "classification_coverage": 0.7352941176470589
+    },
+    {
+      "route_id": "113000003",
+      "route_names": [
+        "8762출근"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 42,
+      "historical_vehicles": 4,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "113000004",
+      "route_names": [
+        "9401-1"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 6,
+      "historical_rows": 240,
+      "historical_vehicles": 10,
+      "matched_vehicles": 6,
+      "classified_vehicles": 6,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 6,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.6
+    },
+    {
+      "route_id": "113000005",
+      "route_names": [
+        "서울06출근"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 9,
+      "historical_vehicles": 3,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 3,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "113000007",
+      "route_names": [
+        "8775출근"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 36,
+      "historical_vehicles": 4,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "114000002",
+      "route_names": [
+        "8641"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 6,
+      "historical_vehicles": 2,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 2,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "114000003",
+      "route_names": [
+        "8671"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 30,
+      "historical_vehicles": 4,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "115000005",
+      "route_names": [
+        "6648"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 9,
+      "historical_rows": 233,
+      "historical_vehicles": 14,
+      "matched_vehicles": 9,
+      "classified_vehicles": 9,
+      "low_floor_vehicles": 9,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.6428571428571429
+    },
+    {
+      "route_id": "115000007",
+      "route_names": [
+        "654"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 14,
+      "historical_rows": 273,
+      "historical_vehicles": 22,
+      "matched_vehicles": 14,
+      "classified_vehicles": 14,
+      "low_floor_vehicles": 13,
+      "regular_vehicles": 1,
+      "unclassified_vehicles": 8,
+      "classification_coverage": 0.6363636363636364
+    },
+    {
+      "route_id": "115000011",
+      "route_names": [
+        "서울02출근"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 34,
+      "historical_vehicles": 7,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "115000012",
+      "route_names": [
+        "6633"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 8,
+      "historical_rows": 127,
+      "historical_vehicles": 11,
+      "matched_vehicles": 8,
+      "classified_vehicles": 8,
+      "low_floor_vehicles": 2,
+      "regular_vehicles": 6,
+      "unclassified_vehicles": 3,
+      "classification_coverage": 0.7272727272727273
+    },
+    {
+      "route_id": "115000013",
+      "route_names": [
+        "서울02퇴근"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 9,
+      "historical_vehicles": 3,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 3,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "115000014",
+      "route_names": [
+        "6611"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 6,
+      "historical_rows": 192,
+      "historical_vehicles": 8,
+      "matched_vehicles": 6,
+      "classified_vehicles": 6,
+      "low_floor_vehicles": 5,
+      "regular_vehicles": 1,
+      "unclassified_vehicles": 2,
+      "classification_coverage": 0.75
+    },
+    {
+      "route_id": "116000001",
+      "route_names": [
+        "8552"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 36,
+      "historical_vehicles": 4,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "116000002",
+      "route_names": [
+        "6615"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 4,
+      "historical_rows": 224,
+      "historical_vehicles": 7,
+      "matched_vehicles": 4,
+      "classified_vehicles": 4,
+      "low_floor_vehicles": 1,
+      "regular_vehicles": 3,
+      "unclassified_vehicles": 3,
+      "classification_coverage": 0.5714285714285714
+    },
+    {
+      "route_id": "116000004",
+      "route_names": [
+        "660"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 11,
+      "historical_rows": 252,
+      "historical_vehicles": 19,
+      "matched_vehicles": 11,
+      "classified_vehicles": 11,
+      "low_floor_vehicles": 6,
+      "regular_vehicles": 5,
+      "unclassified_vehicles": 8,
+      "classification_coverage": 0.5789473684210527
+    },
+    {
+      "route_id": "116000005",
+      "route_names": [
+        "8561"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 45,
+      "historical_vehicles": 5,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "116000006",
+      "route_names": [
+        "703"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 10,
+      "historical_rows": 164,
+      "historical_vehicles": 14,
+      "matched_vehicles": 10,
+      "classified_vehicles": 10,
+      "low_floor_vehicles": 10,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.7142857142857143
+    },
+    {
+      "route_id": "120000003",
+      "route_names": [
+        "8661"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 27,
+      "historical_vehicles": 5,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "121000002",
+      "route_names": [
+        "8442출근"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 12,
+      "historical_vehicles": 2,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 2,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "122000001",
+      "route_names": [
+        "4435"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 8,
+      "historical_rows": 229,
+      "historical_vehicles": 13,
+      "matched_vehicles": 8,
+      "classified_vehicles": 8,
+      "low_floor_vehicles": 3,
+      "regular_vehicles": 5,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.6153846153846154
+    },
+    {
+      "route_id": "123000010",
+      "route_names": [
+        "741"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 18,
+      "historical_rows": 384,
+      "historical_vehicles": 35,
+      "matched_vehicles": 18,
+      "classified_vehicles": 18,
+      "low_floor_vehicles": 16,
+      "regular_vehicles": 2,
+      "unclassified_vehicles": 17,
+      "classification_coverage": 0.5142857142857142
+    },
+    {
+      "route_id": "123000011",
+      "route_names": [
+        "708"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 8,
+      "historical_rows": 269,
+      "historical_vehicles": 16,
+      "matched_vehicles": 8,
+      "classified_vehicles": 8,
+      "low_floor_vehicles": 8,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 8,
+      "classification_coverage": 0.5
+    },
+    {
+      "route_id": "124000008",
+      "route_names": [
+        "7719"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 2,
+      "historical_rows": 135,
+      "historical_vehicles": 4,
+      "matched_vehicles": 2,
+      "classified_vehicles": 2,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 2,
+      "unclassified_vehicles": 2,
+      "classification_coverage": 0.5
+    },
+    {
+      "route_id": "124000010",
+      "route_names": [
+        "8331"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 36,
+      "historical_vehicles": 5,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.0
+    },
+    {
+      "route_id": "124000036",
+      "route_names": [
+        "345"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 16,
+      "historical_rows": 288,
+      "historical_vehicles": 24,
+      "matched_vehicles": 16,
+      "classified_vehicles": 16,
+      "low_floor_vehicles": 15,
+      "regular_vehicles": 1,
+      "unclassified_vehicles": 8,
+      "classification_coverage": 0.6666666666666666
+    },
+    {
+      "route_id": "124000038",
+      "route_names": [
+        "342"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 18,
+      "historical_rows": 324,
+      "historical_vehicles": 26,
+      "matched_vehicles": 18,
+      "classified_vehicles": 18,
+      "low_floor_vehicles": 17,
+      "regular_vehicles": 1,
+      "unclassified_vehicles": 8,
+      "classification_coverage": 0.6923076923076923
+    },
+    {
+      "route_id": "124000039",
+      "route_names": [
+        "3323"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 10,
+      "historical_rows": 222,
+      "historical_vehicles": 15,
+      "matched_vehicles": 10,
+      "classified_vehicles": 10,
+      "low_floor_vehicles": 10,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 5,
+      "classification_coverage": 0.6666666666666666
+    },
+    {
+      "route_id": "124000040",
+      "route_names": [
+        "8332"
+      ],
+      "api_status": "no_data",
+      "current_vehicles": 0,
+      "historical_rows": 33,
+      "historical_vehicles": 4,
+      "matched_vehicles": 0,
+      "classified_vehicles": 0,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 0,
+      "unclassified_vehicles": 4,
+      "classification_coverage": 0.0
+    }
+  ],
+  "conflicting_pairs": 0,
+  "warning": "Current classification is not verified historical classification; purposeful sample, not a fleet census."
+}

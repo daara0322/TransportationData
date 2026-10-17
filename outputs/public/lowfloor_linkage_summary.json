@@ -1,0 +1,153 @@
+{
+  "current_vehicles": 4433,
+  "historical_rows": 116341,
+  "historical_vehicles": 7251,
+  "matched_vehicles": 4431,
+  "classified_vehicles": 4431,
+  "low_floor_vehicles": 3590,
+  "regular_vehicles": 841,
+  "unclassified_vehicles": 2820,
+  "routes": 393,
+  "api_statuses": {
+    "ok": 350,
+    "no_data": 43
+  },
+  "conflicting_pairs": 0,
+  "classification_coverage": 0.6110881257757551,
+  "bus_types": {
+    "1": 3591,
+    "0": 842
+  },
+  "first_collected": "2026-10-17T07:16:39.824685+00:00",
+  "last_collected": "2026-10-17T07:18:04.682452+00:00",
+  "most_observed_regular_routes": [
+    {
+      "route_id": "100100389",
+      "route_names": [
+        "9401"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 28,
+      "historical_rows": 733,
+      "historical_vehicles": 51,
+      "matched_vehicles": 28,
+      "classified_vehicles": 28,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 28,
+      "unclassified_vehicles": 23,
+      "classification_coverage": 0.5490196078431373
+    },
+    {
+      "route_id": "100100037",
+      "route_names": [
+        "172"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 20,
+      "historical_rows": 298,
+      "historical_vehicles": 27,
+      "matched_vehicles": 20,
+      "classified_vehicles": 20,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 20,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.7407407407407407
+    },
+    {
+      "route_id": "100100008",
+      "route_names": [
+        "103"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 17,
+      "historical_rows": 508,
+      "historical_vehicles": 24,
+      "matched_vehicles": 17,
+      "classified_vehicles": 17,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 17,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.7083333333333334
+    },
+    {
+      "route_id": "100100009",
+      "route_names": [
+        "104"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 18,
+      "historical_rows": 456,
+      "historical_vehicles": 24,
+      "matched_vehicles": 18,
+      "classified_vehicles": 18,
+      "low_floor_vehicles": 2,
+      "regular_vehicles": 16,
+      "unclassified_vehicles": 6,
+      "classification_coverage": 0.75
+    },
+    {
+      "route_id": "100100237",
+      "route_names": [
+        "4318"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 24,
+      "historical_rows": 421,
+      "historical_vehicles": 36,
+      "matched_vehicles": 24,
+      "classified_vehicles": 24,
+      "low_floor_vehicles": 8,
+      "regular_vehicles": 16,
+      "unclassified_vehicles": 12,
+      "classification_coverage": 0.6666666666666666
+    },
+    {
+      "route_id": "100100391",
+      "route_names": [
+        "9404"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 16,
+      "historical_rows": 462,
+      "historical_vehicles": 26,
+      "matched_vehicles": 16,
+      "classified_vehicles": 16,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 16,
+      "unclassified_vehicles": 10,
+      "classification_coverage": 0.6153846153846154
+    },
+    {
+      "route_id": "100100400",
+      "route_names": [
+        "9707"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 16,
+      "historical_rows": 418,
+      "historical_vehicles": 23,
+      "matched_vehicles": 16,
+      "classified_vehicles": 16,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 16,
+      "unclassified_vehicles": 7,
+      "classification_coverage": 0.6956521739130435
+    },
+    {
+      "route_id": "100100607",
+      "route_names": [
+        "9711"
+      ],
+      "api_status": "ok",
+      "current_vehicles": 14,
+      "historical_rows": 277,
+      "historical_vehicles": 24,
+      "matched_vehicles": 14,
+      "classified_vehicles": 14,
+      "low_floor_vehicles": 0,
+      "regular_vehicles": 14,
+      "unclassified_vehicles": 10,
+      "classification_coverage": 0.5833333333333334
+    }
+  ]
+}

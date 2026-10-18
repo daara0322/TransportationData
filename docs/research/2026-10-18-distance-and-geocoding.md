@@ -35,3 +35,19 @@ python -m src.geocode_facilities --output data/processed/facility_geocode_candid
 1. 별도 키로 소규모 좌표 수집 후 실제 건물 위치를 검수한다.
 2. 검수된 시설과 정류장 생활권을 연결하고 300/500/800m에 따른 차이를 비교한다. 시설 수는 실제 통행 수요와 구분한다.
 3. 연료 자료·공식 거리 정의·현재 저상 분류의 과거 유효성을 확인한 다음 탄소 전환안을 계산한다.
+
+## 실제 연결 시험
+
+2026-10-18 별도 키를 로컬에 설정하고 공식 API 연결을 시험했다. 네트워크 접근이 가능한 실행에서 시설 주소 5건 모두 HTTP 오류였으며 좌표는 확보하지 못했다. 추가 진단 응답은 HTTP 403, `NotAuthorizedError`, `disabled OPEN_MAP_AND_LOCAL service`였다. 인증정보는 기록하지 않았다.
+
+앱 관리 화면에서 TransportationData의 카카오맵 사용 설정을 ON으로 바꾼 뒤 재시험해야 한다. 무료 적용 앱 여부도 앱 화면에서 확인한다. 실패 기록을 성공한 수집으로 표시하지 않는다. 기존 실패 결과를 보존하려면 새 출력 이름을 사용한다.
+
+```powershell
+python -m src.geocode_facilities --output data/processed/facility_geocode_candidates_enabled.csv --limit 5
+```
+
+## 기존 앱으로 전체 수집 완료
+
+2026-10-18 사용자가 지정한 기존 앱의 인증정보로 로컬 설정을 바꿔 5건 시험 후 전체 274곳을 조회했다. 인증정보는 Git에 포함하지 않는다. 좌표 후보 233곳, 검색 결과 없음 37곳, 서울 여부 확인 필요 2곳, 복수 후보 2곳이다. 건물 위치 검수 완료는 0곳으로, 확정적인 생활권·접근성 분석에 아직 사용하지 않는다. 실패·미확인 시설을 분모에서 제외하지 않는다.
+
+집계는 `outputs/public/facility_geocoding_audit.json`, 주소별 결과는 Git 제외 대상인 `data/processed/facility_geocode_candidates_full.csv`에 있다. 다음은 후보 주소와 실제 건물의 대조 및 미검색 주소의 원문 확인이다.

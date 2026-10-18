@@ -1,0 +1,15 @@
+{
+  "as_of_kst": "2026-10-18",
+  "facilities": 274,
+  "unique_source_addresses": 244,
+  "statuses": {
+    "candidate_unreviewed": 233,
+    "no_result": 37,
+    "outside_seoul_or_unknown": 2,
+    "ambiguous": 2
+  },
+  "reviewed_buildings": 0,
+  "ready_for_confirmed_accessibility_analysis": false,
+  "source": "https://dapi.kakao.com/v2/local/search/address.json",
+  "warning": "Candidate coordinates are not verified building locations. No-result and ambiguous records are retained; facility counts are not observed travel demand."
+}

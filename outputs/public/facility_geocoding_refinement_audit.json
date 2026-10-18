@@ -1,0 +1,14 @@
+{
+  "as_of_kst": "2026-10-18",
+  "source_facilities": 274,
+  "retried_facilities": 19,
+  "additional_candidates": 14,
+  "statuses": {
+    "candidate_unreviewed": 247,
+    "no_result": 23,
+    "outside_seoul_or_unknown": 2,
+    "ambiguous": 2
+  },
+  "reviewed_buildings": 0,
+  "warning": "Building-query retries preserve the original full address and are still unreviewed; building complex details may be removed. No coordinates are assigned to unmatched facilities."
+}

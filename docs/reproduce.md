@@ -43,3 +43,22 @@ python -m src.distance_reference --operations data/raw/tdata_vehicle_operations.
 ```
 
 시설 좌표 수집은 별도 키와 건물 위치 검수가 필요하다. 절차와 해석 한계는 `research/2026-10-18-distance-and-geocoding.md`에 기록했다. 아직 실제 지오코딩 요청을 검증한 단계는 아니다.
+
+## 시설 후보의 주소·거리 진단
+
+전체 주소 검색 결과가 로컬에 있을 때 실행한다. 새 `--details-output` 이름을 사용해야 하며 기존 수동 검토 파일을 덮어쓰지 않는다.
+
+```powershell
+python -m src.facility_catchments --facilities data/processed/facility_geocode_candidates_full.csv --edges data/processed/route_station_edges.csv --output outputs/public/facility_catchment_initial_diagnostic.json --details-output data/processed/facility_address_review_v2.csv
+```
+
+이는 미검수 좌표의 진단이다. 완전한 도로명·건물번호 문자열 일치도 건물 위치 확인으로 취급하지 않는다. 결과의 분모와 해석은 `research/2026-10-18-facility-catchments.md`를 참고한다.
+
+미검색 시설의 상세 표기 분리 재조회와 최신 진단은 다음 순서다. `work-dir`와 출력 파일은 존재하지 않는 새 경로여야 한다. 재조회에는 로컬 카카오 키와 네트워크가 필요하며 응답은 주소별 캐시를 재사용한다. 원본 시설 주소는 바꾸지 않는다.
+
+```powershell
+python -m src.retry_facility_addresses --input data/processed/facility_geocode_candidates_full.csv --work-dir data/processed/geocode_retry_building --output data/processed/facility_geocode_candidates_refined.csv --limit 30
+python -m src.facility_catchments --facilities data/processed/facility_geocode_candidates_refined.csv --edges data/processed/route_station_edges.csv --output outputs/public/facility_catchment_diagnostic.json --details-output data/processed/facility_address_review_refined.csv
+```
+
+층·호수 등 단지 내부 상세 정보가 검색 쿼리에서 빠질 수 있으므로 재조회 응답도 실제 건물 위치의 확정값이 아니다.

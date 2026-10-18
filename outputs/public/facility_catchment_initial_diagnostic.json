@@ -1,0 +1,4910 @@
+{
+  "source_facilities": 274,
+  "usable_candidate_points": 231,
+  "reviewed_buildings": 0,
+  "confirmed_accessibility_analysis": false,
+  "unique_candidate_stations": 7922,
+  "candidate_routes": 375,
+  "coordinate_and_address_checks": {
+    "usable_candidate_points": 231,
+    "road_building_match_unreviewed": 223,
+    "excluded_no_valid_coordinate": 41,
+    "incomplete_road_address": 2,
+    "not_comparable": 8
+  },
+  "by_radius": [
+    {
+      "radius_metres": 300,
+      "candidate_facilities_near_any_station": 200,
+      "road_building_matching_candidates_near_any_station": 195
+    },
+    {
+      "radius_metres": 500,
+      "candidate_facilities_near_any_station": 231,
+      "road_building_matching_candidates_near_any_station": 223
+    },
+    {
+      "radius_metres": 800,
+      "candidate_facilities_near_any_station": 231,
+      "road_building_matching_candidates_near_any_station": 223
+    }
+  ],
+  "by_route": [
+    {
+      "route_id": "100100006",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 12,
+        "800": 18
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 12,
+        "800": 18
+      }
+    },
+    {
+      "route_id": "100100007",
+      "candidate_facilities_by_radius": {
+        "300": 6,
+        "500": 15,
+        "800": 23
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 6,
+        "500": 12,
+        "800": 20
+      }
+    },
+    {
+      "route_id": "100100008",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 5,
+        "800": 12
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 5,
+        "800": 12
+      }
+    },
+    {
+      "route_id": "100100009",
+      "candidate_facilities_by_radius": {
+        "300": 6,
+        "500": 9,
+        "800": 15
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 6,
+        "500": 9,
+        "800": 15
+      }
+    },
+    {
+      "route_id": "100100010",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 10,
+        "800": 31
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 10,
+        "800": 28
+      }
+    },
+    {
+      "route_id": "100100012",
+      "candidate_facilities_by_radius": {
+        "300": 6,
+        "500": 15,
+        "800": 18
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 6,
+        "500": 15,
+        "800": 18
+      }
+    },
+    {
+      "route_id": "100100014",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 6,
+        "800": 9
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 6,
+        "800": 9
+      }
+    },
+    {
+      "route_id": "100100017",
+      "candidate_facilities_by_radius": {
+        "300": 7,
+        "500": 12,
+        "800": 14
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 7,
+        "500": 12,
+        "800": 14
+      }
+    },
+    {
+      "route_id": "100100018",
+      "candidate_facilities_by_radius": {
+        "300": 7,
+        "500": 16,
+        "800": 29
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 7,
+        "500": 15,
+        "800": 28
+      }
+    },
+    {
+      "route_id": "100100019",
+      "candidate_facilities_by_radius": {
+        "300": 7,
+        "500": 20,
+        "800": 26
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 7,
+        "500": 20,
+        "800": 26
+      }
+    },
+    {
+      "route_id": "100100020",
+      "candidate_facilities_by_radius": {
+        "300": 5,
+        "500": 19,
+        "800": 23
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 5,
+        "500": 19,
+        "800": 23
+      }
+    },
+    {
+      "route_id": "100100021",
+      "candidate_facilities_by_radius": {
+        "300": 10,
+        "500": 17,
+        "800": 20
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 10,
+        "500": 17,
+        "800": 20
+      }
+    },
+    {
+      "route_id": "100100022",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 8,
+        "800": 9
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 8,
+        "800": 9
+      }
+    },
+    {
+      "route_id": "100100023",
+      "candidate_facilities_by_radius": {
+        "300": 6,
+        "500": 8,
+        "800": 14
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 6,
+        "500": 8,
+        "800": 14
+      }
+    },
+    {
+      "route_id": "100100024",
+      "candidate_facilities_by_radius": {
+        "300": 5,
+        "500": 11,
+        "800": 16
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 5,
+        "500": 11,
+        "800": 16
+      }
+    },
+    {
+      "route_id": "100100025",
+      "candidate_facilities_by_radius": {
+        "300": 9,
+        "500": 15,
+        "800": 37
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 8,
+        "500": 14,
+        "800": 33
+      }
+    },
+    {
+      "route_id": "100100026",
+      "candidate_facilities_by_radius": {
+        "300": 8,
+        "500": 17,
+        "800": 23
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 8,
+        "500": 14,
+        "800": 20
+      }
+    },
+    {
+      "route_id": "100100027",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 10,
+        "800": 13
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 10,
+        "800": 13
+      }
+    },
+    {
+      "route_id": "100100029",
+      "candidate_facilities_by_radius": {
+        "300": 9,
+        "500": 22,
+        "800": 29
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 9,
+        "500": 22,
+        "800": 29
+      }
+    },
+    {
+      "route_id": "100100030",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 7,
+        "800": 18
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 7,
+        "800": 18
+      }
+    },
+    {
+      "route_id": "100100031",
+      "candidate_facilities_by_radius": {
+        "300": 5,
+        "500": 6,
+        "800": 19
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 5,
+        "500": 6,
+        "800": 19
+      }
+    },
+    {
+      "route_id": "100100032",
+      "candidate_facilities_by_radius": {
+        "300": 7,
+        "500": 11,
+        "800": 14
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 7,
+        "500": 11,
+        "800": 14
+      }
+    },
+    {
+      "route_id": "100100033",
+      "candidate_facilities_by_radius": {
+        "300": 13,
+        "500": 27,
+        "800": 38
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 13,
+        "500": 27,
+        "800": 37
+      }
+    },
+    {
+      "route_id": "100100034",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 4,
+        "800": 15
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 4,
+        "800": 15
+      }
+    },
+    {
+      "route_id": "100100036",
+      "candidate_facilities_by_radius": {
+        "300": 8,
+        "500": 14,
+        "800": 14
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 8,
+        "500": 14,
+        "800": 14
+      }
+    },
+    {
+      "route_id": "100100037",
+      "candidate_facilities_by_radius": {
+        "300": 8,
+        "500": 15,
+        "800": 18
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 8,
+        "500": 15,
+        "800": 18
+      }
+    },
+    {
+      "route_id": "100100038",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 2,
+        "800": 11
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 2,
+        "800": 11
+      }
+    },
+    {
+      "route_id": "100100039",
+      "candidate_facilities_by_radius": {
+        "300": 6,
+        "500": 9,
+        "800": 17
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 6,
+        "500": 9,
+        "800": 17
+      }
+    },
+    {
+      "route_id": "100100042",
+      "candidate_facilities_by_radius": {
+        "300": 5,
+        "500": 12,
+        "800": 17
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 5,
+        "500": 12,
+        "800": 16
+      }
+    },
+    {
+      "route_id": "100100043",
+      "candidate_facilities_by_radius": {
+        "300": 5,
+        "500": 8,
+        "800": 17
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 7,
+        "800": 16
+      }
+    },
+    {
+      "route_id": "100100044",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 6,
+        "800": 19
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 6,
+        "800": 18
+      }
+    },
+    {
+      "route_id": "100100046",
+      "candidate_facilities_by_radius": {
+        "300": 8,
+        "500": 11,
+        "800": 16
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 8,
+        "500": 11,
+        "800": 16
+      }
+    },
+    {
+      "route_id": "100100047",
+      "candidate_facilities_by_radius": {
+        "300": 9,
+        "500": 14,
+        "800": 17
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 9,
+        "500": 14,
+        "800": 16
+      }
+    },
+    {
+      "route_id": "100100048",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 4,
+        "800": 8
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 4,
+        "800": 8
+      }
+    },
+    {
+      "route_id": "100100049",
+      "candidate_facilities_by_radius": {
+        "300": 10,
+        "500": 13,
+        "800": 14
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 10,
+        "500": 13,
+        "800": 14
+      }
+    },
+    {
+      "route_id": "100100051",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 7,
+        "800": 12
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 7,
+        "800": 12
+      }
+    },
+    {
+      "route_id": "100100052",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 5,
+        "800": 14
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 5,
+        "800": 14
+      }
+    },
+    {
+      "route_id": "100100053",
+      "candidate_facilities_by_radius": {
+        "300": 6,
+        "500": 13,
+        "800": 21
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 6,
+        "500": 12,
+        "800": 20
+      }
+    },
+    {
+      "route_id": "100100055",
+      "candidate_facilities_by_radius": {
+        "300": 6,
+        "500": 10,
+        "800": 15
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 5,
+        "500": 9,
+        "800": 14
+      }
+    },
+    {
+      "route_id": "100100056",
+      "candidate_facilities_by_radius": {
+        "300": 6,
+        "500": 10,
+        "800": 14
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 6,
+        "500": 10,
+        "800": 14
+      }
+    },
+    {
+      "route_id": "100100057",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 9,
+        "800": 18
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 9,
+        "800": 18
+      }
+    },
+    {
+      "route_id": "100100061",
+      "candidate_facilities_by_radius": {
+        "300": 12,
+        "500": 20,
+        "800": 24
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 12,
+        "500": 19,
+        "800": 23
+      }
+    },
+    {
+      "route_id": "100100062",
+      "candidate_facilities_by_radius": {
+        "300": 7,
+        "500": 15,
+        "800": 18
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 7,
+        "500": 15,
+        "800": 18
+      }
+    },
+    {
+      "route_id": "100100063",
+      "candidate_facilities_by_radius": {
+        "300": 5,
+        "500": 11,
+        "800": 19
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 5,
+        "500": 11,
+        "800": 19
+      }
+    },
+    {
+      "route_id": "100100064",
+      "candidate_facilities_by_radius": {
+        "300": 5,
+        "500": 9,
+        "800": 11
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 5,
+        "500": 9,
+        "800": 11
+      }
+    },
+    {
+      "route_id": "100100068",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 5,
+        "800": 10
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 5,
+        "800": 10
+      }
+    },
+    {
+      "route_id": "100100070",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 3,
+        "800": 4
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 3,
+        "800": 4
+      }
+    },
+    {
+      "route_id": "100100071",
+      "candidate_facilities_by_radius": {
+        "300": 12,
+        "500": 16,
+        "800": 23
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 12,
+        "500": 16,
+        "800": 23
+      }
+    },
+    {
+      "route_id": "100100073",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 7,
+        "800": 12
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 7,
+        "800": 12
+      }
+    },
+    {
+      "route_id": "100100075",
+      "candidate_facilities_by_radius": {
+        "300": 8,
+        "500": 13,
+        "800": 14
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 8,
+        "500": 13,
+        "800": 14
+      }
+    },
+    {
+      "route_id": "100100076",
+      "candidate_facilities_by_radius": {
+        "300": 13,
+        "500": 16,
+        "800": 23
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 13,
+        "500": 16,
+        "800": 23
+      }
+    },
+    {
+      "route_id": "100100077",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 3,
+        "800": 13
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 3,
+        "800": 13
+      }
+    },
+    {
+      "route_id": "100100078",
+      "candidate_facilities_by_radius": {
+        "300": 6,
+        "500": 9,
+        "800": 16
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 6,
+        "500": 9,
+        "800": 15
+      }
+    },
+    {
+      "route_id": "100100079",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 6,
+        "800": 14
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 6,
+        "800": 14
+      }
+    },
+    {
+      "route_id": "100100080",
+      "candidate_facilities_by_radius": {
+        "300": 5,
+        "500": 10,
+        "800": 13
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 5,
+        "500": 10,
+        "800": 13
+      }
+    },
+    {
+      "route_id": "100100081",
+      "candidate_facilities_by_radius": {
+        "300": 10,
+        "500": 12,
+        "800": 20
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 10,
+        "500": 12,
+        "800": 20
+      }
+    },
+    {
+      "route_id": "100100082",
+      "candidate_facilities_by_radius": {
+        "300": 7,
+        "500": 8,
+        "800": 20
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 7,
+        "500": 8,
+        "800": 20
+      }
+    },
+    {
+      "route_id": "100100083",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 1,
+        "800": 1
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 1,
+        "800": 1
+      }
+    },
+    {
+      "route_id": "100100084",
+      "candidate_facilities_by_radius": {
+        "300": 7,
+        "500": 10,
+        "800": 17
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 7,
+        "500": 10,
+        "800": 17
+      }
+    },
+    {
+      "route_id": "100100085",
+      "candidate_facilities_by_radius": {
+        "300": 7,
+        "500": 14,
+        "800": 20
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 7,
+        "500": 14,
+        "800": 19
+      }
+    },
+    {
+      "route_id": "100100086",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 6,
+        "800": 9
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 6,
+        "800": 8
+      }
+    },
+    {
+      "route_id": "100100087",
+      "candidate_facilities_by_radius": {
+        "300": 7,
+        "500": 11,
+        "800": 13
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 7,
+        "500": 11,
+        "800": 13
+      }
+    },
+    {
+      "route_id": "100100088",
+      "candidate_facilities_by_radius": {
+        "300": 10,
+        "500": 11,
+        "800": 14
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 10,
+        "500": 11,
+        "800": 14
+      }
+    },
+    {
+      "route_id": "100100089",
+      "candidate_facilities_by_radius": {
+        "300": 8,
+        "500": 16,
+        "800": 21
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 7,
+        "500": 15,
+        "800": 20
+      }
+    },
+    {
+      "route_id": "100100090",
+      "candidate_facilities_by_radius": {
+        "300": 5,
+        "500": 9,
+        "800": 11
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 5,
+        "500": 9,
+        "800": 11
+      }
+    },
+    {
+      "route_id": "100100091",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 9,
+        "800": 12
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 9,
+        "800": 11
+      }
+    },
+    {
+      "route_id": "100100093",
+      "candidate_facilities_by_radius": {
+        "300": 7,
+        "500": 10,
+        "800": 14
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 7,
+        "500": 10,
+        "800": 14
+      }
+    },
+    {
+      "route_id": "100100094",
+      "candidate_facilities_by_radius": {
+        "300": 6,
+        "500": 9,
+        "800": 15
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 6,
+        "500": 9,
+        "800": 15
+      }
+    },
+    {
+      "route_id": "100100096",
+      "candidate_facilities_by_radius": {
+        "300": 14,
+        "500": 20,
+        "800": 20
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 14,
+        "500": 20,
+        "800": 20
+      }
+    },
+    {
+      "route_id": "100100097",
+      "candidate_facilities_by_radius": {
+        "300": 5,
+        "500": 15,
+        "800": 20
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 5,
+        "500": 15,
+        "800": 20
+      }
+    },
+    {
+      "route_id": "100100098",
+      "candidate_facilities_by_radius": {
+        "300": 18,
+        "500": 23,
+        "800": 25
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 18,
+        "500": 23,
+        "800": 25
+      }
+    },
+    {
+      "route_id": "100100099",
+      "candidate_facilities_by_radius": {
+        "300": 5,
+        "500": 18,
+        "800": 22
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 5,
+        "500": 18,
+        "800": 22
+      }
+    },
+    {
+      "route_id": "100100102",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 5,
+        "800": 6
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 5,
+        "800": 6
+      }
+    },
+    {
+      "route_id": "100100103",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 3,
+        "800": 13
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 3,
+        "800": 13
+      }
+    },
+    {
+      "route_id": "100100104",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 7,
+        "800": 17
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 7,
+        "800": 17
+      }
+    },
+    {
+      "route_id": "100100105",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 7,
+        "800": 17
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 7,
+        "800": 17
+      }
+    },
+    {
+      "route_id": "100100107",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 4,
+        "800": 13
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 4,
+        "800": 13
+      }
+    },
+    {
+      "route_id": "100100110",
+      "candidate_facilities_by_radius": {
+        "300": 6,
+        "500": 11,
+        "800": 14
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 6,
+        "500": 11,
+        "800": 14
+      }
+    },
+    {
+      "route_id": "100100111",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 4,
+        "800": 8
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 4,
+        "800": 8
+      }
+    },
+    {
+      "route_id": "100100112",
+      "candidate_facilities_by_radius": {
+        "300": 10,
+        "500": 19,
+        "800": 23
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 10,
+        "500": 18,
+        "800": 22
+      }
+    },
+    {
+      "route_id": "100100114",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 6,
+        "800": 16
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 6,
+        "800": 16
+      }
+    },
+    {
+      "route_id": "100100116",
+      "candidate_facilities_by_radius": {
+        "300": 9,
+        "500": 18,
+        "800": 19
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 9,
+        "500": 18,
+        "800": 19
+      }
+    },
+    {
+      "route_id": "100100117",
+      "candidate_facilities_by_radius": {
+        "300": 5,
+        "500": 10,
+        "800": 14
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 5,
+        "500": 10,
+        "800": 14
+      }
+    },
+    {
+      "route_id": "100100118",
+      "candidate_facilities_by_radius": {
+        "300": 5,
+        "500": 8,
+        "800": 15
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 5,
+        "500": 8,
+        "800": 15
+      }
+    },
+    {
+      "route_id": "100100124",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 1,
+        "800": 2
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 1,
+        "800": 2
+      }
+    },
+    {
+      "route_id": "100100129",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 3,
+        "800": 3
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 3,
+        "800": 3
+      }
+    },
+    {
+      "route_id": "100100130",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 5,
+        "800": 7
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 5,
+        "800": 7
+      }
+    },
+    {
+      "route_id": "100100131",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 2,
+        "800": 2
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 2,
+        "800": 2
+      }
+    },
+    {
+      "route_id": "100100132",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 3,
+        "800": 6
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 3,
+        "800": 6
+      }
+    },
+    {
+      "route_id": "100100133",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 2
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 2
+      }
+    },
+    {
+      "route_id": "100100134",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 1
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 1
+      }
+    },
+    {
+      "route_id": "100100137",
+      "candidate_facilities_by_radius": {
+        "300": 6,
+        "500": 16,
+        "800": 23
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 6,
+        "500": 13,
+        "800": 20
+      }
+    },
+    {
+      "route_id": "100100138",
+      "candidate_facilities_by_radius": {
+        "300": 6,
+        "500": 13,
+        "800": 28
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 6,
+        "500": 10,
+        "800": 25
+      }
+    },
+    {
+      "route_id": "100100139",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 6,
+        "800": 6
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 6,
+        "800": 6
+      }
+    },
+    {
+      "route_id": "100100142",
+      "candidate_facilities_by_radius": {
+        "300": 8,
+        "500": 11,
+        "800": 13
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 8,
+        "500": 11,
+        "800": 13
+      }
+    },
+    {
+      "route_id": "100100143",
+      "candidate_facilities_by_radius": {
+        "300": 7,
+        "500": 12,
+        "800": 14
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 7,
+        "500": 12,
+        "800": 14
+      }
+    },
+    {
+      "route_id": "100100144",
+      "candidate_facilities_by_radius": {
+        "300": 7,
+        "500": 10,
+        "800": 17
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 7,
+        "500": 10,
+        "800": 17
+      }
+    },
+    {
+      "route_id": "100100145",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 5,
+        "800": 9
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 5,
+        "800": 9
+      }
+    },
+    {
+      "route_id": "100100146",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 1,
+        "800": 1
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 1,
+        "800": 1
+      }
+    },
+    {
+      "route_id": "100100147",
+      "candidate_facilities_by_radius": {
+        "300": 5,
+        "500": 6,
+        "800": 8
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 5,
+        "500": 6,
+        "800": 8
+      }
+    },
+    {
+      "route_id": "100100148",
+      "candidate_facilities_by_radius": {
+        "300": 10,
+        "500": 13,
+        "800": 14
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 10,
+        "500": 13,
+        "800": 14
+      }
+    },
+    {
+      "route_id": "100100149",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 6,
+        "800": 7
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 6,
+        "800": 7
+      }
+    },
+    {
+      "route_id": "100100150",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 3,
+        "800": 19
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 3,
+        "800": 16
+      }
+    },
+    {
+      "route_id": "100100151",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 1,
+        "800": 1
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 1,
+        "800": 1
+      }
+    },
+    {
+      "route_id": "100100152",
+      "candidate_facilities_by_radius": {
+        "300": 6,
+        "500": 8,
+        "800": 22
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 6,
+        "500": 8,
+        "800": 19
+      }
+    },
+    {
+      "route_id": "100100153",
+      "candidate_facilities_by_radius": {
+        "300": 6,
+        "500": 12,
+        "800": 17
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 6,
+        "500": 12,
+        "800": 17
+      }
+    },
+    {
+      "route_id": "100100154",
+      "candidate_facilities_by_radius": {
+        "300": 6,
+        "500": 15,
+        "800": 28
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 6,
+        "500": 15,
+        "800": 25
+      }
+    },
+    {
+      "route_id": "100100155",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 8,
+        "800": 21
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 8,
+        "800": 18
+      }
+    },
+    {
+      "route_id": "100100156",
+      "candidate_facilities_by_radius": {
+        "300": 5,
+        "500": 8,
+        "800": 11
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 5,
+        "500": 8,
+        "800": 11
+      }
+    },
+    {
+      "route_id": "100100157",
+      "candidate_facilities_by_radius": {
+        "300": 5,
+        "500": 6,
+        "800": 13
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 5,
+        "500": 6,
+        "800": 13
+      }
+    },
+    {
+      "route_id": "100100158",
+      "candidate_facilities_by_radius": {
+        "300": 5,
+        "500": 17,
+        "800": 19
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 5,
+        "500": 17,
+        "800": 19
+      }
+    },
+    {
+      "route_id": "100100159",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 10,
+        "800": 24
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 7,
+        "800": 21
+      }
+    },
+    {
+      "route_id": "100100164",
+      "candidate_facilities_by_radius": {
+        "300": 8,
+        "500": 10,
+        "800": 13
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 8,
+        "500": 10,
+        "800": 13
+      }
+    },
+    {
+      "route_id": "100100166",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 5,
+        "800": 5
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 5,
+        "800": 5
+      }
+    },
+    {
+      "route_id": "100100170",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 2,
+        "800": 2
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 2,
+        "800": 2
+      }
+    },
+    {
+      "route_id": "100100171",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 1
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 1
+      }
+    },
+    {
+      "route_id": "100100172",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 7,
+        "800": 8
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 7,
+        "800": 8
+      }
+    },
+    {
+      "route_id": "100100175",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 1,
+        "800": 2
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 1,
+        "800": 2
+      }
+    },
+    {
+      "route_id": "100100177",
+      "candidate_facilities_by_radius": {
+        "300": 9,
+        "500": 11,
+        "800": 11
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 9,
+        "500": 11,
+        "800": 11
+      }
+    },
+    {
+      "route_id": "100100178",
+      "candidate_facilities_by_radius": {
+        "300": 7,
+        "500": 9,
+        "800": 11
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 7,
+        "500": 9,
+        "800": 11
+      }
+    },
+    {
+      "route_id": "100100179",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 1,
+        "800": 2
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 1,
+        "800": 2
+      }
+    },
+    {
+      "route_id": "100100181",
+      "candidate_facilities_by_radius": {
+        "300": 10,
+        "500": 14,
+        "800": 18
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 10,
+        "500": 14,
+        "800": 18
+      }
+    },
+    {
+      "route_id": "100100183",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 1,
+        "800": 1
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 1,
+        "800": 1
+      }
+    },
+    {
+      "route_id": "100100184",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 3,
+        "800": 13
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 3,
+        "800": 13
+      }
+    },
+    {
+      "route_id": "100100185",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 6,
+        "800": 8
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 6,
+        "800": 8
+      }
+    },
+    {
+      "route_id": "100100186",
+      "candidate_facilities_by_radius": {
+        "300": 6,
+        "500": 10,
+        "800": 14
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 6,
+        "500": 9,
+        "800": 13
+      }
+    },
+    {
+      "route_id": "100100188",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 5,
+        "800": 9
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 5,
+        "800": 9
+      }
+    },
+    {
+      "route_id": "100100189",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 3,
+        "800": 7
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 3,
+        "800": 7
+      }
+    },
+    {
+      "route_id": "100100190",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 9,
+        "800": 11
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 9,
+        "800": 11
+      }
+    },
+    {
+      "route_id": "100100191",
+      "candidate_facilities_by_radius": {
+        "300": 7,
+        "500": 11,
+        "800": 12
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 6,
+        "500": 10,
+        "800": 11
+      }
+    },
+    {
+      "route_id": "100100192",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 4,
+        "800": 4
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 4,
+        "800": 4
+      }
+    },
+    {
+      "route_id": "100100193",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 3,
+        "800": 3
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 3,
+        "800": 3
+      }
+    },
+    {
+      "route_id": "100100194",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 3,
+        "800": 5
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 3,
+        "800": 4
+      }
+    },
+    {
+      "route_id": "100100198",
+      "candidate_facilities_by_radius": {
+        "300": 7,
+        "500": 11,
+        "800": 14
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 7,
+        "500": 10,
+        "800": 13
+      }
+    },
+    {
+      "route_id": "100100199",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 7,
+        "800": 8
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 7,
+        "800": 8
+      }
+    },
+    {
+      "route_id": "100100201",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 3,
+        "800": 3
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 3,
+        "800": 3
+      }
+    },
+    {
+      "route_id": "100100202",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 3,
+        "800": 8
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 3,
+        "800": 7
+      }
+    },
+    {
+      "route_id": "100100203",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 3,
+        "800": 4
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 3,
+        "800": 4
+      }
+    },
+    {
+      "route_id": "100100204",
+      "candidate_facilities_by_radius": {
+        "300": 8,
+        "500": 10,
+        "800": 11
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 7,
+        "500": 9,
+        "800": 10
+      }
+    },
+    {
+      "route_id": "100100209",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 4,
+        "800": 6
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 4,
+        "800": 6
+      }
+    },
+    {
+      "route_id": "100100210",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 1,
+        "800": 1
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 1,
+        "800": 1
+      }
+    },
+    {
+      "route_id": "100100211",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 1,
+        "800": 3
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 1,
+        "800": 3
+      }
+    },
+    {
+      "route_id": "100100212",
+      "candidate_facilities_by_radius": {
+        "300": 6,
+        "500": 10,
+        "800": 12
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 6,
+        "500": 10,
+        "800": 12
+      }
+    },
+    {
+      "route_id": "100100213",
+      "candidate_facilities_by_radius": {
+        "300": 6,
+        "500": 9,
+        "800": 11
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 6,
+        "500": 8,
+        "800": 10
+      }
+    },
+    {
+      "route_id": "100100215",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 9,
+        "800": 13
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 7,
+        "800": 11
+      }
+    },
+    {
+      "route_id": "100100216",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 7,
+        "800": 15
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 7,
+        "800": 14
+      }
+    },
+    {
+      "route_id": "100100218",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 8,
+        "800": 11
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 7,
+        "800": 9
+      }
+    },
+    {
+      "route_id": "100100219",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 4,
+        "800": 13
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 3,
+        "800": 12
+      }
+    },
+    {
+      "route_id": "100100220",
+      "candidate_facilities_by_radius": {
+        "300": 7,
+        "500": 10,
+        "800": 14
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 7,
+        "500": 9,
+        "800": 13
+      }
+    },
+    {
+      "route_id": "100100221",
+      "candidate_facilities_by_radius": {
+        "300": 5,
+        "500": 10,
+        "800": 14
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 5,
+        "500": 9,
+        "800": 13
+      }
+    },
+    {
+      "route_id": "100100222",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 5,
+        "800": 10
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 5,
+        "800": 9
+      }
+    },
+    {
+      "route_id": "100100223",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 10,
+        "800": 14
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 9,
+        "800": 13
+      }
+    },
+    {
+      "route_id": "100100224",
+      "candidate_facilities_by_radius": {
+        "300": 10,
+        "500": 11,
+        "800": 17
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 10,
+        "500": 11,
+        "800": 17
+      }
+    },
+    {
+      "route_id": "100100225",
+      "candidate_facilities_by_radius": {
+        "300": 12,
+        "500": 16,
+        "800": 21
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 12,
+        "500": 16,
+        "800": 21
+      }
+    },
+    {
+      "route_id": "100100226",
+      "candidate_facilities_by_radius": {
+        "300": 7,
+        "500": 8,
+        "800": 9
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 6,
+        "500": 7,
+        "800": 8
+      }
+    },
+    {
+      "route_id": "100100228",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 7,
+        "800": 8
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 6,
+        "800": 7
+      }
+    },
+    {
+      "route_id": "100100229",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 6,
+        "800": 10
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 5,
+        "800": 9
+      }
+    },
+    {
+      "route_id": "100100232",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 9,
+        "800": 9
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 9,
+        "800": 9
+      }
+    },
+    {
+      "route_id": "100100234",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 4,
+        "800": 10
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 4,
+        "800": 9
+      }
+    },
+    {
+      "route_id": "100100237",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 3,
+        "800": 4
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 3,
+        "800": 4
+      }
+    },
+    {
+      "route_id": "100100246",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 1
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 1
+      }
+    },
+    {
+      "route_id": "100100247",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 1
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 1
+      }
+    },
+    {
+      "route_id": "100100248",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 10,
+        "800": 13
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 10,
+        "800": 13
+      }
+    },
+    {
+      "route_id": "100100249",
+      "candidate_facilities_by_radius": {
+        "300": 11,
+        "500": 12,
+        "800": 16
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 11,
+        "500": 12,
+        "800": 16
+      }
+    },
+    {
+      "route_id": "100100250",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 5
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 5
+      }
+    },
+    {
+      "route_id": "100100251",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 4
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 4
+      }
+    },
+    {
+      "route_id": "100100252",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 1,
+        "800": 3
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 1,
+        "800": 3
+      }
+    },
+    {
+      "route_id": "100100253",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 2,
+        "800": 7
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 2,
+        "800": 7
+      }
+    },
+    {
+      "route_id": "100100254",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 10,
+        "800": 12
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 10,
+        "800": 12
+      }
+    },
+    {
+      "route_id": "100100255",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 2,
+        "800": 5
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 2,
+        "800": 5
+      }
+    },
+    {
+      "route_id": "100100259",
+      "candidate_facilities_by_radius": {
+        "300": 9,
+        "500": 9,
+        "800": 9
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 9,
+        "500": 9,
+        "800": 9
+      }
+    },
+    {
+      "route_id": "100100260",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 9,
+        "800": 13
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 9,
+        "800": 13
+      }
+    },
+    {
+      "route_id": "100100261",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 3,
+        "800": 8
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 3,
+        "800": 8
+      }
+    },
+    {
+      "route_id": "100100263",
+      "candidate_facilities_by_radius": {
+        "300": 5,
+        "500": 6,
+        "800": 9
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 5,
+        "500": 6,
+        "800": 9
+      }
+    },
+    {
+      "route_id": "100100264",
+      "candidate_facilities_by_radius": {
+        "300": 13,
+        "500": 15,
+        "800": 15
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 13,
+        "500": 15,
+        "800": 15
+      }
+    },
+    {
+      "route_id": "100100265",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 6,
+        "800": 8
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 6,
+        "800": 8
+      }
+    },
+    {
+      "route_id": "100100266",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 4,
+        "800": 6
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 4,
+        "800": 6
+      }
+    },
+    {
+      "route_id": "100100267",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 10,
+        "800": 15
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 10,
+        "800": 15
+      }
+    },
+    {
+      "route_id": "100100268",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 5,
+        "800": 7
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 5,
+        "800": 7
+      }
+    },
+    {
+      "route_id": "100100269",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 4,
+        "800": 6
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 4,
+        "800": 6
+      }
+    },
+    {
+      "route_id": "100100272",
+      "candidate_facilities_by_radius": {
+        "300": 7,
+        "500": 8,
+        "800": 11
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 7,
+        "500": 8,
+        "800": 11
+      }
+    },
+    {
+      "route_id": "100100273",
+      "candidate_facilities_by_radius": {
+        "300": 7,
+        "500": 9,
+        "800": 14
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 7,
+        "500": 9,
+        "800": 14
+      }
+    },
+    {
+      "route_id": "100100274",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 4,
+        "800": 4
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 4,
+        "800": 4
+      }
+    },
+    {
+      "route_id": "100100275",
+      "candidate_facilities_by_radius": {
+        "300": 9,
+        "500": 12,
+        "800": 14
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 9,
+        "500": 12,
+        "800": 14
+      }
+    },
+    {
+      "route_id": "100100276",
+      "candidate_facilities_by_radius": {
+        "300": 6,
+        "500": 6,
+        "800": 11
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 6,
+        "500": 6,
+        "800": 11
+      }
+    },
+    {
+      "route_id": "100100277",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 4,
+        "800": 11
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 4,
+        "800": 11
+      }
+    },
+    {
+      "route_id": "100100278",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 1,
+        "800": 1
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 1,
+        "800": 1
+      }
+    },
+    {
+      "route_id": "100100279",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 6,
+        "800": 8
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 6,
+        "800": 8
+      }
+    },
+    {
+      "route_id": "100100281",
+      "candidate_facilities_by_radius": {
+        "300": 5,
+        "500": 7,
+        "800": 10
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 5,
+        "500": 7,
+        "800": 10
+      }
+    },
+    {
+      "route_id": "100100282",
+      "candidate_facilities_by_radius": {
+        "300": 10,
+        "500": 13,
+        "800": 14
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 10,
+        "500": 13,
+        "800": 14
+      }
+    },
+    {
+      "route_id": "100100283",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 3,
+        "800": 4
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 3,
+        "800": 4
+      }
+    },
+    {
+      "route_id": "100100284",
+      "candidate_facilities_by_radius": {
+        "300": 5,
+        "500": 7,
+        "800": 9
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 5,
+        "500": 7,
+        "800": 9
+      }
+    },
+    {
+      "route_id": "100100285",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 5,
+        "800": 8
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 5,
+        "800": 8
+      }
+    },
+    {
+      "route_id": "100100286",
+      "candidate_facilities_by_radius": {
+        "300": 5,
+        "500": 11,
+        "800": 16
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 5,
+        "500": 11,
+        "800": 16
+      }
+    },
+    {
+      "route_id": "100100287",
+      "candidate_facilities_by_radius": {
+        "300": 6,
+        "500": 8,
+        "800": 13
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 6,
+        "500": 8,
+        "800": 13
+      }
+    },
+    {
+      "route_id": "100100288",
+      "candidate_facilities_by_radius": {
+        "300": 7,
+        "500": 8,
+        "800": 13
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 7,
+        "500": 8,
+        "800": 13
+      }
+    },
+    {
+      "route_id": "100100289",
+      "candidate_facilities_by_radius": {
+        "300": 8,
+        "500": 10,
+        "800": 20
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 8,
+        "500": 10,
+        "800": 20
+      }
+    },
+    {
+      "route_id": "100100290",
+      "candidate_facilities_by_radius": {
+        "300": 7,
+        "500": 8,
+        "800": 16
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 7,
+        "500": 8,
+        "800": 16
+      }
+    },
+    {
+      "route_id": "100100291",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 10,
+        "800": 16
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 10,
+        "800": 16
+      }
+    },
+    {
+      "route_id": "100100292",
+      "candidate_facilities_by_radius": {
+        "300": 13,
+        "500": 17,
+        "800": 22
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 13,
+        "500": 17,
+        "800": 22
+      }
+    },
+    {
+      "route_id": "100100293",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 6,
+        "800": 10
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 6,
+        "800": 10
+      }
+    },
+    {
+      "route_id": "100100294",
+      "candidate_facilities_by_radius": {
+        "300": 5,
+        "500": 11,
+        "800": 15
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 5,
+        "500": 11,
+        "800": 15
+      }
+    },
+    {
+      "route_id": "100100295",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 6,
+        "800": 10
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 6,
+        "800": 10
+      }
+    },
+    {
+      "route_id": "100100297",
+      "candidate_facilities_by_radius": {
+        "300": 5,
+        "500": 7,
+        "800": 8
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 5,
+        "500": 7,
+        "800": 8
+      }
+    },
+    {
+      "route_id": "100100298",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 3,
+        "800": 4
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 3,
+        "800": 4
+      }
+    },
+    {
+      "route_id": "100100299",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 3,
+        "800": 5
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 3,
+        "800": 5
+      }
+    },
+    {
+      "route_id": "100100300",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 1,
+        "800": 3
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 1,
+        "800": 3
+      }
+    },
+    {
+      "route_id": "100100301",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 3,
+        "800": 5
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 3,
+        "800": 5
+      }
+    },
+    {
+      "route_id": "100100302",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 5,
+        "800": 6
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 5,
+        "800": 6
+      }
+    },
+    {
+      "route_id": "100100303",
+      "candidate_facilities_by_radius": {
+        "300": 7,
+        "500": 8,
+        "800": 10
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 7,
+        "500": 8,
+        "800": 10
+      }
+    },
+    {
+      "route_id": "100100304",
+      "candidate_facilities_by_radius": {
+        "300": 5,
+        "500": 10,
+        "800": 13
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 5,
+        "500": 10,
+        "800": 13
+      }
+    },
+    {
+      "route_id": "100100305",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 6,
+        "800": 10
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 6,
+        "800": 10
+      }
+    },
+    {
+      "route_id": "100100306",
+      "candidate_facilities_by_radius": {
+        "300": 6,
+        "500": 12,
+        "800": 19
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 6,
+        "500": 12,
+        "800": 19
+      }
+    },
+    {
+      "route_id": "100100307",
+      "candidate_facilities_by_radius": {
+        "300": 7,
+        "500": 10,
+        "800": 15
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 7,
+        "500": 10,
+        "800": 15
+      }
+    },
+    {
+      "route_id": "100100308",
+      "candidate_facilities_by_radius": {
+        "300": 11,
+        "500": 14,
+        "800": 16
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 11,
+        "500": 14,
+        "800": 16
+      }
+    },
+    {
+      "route_id": "100100309",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 4,
+        "800": 8
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 4,
+        "800": 8
+      }
+    },
+    {
+      "route_id": "100100312",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 3,
+        "800": 9
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 3,
+        "800": 9
+      }
+    },
+    {
+      "route_id": "100100313",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 2,
+        "800": 4
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 2,
+        "800": 4
+      }
+    },
+    {
+      "route_id": "100100316",
+      "candidate_facilities_by_radius": {
+        "300": 9,
+        "500": 13,
+        "800": 14
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 9,
+        "500": 13,
+        "800": 14
+      }
+    },
+    {
+      "route_id": "100100318",
+      "candidate_facilities_by_radius": {
+        "300": 8,
+        "500": 12,
+        "800": 14
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 8,
+        "500": 12,
+        "800": 14
+      }
+    },
+    {
+      "route_id": "100100320",
+      "candidate_facilities_by_radius": {
+        "300": 7,
+        "500": 7,
+        "800": 7
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 7,
+        "500": 7,
+        "800": 7
+      }
+    },
+    {
+      "route_id": "100100329",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 4,
+        "800": 8
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 4,
+        "800": 8
+      }
+    },
+    {
+      "route_id": "100100330",
+      "candidate_facilities_by_radius": {
+        "300": 8,
+        "500": 13,
+        "800": 17
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 8,
+        "500": 13,
+        "800": 17
+      }
+    },
+    {
+      "route_id": "100100331",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 5,
+        "800": 7
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 5,
+        "800": 6
+      }
+    },
+    {
+      "route_id": "100100332",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 4,
+        "800": 6
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 4,
+        "800": 6
+      }
+    },
+    {
+      "route_id": "100100337",
+      "candidate_facilities_by_radius": {
+        "300": 6,
+        "500": 9,
+        "800": 15
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 6,
+        "500": 9,
+        "800": 15
+      }
+    },
+    {
+      "route_id": "100100338",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 7,
+        "800": 7
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 7,
+        "800": 7
+      }
+    },
+    {
+      "route_id": "100100339",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 8,
+        "800": 13
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 8,
+        "800": 13
+      }
+    },
+    {
+      "route_id": "100100340",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 6,
+        "800": 14
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 6,
+        "800": 14
+      }
+    },
+    {
+      "route_id": "100100341",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 8,
+        "800": 14
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 8,
+        "800": 14
+      }
+    },
+    {
+      "route_id": "100100342",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 3,
+        "800": 7
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 3,
+        "800": 7
+      }
+    },
+    {
+      "route_id": "100100344",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 2,
+        "800": 6
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 2,
+        "800": 6
+      }
+    },
+    {
+      "route_id": "100100345",
+      "candidate_facilities_by_radius": {
+        "300": 5,
+        "500": 9,
+        "800": 14
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 5,
+        "500": 9,
+        "800": 13
+      }
+    },
+    {
+      "route_id": "100100346",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 2,
+        "800": 3
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 2,
+        "800": 3
+      }
+    },
+    {
+      "route_id": "100100347",
+      "candidate_facilities_by_radius": {
+        "300": 6,
+        "500": 7,
+        "800": 9
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 6,
+        "500": 7,
+        "800": 9
+      }
+    },
+    {
+      "route_id": "100100348",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 3,
+        "800": 4
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 3,
+        "800": 4
+      }
+    },
+    {
+      "route_id": "100100349",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 4,
+        "800": 6
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 4,
+        "800": 6
+      }
+    },
+    {
+      "route_id": "100100352",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 2,
+        "800": 6
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 2,
+        "800": 6
+      }
+    },
+    {
+      "route_id": "100100353",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 3,
+        "800": 4
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 3,
+        "800": 4
+      }
+    },
+    {
+      "route_id": "100100354",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 0
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 0
+      }
+    },
+    {
+      "route_id": "100100357",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 1,
+        "800": 3
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 1,
+        "800": 3
+      }
+    },
+    {
+      "route_id": "100100358",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 1,
+        "800": 4
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 1,
+        "800": 4
+      }
+    },
+    {
+      "route_id": "100100359",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 3,
+        "800": 7
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 3,
+        "800": 7
+      }
+    },
+    {
+      "route_id": "100100360",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 8,
+        "800": 8
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 8,
+        "800": 8
+      }
+    },
+    {
+      "route_id": "100100363",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 4,
+        "800": 6
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 4,
+        "800": 6
+      }
+    },
+    {
+      "route_id": "100100364",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 3,
+        "800": 5
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 3,
+        "800": 5
+      }
+    },
+    {
+      "route_id": "100100383",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 5,
+        "800": 9
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 5,
+        "800": 9
+      }
+    },
+    {
+      "route_id": "100100387",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 8,
+        "800": 8
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 8,
+        "800": 8
+      }
+    },
+    {
+      "route_id": "100100407",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 8,
+        "800": 8
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 7,
+        "800": 7
+      }
+    },
+    {
+      "route_id": "100100409",
+      "candidate_facilities_by_radius": {
+        "300": 8,
+        "500": 16,
+        "800": 20
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 8,
+        "500": 16,
+        "800": 20
+      }
+    },
+    {
+      "route_id": "100100410",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 3,
+        "800": 9
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 3,
+        "800": 9
+      }
+    },
+    {
+      "route_id": "100100425",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 5,
+        "800": 5
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 5,
+        "800": 5
+      }
+    },
+    {
+      "route_id": "100100427",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 3,
+        "800": 10
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 3,
+        "800": 10
+      }
+    },
+    {
+      "route_id": "100100437",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 1,
+        "800": 1
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 1,
+        "800": 1
+      }
+    },
+    {
+      "route_id": "100100438",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 5,
+        "800": 11
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 5,
+        "800": 11
+      }
+    },
+    {
+      "route_id": "100100440",
+      "candidate_facilities_by_radius": {
+        "300": 6,
+        "500": 8,
+        "800": 11
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 6,
+        "500": 8,
+        "800": 11
+      }
+    },
+    {
+      "route_id": "100100446",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 5,
+        "800": 9
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 5,
+        "800": 9
+      }
+    },
+    {
+      "route_id": "100100447",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 7,
+        "800": 13
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 7,
+        "800": 13
+      }
+    },
+    {
+      "route_id": "100100448",
+      "candidate_facilities_by_radius": {
+        "300": 5,
+        "500": 11,
+        "800": 19
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 5,
+        "500": 11,
+        "800": 18
+      }
+    },
+    {
+      "route_id": "100100449",
+      "candidate_facilities_by_radius": {
+        "300": 5,
+        "500": 11,
+        "800": 19
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 5,
+        "500": 11,
+        "800": 18
+      }
+    },
+    {
+      "route_id": "100100450",
+      "candidate_facilities_by_radius": {
+        "300": 12,
+        "500": 17,
+        "800": 17
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 12,
+        "500": 16,
+        "800": 16
+      }
+    },
+    {
+      "route_id": "100100451",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 4,
+        "800": 8
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 4,
+        "800": 8
+      }
+    },
+    {
+      "route_id": "100100453",
+      "candidate_facilities_by_radius": {
+        "300": 5,
+        "500": 6,
+        "800": 8
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 5,
+        "500": 6,
+        "800": 8
+      }
+    },
+    {
+      "route_id": "100100454",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 11,
+        "800": 15
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 11,
+        "800": 15
+      }
+    },
+    {
+      "route_id": "100100459",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 7,
+        "800": 15
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 7,
+        "800": 15
+      }
+    },
+    {
+      "route_id": "100100462",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 7,
+        "800": 10
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 7,
+        "800": 10
+      }
+    },
+    {
+      "route_id": "100100478",
+      "candidate_facilities_by_radius": {
+        "300": 6,
+        "500": 8,
+        "800": 11
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 6,
+        "500": 8,
+        "800": 10
+      }
+    },
+    {
+      "route_id": "100100495",
+      "candidate_facilities_by_radius": {
+        "300": 9,
+        "500": 14,
+        "800": 17
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 9,
+        "500": 14,
+        "800": 16
+      }
+    },
+    {
+      "route_id": "100100496",
+      "candidate_facilities_by_radius": {
+        "300": 5,
+        "500": 10,
+        "800": 15
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 5,
+        "500": 10,
+        "800": 15
+      }
+    },
+    {
+      "route_id": "100100497",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 7,
+        "800": 10
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 7,
+        "800": 10
+      }
+    },
+    {
+      "route_id": "100100498",
+      "candidate_facilities_by_radius": {
+        "300": 8,
+        "500": 17,
+        "800": 23
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 7,
+        "500": 15,
+        "800": 21
+      }
+    },
+    {
+      "route_id": "100100499",
+      "candidate_facilities_by_radius": {
+        "300": 7,
+        "500": 9,
+        "800": 12
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 7,
+        "500": 9,
+        "800": 12
+      }
+    },
+    {
+      "route_id": "100100500",
+      "candidate_facilities_by_radius": {
+        "300": 8,
+        "500": 10,
+        "800": 10
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 8,
+        "500": 10,
+        "800": 10
+      }
+    },
+    {
+      "route_id": "100100501",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 5,
+        "800": 8
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 5,
+        "800": 7
+      }
+    },
+    {
+      "route_id": "100100511",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 1,
+        "800": 3
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 1,
+        "800": 3
+      }
+    },
+    {
+      "route_id": "100100521",
+      "candidate_facilities_by_radius": {
+        "300": 9,
+        "500": 14,
+        "800": 21
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 9,
+        "500": 14,
+        "800": 21
+      }
+    },
+    {
+      "route_id": "100100522",
+      "candidate_facilities_by_radius": {
+        "300": 5,
+        "500": 10,
+        "800": 10
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 9,
+        "800": 9
+      }
+    },
+    {
+      "route_id": "100100537",
+      "candidate_facilities_by_radius": {
+        "300": 5,
+        "500": 10,
+        "800": 15
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 5,
+        "500": 10,
+        "800": 14
+      }
+    },
+    {
+      "route_id": "100100549",
+      "candidate_facilities_by_radius": {
+        "300": 10,
+        "500": 13,
+        "800": 26
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 10,
+        "500": 13,
+        "800": 23
+      }
+    },
+    {
+      "route_id": "100100550",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 10,
+        "800": 14
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 10,
+        "800": 14
+      }
+    },
+    {
+      "route_id": "100100551",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 10,
+        "800": 11
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 10,
+        "800": 11
+      }
+    },
+    {
+      "route_id": "100100552",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 2,
+        "800": 5
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 2,
+        "800": 5
+      }
+    },
+    {
+      "route_id": "100100553",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 6,
+        "800": 11
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 6,
+        "800": 11
+      }
+    },
+    {
+      "route_id": "100100564",
+      "candidate_facilities_by_radius": {
+        "300": 6,
+        "500": 11,
+        "800": 17
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 6,
+        "500": 11,
+        "800": 17
+      }
+    },
+    {
+      "route_id": "100100565",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 5,
+        "800": 16
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 5,
+        "800": 16
+      }
+    },
+    {
+      "route_id": "100100566",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 1
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 1
+      }
+    },
+    {
+      "route_id": "100100574",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 5,
+        "800": 5
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 5,
+        "800": 5
+      }
+    },
+    {
+      "route_id": "100100576",
+      "candidate_facilities_by_radius": {
+        "300": 10,
+        "500": 13,
+        "800": 21
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 10,
+        "500": 13,
+        "800": 21
+      }
+    },
+    {
+      "route_id": "100100578",
+      "candidate_facilities_by_radius": {
+        "300": 10,
+        "500": 12,
+        "800": 13
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 10,
+        "500": 11,
+        "800": 12
+      }
+    },
+    {
+      "route_id": "100100579",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 5,
+        "800": 16
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 5,
+        "800": 16
+      }
+    },
+    {
+      "route_id": "100100583",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 2,
+        "800": 3
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 2,
+        "800": 3
+      }
+    },
+    {
+      "route_id": "100100587",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 3,
+        "800": 13
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 3,
+        "800": 13
+      }
+    },
+    {
+      "route_id": "100100595",
+      "candidate_facilities_by_radius": {
+        "300": 7,
+        "500": 8,
+        "800": 15
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 7,
+        "500": 8,
+        "800": 15
+      }
+    },
+    {
+      "route_id": "100100596",
+      "candidate_facilities_by_radius": {
+        "300": 6,
+        "500": 8,
+        "800": 15
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 5,
+        "500": 7,
+        "800": 14
+      }
+    },
+    {
+      "route_id": "100100597",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 5,
+        "800": 10
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 5,
+        "800": 10
+      }
+    },
+    {
+      "route_id": "100100599",
+      "candidate_facilities_by_radius": {
+        "300": 8,
+        "500": 15,
+        "800": 21
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 8,
+        "500": 13,
+        "800": 19
+      }
+    },
+    {
+      "route_id": "100100601",
+      "candidate_facilities_by_radius": {
+        "300": 8,
+        "500": 10,
+        "800": 13
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 8,
+        "500": 10,
+        "800": 13
+      }
+    },
+    {
+      "route_id": "100100602",
+      "candidate_facilities_by_radius": {
+        "300": 8,
+        "500": 9,
+        "800": 14
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 8,
+        "500": 9,
+        "800": 14
+      }
+    },
+    {
+      "route_id": "100100604",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 3,
+        "800": 5
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 3,
+        "800": 5
+      }
+    },
+    {
+      "route_id": "100100605",
+      "candidate_facilities_by_radius": {
+        "300": 9,
+        "500": 14,
+        "800": 22
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 8,
+        "500": 13,
+        "800": 21
+      }
+    },
+    {
+      "route_id": "100100609",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 5,
+        "800": 9
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 5,
+        "800": 9
+      }
+    },
+    {
+      "route_id": "100100612",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 6,
+        "800": 8
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 6,
+        "800": 8
+      }
+    },
+    {
+      "route_id": "100100613",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 5,
+        "800": 10
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 5,
+        "800": 9
+      }
+    },
+    {
+      "route_id": "102000001",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 0
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 0
+      }
+    },
+    {
+      "route_id": "103000001",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 2,
+        "800": 2
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 2,
+        "800": 2
+      }
+    },
+    {
+      "route_id": "104000006",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 9,
+        "800": 11
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 8,
+        "800": 10
+      }
+    },
+    {
+      "route_id": "104000009",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 3,
+        "800": 22
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 3,
+        "800": 19
+      }
+    },
+    {
+      "route_id": "104000010",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 8,
+        "800": 10
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 7,
+        "800": 9
+      }
+    },
+    {
+      "route_id": "104000012",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 8,
+        "800": 9
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 7,
+        "800": 8
+      }
+    },
+    {
+      "route_id": "104000013",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 4,
+        "800": 7
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 3,
+        "800": 6
+      }
+    },
+    {
+      "route_id": "104000014",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 9,
+        "800": 9
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 9,
+        "800": 9
+      }
+    },
+    {
+      "route_id": "106000001",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 1,
+        "800": 4
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 1,
+        "800": 3
+      }
+    },
+    {
+      "route_id": "106000005",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 0
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 0
+      }
+    },
+    {
+      "route_id": "106000006",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 0
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 0
+      }
+    },
+    {
+      "route_id": "107000001",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 0
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 0
+      }
+    },
+    {
+      "route_id": "107000002",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 6,
+        "800": 12
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 6,
+        "800": 12
+      }
+    },
+    {
+      "route_id": "107000004",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 0
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 0
+      }
+    },
+    {
+      "route_id": "107000007",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 1,
+        "800": 3
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 1,
+        "800": 3
+      }
+    },
+    {
+      "route_id": "107000008",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 8,
+        "800": 16
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 8,
+        "800": 15
+      }
+    },
+    {
+      "route_id": "107000009",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 5,
+        "800": 5
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 5,
+        "800": 5
+      }
+    },
+    {
+      "route_id": "108000001",
+      "candidate_facilities_by_radius": {
+        "300": 8,
+        "500": 9,
+        "800": 10
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 8,
+        "500": 9,
+        "800": 10
+      }
+    },
+    {
+      "route_id": "108000002",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 12,
+        "800": 15
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 12,
+        "800": 15
+      }
+    },
+    {
+      "route_id": "109000002",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 1
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 1
+      }
+    },
+    {
+      "route_id": "109000003",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 1
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 1
+      }
+    },
+    {
+      "route_id": "109000004",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 1
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 1
+      }
+    },
+    {
+      "route_id": "109000006",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 2
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 2
+      }
+    },
+    {
+      "route_id": "110000002",
+      "candidate_facilities_by_radius": {
+        "300": 9,
+        "500": 10,
+        "800": 17
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 8,
+        "500": 9,
+        "800": 16
+      }
+    },
+    {
+      "route_id": "110000004",
+      "candidate_facilities_by_radius": {
+        "300": 9,
+        "500": 15,
+        "800": 37
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 8,
+        "500": 14,
+        "800": 33
+      }
+    },
+    {
+      "route_id": "110000005",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 13,
+        "800": 18
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 13,
+        "800": 18
+      }
+    },
+    {
+      "route_id": "110000006",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 5,
+        "800": 8
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 5,
+        "800": 8
+      }
+    },
+    {
+      "route_id": "110000007",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 3,
+        "800": 9
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 3,
+        "800": 9
+      }
+    },
+    {
+      "route_id": "110000008",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 3,
+        "800": 9
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 3,
+        "800": 9
+      }
+    },
+    {
+      "route_id": "110000009",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 2,
+        "800": 2
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 2,
+        "800": 2
+      }
+    },
+    {
+      "route_id": "111000008",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 4,
+        "800": 7
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 4,
+        "800": 6
+      }
+    },
+    {
+      "route_id": "111000009",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 6,
+        "800": 6
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 6,
+        "800": 6
+      }
+    },
+    {
+      "route_id": "111000010",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 2,
+        "800": 5
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 2,
+        "800": 5
+      }
+    },
+    {
+      "route_id": "111000014",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 7,
+        "800": 9
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 7,
+        "800": 9
+      }
+    },
+    {
+      "route_id": "111000019",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 3,
+        "800": 5
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 3,
+        "800": 5
+      }
+    },
+    {
+      "route_id": "111000021",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 1,
+        "800": 1
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 1,
+        "800": 1
+      }
+    },
+    {
+      "route_id": "111000022",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 3,
+        "800": 13
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 3,
+        "800": 13
+      }
+    },
+    {
+      "route_id": "111000023",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 2
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 2
+      }
+    },
+    {
+      "route_id": "111000025",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 1,
+        "800": 1
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 1,
+        "800": 1
+      }
+    },
+    {
+      "route_id": "111000026",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 2
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 2
+      }
+    },
+    {
+      "route_id": "111000027",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 3,
+        "800": 9
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 3,
+        "800": 9
+      }
+    },
+    {
+      "route_id": "111000028",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 3,
+        "800": 9
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 3,
+        "800": 9
+      }
+    },
+    {
+      "route_id": "111000029",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 5,
+        "800": 5
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 4,
+        "800": 4
+      }
+    },
+    {
+      "route_id": "112000005",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 4,
+        "800": 6
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 3,
+        "800": 5
+      }
+    },
+    {
+      "route_id": "112000006",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 2,
+        "800": 2
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 2,
+        "800": 2
+      }
+    },
+    {
+      "route_id": "113000002",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 9,
+        "800": 10
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 9,
+        "800": 10
+      }
+    },
+    {
+      "route_id": "113000003",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 2,
+        "800": 2
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 2,
+        "800": 2
+      }
+    },
+    {
+      "route_id": "113000007",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 5,
+        "800": 5
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 4,
+        "800": 4
+      }
+    },
+    {
+      "route_id": "114000002",
+      "candidate_facilities_by_radius": {
+        "300": 6,
+        "500": 6,
+        "800": 16
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 6,
+        "500": 6,
+        "800": 16
+      }
+    },
+    {
+      "route_id": "114000003",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 4,
+        "800": 15
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 4,
+        "800": 14
+      }
+    },
+    {
+      "route_id": "115000005",
+      "candidate_facilities_by_radius": {
+        "300": 7,
+        "500": 7,
+        "800": 12
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 7,
+        "500": 7,
+        "800": 12
+      }
+    },
+    {
+      "route_id": "115000007",
+      "candidate_facilities_by_radius": {
+        "300": 4,
+        "500": 10,
+        "800": 19
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 4,
+        "500": 10,
+        "800": 19
+      }
+    },
+    {
+      "route_id": "115000011",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 0
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 0
+      }
+    },
+    {
+      "route_id": "115000012",
+      "candidate_facilities_by_radius": {
+        "300": 6,
+        "500": 11,
+        "800": 15
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 6,
+        "500": 11,
+        "800": 15
+      }
+    },
+    {
+      "route_id": "115000013",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 0
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 0
+      }
+    },
+    {
+      "route_id": "115000014",
+      "candidate_facilities_by_radius": {
+        "300": 5,
+        "500": 6,
+        "800": 10
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 5,
+        "500": 6,
+        "800": 10
+      }
+    },
+    {
+      "route_id": "116000001",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 2,
+        "800": 2
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 2,
+        "800": 2
+      }
+    },
+    {
+      "route_id": "116000002",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 2,
+        "800": 3
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 2,
+        "800": 3
+      }
+    },
+    {
+      "route_id": "116000004",
+      "candidate_facilities_by_radius": {
+        "300": 6,
+        "500": 12,
+        "800": 16
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 6,
+        "500": 12,
+        "800": 16
+      }
+    },
+    {
+      "route_id": "116000005",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 1,
+        "800": 3
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 1,
+        "800": 3
+      }
+    },
+    {
+      "route_id": "116000006",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 2,
+        "800": 9
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 2,
+        "800": 9
+      }
+    },
+    {
+      "route_id": "120000003",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 1,
+        "800": 2
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 1,
+        "800": 2
+      }
+    },
+    {
+      "route_id": "121000002",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 0
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 0,
+        "800": 0
+      }
+    },
+    {
+      "route_id": "122000001",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 1,
+        "800": 1
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 1,
+        "800": 1
+      }
+    },
+    {
+      "route_id": "123000010",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 11,
+        "800": 15
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 11,
+        "800": 15
+      }
+    },
+    {
+      "route_id": "123000011",
+      "candidate_facilities_by_radius": {
+        "300": 1,
+        "500": 4,
+        "800": 9
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 1,
+        "500": 4,
+        "800": 9
+      }
+    },
+    {
+      "route_id": "124000008",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 5,
+        "800": 5
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 5,
+        "800": 5
+      }
+    },
+    {
+      "route_id": "124000010",
+      "candidate_facilities_by_radius": {
+        "300": 2,
+        "500": 5,
+        "800": 9
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 2,
+        "500": 4,
+        "800": 8
+      }
+    },
+    {
+      "route_id": "124000036",
+      "candidate_facilities_by_radius": {
+        "300": 0,
+        "500": 3,
+        "800": 9
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 0,
+        "500": 3,
+        "800": 9
+      }
+    },
+    {
+      "route_id": "124000038",
+      "candidate_facilities_by_radius": {
+        "300": 5,
+        "500": 6,
+        "800": 10
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 5,
+        "500": 6,
+        "800": 10
+      }
+    },
+    {
+      "route_id": "124000039",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 5,
+        "800": 8
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 5,
+        "800": 8
+      }
+    },
+    {
+      "route_id": "124000040",
+      "candidate_facilities_by_radius": {
+        "300": 3,
+        "500": 3,
+        "800": 5
+      },
+      "road_building_matching_candidates_by_radius": {
+        "300": 3,
+        "500": 3,
+        "800": 5
+      }
+    }
+  ],
+  "warning": "Unreviewed coordinate sensitivity only, not verified accessibility, walking routes, passenger demand, or low-floor service. Road/building string agreement is not a building inspection. Each facility counted once per route/radius and once in global coverage; route counts overlap and must not be summed. Stations cover the selected 375-route scope, not every bus route."
+}

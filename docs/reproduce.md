@@ -35,3 +35,11 @@ python -m src.figures
 - 가상·중복 정류장을 제외한 생활권 입력은 노선·정류장 연결 27,823개다.
 - 배차 이력 검사 결과가 실제시각을 검증했다고 표시해서는 안 된다.
 - `.env`, 원본, 행 단위 가공 자료와 설치 도구는 Git 제외 대상이다.
+
+## 거리 참조 대조
+
+```powershell
+python -m src.distance_reference --operations data/raw/tdata_vehicle_operations.csv --nodes data/raw/tdata_route_nodes.csv --stations data/raw/tdata_stations.csv --route-audit outputs/public/route_master_audit.json --output outputs/public/distance_reference_audit.json
+```
+
+시설 좌표 수집은 별도 키와 건물 위치 검수가 필요하다. 절차와 해석 한계는 `research/2026-10-18-distance-and-geocoding.md`에 기록했다. 아직 실제 지오코딩 요청을 검증한 단계는 아니다.

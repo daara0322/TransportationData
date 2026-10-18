@@ -62,3 +62,12 @@ python -m src.facility_catchments --facilities data/processed/facility_geocode_c
 ```
 
 층·호수 등 단지 내부 상세 정보가 검색 쿼리에서 빠질 수 있으므로 재조회 응답도 실제 건물 위치의 확정값이 아니다.
+
+## 시설 주변 노선의 전체 기록 구성
+
+```powershell
+python -m src.facility_supply --facilities data/processed/facility_geocode_candidates_refined.csv --edges data/processed/route_station_edges.csv --supply outputs/public/supply_records.json --output outputs/public/facility_supply_diagnostic.json --details-output data/processed/facility_supply_review.csv
+python -m src.facility_supply_figure
+```
+
+시설별 출력은 새 경로만 허용하며 입력·출력 경로가 서로 같으면 중단한다. 이 분석은 노선 전체의 기록 구성을 연결한 사전 진단이고 정류장 단위 실측 도착비율이 아니다. 해석은 `research/2026-10-18-facility-supply.md`를 참고한다.

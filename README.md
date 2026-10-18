@@ -16,7 +16,7 @@
 
 현황 분석은 ID·명칭과 유형을 확인한 간선·지선 후보 375개, 운행통계 112,864행으로 진행했다. 현재 분류를 연결한 저상 55,989행·일반 15,449행과 미확인 41,426행을 구분했다. 이 기록은 완주 운행 횟수나 승객 수로 확정하지 않았다.
 
-정류장·경로와 시설 주소도 확보했다. 시설 좌표·연료·거리 정의가 미확인이어서 공간 수요 격차와 탄소 전환안은 아직 계산하지 않았다. 배차 이력은 시각의 규칙성이 높고 역전 기록이 있어 실제 관측인지 확인 전 대기시간 분석에 사용하지 않는다.
+정류장·경로와 시설 주소도 확보했다. 미검수 시설 좌표 후보를 이용한 거리·주변 노선 구성 사전 진단까지 진행했다. 실제 공간 수요 격차와 탄소 전환안은 아직 검증하지 않았다. 배차 이력은 시각의 규칙성이 높고 역전 기록이 있어 실제 관측인지 확인 전 대기시간 분석에 사용하지 않는다.
 
 전체 상태는 [진행 체크리스트](docs/progress-checklist.md), 실행은 [재현 순서](docs/reproduce.md), 새 집계는 [진행 기록](docs/research/2026-10-17-supply-and-spatial-progress.md), 제출 조건은 [요건 확인](docs/submission-requirements.md)에 정리했다.
 
@@ -40,3 +40,5 @@ python -m src.audit_route_master --master data/raw/tdata_route_master.csv --vehi
 API 수집에는 `.env.example`을 참고해 로컬 `.env`에 인증키를 설정한다. `.env`는 Git 제외 대상이다. `python -m src.bus_positions --routes-file configs/probe_routes.json`으로 최대 40개 노선을 수집한다. 매번 API 호출을 사용하며 응답 시점에 따라 결과가 달라진다. AI 활용 내역은 `docs/ai_usage.md`에 기록한다.
 
 시설 주소 대조와 미검수 좌표의 정류장 거리 사전 진단: [진행 결과](docs/research/2026-10-18-facility-catchments.md). 좌표 후보는 확정 접근성이나 실제 이용 수요를 뜻하지 않는다.
+
+시설 주변 노선의 저상 기록 구성은 [사전 진단](docs/research/2026-10-18-facility-supply.md)에 정리했다. 노선 전체 기록을 연결했으며 정류장 도착비율·대기시간·수요·탄소 효과는 미검증이다.

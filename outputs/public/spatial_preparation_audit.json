@@ -1,0 +1,15 @@
+{
+  "eligible_node_rows": 82647,
+  "inactive_node_rows": 0,
+  "nodes_not_in_station_master": 54352,
+  "inactive_station_nodes": 0,
+  "virtual_station_nodes": 102,
+  "invalid_coordinate_nodes": 0,
+  "duplicate_edges": 370,
+  "route_station_edges": 27823,
+  "unique_stations": 7922,
+  "routes_with_stations": 375,
+  "eligible_routes_without_stations": [],
+  "coordinate_check": "124..132 longitude, 33..40 latitude; broad plausibility check, not a Seoul boundary",
+  "warning": "Unique route/station edges discard route order and direction; do not use as directed paths or sum repeated station catchments."
+}

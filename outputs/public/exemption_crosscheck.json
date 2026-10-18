@@ -1,0 +1,175 @@
+{
+  "source": "https://news.seoul.go.kr/traffic/archives/513625",
+  "table_routes": 25,
+  "table_buses": 235,
+  "overlap_buses_already_included": 16,
+  "eligible_scope_matched_routes": 23,
+  "matched_routes": [
+    {
+      "route_name": "0017",
+      "approved_buses": "9",
+      "primary_constraint": "bridge_clearance",
+      "additional_charging_overlap_buses": "9",
+      "route_id": "100100124"
+    },
+    {
+      "route_name": "2114",
+      "approved_buses": "13",
+      "primary_constraint": "bridge_clearance",
+      "additional_charging_overlap_buses": "0",
+      "route_id": "100100193"
+    },
+    {
+      "route_name": "5519",
+      "approved_buses": "6",
+      "primary_constraint": "steep_grade",
+      "additional_charging_overlap_buses": "6",
+      "route_id": "100100255"
+    },
+    {
+      "route_name": "8003",
+      "approved_buses": "2",
+      "primary_constraint": "narrow_road",
+      "additional_charging_overlap_buses": "1",
+      "route_id": "107000004"
+    },
+    {
+      "route_name": "1014",
+      "approved_buses": "12",
+      "primary_constraint": "charging_and_medium_bus_supply",
+      "additional_charging_overlap_buses": "0",
+      "route_id": "100100129"
+    },
+    {
+      "route_name": "1114",
+      "approved_buses": "4",
+      "primary_constraint": "charging_and_medium_bus_supply",
+      "additional_charging_overlap_buses": "0",
+      "route_id": "100100134"
+    },
+    {
+      "route_name": "1119",
+      "approved_buses": "20",
+      "primary_constraint": "charging_and_medium_bus_supply",
+      "additional_charging_overlap_buses": "0",
+      "route_id": "100100137"
+    },
+    {
+      "route_name": "1122",
+      "approved_buses": "16",
+      "primary_constraint": "charging_and_medium_bus_supply",
+      "additional_charging_overlap_buses": "0",
+      "route_id": "100100425"
+    },
+    {
+      "route_name": "1126",
+      "approved_buses": "20",
+      "primary_constraint": "charging_and_medium_bus_supply",
+      "additional_charging_overlap_buses": "0",
+      "route_id": "100100142"
+    },
+    {
+      "route_name": "1129",
+      "approved_buses": "3",
+      "primary_constraint": "charging_and_medium_bus_supply",
+      "additional_charging_overlap_buses": "0",
+      "route_id": "100100145"
+    },
+    {
+      "route_name": "1130",
+      "approved_buses": "5",
+      "primary_constraint": "charging_and_medium_bus_supply",
+      "additional_charging_overlap_buses": "0",
+      "route_id": "100100146"
+    },
+    {
+      "route_name": "1133",
+      "approved_buses": "7",
+      "primary_constraint": "charging_and_medium_bus_supply",
+      "additional_charging_overlap_buses": "0",
+      "route_id": "100100149"
+    },
+    {
+      "route_name": "1136",
+      "approved_buses": "6",
+      "primary_constraint": "charging_and_medium_bus_supply",
+      "additional_charging_overlap_buses": "0",
+      "route_id": "100100151"
+    },
+    {
+      "route_name": "1141",
+      "approved_buses": "6",
+      "primary_constraint": "charging_and_medium_bus_supply",
+      "additional_charging_overlap_buses": "0",
+      "route_id": "100100156"
+    },
+    {
+      "route_name": "1162",
+      "approved_buses": "7",
+      "primary_constraint": "charging_and_medium_bus_supply",
+      "additional_charging_overlap_buses": "0",
+      "route_id": "100100170"
+    },
+    {
+      "route_name": "1164",
+      "approved_buses": "12",
+      "primary_constraint": "charging_and_medium_bus_supply",
+      "additional_charging_overlap_buses": "0",
+      "route_id": "100100171"
+    },
+    {
+      "route_name": "1226",
+      "approved_buses": "2",
+      "primary_constraint": "charging_and_medium_bus_supply",
+      "additional_charging_overlap_buses": "0",
+      "route_id": "100100183"
+    },
+    {
+      "route_name": "2113",
+      "approved_buses": "13",
+      "primary_constraint": "charging_and_medium_bus_supply",
+      "additional_charging_overlap_buses": "0",
+      "route_id": "100100192"
+    },
+    {
+      "route_name": "4433",
+      "approved_buses": "8",
+      "primary_constraint": "charging_and_medium_bus_supply",
+      "additional_charging_overlap_buses": "0",
+      "route_id": "100100247"
+    },
+    {
+      "route_name": "5621",
+      "approved_buses": "8",
+      "primary_constraint": "charging_and_medium_bus_supply",
+      "additional_charging_overlap_buses": "0",
+      "route_id": "100100278"
+    },
+    {
+      "route_name": "6624",
+      "approved_buses": "18",
+      "primary_constraint": "charging_and_medium_bus_supply",
+      "additional_charging_overlap_buses": "0",
+      "route_id": "100100302"
+    },
+    {
+      "route_name": "7024",
+      "approved_buses": "5",
+      "primary_constraint": "charging_and_medium_bus_supply",
+      "additional_charging_overlap_buses": "0",
+      "route_id": "100100342"
+    },
+    {
+      "route_name": "8101",
+      "approved_buses": "1",
+      "primary_constraint": "charging_and_medium_bus_supply",
+      "additional_charging_overlap_buses": "0",
+      "route_id": "110000005"
+    }
+  ],
+  "unmatched_exception_names": [
+    "2115",
+    "8777"
+  ],
+  "warning": "No listed exception does not imply conversion feasibility. Counts describe source table, not verified current fleet. Charging overlap is not added to total."
+}

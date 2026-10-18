@@ -2550,15 +2550,33 @@
     "acquired_date_kst": "2026-10-17"
   },
   {
-    "file": "linkage_run.log",
-    "bytes": 124641,
-    "sha256": "B424E0B1552FBF980EBA0395EFA587D16958EEF98AB8C2FC74228572EA90F33B",
+    "file": "competition_attachment_1.hwp",
+    "bytes": 114688,
+    "sha256": "46E683923160BEB772AD4EB4DD6E01961DE284B4303C6E7EA63F6F0DDF18E8DE",
     "acquired_date_kst": "2026-10-17"
   },
   {
-    "file": "portal_electric_bus_search.html",
-    "bytes": 447267,
-    "sha256": "F9D20B165E6490E2F278ACBDD780FF04FEA137193C7C5BB52F27D1EC1334AEE6",
+    "file": "competition_attachment_1_text.txt",
+    "bytes": 9953,
+    "sha256": "BFAEA162E547EACA2F236E638C2A00DFBBAD80A06E8A91D20B916ECC75448EE5",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "competition_attachment_2.hwp",
+    "bytes": 104960,
+    "sha256": "0A34E8EE013EC6DE0706D090542B0CC269790BD4D5BF7181105520B7B9AA1C15",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "competition_attachment_2_text.txt",
+    "bytes": 2951,
+    "sha256": "47ED1F72AB1A4BE9424107D844431FA51395A1429498EBDA2445B0C7BCC2156A",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "linkage_run.log",
+    "bytes": 124641,
+    "sha256": "B424E0B1552FBF980EBA0395EFA587D16958EEF98AB8C2FC74228572EA90F33B",
     "acquired_date_kst": "2026-10-17"
   },
   {
@@ -2574,15 +2592,15 @@
     "acquired_date_kst": "2026-10-17"
   },
   {
-    "file": "seoul_lowfloor_exceptions_2026_03.png",
-    "bytes": 50829,
-    "sha256": "32E2A660B034C91E6F6875A51A731F0CCC448984C70A0EEAFFBEB3E4011DC390",
+    "file": "seoul_disability_facilities.csv",
+    "bytes": 51561,
+    "sha256": "D236EFE7042F5C259AD04252AB3AC39B01F6AE36405EE7AA8A03674607B79421",
     "acquired_date_kst": "2026-10-17"
   },
   {
-    "file": "tdata_catalog.html",
-    "bytes": 134280,
-    "sha256": "42B99BA8815D96C634AD9DDA11482DC3B3E1B18AC6E1A461DBB313745207E571",
+    "file": "seoul_lowfloor_exceptions_2026_03.png",
+    "bytes": 50829,
+    "sha256": "32E2A660B034C91E6F6875A51A731F0CCC448984C70A0EEAFFBEB3E4011DC390",
     "acquired_date_kst": "2026-10-17"
   },
   {
@@ -2592,27 +2610,33 @@
     "acquired_date_kst": "2026-10-17"
   },
   {
-    "file": "tdata_route_details_page.html",
-    "bytes": 27182,
-    "sha256": "49DBC9277D8A02898BCA1BD25AA33DA14E1FC068AA5F5B44BEE2E5D3651ECA05",
-    "acquired_date_kst": "2026-10-17"
-  },
-  {
     "file": "tdata_route_master.csv",
     "bytes": 634580,
     "sha256": "FF616957CB3E16443BAD2B84F5BE4980CFA615A5323EB4649C26F3C30E2F9074",
     "acquired_date_kst": "2026-10-17"
   },
   {
-    "file": "tdata_route_master_page.html",
-    "bytes": 27168,
-    "sha256": "C4174FD12BD38F5C0B6B9E9FA540ECCDE1593AEFF313BDB0B75A760142BD7587",
+    "file": "tdata_route_nodes.csv",
+    "bytes": 35223357,
+    "sha256": "9560F790CF37011D442A24511CBA72E1A219C01F0609A029487FCBFE3F8E3C8A",
     "acquired_date_kst": "2026-10-17"
   },
   {
-    "file": "tdata_route_search.html",
-    "bytes": 133143,
-    "sha256": "A0FADC15BAC12B25BD319F355A93D3A069E55D0DBBE15B934449F1BEB4FF3C58",
+    "file": "tdata_station_dispatch_history.csv",
+    "bytes": 6679134,
+    "sha256": "F177FBF6E21B0B9A671D08CF3C968A6A4A4143412EAA5BF6BE2C40851BBF8471",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "tdata_stations.csv",
+    "bytes": 14187970,
+    "sha256": "F2018BC1655410E23FA1B1FC2D6A206C1C0F97A74F91BBAE001CA46D418A55F3",
+    "acquired_date_kst": "2026-10-17"
+  },
+  {
+    "file": "tdata_vehicle_dispatch_history.csv",
+    "bytes": 150990,
+    "sha256": "6A397C108676CEC52D9E211F0DC1D8B4DF84263552D587058B8C1AD492B52F8A",
     "acquired_date_kst": "2026-10-17"
   },
   {
@@ -2622,33 +2646,9 @@
     "acquired_date_kst": "2026-10-17"
   },
   {
-    "file": "tdata_vehicle_operations_page.html",
-    "bytes": 27155,
-    "sha256": "242A70B041665E2B93AF3720F24355F60EEC22BB972E60DB9F549F17EDAA1EAD",
-    "acquired_date_kst": "2026-10-17"
-  },
-  {
     "file": "tdata_vehicle_routes.csv",
     "bytes": 594838,
     "sha256": "6954648BBC0D5936F318ADA17FA4820010BEE4EE9B5445ECD40AD398D27C5B43",
-    "acquired_date_kst": "2026-10-17"
-  },
-  {
-    "file": "tdata_vehicle_routes_page.html",
-    "bytes": 27146,
-    "sha256": "7102C66D60E970CBEF74DC62020EF462DF39076C1F7AD9F7AD2CC129D714A61B",
-    "acquired_date_kst": "2026-10-17"
-  },
-  {
-    "file": "tdata_vehicle_search.html",
-    "bytes": 134559,
-    "sha256": "73AEE73597CD2917411187FE532168220FBA6E5B2BB89BE59B461F71E36706C0",
-    "acquired_date_kst": "2026-10-17"
-  },
-  {
-    "file": "tdata_vehicle_search_page2.html",
-    "bytes": 133580,
-    "sha256": "88497624E6FB63B906A8C87C79CA7B489223BB3942B4E1DE04FC8D7359EC0056",
     "acquired_date_kst": "2026-10-17"
   }
 ]

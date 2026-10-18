@@ -1,0 +1,3 @@
+# Analysis, collection and tests use the Python standard library.
+# Only static figure generation requires this package.
+matplotlib==3.11.2

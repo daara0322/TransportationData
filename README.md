@@ -44,3 +44,5 @@ API 수집에는 `.env.example`을 참고해 로컬 `.env`에 인증키를 설�
 시설 주변 노선의 저상 기록 구성은 [사전 진단](docs/research/2026-10-18-facility-supply.md)에 정리했다. 노선 전체 기록을 연결했으며 정류장 도착비율·대기시간·수요·탄소 효과는 미검증이다.
 
 원래 탄소 비교의 미충족 입력과 시설 종류별 연결 범위는 [준비 상태 점검](docs/research/2026-10-18-readiness-and-facility-types.md)에 있다. [기관 문의 초안](docs/requests/bus-data-questions.md)은 팀 발송용이며 아직 보내지 않았다.
+
+한 시설의 두 주소 후보가 약 42m 차이로 300m 진단을 바꾼 [위치 민감도 사례](docs/research/2026-10-19-building-location-sensitivity.md)도 확인했다. 원래 전체 집계와 별도이며 실제 접근성 격차로 확정하지 않았다.

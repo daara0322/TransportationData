@@ -79,3 +79,26 @@ python -m src.facility_types --master data/raw/seoul_disability_facilities.csv -
 ```
 
 원본 CP949 시설 CSV에서 종류별 전체 수를 유지하고 주소 일치 후보의 연결 범위와 기존 50% 진단을 나눈다. 시설 종류를 휠체어 수요 가중치로 사용하지 않는다.
+
+## 같은 시설의 두 주소 대표점 비교
+
+아래 준비 코드는 공개 시나리오 설정을 카카오 수집기가 읽는 CP949 CSV로 만든다. 기존 파일이 있으면 새 작업 경로를 사용한다. 실제 조회에는 로컬 키·네트워크가 필요하며 응답은 캐시된다.
+
+```python
+import csv, json
+from pathlib import Path
+config = json.loads(Path('configs/gangbuk_building_scenarios.json').read_text(encoding='utf-8'))
+with Path('data/processed/gangbuk_building_queries.csv').open('x', encoding='cp949', newline='') as stream:
+    writer = csv.DictWriter(stream, fieldnames=list(config['scenarios'][0]))
+    writer.writeheader()
+    writer.writerows(config['scenarios'])
+```
+
+```powershell
+python -m src.geocode_facilities --source data/processed/gangbuk_building_queries.csv --output data/processed/gangbuk_building_candidates.csv --limit 2
+python -m src.building_sensitivity --reference-id C5044 --candidates data/processed/gangbuk_building_candidates.csv --edges data/processed/route_station_edges.csv --supply outputs/public/supply_records.json --output outputs/public/gangbuk_building_sensitivity.json
+```
+
+이는 시설 1곳의 위치 시나리오 2개다. 원래 시설 전체 집계의 입력으로 합치지 않는다. 별관 주소의 실제 출입구 확인과 보행 동선 검수는 미완료다.
+
+그림은 `python -m src.building_sensitivity_figure`로 공개 비교 JSON에서 재생성한다. 필요한 matplotlib와 한글 글꼴은 위 그림 실행 조건과 동일하다.

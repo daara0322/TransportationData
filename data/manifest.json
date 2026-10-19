@@ -4222,5 +4222,11 @@
     "bytes": 1576,
     "sha256": "ECF06371B3BD4A7E62844FD5C2950625125210F16037741B5EAC38E4228AC636",
     "acquired_date_kst": "2026-10-18"
+  },
+  {
+    "file": "geocoding_cache/73b00e51c6efeac3eb44500fb26b89920bc62733f83973b5e795e012ef3bd417.json",
+    "bytes": 1584,
+    "sha256": "9B3D72169CD9805FE19620409BC654556512F3ECE300E076FDE364D85E3FCA9A",
+    "acquired_date_kst": "2026-10-19"
   }
 ]

@@ -1,0 +1,20 @@
+{
+  "reference_facility_id": "C5044",
+  "source_facility_table": "data/raw/seoul_disability_facilities.csv",
+  "main_address_support": "https://vr.koddi.or.kr/org/org_info_view.jsp?orgCd=123456789000051&seOrgKnd1=1&seSysType=vr",
+  "annex_address_status": "Reported in the source facility address; not independently confirmed as current entrance",
+  "scenarios": [
+    {
+      "시설코드": "C5044_main_scenario",
+      "시설명": "강북장애인종합복지관 본관 주소 시나리오",
+      "시군구명": "강북구",
+      "시설주소": "서울특별시 강북구 오현로 189"
+    },
+    {
+      "시설코드": "C5044_annex_scenario",
+      "시설명": "강북장애인종합복지관 별관 주소 시나리오",
+      "시군구명": "강북구",
+      "시설주소": "서울특별시 강북구 오현로 187-6"
+    }
+  ]
+}

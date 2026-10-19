@@ -1,0 +1,195 @@
+{
+  "reference_facility_id": "C5044",
+  "reference_facilities": 1,
+  "scenario_count": 2,
+  "coordinate_separation_metres": 41.97,
+  "verified_building_or_entrance": false,
+  "scenarios": [
+    {
+      "scenario_id": "C5044_main_scenario",
+      "query_address": "서울특별시 강북구 오현로 189",
+      "by_radius": [
+        {
+          "radius_metres": 300,
+          "nearby_routes": 1,
+          "routes": [
+            {
+              "route_id": "100100139",
+              "route_name": "1124",
+              "nearest_station_metres": 69.1
+            }
+          ],
+          "best_route_share_lower": 0.16615384615384615,
+          "best_route_share_upper": 0.49846153846153846
+        },
+        {
+          "radius_metres": 500,
+          "nearby_routes": 4,
+          "routes": [
+            {
+              "route_id": "100100024",
+              "route_name": "145",
+              "nearest_station_metres": 301.027
+            },
+            {
+              "route_id": "100100132",
+              "route_name": "1111",
+              "nearest_station_metres": 301.027
+            },
+            {
+              "route_id": "100100139",
+              "route_name": "1124",
+              "nearest_station_metres": 69.1
+            },
+            {
+              "route_id": "100100177",
+              "route_name": "1218",
+              "nearest_station_metres": 301.027
+            }
+          ],
+          "best_route_share_lower": 0.7526041666666666,
+          "best_route_share_upper": 1.0
+        },
+        {
+          "radius_metres": 800,
+          "nearby_routes": 6,
+          "routes": [
+            {
+              "route_id": "100100024",
+              "route_name": "145",
+              "nearest_station_metres": 301.027
+            },
+            {
+              "route_id": "100100027",
+              "route_name": "148",
+              "nearest_station_metres": 731.407
+            },
+            {
+              "route_id": "100100132",
+              "route_name": "1111",
+              "nearest_station_metres": 301.027
+            },
+            {
+              "route_id": "100100139",
+              "route_name": "1124",
+              "nearest_station_metres": 69.1
+            },
+            {
+              "route_id": "100100149",
+              "route_name": "1133",
+              "nearest_station_metres": 523.497
+            },
+            {
+              "route_id": "100100177",
+              "route_name": "1218",
+              "nearest_station_metres": 301.027
+            }
+          ],
+          "best_route_share_lower": 0.7526041666666666,
+          "best_route_share_upper": 1.0
+        }
+      ]
+    },
+    {
+      "scenario_id": "C5044_annex_scenario",
+      "query_address": "서울특별시 강북구 오현로 187-6",
+      "by_radius": [
+        {
+          "radius_metres": 300,
+          "nearby_routes": 4,
+          "routes": [
+            {
+              "route_id": "100100024",
+              "route_name": "145",
+              "nearest_station_metres": 284.032
+            },
+            {
+              "route_id": "100100132",
+              "route_name": "1111",
+              "nearest_station_metres": 284.032
+            },
+            {
+              "route_id": "100100139",
+              "route_name": "1124",
+              "nearest_station_metres": 97.594
+            },
+            {
+              "route_id": "100100177",
+              "route_name": "1218",
+              "nearest_station_metres": 284.032
+            }
+          ],
+          "best_route_share_lower": 0.7526041666666666,
+          "best_route_share_upper": 1.0
+        },
+        {
+          "radius_metres": 500,
+          "nearby_routes": 4,
+          "routes": [
+            {
+              "route_id": "100100024",
+              "route_name": "145",
+              "nearest_station_metres": 284.032
+            },
+            {
+              "route_id": "100100132",
+              "route_name": "1111",
+              "nearest_station_metres": 284.032
+            },
+            {
+              "route_id": "100100139",
+              "route_name": "1124",
+              "nearest_station_metres": 97.594
+            },
+            {
+              "route_id": "100100177",
+              "route_name": "1218",
+              "nearest_station_metres": 284.032
+            }
+          ],
+          "best_route_share_lower": 0.7526041666666666,
+          "best_route_share_upper": 1.0
+        },
+        {
+          "radius_metres": 800,
+          "nearby_routes": 6,
+          "routes": [
+            {
+              "route_id": "100100024",
+              "route_name": "145",
+              "nearest_station_metres": 284.032
+            },
+            {
+              "route_id": "100100027",
+              "route_name": "148",
+              "nearest_station_metres": 692.128
+            },
+            {
+              "route_id": "100100132",
+              "route_name": "1111",
+              "nearest_station_metres": 284.032
+            },
+            {
+              "route_id": "100100139",
+              "route_name": "1124",
+              "nearest_station_metres": 97.594
+            },
+            {
+              "route_id": "100100149",
+              "route_name": "1133",
+              "nearest_station_metres": 501.762
+            },
+            {
+              "route_id": "100100177",
+              "route_name": "1218",
+              "nearest_station_metres": 284.032
+            }
+          ],
+          "best_route_share_lower": 0.7526041666666666,
+          "best_route_share_upper": 1.0
+        }
+      ]
+    }
+  ],
+  "warning": "Two address scenarios for ONE facility; do not add them to facility totals. Candidate coordinates are not entrance or walking-route inspections. Whole-route historical record composition remains conditional on current vehicle classification. A radius-threshold change is model sensitivity, not proof of actual access disparity, demand or carbon benefit. The annex address is a reported alternative that requires independent site confirmation."
+}

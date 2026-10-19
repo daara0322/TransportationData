@@ -1,0 +1,270 @@
+{
+  "source_facilities": 274,
+  "linked_candidates": 237,
+  "not_linked": 37,
+  "diagnostic_threshold": 0.5,
+  "by_type": [
+    {
+      "facility_type": "(장애인지역사회재활시설) 수어통역센터",
+      "source_facilities": 26,
+      "linked_candidates": 24,
+      "by_radius": [
+        {
+          "radius_metres": 300,
+          "lower_bound_meets": 21,
+          "upper_bound_below": 1,
+          "uncertain": 0,
+          "no_nearby_route": 2
+        },
+        {
+          "radius_metres": 500,
+          "lower_bound_meets": 23,
+          "upper_bound_below": 1,
+          "uncertain": 0,
+          "no_nearby_route": 0
+        },
+        {
+          "radius_metres": 800,
+          "lower_bound_meets": 24,
+          "upper_bound_below": 0,
+          "uncertain": 0,
+          "no_nearby_route": 0
+        }
+      ],
+      "not_linked": 2
+    },
+    {
+      "facility_type": "(장애인지역사회재활시설) 시각장애인+등+생활지원센터",
+      "source_facilities": 1,
+      "linked_candidates": 1,
+      "by_radius": [
+        {
+          "radius_metres": 300,
+          "lower_bound_meets": 1,
+          "upper_bound_below": 0,
+          "uncertain": 0,
+          "no_nearby_route": 0
+        },
+        {
+          "radius_metres": 500,
+          "lower_bound_meets": 1,
+          "upper_bound_below": 0,
+          "uncertain": 0,
+          "no_nearby_route": 0
+        },
+        {
+          "radius_metres": 800,
+          "lower_bound_meets": 1,
+          "upper_bound_below": 0,
+          "uncertain": 0,
+          "no_nearby_route": 0
+        }
+      ],
+      "not_linked": 0
+    },
+    {
+      "facility_type": "(장애인지역사회재활시설) 장애인복지관",
+      "source_facilities": 58,
+      "linked_candidates": 46,
+      "by_radius": [
+        {
+          "radius_metres": 300,
+          "lower_bound_meets": 35,
+          "upper_bound_below": 1,
+          "uncertain": 3,
+          "no_nearby_route": 7
+        },
+        {
+          "radius_metres": 500,
+          "lower_bound_meets": 46,
+          "upper_bound_below": 0,
+          "uncertain": 0,
+          "no_nearby_route": 0
+        },
+        {
+          "radius_metres": 800,
+          "lower_bound_meets": 46,
+          "upper_bound_below": 0,
+          "uncertain": 0,
+          "no_nearby_route": 0
+        }
+      ],
+      "not_linked": 12
+    },
+    {
+      "facility_type": "(장애인지역사회재활시설) 장애인수련시설",
+      "source_facilities": 1,
+      "linked_candidates": 0,
+      "by_radius": [
+        {
+          "radius_metres": 300,
+          "lower_bound_meets": 0,
+          "upper_bound_below": 0,
+          "uncertain": 0,
+          "no_nearby_route": 0
+        },
+        {
+          "radius_metres": 500,
+          "lower_bound_meets": 0,
+          "upper_bound_below": 0,
+          "uncertain": 0,
+          "no_nearby_route": 0
+        },
+        {
+          "radius_metres": 800,
+          "lower_bound_meets": 0,
+          "upper_bound_below": 0,
+          "uncertain": 0,
+          "no_nearby_route": 0
+        }
+      ],
+      "not_linked": 1
+    },
+    {
+      "facility_type": "(장애인지역사회재활시설) 장애인재활치료시설",
+      "source_facilities": 31,
+      "linked_candidates": 25,
+      "by_radius": [
+        {
+          "radius_metres": 300,
+          "lower_bound_meets": 19,
+          "upper_bound_below": 0,
+          "uncertain": 2,
+          "no_nearby_route": 4
+        },
+        {
+          "radius_metres": 500,
+          "lower_bound_meets": 24,
+          "upper_bound_below": 0,
+          "uncertain": 1,
+          "no_nearby_route": 0
+        },
+        {
+          "radius_metres": 800,
+          "lower_bound_meets": 24,
+          "upper_bound_below": 0,
+          "uncertain": 1,
+          "no_nearby_route": 0
+        }
+      ],
+      "not_linked": 6
+    },
+    {
+      "facility_type": "(장애인지역사회재활시설) 장애인주간이용시설",
+      "source_facilities": 144,
+      "linked_candidates": 133,
+      "by_radius": [
+        {
+          "radius_metres": 300,
+          "lower_bound_meets": 116,
+          "upper_bound_below": 0,
+          "uncertain": 3,
+          "no_nearby_route": 14
+        },
+        {
+          "radius_metres": 500,
+          "lower_bound_meets": 130,
+          "upper_bound_below": 0,
+          "uncertain": 3,
+          "no_nearby_route": 0
+        },
+        {
+          "radius_metres": 800,
+          "lower_bound_meets": 133,
+          "upper_bound_below": 0,
+          "uncertain": 0,
+          "no_nearby_route": 0
+        }
+      ],
+      "not_linked": 11
+    },
+    {
+      "facility_type": "(장애인지역사회재활시설) 장애인체육시설",
+      "source_facilities": 8,
+      "linked_candidates": 5,
+      "by_radius": [
+        {
+          "radius_metres": 300,
+          "lower_bound_meets": 4,
+          "upper_bound_below": 0,
+          "uncertain": 0,
+          "no_nearby_route": 1
+        },
+        {
+          "radius_metres": 500,
+          "lower_bound_meets": 5,
+          "upper_bound_below": 0,
+          "uncertain": 0,
+          "no_nearby_route": 0
+        },
+        {
+          "radius_metres": 800,
+          "lower_bound_meets": 5,
+          "upper_bound_below": 0,
+          "uncertain": 0,
+          "no_nearby_route": 0
+        }
+      ],
+      "not_linked": 3
+    },
+    {
+      "facility_type": "(장애인지역사회재활시설) 점자도서+및+녹음서+출판시설",
+      "source_facilities": 2,
+      "linked_candidates": 1,
+      "by_radius": [
+        {
+          "radius_metres": 300,
+          "lower_bound_meets": 1,
+          "upper_bound_below": 0,
+          "uncertain": 0,
+          "no_nearby_route": 0
+        },
+        {
+          "radius_metres": 500,
+          "lower_bound_meets": 1,
+          "upper_bound_below": 0,
+          "uncertain": 0,
+          "no_nearby_route": 0
+        },
+        {
+          "radius_metres": 800,
+          "lower_bound_meets": 1,
+          "upper_bound_below": 0,
+          "uncertain": 0,
+          "no_nearby_route": 0
+        }
+      ],
+      "not_linked": 1
+    },
+    {
+      "facility_type": "(장애인지역사회재활시설) 점자도서관",
+      "source_facilities": 3,
+      "linked_candidates": 2,
+      "by_radius": [
+        {
+          "radius_metres": 300,
+          "lower_bound_meets": 2,
+          "upper_bound_below": 0,
+          "uncertain": 0,
+          "no_nearby_route": 0
+        },
+        {
+          "radius_metres": 500,
+          "lower_bound_meets": 2,
+          "upper_bound_below": 0,
+          "uncertain": 0,
+          "no_nearby_route": 0
+        },
+        {
+          "radius_metres": 800,
+          "lower_bound_meets": 2,
+          "upper_bound_below": 0,
+          "uncertain": 0,
+          "no_nearby_route": 0
+        }
+      ],
+      "not_linked": 1
+    }
+  ],
+  "warning": "Facility types are retained as supplied, not wheelchair-user demand weights. The 50% threshold is diagnostic only. Linked facilities are unreviewed address-matching candidates. Missing coordinates stay in each source-type denominator. These whole-route composition categories do not verify local arrivals, walking access, travel demand or carbon reductions."
+}

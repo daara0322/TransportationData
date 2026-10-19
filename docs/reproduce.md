@@ -71,3 +71,11 @@ python -m src.facility_supply_figure
 ```
 
 시설별 출력은 새 경로만 허용하며 입력·출력 경로가 서로 같으면 중단한다. 이 분석은 노선 전체의 기록 구성을 연결한 사전 진단이고 정류장 단위 실측 도착비율이 아니다. 해석은 `research/2026-10-18-facility-supply.md`를 참고한다.
+
+## 시설 종류별 연결 범위 점검
+
+```powershell
+python -m src.facility_types --master data/raw/seoul_disability_facilities.csv --details data/processed/facility_supply_review.csv --output outputs/public/facility_type_audit.json
+```
+
+원본 CP949 시설 CSV에서 종류별 전체 수를 유지하고 주소 일치 후보의 연결 범위와 기존 50% 진단을 나눈다. 시설 종류를 휠체어 수요 가중치로 사용하지 않는다.

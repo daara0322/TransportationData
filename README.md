@@ -42,3 +42,5 @@ API 수집에는 `.env.example`을 참고해 로컬 `.env`에 인증키를 설�
 시설 주소 대조와 미검수 좌표의 정류장 거리 사전 진단: [진행 결과](docs/research/2026-10-18-facility-catchments.md). 좌표 후보는 확정 접근성이나 실제 이용 수요를 뜻하지 않는다.
 
 시설 주변 노선의 저상 기록 구성은 [사전 진단](docs/research/2026-10-18-facility-supply.md)에 정리했다. 노선 전체 기록을 연결했으며 정류장 도착비율·대기시간·수요·탄소 효과는 미검증이다.
+
+원래 탄소 비교의 미충족 입력과 시설 종류별 연결 범위는 [준비 상태 점검](docs/research/2026-10-18-readiness-and-facility-types.md)에 있다. [기관 문의 초안](docs/requests/bus-data-questions.md)은 팀 발송용이며 아직 보내지 않았다.

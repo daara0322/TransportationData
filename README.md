@@ -47,6 +47,8 @@ API 수집에는 `.env.example`을 참고해 로컬 `.env`에 인증키를 설�
 
 한 시설의 두 주소 후보가 약 42m 차이로 300m 진단을 바꾼 [위치 민감도 사례](docs/research/2026-10-19-building-location-sensitivity.md)도 확인했다. 원래 전체 집계와 별도이며 실제 접근성 격차로 확정하지 않았다.
 
-검토용 PDF는 [보고서 작업본](output/pdf/analysis_review_draft.pdf), 최종 제출 전 부족 항목은 [제출 준비 대조표](docs/submission-gap-check.md)에 있다. 본문은 5쪽이며 확정한 구성·제약 분석 범위를 담았다. 본인 정보·서명·코드 접근 확인이 남은 검토본이다.
+검토용 PDF는 [보고서 작업본](output/pdf/analysis_review_draft.pdf), 최종 제출 전 부족 항목은 [제출 준비 대조표](docs/submission-gap-check.md)에 있다. 본문은 5쪽이며 확정한 구성·제약 분석 범위를 담았다. 공개 작업본은 개인 정보가 없는 검토본이다. 본인 정보가 들어간 제출 확인본은 Git 제외 폴더에 보관한다.
 
 2026-10-20부터 1인 개인 참가로 진행한다. 현재 역할과 중복 작업을 줄이는 기준은 [작업 기준](docs/working-agreement.md)에 정리했다.
+
+저장소는 2026-10-20 참가자 승인으로 공개 전환했다. 심사용 코드는 [현재 분석 브랜치](https://github.com/daara0322/TransportationData/tree/codex/supply-analysis)를 사용한다. 로그인 없는 README 접근을 확인했으며 원자료와 인증키는 공개하지 않는다.

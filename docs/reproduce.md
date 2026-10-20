@@ -111,3 +111,11 @@ python scripts/build_review_pdf.py
 ```
 
 기본 출력은 `output/pdf/analysis_review_draft.pdf`이며 표지·본문 5쪽·참고자료를 합쳐 총 7쪽이다. Windows 맑은 고딕 경로를 기본으로 사용하며 다른 환경에서는 한글 TrueType 글꼴을 `--font`와 `--bold-font`로 지정한다. 이미 생성한 공개 집계 JSON·그림이 필요하다. 이는 특정 시점 결과를 설명하는 검토용 원고이므로 입력이 바뀌면 문장과 표도 함께 검토해야 한다. 최종 제출 파일로 자동 전환하거나 참가신청서를 작성하지 않는다.
+
+개인 확인본을 만들 때는 로컬 JSON의 `name`, `affiliation`, `motivation`을 사용한다. 개인정보가 있는 출력은 Git 제외 경로만 허용한다.
+
+```powershell
+python scripts/build_review_pdf.py --profile data/processed/submission/profile.json --output data/processed/submission/이름_분석보고서.pdf
+```
+
+원본 신청서는 별도 동의·서명 작성이 필요하며 이 명령이 신청서 작성이나 메일 발송을 대신하지 않는다.

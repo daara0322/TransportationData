@@ -19,15 +19,14 @@
   "draft_marker_on_all_pages": true,
   "ready_for_submission": false,
   "unfilled": [
-    "applicant_name_affiliation_and_personal_motivation",
-    "application_consent_and_signature"
+    "application_contact_consent_and_signature"
   ],
   "unresolved": [
-    "applicant_details_and_signature",
-    "reviewer_code_access",
-    "reproduction_instructions_and_final_review"
+    "participant_final_content_review",
+    "application_contact_consent_signature",
+    "email_attachments_and_sending"
   ],
-  "warning": "Scope agreed by participant: composition and constraint analysis. Carbon and accessibility effects are excluded, not pending inputs. Personal fields, signature and submission access still need final confirmation.",
+  "warning": "Personalized confirmation copy is local and Git-ignored; public PDF is an anonymous working copy. Participant must review motivation and report, sign application and send email. Repository is public; raw data and credentials remain excluded.",
   "participation_mode": "individual",
   "research_scope": "low_floor_composition_facility_links_operational_constraints_location_sensitivity",
   "additional_data_collection_required": false,
@@ -41,5 +40,8 @@
     "conditional_historical_type_linkage",
     "unreviewed_entrances",
     "no_actual_travel_demand"
-  ]
+  ],
+  "repository_visibility": "public",
+  "unauthenticated_branch_readme_access": true,
+  "private_submission_copy_prepared": true
 }

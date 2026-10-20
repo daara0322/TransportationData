@@ -23,12 +23,23 @@
     "application_consent_and_signature"
   ],
   "unresolved": [
-    "fuel_and_distance_definitions",
-    "historical_type_validity",
-    "entrance_and_travel_demand",
+    "applicant_details_and_signature",
     "reviewer_code_access",
-    "clean_external_reproduction"
+    "reproduction_instructions_and_final_review"
   ],
-  "warning": "Formatting and current-result review only. Not final submission, completed carbon comparison, signed application or verified accessibility.",
-  "participation_mode": "individual"
+  "warning": "Scope agreed by participant: composition and constraint analysis. Carbon and accessibility effects are excluded, not pending inputs. Personal fields, signature and submission access still need final confirmation.",
+  "participation_mode": "individual",
+  "research_scope": "low_floor_composition_facility_links_operational_constraints_location_sensitivity",
+  "additional_data_collection_required": false,
+  "excluded_outputs": [
+    "carbon_savings",
+    "optimal_replacement_ranking",
+    "observed_waiting_time",
+    "verified_accessibility_effect"
+  ],
+  "limitations": [
+    "conditional_historical_type_linkage",
+    "unreviewed_entrances",
+    "no_actual_travel_demand"
+  ]
 }

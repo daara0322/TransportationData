@@ -1,0 +1,34 @@
+{
+  "verified_date_kst": "2026-10-20",
+  "artifact": "output/pdf/analysis_review_draft.pdf",
+  "total_pages": 7,
+  "body_pages": 5,
+  "cover_pages": 1,
+  "reference_pages": 1,
+  "embedded_result_images": 5,
+  "images_by_page": [
+    0,
+    0,
+    1,
+    2,
+    2,
+    0,
+    0
+  ],
+  "hyperlink_annotations": 21,
+  "draft_marker_on_all_pages": true,
+  "ready_for_submission": false,
+  "unfilled": [
+    "applicant_name_affiliation_and_personal_motivation",
+    "application_consent_and_signature"
+  ],
+  "unresolved": [
+    "fuel_and_distance_definitions",
+    "historical_type_validity",
+    "entrance_and_travel_demand",
+    "reviewer_code_access",
+    "clean_external_reproduction"
+  ],
+  "warning": "Formatting and current-result review only. Not final submission, completed carbon comparison, signed application or verified accessibility.",
+  "participation_mode": "individual"
+}

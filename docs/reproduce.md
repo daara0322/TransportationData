@@ -102,3 +102,12 @@ python -m src.building_sensitivity --reference-id C5044 --candidates data/proces
 이는 시설 1곳의 위치 시나리오 2개다. 원래 시설 전체 집계의 입력으로 합치지 않는다. 별관 주소의 실제 출입구 확인과 보행 동선 검수는 미완료다.
 
 그림은 `python -m src.building_sensitivity_figure`로 공개 비교 JSON에서 재생성한다. 필요한 matplotlib와 한글 글꼴은 위 그림 실행 조건과 동일하다.
+
+## 검토용 PDF
+
+```powershell
+python -m pip install -r requirements-report.txt
+python scripts/build_review_pdf.py
+```
+
+기본 출력은 `output/pdf/analysis_review_draft.pdf`이며 표지·본문 5쪽·참고자료를 합쳐 총 7쪽이다. Windows 맑은 고딕 경로를 기본으로 사용하며 다른 환경에서는 한글 TrueType 글꼴을 `--font`와 `--bold-font`로 지정한다. 이미 생성한 공개 집계 JSON·그림이 필요하다. 이는 특정 시점 결과를 설명하는 검토용 원고이므로 입력이 바뀌면 문장과 표도 함께 검토해야 한다. 최종 제출 파일로 자동 전환하거나 참가신청서를 작성하지 않는다.

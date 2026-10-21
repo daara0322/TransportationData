@@ -1,0 +1,6054 @@
+{
+  "route_count": 375,
+  "unit": "pooled operation records, not vehicles or station arrivals",
+  "thresholds": [
+    {
+      "percent": 30,
+      "counts": {
+        "low_composition": 6,
+        "operational_constraint": 9,
+        "information_needed": 92,
+        "lower_meets": 268
+      }
+    },
+    {
+      "percent": 50,
+      "counts": {
+        "low_composition": 21,
+        "operational_constraint": 16,
+        "information_needed": 123,
+        "lower_meets": 215
+      }
+    },
+    {
+      "percent": 80,
+      "counts": {
+        "low_composition": 67,
+        "operational_constraint": 22,
+        "information_needed": 280,
+        "lower_meets": 6
+      }
+    }
+  ],
+  "stable_low_below_30": [
+    "103",
+    "172",
+    "1114",
+    "1129",
+    "1130",
+    "1136",
+    "1137",
+    "1226",
+    "2112",
+    "2113",
+    "2114",
+    "5621",
+    "6624",
+    "3317",
+    "422"
+  ],
+  "threshold_sensitive_routes": 316,
+  "routes": [
+    {
+      "route_id": "100100006",
+      "route_name": "101",
+      "records": 482,
+      "low_floor_records": 200,
+      "regular_records": 49,
+      "unknown_records": 233,
+      "lower_bound": 0.4149377593360996,
+      "upper_bound": 0.8983402489626556,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100007",
+      "route_name": "102",
+      "records": 398,
+      "low_floor_records": 235,
+      "regular_records": 0,
+      "unknown_records": 163,
+      "lower_bound": 0.5904522613065326,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100008",
+      "route_name": "103",
+      "records": 508,
+      "low_floor_records": 0,
+      "regular_records": 371,
+      "unknown_records": 137,
+      "lower_bound": 0.0,
+      "upper_bound": 0.26968503937007876,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "low_composition",
+        "50": "low_composition",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100009",
+      "route_name": "104",
+      "records": 456,
+      "low_floor_records": 39,
+      "regular_records": 312,
+      "unknown_records": 105,
+      "lower_bound": 0.08552631578947369,
+      "upper_bound": 0.3157894736842105,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "low_composition",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100010",
+      "route_name": "105",
+      "records": 297,
+      "low_floor_records": 231,
+      "regular_records": 0,
+      "unknown_records": 66,
+      "lower_bound": 0.7777777777777778,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100012",
+      "route_name": "107",
+      "records": 288,
+      "low_floor_records": 168,
+      "regular_records": 0,
+      "unknown_records": 120,
+      "lower_bound": 0.5833333333333334,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100014",
+      "route_name": "109",
+      "records": 300,
+      "low_floor_records": 133,
+      "regular_records": 0,
+      "unknown_records": 167,
+      "lower_bound": 0.44333333333333336,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100017",
+      "route_name": "120",
+      "records": 558,
+      "low_floor_records": 392,
+      "regular_records": 18,
+      "unknown_records": 148,
+      "lower_bound": 0.7025089605734767,
+      "upper_bound": 0.967741935483871,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100018",
+      "route_name": "130",
+      "records": 589,
+      "low_floor_records": 367,
+      "regular_records": 57,
+      "unknown_records": 165,
+      "lower_bound": 0.6230899830220713,
+      "upper_bound": 0.9032258064516129,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100019",
+      "route_name": "140",
+      "records": 528,
+      "low_floor_records": 300,
+      "regular_records": 0,
+      "unknown_records": 228,
+      "lower_bound": 0.5681818181818182,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100020",
+      "route_name": "141",
+      "records": 423,
+      "low_floor_records": 319,
+      "regular_records": 0,
+      "unknown_records": 104,
+      "lower_bound": 0.7541371158392435,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100021",
+      "route_name": "142",
+      "records": 426,
+      "low_floor_records": 346,
+      "regular_records": 0,
+      "unknown_records": 80,
+      "lower_bound": 0.812206572769953,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "lower_meets"
+      }
+    },
+    {
+      "route_id": "100100022",
+      "route_name": "143",
+      "records": 552,
+      "low_floor_records": 442,
+      "regular_records": 0,
+      "unknown_records": 110,
+      "lower_bound": 0.8007246376811594,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "lower_meets"
+      }
+    },
+    {
+      "route_id": "100100023",
+      "route_name": "144",
+      "records": 499,
+      "low_floor_records": 269,
+      "regular_records": 48,
+      "unknown_records": 182,
+      "lower_bound": 0.5390781563126252,
+      "upper_bound": 0.9038076152304609,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100024",
+      "route_name": "145",
+      "records": 468,
+      "low_floor_records": 161,
+      "regular_records": 122,
+      "unknown_records": 185,
+      "lower_bound": 0.344017094017094,
+      "upper_bound": 0.7393162393162394,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100025",
+      "route_name": "146",
+      "records": 439,
+      "low_floor_records": 300,
+      "regular_records": 0,
+      "unknown_records": 139,
+      "lower_bound": 0.683371298405467,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100026",
+      "route_name": "147",
+      "records": 444,
+      "low_floor_records": 296,
+      "regular_records": 0,
+      "unknown_records": 148,
+      "lower_bound": 0.6666666666666666,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100027",
+      "route_name": "148",
+      "records": 426,
+      "low_floor_records": 268,
+      "regular_records": 13,
+      "unknown_records": 145,
+      "lower_bound": 0.6291079812206573,
+      "upper_bound": 0.9694835680751174,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100029",
+      "route_name": "150",
+      "records": 471,
+      "low_floor_records": 289,
+      "regular_records": 0,
+      "unknown_records": 182,
+      "lower_bound": 0.613588110403397,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100030",
+      "route_name": "151",
+      "records": 461,
+      "low_floor_records": 165,
+      "regular_records": 109,
+      "unknown_records": 187,
+      "lower_bound": 0.3579175704989154,
+      "upper_bound": 0.7635574837310195,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100031",
+      "route_name": "152",
+      "records": 446,
+      "low_floor_records": 161,
+      "regular_records": 45,
+      "unknown_records": 240,
+      "lower_bound": 0.3609865470852018,
+      "upper_bound": 0.899103139013453,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100032",
+      "route_name": "163",
+      "records": 495,
+      "low_floor_records": 143,
+      "regular_records": 131,
+      "unknown_records": 221,
+      "lower_bound": 0.28888888888888886,
+      "upper_bound": 0.7353535353535353,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100033",
+      "route_name": "160",
+      "records": 462,
+      "low_floor_records": 246,
+      "regular_records": 0,
+      "unknown_records": 216,
+      "lower_bound": 0.5324675324675324,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100034",
+      "route_name": "162",
+      "records": 466,
+      "low_floor_records": 320,
+      "regular_records": 0,
+      "unknown_records": 146,
+      "lower_bound": 0.6866952789699571,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100036",
+      "route_name": "171",
+      "records": 440,
+      "low_floor_records": 200,
+      "regular_records": 62,
+      "unknown_records": 178,
+      "lower_bound": 0.45454545454545453,
+      "upper_bound": 0.8590909090909091,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100037",
+      "route_name": "172",
+      "records": 298,
+      "low_floor_records": 0,
+      "regular_records": 226,
+      "unknown_records": 72,
+      "lower_bound": 0.0,
+      "upper_bound": 0.24161073825503357,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "low_composition",
+        "50": "low_composition",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100038",
+      "route_name": "201",
+      "records": 231,
+      "low_floor_records": 168,
+      "regular_records": 0,
+      "unknown_records": 63,
+      "lower_bound": 0.7272727272727273,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100039",
+      "route_name": "202",
+      "records": 447,
+      "low_floor_records": 306,
+      "regular_records": 0,
+      "unknown_records": 141,
+      "lower_bound": 0.6845637583892618,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100042",
+      "route_name": "260",
+      "records": 435,
+      "low_floor_records": 324,
+      "regular_records": 0,
+      "unknown_records": 111,
+      "lower_bound": 0.7448275862068966,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100043",
+      "route_name": "261",
+      "records": 384,
+      "low_floor_records": 222,
+      "regular_records": 36,
+      "unknown_records": 126,
+      "lower_bound": 0.578125,
+      "upper_bound": 0.90625,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100044",
+      "route_name": "262",
+      "records": 356,
+      "low_floor_records": 177,
+      "regular_records": 80,
+      "unknown_records": 99,
+      "lower_bound": 0.49719101123595505,
+      "upper_bound": 0.7752808988764045,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100046",
+      "route_name": "270",
+      "records": 384,
+      "low_floor_records": 243,
+      "regular_records": 0,
+      "unknown_records": 141,
+      "lower_bound": 0.6328125,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100047",
+      "route_name": "271",
+      "records": 522,
+      "low_floor_records": 307,
+      "regular_records": 47,
+      "unknown_records": 168,
+      "lower_bound": 0.5881226053639846,
+      "upper_bound": 0.9099616858237548,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100048",
+      "route_name": "272",
+      "records": 601,
+      "low_floor_records": 340,
+      "regular_records": 99,
+      "unknown_records": 162,
+      "lower_bound": 0.5657237936772047,
+      "upper_bound": 0.8352745424292846,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100049",
+      "route_name": "273",
+      "records": 480,
+      "low_floor_records": 296,
+      "regular_records": 0,
+      "unknown_records": 184,
+      "lower_bound": 0.6166666666666667,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100051",
+      "route_name": "301",
+      "records": 507,
+      "low_floor_records": 236,
+      "regular_records": 62,
+      "unknown_records": 209,
+      "lower_bound": 0.46548323471400394,
+      "upper_bound": 0.8777120315581854,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100052",
+      "route_name": "302",
+      "records": 337,
+      "low_floor_records": 194,
+      "regular_records": 12,
+      "unknown_records": 131,
+      "lower_bound": 0.5756676557863502,
+      "upper_bound": 0.9643916913946587,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100053",
+      "route_name": "303",
+      "records": 454,
+      "low_floor_records": 234,
+      "regular_records": 12,
+      "unknown_records": 208,
+      "lower_bound": 0.5154185022026432,
+      "upper_bound": 0.973568281938326,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100055",
+      "route_name": "340",
+      "records": 510,
+      "low_floor_records": 330,
+      "regular_records": 0,
+      "unknown_records": 180,
+      "lower_bound": 0.6470588235294118,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100056",
+      "route_name": "341",
+      "records": 276,
+      "low_floor_records": 159,
+      "regular_records": 0,
+      "unknown_records": 117,
+      "lower_bound": 0.5760869565217391,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100057",
+      "route_name": "360",
+      "records": 587,
+      "low_floor_records": 304,
+      "regular_records": 23,
+      "unknown_records": 260,
+      "lower_bound": 0.5178875638841567,
+      "upper_bound": 0.9608177172061328,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100061",
+      "route_name": "370",
+      "records": 513,
+      "low_floor_records": 375,
+      "regular_records": 0,
+      "unknown_records": 138,
+      "lower_bound": 0.7309941520467836,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100062",
+      "route_name": "401",
+      "records": 312,
+      "low_floor_records": 180,
+      "regular_records": 34,
+      "unknown_records": 98,
+      "lower_bound": 0.5769230769230769,
+      "upper_bound": 0.8910256410256411,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100063",
+      "route_name": "402",
+      "records": 408,
+      "low_floor_records": 268,
+      "regular_records": 4,
+      "unknown_records": 136,
+      "lower_bound": 0.6568627450980392,
+      "upper_bound": 0.9901960784313726,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100064",
+      "route_name": "406",
+      "records": 309,
+      "low_floor_records": 186,
+      "regular_records": 0,
+      "unknown_records": 123,
+      "lower_bound": 0.6019417475728155,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100068",
+      "route_name": "420",
+      "records": 457,
+      "low_floor_records": 238,
+      "regular_records": 0,
+      "unknown_records": 219,
+      "lower_bound": 0.5207877461706784,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100070",
+      "route_name": "441",
+      "records": 312,
+      "low_floor_records": 224,
+      "regular_records": 0,
+      "unknown_records": 88,
+      "lower_bound": 0.717948717948718,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100071",
+      "route_name": "461",
+      "records": 345,
+      "low_floor_records": 197,
+      "regular_records": 34,
+      "unknown_records": 114,
+      "lower_bound": 0.5710144927536231,
+      "upper_bound": 0.9014492753623189,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100073",
+      "route_name": "470",
+      "records": 380,
+      "low_floor_records": 204,
+      "regular_records": 12,
+      "unknown_records": 164,
+      "lower_bound": 0.5368421052631579,
+      "upper_bound": 0.968421052631579,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100075",
+      "route_name": "472",
+      "records": 438,
+      "low_floor_records": 246,
+      "regular_records": 0,
+      "unknown_records": 192,
+      "lower_bound": 0.5616438356164384,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100076",
+      "route_name": "500",
+      "records": 432,
+      "low_floor_records": 210,
+      "regular_records": 27,
+      "unknown_records": 195,
+      "lower_bound": 0.4861111111111111,
+      "upper_bound": 0.9375,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100077",
+      "route_name": "501",
+      "records": 361,
+      "low_floor_records": 274,
+      "regular_records": 0,
+      "unknown_records": 87,
+      "lower_bound": 0.7590027700831025,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100078",
+      "route_name": "503",
+      "records": 215,
+      "low_floor_records": 130,
+      "regular_records": 0,
+      "unknown_records": 85,
+      "lower_bound": 0.6046511627906976,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100079",
+      "route_name": "504",
+      "records": 443,
+      "low_floor_records": 329,
+      "regular_records": 0,
+      "unknown_records": 114,
+      "lower_bound": 0.7426636568848759,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100080",
+      "route_name": "505",
+      "records": 327,
+      "low_floor_records": 88,
+      "regular_records": 93,
+      "unknown_records": 146,
+      "lower_bound": 0.2691131498470948,
+      "upper_bound": 0.7155963302752294,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100081",
+      "route_name": "506",
+      "records": 275,
+      "low_floor_records": 184,
+      "regular_records": 0,
+      "unknown_records": 91,
+      "lower_bound": 0.6690909090909091,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100082",
+      "route_name": "507",
+      "records": 360,
+      "low_floor_records": 187,
+      "regular_records": 50,
+      "unknown_records": 123,
+      "lower_bound": 0.5194444444444445,
+      "upper_bound": 0.8611111111111112,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100083",
+      "route_name": "540",
+      "records": 414,
+      "low_floor_records": 246,
+      "regular_records": 0,
+      "unknown_records": 168,
+      "lower_bound": 0.5942028985507246,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100084",
+      "route_name": "571",
+      "records": 286,
+      "low_floor_records": 194,
+      "regular_records": 0,
+      "unknown_records": 92,
+      "lower_bound": 0.6783216783216783,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100085",
+      "route_name": "600",
+      "records": 462,
+      "low_floor_records": 218,
+      "regular_records": 0,
+      "unknown_records": 244,
+      "lower_bound": 0.47186147186147187,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100086",
+      "route_name": "601",
+      "records": 405,
+      "low_floor_records": 242,
+      "regular_records": 0,
+      "unknown_records": 163,
+      "lower_bound": 0.5975308641975309,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100087",
+      "route_name": "602",
+      "records": 396,
+      "low_floor_records": 230,
+      "regular_records": 0,
+      "unknown_records": 166,
+      "lower_bound": 0.5808080808080808,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100088",
+      "route_name": "603",
+      "records": 336,
+      "low_floor_records": 195,
+      "regular_records": 0,
+      "unknown_records": 141,
+      "lower_bound": 0.5803571428571429,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100089",
+      "route_name": "604",
+      "records": 284,
+      "low_floor_records": 187,
+      "regular_records": 0,
+      "unknown_records": 97,
+      "lower_bound": 0.6584507042253521,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100090",
+      "route_name": "605",
+      "records": 313,
+      "low_floor_records": 114,
+      "regular_records": 117,
+      "unknown_records": 82,
+      "lower_bound": 0.36421725239616615,
+      "upper_bound": 0.6261980830670927,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100091",
+      "route_name": "606",
+      "records": 242,
+      "low_floor_records": 160,
+      "regular_records": 0,
+      "unknown_records": 82,
+      "lower_bound": 0.6611570247933884,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100093",
+      "route_name": "640",
+      "records": 330,
+      "low_floor_records": 196,
+      "regular_records": 34,
+      "unknown_records": 100,
+      "lower_bound": 0.593939393939394,
+      "upper_bound": 0.896969696969697,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100094",
+      "route_name": "641",
+      "records": 510,
+      "low_floor_records": 283,
+      "regular_records": 30,
+      "unknown_records": 197,
+      "lower_bound": 0.5549019607843138,
+      "upper_bound": 0.9411764705882353,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100096",
+      "route_name": "643",
+      "records": 411,
+      "low_floor_records": 281,
+      "regular_records": 0,
+      "unknown_records": 130,
+      "lower_bound": 0.683698296836983,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100097",
+      "route_name": "650",
+      "records": 354,
+      "low_floor_records": 147,
+      "regular_records": 50,
+      "unknown_records": 157,
+      "lower_bound": 0.4152542372881356,
+      "upper_bound": 0.8587570621468926,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100098",
+      "route_name": "651",
+      "records": 320,
+      "low_floor_records": 200,
+      "regular_records": 25,
+      "unknown_records": 95,
+      "lower_bound": 0.625,
+      "upper_bound": 0.921875,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100099",
+      "route_name": "652",
+      "records": 326,
+      "low_floor_records": 97,
+      "regular_records": 97,
+      "unknown_records": 132,
+      "lower_bound": 0.29754601226993865,
+      "upper_bound": 0.7024539877300614,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100102",
+      "route_name": "661",
+      "records": 200,
+      "low_floor_records": 104,
+      "regular_records": 0,
+      "unknown_records": 96,
+      "lower_bound": 0.52,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100103",
+      "route_name": "701",
+      "records": 300,
+      "low_floor_records": 201,
+      "regular_records": 0,
+      "unknown_records": 99,
+      "lower_bound": 0.67,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100104",
+      "route_name": "702A",
+      "records": 415,
+      "low_floor_records": 234,
+      "regular_records": 0,
+      "unknown_records": 181,
+      "lower_bound": 0.563855421686747,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100105",
+      "route_name": "702B",
+      "records": 222,
+      "low_floor_records": 142,
+      "regular_records": 0,
+      "unknown_records": 80,
+      "lower_bound": 0.6396396396396397,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100107",
+      "route_name": "704",
+      "records": 267,
+      "low_floor_records": 196,
+      "regular_records": 0,
+      "unknown_records": 71,
+      "lower_bound": 0.7340823970037453,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100110",
+      "route_name": "710",
+      "records": 361,
+      "low_floor_records": 261,
+      "regular_records": 0,
+      "unknown_records": 100,
+      "lower_bound": 0.7229916897506925,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100111",
+      "route_name": "720",
+      "records": 432,
+      "low_floor_records": 291,
+      "regular_records": 0,
+      "unknown_records": 141,
+      "lower_bound": 0.6736111111111112,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100112",
+      "route_name": "721",
+      "records": 454,
+      "low_floor_records": 254,
+      "regular_records": 15,
+      "unknown_records": 185,
+      "lower_bound": 0.5594713656387665,
+      "upper_bound": 0.9669603524229075,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100114",
+      "route_name": "750A",
+      "records": 249,
+      "low_floor_records": 151,
+      "regular_records": 0,
+      "unknown_records": 98,
+      "lower_bound": 0.606425702811245,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100116",
+      "route_name": "742",
+      "records": 342,
+      "low_floor_records": 210,
+      "regular_records": 0,
+      "unknown_records": 132,
+      "lower_bound": 0.6140350877192983,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100117",
+      "route_name": "752",
+      "records": 355,
+      "low_floor_records": 226,
+      "regular_records": 0,
+      "unknown_records": 129,
+      "lower_bound": 0.6366197183098592,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100118",
+      "route_name": "753",
+      "records": 265,
+      "low_floor_records": 187,
+      "regular_records": 0,
+      "unknown_records": 78,
+      "lower_bound": 0.7056603773584905,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100124",
+      "route_name": "0017",
+      "records": 283,
+      "low_floor_records": 0,
+      "regular_records": 144,
+      "unknown_records": 139,
+      "lower_bound": 0.0,
+      "upper_bound": 0.4911660777385159,
+      "official_exception_reason": "bridge_clearance",
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "operational_constraint",
+        "80": "operational_constraint"
+      }
+    },
+    {
+      "route_id": "100100129",
+      "route_name": "1014",
+      "records": 431,
+      "low_floor_records": 0,
+      "regular_records": 274,
+      "unknown_records": 157,
+      "lower_bound": 0.0,
+      "upper_bound": 0.3642691415313225,
+      "official_exception_reason": "charging_and_medium_bus_supply",
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "operational_constraint",
+        "80": "operational_constraint"
+      }
+    },
+    {
+      "route_id": "100100130",
+      "route_name": "1017",
+      "records": 269,
+      "low_floor_records": 0,
+      "regular_records": 168,
+      "unknown_records": 101,
+      "lower_bound": 0.0,
+      "upper_bound": 0.3754646840148699,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "low_composition",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100131",
+      "route_name": "1020",
+      "records": 391,
+      "low_floor_records": 90,
+      "regular_records": 241,
+      "unknown_records": 60,
+      "lower_bound": 0.23017902813299232,
+      "upper_bound": 0.3836317135549872,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "low_composition",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100132",
+      "route_name": "1111",
+      "records": 384,
+      "low_floor_records": 289,
+      "regular_records": 0,
+      "unknown_records": 95,
+      "lower_bound": 0.7526041666666666,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100133",
+      "route_name": "1113",
+      "records": 210,
+      "low_floor_records": 84,
+      "regular_records": 40,
+      "unknown_records": 86,
+      "lower_bound": 0.4,
+      "upper_bound": 0.8095238095238095,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100134",
+      "route_name": "1114",
+      "records": 240,
+      "low_floor_records": 0,
+      "regular_records": 174,
+      "unknown_records": 66,
+      "lower_bound": 0.0,
+      "upper_bound": 0.275,
+      "official_exception_reason": "charging_and_medium_bus_supply",
+      "review_type_by_threshold": {
+        "30": "operational_constraint",
+        "50": "operational_constraint",
+        "80": "operational_constraint"
+      }
+    },
+    {
+      "route_id": "100100137",
+      "route_name": "1119",
+      "records": 468,
+      "low_floor_records": 0,
+      "regular_records": 286,
+      "unknown_records": 182,
+      "lower_bound": 0.0,
+      "upper_bound": 0.3888888888888889,
+      "official_exception_reason": "charging_and_medium_bus_supply",
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "operational_constraint",
+        "80": "operational_constraint"
+      }
+    },
+    {
+      "route_id": "100100138",
+      "route_name": "1120",
+      "records": 225,
+      "low_floor_records": 133,
+      "regular_records": 0,
+      "unknown_records": 92,
+      "lower_bound": 0.5911111111111111,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100139",
+      "route_name": "1124",
+      "records": 325,
+      "low_floor_records": 54,
+      "regular_records": 163,
+      "unknown_records": 108,
+      "lower_bound": 0.16615384615384615,
+      "upper_bound": 0.49846153846153846,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "low_composition",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100142",
+      "route_name": "1126",
+      "records": 498,
+      "low_floor_records": 0,
+      "regular_records": 324,
+      "unknown_records": 174,
+      "lower_bound": 0.0,
+      "upper_bound": 0.3493975903614458,
+      "official_exception_reason": "charging_and_medium_bus_supply",
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "operational_constraint",
+        "80": "operational_constraint"
+      }
+    },
+    {
+      "route_id": "100100143",
+      "route_name": "1127",
+      "records": 240,
+      "low_floor_records": 180,
+      "regular_records": 0,
+      "unknown_records": 60,
+      "lower_bound": 0.75,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100144",
+      "route_name": "1128",
+      "records": 288,
+      "low_floor_records": 176,
+      "regular_records": 0,
+      "unknown_records": 112,
+      "lower_bound": 0.6111111111111112,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100145",
+      "route_name": "1129",
+      "records": 174,
+      "low_floor_records": 0,
+      "regular_records": 174,
+      "unknown_records": 0,
+      "lower_bound": 0.0,
+      "upper_bound": 0.0,
+      "official_exception_reason": "charging_and_medium_bus_supply",
+      "review_type_by_threshold": {
+        "30": "operational_constraint",
+        "50": "operational_constraint",
+        "80": "operational_constraint"
+      }
+    },
+    {
+      "route_id": "100100146",
+      "route_name": "1130",
+      "records": 324,
+      "low_floor_records": 0,
+      "regular_records": 252,
+      "unknown_records": 72,
+      "lower_bound": 0.0,
+      "upper_bound": 0.2222222222222222,
+      "official_exception_reason": "charging_and_medium_bus_supply",
+      "review_type_by_threshold": {
+        "30": "operational_constraint",
+        "50": "operational_constraint",
+        "80": "operational_constraint"
+      }
+    },
+    {
+      "route_id": "100100147",
+      "route_name": "1131",
+      "records": 198,
+      "low_floor_records": 36,
+      "regular_records": 84,
+      "unknown_records": 78,
+      "lower_bound": 0.18181818181818182,
+      "upper_bound": 0.5757575757575758,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100148",
+      "route_name": "1132",
+      "records": 486,
+      "low_floor_records": 341,
+      "regular_records": 28,
+      "unknown_records": 117,
+      "lower_bound": 0.7016460905349794,
+      "upper_bound": 0.9423868312757202,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100149",
+      "route_name": "1133",
+      "records": 289,
+      "low_floor_records": 0,
+      "regular_records": 155,
+      "unknown_records": 134,
+      "lower_bound": 0.0,
+      "upper_bound": 0.46366782006920415,
+      "official_exception_reason": "charging_and_medium_bus_supply",
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "operational_constraint",
+        "80": "operational_constraint"
+      }
+    },
+    {
+      "route_id": "100100150",
+      "route_name": "1135",
+      "records": 288,
+      "low_floor_records": 189,
+      "regular_records": 0,
+      "unknown_records": 99,
+      "lower_bound": 0.65625,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100151",
+      "route_name": "1136",
+      "records": 255,
+      "low_floor_records": 0,
+      "regular_records": 204,
+      "unknown_records": 51,
+      "lower_bound": 0.0,
+      "upper_bound": 0.2,
+      "official_exception_reason": "charging_and_medium_bus_supply",
+      "review_type_by_threshold": {
+        "30": "operational_constraint",
+        "50": "operational_constraint",
+        "80": "operational_constraint"
+      }
+    },
+    {
+      "route_id": "100100152",
+      "route_name": "1137",
+      "records": 348,
+      "low_floor_records": 0,
+      "regular_records": 246,
+      "unknown_records": 102,
+      "lower_bound": 0.0,
+      "upper_bound": 0.29310344827586204,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "low_composition",
+        "50": "low_composition",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100153",
+      "route_name": "1138",
+      "records": 222,
+      "low_floor_records": 94,
+      "regular_records": 63,
+      "unknown_records": 65,
+      "lower_bound": 0.42342342342342343,
+      "upper_bound": 0.7162162162162162,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100154",
+      "route_name": "1139",
+      "records": 264,
+      "low_floor_records": 192,
+      "regular_records": 0,
+      "unknown_records": 72,
+      "lower_bound": 0.7272727272727273,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100155",
+      "route_name": "1140",
+      "records": 191,
+      "low_floor_records": 151,
+      "regular_records": 0,
+      "unknown_records": 40,
+      "lower_bound": 0.7905759162303665,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100156",
+      "route_name": "1141",
+      "records": 198,
+      "low_floor_records": 36,
+      "regular_records": 90,
+      "unknown_records": 72,
+      "lower_bound": 0.18181818181818182,
+      "upper_bound": 0.5454545454545454,
+      "official_exception_reason": "charging_and_medium_bus_supply",
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "operational_constraint"
+      }
+    },
+    {
+      "route_id": "100100157",
+      "route_name": "1142",
+      "records": 513,
+      "low_floor_records": 0,
+      "regular_records": 249,
+      "unknown_records": 264,
+      "lower_bound": 0.0,
+      "upper_bound": 0.5146198830409356,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100158",
+      "route_name": "1143",
+      "records": 240,
+      "low_floor_records": 0,
+      "regular_records": 120,
+      "unknown_records": 120,
+      "lower_bound": 0.0,
+      "upper_bound": 0.5,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100159",
+      "route_name": "1144",
+      "records": 259,
+      "low_floor_records": 28,
+      "regular_records": 144,
+      "unknown_records": 87,
+      "lower_bound": 0.10810810810810811,
+      "upper_bound": 0.444015444015444,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "low_composition",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100164",
+      "route_name": "1154",
+      "records": 269,
+      "low_floor_records": 206,
+      "regular_records": 0,
+      "unknown_records": 63,
+      "lower_bound": 0.7657992565055762,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100166",
+      "route_name": "2212",
+      "records": 210,
+      "low_floor_records": 21,
+      "regular_records": 103,
+      "unknown_records": 86,
+      "lower_bound": 0.1,
+      "upper_bound": 0.5095238095238095,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100170",
+      "route_name": "1162",
+      "records": 350,
+      "low_floor_records": 0,
+      "regular_records": 179,
+      "unknown_records": 171,
+      "lower_bound": 0.0,
+      "upper_bound": 0.48857142857142855,
+      "official_exception_reason": "charging_and_medium_bus_supply",
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "operational_constraint",
+        "80": "operational_constraint"
+      }
+    },
+    {
+      "route_id": "100100171",
+      "route_name": "1164",
+      "records": 599,
+      "low_floor_records": 0,
+      "regular_records": 260,
+      "unknown_records": 339,
+      "lower_bound": 0.0,
+      "upper_bound": 0.5659432387312187,
+      "official_exception_reason": "charging_and_medium_bus_supply",
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "operational_constraint"
+      }
+    },
+    {
+      "route_id": "100100172",
+      "route_name": "1165",
+      "records": 490,
+      "low_floor_records": 222,
+      "regular_records": 20,
+      "unknown_records": 248,
+      "lower_bound": 0.4530612244897959,
+      "upper_bound": 0.9591836734693877,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100175",
+      "route_name": "1213",
+      "records": 395,
+      "low_floor_records": 262,
+      "regular_records": 0,
+      "unknown_records": 133,
+      "lower_bound": 0.6632911392405063,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100177",
+      "route_name": "1218",
+      "records": 360,
+      "low_floor_records": 82,
+      "regular_records": 219,
+      "unknown_records": 59,
+      "lower_bound": 0.22777777777777777,
+      "upper_bound": 0.39166666666666666,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "low_composition",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100178",
+      "route_name": "1221",
+      "records": 180,
+      "low_floor_records": 0,
+      "regular_records": 67,
+      "unknown_records": 113,
+      "lower_bound": 0.0,
+      "upper_bound": 0.6277777777777778,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100179",
+      "route_name": "1222",
+      "records": 315,
+      "low_floor_records": 221,
+      "regular_records": 0,
+      "unknown_records": 94,
+      "lower_bound": 0.7015873015873015,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100181",
+      "route_name": "1224",
+      "records": 408,
+      "low_floor_records": 285,
+      "regular_records": 0,
+      "unknown_records": 123,
+      "lower_bound": 0.6985294117647058,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100183",
+      "route_name": "1226",
+      "records": 126,
+      "low_floor_records": 0,
+      "regular_records": 126,
+      "unknown_records": 0,
+      "lower_bound": 0.0,
+      "upper_bound": 0.0,
+      "official_exception_reason": "charging_and_medium_bus_supply",
+      "review_type_by_threshold": {
+        "30": "operational_constraint",
+        "50": "operational_constraint",
+        "80": "operational_constraint"
+      }
+    },
+    {
+      "route_id": "100100184",
+      "route_name": "1227",
+      "records": 299,
+      "low_floor_records": 131,
+      "regular_records": 0,
+      "unknown_records": 168,
+      "lower_bound": 0.43812709030100333,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100185",
+      "route_name": "1711",
+      "records": 482,
+      "low_floor_records": 253,
+      "regular_records": 84,
+      "unknown_records": 145,
+      "lower_bound": 0.524896265560166,
+      "upper_bound": 0.8257261410788381,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100186",
+      "route_name": "2012",
+      "records": 298,
+      "low_floor_records": 174,
+      "regular_records": 46,
+      "unknown_records": 78,
+      "lower_bound": 0.5838926174496645,
+      "upper_bound": 0.8456375838926175,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100188",
+      "route_name": "2013",
+      "records": 265,
+      "low_floor_records": 169,
+      "regular_records": 0,
+      "unknown_records": 96,
+      "lower_bound": 0.6377358490566037,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100189",
+      "route_name": "2014",
+      "records": 303,
+      "low_floor_records": 205,
+      "regular_records": 0,
+      "unknown_records": 98,
+      "lower_bound": 0.6765676567656765,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100190",
+      "route_name": "2015",
+      "records": 414,
+      "low_floor_records": 288,
+      "regular_records": 0,
+      "unknown_records": 126,
+      "lower_bound": 0.6956521739130435,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100191",
+      "route_name": "2112",
+      "records": 222,
+      "low_floor_records": 15,
+      "regular_records": 159,
+      "unknown_records": 48,
+      "lower_bound": 0.06756756756756757,
+      "upper_bound": 0.28378378378378377,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "low_composition",
+        "50": "low_composition",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100192",
+      "route_name": "2113",
+      "records": 339,
+      "low_floor_records": 0,
+      "regular_records": 285,
+      "unknown_records": 54,
+      "lower_bound": 0.0,
+      "upper_bound": 0.1592920353982301,
+      "official_exception_reason": "charging_and_medium_bus_supply",
+      "review_type_by_threshold": {
+        "30": "operational_constraint",
+        "50": "operational_constraint",
+        "80": "operational_constraint"
+      }
+    },
+    {
+      "route_id": "100100193",
+      "route_name": "2114",
+      "records": 295,
+      "low_floor_records": 0,
+      "regular_records": 233,
+      "unknown_records": 62,
+      "lower_bound": 0.0,
+      "upper_bound": 0.21016949152542372,
+      "official_exception_reason": "bridge_clearance",
+      "review_type_by_threshold": {
+        "30": "operational_constraint",
+        "50": "operational_constraint",
+        "80": "operational_constraint"
+      }
+    },
+    {
+      "route_id": "100100194",
+      "route_name": "2211",
+      "records": 560,
+      "low_floor_records": 230,
+      "regular_records": 165,
+      "unknown_records": 165,
+      "lower_bound": 0.4107142857142857,
+      "upper_bound": 0.7053571428571429,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100198",
+      "route_name": "2221",
+      "records": 417,
+      "low_floor_records": 265,
+      "regular_records": 35,
+      "unknown_records": 117,
+      "lower_bound": 0.6354916067146283,
+      "upper_bound": 0.9160671462829736,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100199",
+      "route_name": "2222",
+      "records": 312,
+      "low_floor_records": 152,
+      "regular_records": 0,
+      "unknown_records": 160,
+      "lower_bound": 0.48717948717948717,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100201",
+      "route_name": "2224",
+      "records": 270,
+      "low_floor_records": 0,
+      "regular_records": 189,
+      "unknown_records": 81,
+      "lower_bound": 0.0,
+      "upper_bound": 0.3,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "low_composition",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100202",
+      "route_name": "2227",
+      "records": 315,
+      "low_floor_records": 205,
+      "regular_records": 0,
+      "unknown_records": 110,
+      "lower_bound": 0.6507936507936508,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100203",
+      "route_name": "2230",
+      "records": 351,
+      "low_floor_records": 137,
+      "regular_records": 111,
+      "unknown_records": 103,
+      "lower_bound": 0.3903133903133903,
+      "upper_bound": 0.6837606837606838,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100204",
+      "route_name": "2233",
+      "records": 225,
+      "low_floor_records": 96,
+      "regular_records": 70,
+      "unknown_records": 59,
+      "lower_bound": 0.4266666666666667,
+      "upper_bound": 0.6888888888888889,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100209",
+      "route_name": "2412",
+      "records": 288,
+      "low_floor_records": 192,
+      "regular_records": 0,
+      "unknown_records": 96,
+      "lower_bound": 0.6666666666666666,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100210",
+      "route_name": "2413",
+      "records": 210,
+      "low_floor_records": 126,
+      "regular_records": 0,
+      "unknown_records": 84,
+      "lower_bound": 0.6,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100211",
+      "route_name": "2415",
+      "records": 417,
+      "low_floor_records": 252,
+      "regular_records": 0,
+      "unknown_records": 165,
+      "lower_bound": 0.60431654676259,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100212",
+      "route_name": "3212",
+      "records": 241,
+      "low_floor_records": 140,
+      "regular_records": 0,
+      "unknown_records": 101,
+      "lower_bound": 0.5809128630705395,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100213",
+      "route_name": "3214",
+      "records": 264,
+      "low_floor_records": 100,
+      "regular_records": 101,
+      "unknown_records": 63,
+      "lower_bound": 0.3787878787878788,
+      "upper_bound": 0.6174242424242424,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100215",
+      "route_name": "3216",
+      "records": 285,
+      "low_floor_records": 54,
+      "regular_records": 116,
+      "unknown_records": 115,
+      "lower_bound": 0.18947368421052632,
+      "upper_bound": 0.5929824561403508,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100216",
+      "route_name": "3217",
+      "records": 396,
+      "low_floor_records": 306,
+      "regular_records": 0,
+      "unknown_records": 90,
+      "lower_bound": 0.7727272727272727,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100218",
+      "route_name": "3220",
+      "records": 286,
+      "low_floor_records": 182,
+      "regular_records": 0,
+      "unknown_records": 104,
+      "lower_bound": 0.6363636363636364,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100219",
+      "route_name": "3313",
+      "records": 396,
+      "low_floor_records": 213,
+      "regular_records": 0,
+      "unknown_records": 183,
+      "lower_bound": 0.5378787878787878,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100220",
+      "route_name": "3314",
+      "records": 372,
+      "low_floor_records": 228,
+      "regular_records": 0,
+      "unknown_records": 144,
+      "lower_bound": 0.6129032258064516,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100221",
+      "route_name": "3315",
+      "records": 508,
+      "low_floor_records": 339,
+      "regular_records": 23,
+      "unknown_records": 146,
+      "lower_bound": 0.6673228346456693,
+      "upper_bound": 0.9547244094488189,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100222",
+      "route_name": "3316",
+      "records": 323,
+      "low_floor_records": 213,
+      "regular_records": 0,
+      "unknown_records": 110,
+      "lower_bound": 0.6594427244582043,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100223",
+      "route_name": "3411",
+      "records": 276,
+      "low_floor_records": 190,
+      "regular_records": 0,
+      "unknown_records": 86,
+      "lower_bound": 0.6884057971014492,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100224",
+      "route_name": "3412",
+      "records": 262,
+      "low_floor_records": 209,
+      "regular_records": 0,
+      "unknown_records": 53,
+      "lower_bound": 0.7977099236641222,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100225",
+      "route_name": "3413",
+      "records": 379,
+      "low_floor_records": 234,
+      "regular_records": 15,
+      "unknown_records": 130,
+      "lower_bound": 0.6174142480211082,
+      "upper_bound": 0.9604221635883905,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100226",
+      "route_name": "3414",
+      "records": 288,
+      "low_floor_records": 122,
+      "regular_records": 55,
+      "unknown_records": 111,
+      "lower_bound": 0.4236111111111111,
+      "upper_bound": 0.8090277777777778,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100228",
+      "route_name": "3416",
+      "records": 300,
+      "low_floor_records": 239,
+      "regular_records": 0,
+      "unknown_records": 61,
+      "lower_bound": 0.7966666666666666,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100229",
+      "route_name": "3417",
+      "records": 504,
+      "low_floor_records": 249,
+      "regular_records": 48,
+      "unknown_records": 207,
+      "lower_bound": 0.49404761904761907,
+      "upper_bound": 0.9047619047619048,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100232",
+      "route_name": "3422",
+      "records": 240,
+      "low_floor_records": 150,
+      "regular_records": 15,
+      "unknown_records": 75,
+      "lower_bound": 0.625,
+      "upper_bound": 0.9375,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100234",
+      "route_name": "4212",
+      "records": 459,
+      "low_floor_records": 311,
+      "regular_records": 0,
+      "unknown_records": 148,
+      "lower_bound": 0.6775599128540305,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100237",
+      "route_name": "4318",
+      "records": 421,
+      "low_floor_records": 96,
+      "regular_records": 192,
+      "unknown_records": 133,
+      "lower_bound": 0.22802850356294538,
+      "upper_bound": 0.5439429928741093,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100246",
+      "route_name": "4432",
+      "records": 318,
+      "low_floor_records": 133,
+      "regular_records": 74,
+      "unknown_records": 111,
+      "lower_bound": 0.41823899371069184,
+      "upper_bound": 0.7672955974842768,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100247",
+      "route_name": "4433",
+      "records": 366,
+      "low_floor_records": 0,
+      "regular_records": 186,
+      "unknown_records": 180,
+      "lower_bound": 0.0,
+      "upper_bound": 0.4918032786885246,
+      "official_exception_reason": "charging_and_medium_bus_supply",
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "operational_constraint",
+        "80": "operational_constraint"
+      }
+    },
+    {
+      "route_id": "100100248",
+      "route_name": "5012",
+      "records": 287,
+      "low_floor_records": 128,
+      "regular_records": 14,
+      "unknown_records": 145,
+      "lower_bound": 0.445993031358885,
+      "upper_bound": 0.9512195121951219,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100249",
+      "route_name": "5413",
+      "records": 463,
+      "low_floor_records": 302,
+      "regular_records": 0,
+      "unknown_records": 161,
+      "lower_bound": 0.652267818574514,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100250",
+      "route_name": "5511",
+      "records": 528,
+      "low_floor_records": 293,
+      "regular_records": 0,
+      "unknown_records": 235,
+      "lower_bound": 0.5549242424242424,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100251",
+      "route_name": "5513",
+      "records": 343,
+      "low_floor_records": 216,
+      "regular_records": 0,
+      "unknown_records": 127,
+      "lower_bound": 0.6297376093294461,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100252",
+      "route_name": "5515",
+      "records": 507,
+      "low_floor_records": 306,
+      "regular_records": 0,
+      "unknown_records": 201,
+      "lower_bound": 0.6035502958579881,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100253",
+      "route_name": "5516",
+      "records": 652,
+      "low_floor_records": 393,
+      "regular_records": 0,
+      "unknown_records": 259,
+      "lower_bound": 0.602760736196319,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100254",
+      "route_name": "5517",
+      "records": 270,
+      "low_floor_records": 196,
+      "regular_records": 0,
+      "unknown_records": 74,
+      "lower_bound": 0.725925925925926,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100255",
+      "route_name": "5519",
+      "records": 246,
+      "low_floor_records": 0,
+      "regular_records": 74,
+      "unknown_records": 172,
+      "lower_bound": 0.0,
+      "upper_bound": 0.6991869918699187,
+      "official_exception_reason": "steep_grade",
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "operational_constraint"
+      }
+    },
+    {
+      "route_id": "100100259",
+      "route_name": "5523",
+      "records": 344,
+      "low_floor_records": 74,
+      "regular_records": 41,
+      "unknown_records": 229,
+      "lower_bound": 0.21511627906976744,
+      "upper_bound": 0.8808139534883721,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100260",
+      "route_name": "5524",
+      "records": 403,
+      "low_floor_records": 220,
+      "regular_records": 0,
+      "unknown_records": 183,
+      "lower_bound": 0.5459057071960298,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100261",
+      "route_name": "5525",
+      "records": 198,
+      "low_floor_records": 125,
+      "regular_records": 0,
+      "unknown_records": 73,
+      "lower_bound": 0.6313131313131313,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100263",
+      "route_name": "5528",
+      "records": 309,
+      "low_floor_records": 186,
+      "regular_records": 15,
+      "unknown_records": 108,
+      "lower_bound": 0.6019417475728155,
+      "upper_bound": 0.9514563106796117,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100264",
+      "route_name": "5530",
+      "records": 324,
+      "low_floor_records": 262,
+      "regular_records": 0,
+      "unknown_records": 62,
+      "lower_bound": 0.808641975308642,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "lower_meets"
+      }
+    },
+    {
+      "route_id": "100100265",
+      "route_name": "5531",
+      "records": 509,
+      "low_floor_records": 323,
+      "regular_records": 10,
+      "unknown_records": 176,
+      "lower_bound": 0.6345776031434185,
+      "upper_bound": 0.9803536345776032,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100266",
+      "route_name": "5634",
+      "records": 289,
+      "low_floor_records": 145,
+      "regular_records": 0,
+      "unknown_records": 144,
+      "lower_bound": 0.5017301038062284,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100267",
+      "route_name": "5535",
+      "records": 365,
+      "low_floor_records": 88,
+      "regular_records": 152,
+      "unknown_records": 125,
+      "lower_bound": 0.2410958904109589,
+      "upper_bound": 0.5835616438356165,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100268",
+      "route_name": "5536",
+      "records": 428,
+      "low_floor_records": 169,
+      "regular_records": 36,
+      "unknown_records": 223,
+      "lower_bound": 0.39485981308411217,
+      "upper_bound": 0.9158878504672897,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100269",
+      "route_name": "5537",
+      "records": 249,
+      "low_floor_records": 126,
+      "regular_records": 0,
+      "unknown_records": 123,
+      "lower_bound": 0.5060240963855421,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100272",
+      "route_name": "5615",
+      "records": 366,
+      "low_floor_records": 42,
+      "regular_records": 165,
+      "unknown_records": 159,
+      "lower_bound": 0.11475409836065574,
+      "upper_bound": 0.5491803278688525,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100273",
+      "route_name": "5616",
+      "records": 219,
+      "low_floor_records": 159,
+      "regular_records": 0,
+      "unknown_records": 60,
+      "lower_bound": 0.726027397260274,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100274",
+      "route_name": "5617",
+      "records": 384,
+      "low_floor_records": 192,
+      "regular_records": 0,
+      "unknown_records": 192,
+      "lower_bound": 0.5,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100275",
+      "route_name": "5618",
+      "records": 426,
+      "low_floor_records": 157,
+      "regular_records": 0,
+      "unknown_records": 269,
+      "lower_bound": 0.3685446009389671,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100276",
+      "route_name": "5619",
+      "records": 342,
+      "low_floor_records": 174,
+      "regular_records": 0,
+      "unknown_records": 168,
+      "lower_bound": 0.5087719298245614,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100277",
+      "route_name": "5620",
+      "records": 420,
+      "low_floor_records": 247,
+      "regular_records": 3,
+      "unknown_records": 170,
+      "lower_bound": 0.5880952380952381,
+      "upper_bound": 0.9928571428571429,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100278",
+      "route_name": "5621",
+      "records": 450,
+      "low_floor_records": 0,
+      "regular_records": 330,
+      "unknown_records": 120,
+      "lower_bound": 0.0,
+      "upper_bound": 0.26666666666666666,
+      "official_exception_reason": "charging_and_medium_bus_supply",
+      "review_type_by_threshold": {
+        "30": "operational_constraint",
+        "50": "operational_constraint",
+        "80": "operational_constraint"
+      }
+    },
+    {
+      "route_id": "100100279",
+      "route_name": "5623",
+      "records": 424,
+      "low_floor_records": 294,
+      "regular_records": 0,
+      "unknown_records": 130,
+      "lower_bound": 0.6933962264150944,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100281",
+      "route_name": "5625",
+      "records": 308,
+      "low_floor_records": 185,
+      "regular_records": 50,
+      "unknown_records": 73,
+      "lower_bound": 0.6006493506493507,
+      "upper_bound": 0.8376623376623377,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100282",
+      "route_name": "5626",
+      "records": 343,
+      "low_floor_records": 254,
+      "regular_records": 0,
+      "unknown_records": 89,
+      "lower_bound": 0.7405247813411079,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100283",
+      "route_name": "5627",
+      "records": 211,
+      "low_floor_records": 105,
+      "regular_records": 41,
+      "unknown_records": 65,
+      "lower_bound": 0.4976303317535545,
+      "upper_bound": 0.8056872037914692,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100284",
+      "route_name": "5630",
+      "records": 249,
+      "low_floor_records": 112,
+      "regular_records": 0,
+      "unknown_records": 137,
+      "lower_bound": 0.4497991967871486,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100285",
+      "route_name": "5633",
+      "records": 252,
+      "low_floor_records": 120,
+      "regular_records": 24,
+      "unknown_records": 108,
+      "lower_bound": 0.47619047619047616,
+      "upper_bound": 0.9047619047619048,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100286",
+      "route_name": "5712",
+      "records": 390,
+      "low_floor_records": 298,
+      "regular_records": 0,
+      "unknown_records": 92,
+      "lower_bound": 0.764102564102564,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100287",
+      "route_name": "5713",
+      "records": 360,
+      "low_floor_records": 217,
+      "regular_records": 0,
+      "unknown_records": 143,
+      "lower_bound": 0.6027777777777777,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100288",
+      "route_name": "5714",
+      "records": 441,
+      "low_floor_records": 283,
+      "regular_records": 0,
+      "unknown_records": 158,
+      "lower_bound": 0.6417233560090703,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100289",
+      "route_name": "6211",
+      "records": 277,
+      "low_floor_records": 150,
+      "regular_records": 47,
+      "unknown_records": 80,
+      "lower_bound": 0.5415162454873647,
+      "upper_bound": 0.8303249097472925,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100290",
+      "route_name": "6411",
+      "records": 282,
+      "low_floor_records": 185,
+      "regular_records": 22,
+      "unknown_records": 75,
+      "lower_bound": 0.6560283687943262,
+      "upper_bound": 0.9219858156028369,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100291",
+      "route_name": "6511",
+      "records": 180,
+      "low_floor_records": 45,
+      "regular_records": 73,
+      "unknown_records": 62,
+      "lower_bound": 0.25,
+      "upper_bound": 0.5944444444444444,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100292",
+      "route_name": "6512",
+      "records": 368,
+      "low_floor_records": 168,
+      "regular_records": 0,
+      "unknown_records": 200,
+      "lower_bound": 0.45652173913043476,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100293",
+      "route_name": "6713",
+      "records": 311,
+      "low_floor_records": 200,
+      "regular_records": 0,
+      "unknown_records": 111,
+      "lower_bound": 0.6430868167202572,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100294",
+      "route_name": "6514",
+      "records": 311,
+      "low_floor_records": 192,
+      "regular_records": 0,
+      "unknown_records": 119,
+      "lower_bound": 0.617363344051447,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100295",
+      "route_name": "5611",
+      "records": 208,
+      "low_floor_records": 0,
+      "regular_records": 124,
+      "unknown_records": 84,
+      "lower_bound": 0.0,
+      "upper_bound": 0.40384615384615385,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "low_composition",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100297",
+      "route_name": "6614",
+      "records": 252,
+      "low_floor_records": 18,
+      "regular_records": 144,
+      "unknown_records": 90,
+      "lower_bound": 0.07142857142857142,
+      "upper_bound": 0.42857142857142855,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "low_composition",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100298",
+      "route_name": "6616",
+      "records": 249,
+      "low_floor_records": 179,
+      "regular_records": 0,
+      "unknown_records": 70,
+      "lower_bound": 0.7188755020080321,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100299",
+      "route_name": "6617",
+      "records": 270,
+      "low_floor_records": 0,
+      "regular_records": 180,
+      "unknown_records": 90,
+      "lower_bound": 0.0,
+      "upper_bound": 0.3333333333333333,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "low_composition",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100300",
+      "route_name": "6620",
+      "records": 212,
+      "low_floor_records": 24,
+      "regular_records": 97,
+      "unknown_records": 91,
+      "lower_bound": 0.11320754716981132,
+      "upper_bound": 0.5424528301886793,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100301",
+      "route_name": "6623",
+      "records": 261,
+      "low_floor_records": 182,
+      "regular_records": 0,
+      "unknown_records": 79,
+      "lower_bound": 0.6973180076628352,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100302",
+      "route_name": "6624",
+      "records": 398,
+      "low_floor_records": 0,
+      "regular_records": 279,
+      "unknown_records": 119,
+      "lower_bound": 0.0,
+      "upper_bound": 0.2989949748743719,
+      "official_exception_reason": "charging_and_medium_bus_supply",
+      "review_type_by_threshold": {
+        "30": "operational_constraint",
+        "50": "operational_constraint",
+        "80": "operational_constraint"
+      }
+    },
+    {
+      "route_id": "100100303",
+      "route_name": "6625",
+      "records": 252,
+      "low_floor_records": 63,
+      "regular_records": 105,
+      "unknown_records": 84,
+      "lower_bound": 0.25,
+      "upper_bound": 0.5833333333333334,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100304",
+      "route_name": "6627",
+      "records": 237,
+      "low_floor_records": 145,
+      "regular_records": 0,
+      "unknown_records": 92,
+      "lower_bound": 0.6118143459915611,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100305",
+      "route_name": "6628",
+      "records": 513,
+      "low_floor_records": 252,
+      "regular_records": 83,
+      "unknown_records": 178,
+      "lower_bound": 0.49122807017543857,
+      "upper_bound": 0.8382066276803118,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100306",
+      "route_name": "6629",
+      "records": 266,
+      "low_floor_records": 171,
+      "regular_records": 24,
+      "unknown_records": 71,
+      "lower_bound": 0.6428571428571429,
+      "upper_bound": 0.9097744360902256,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100307",
+      "route_name": "6630",
+      "records": 208,
+      "low_floor_records": 125,
+      "regular_records": 0,
+      "unknown_records": 83,
+      "lower_bound": 0.6009615384615384,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100308",
+      "route_name": "6631",
+      "records": 348,
+      "low_floor_records": 196,
+      "regular_records": 32,
+      "unknown_records": 120,
+      "lower_bound": 0.5632183908045977,
+      "upper_bound": 0.9080459770114943,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100309",
+      "route_name": "6632",
+      "records": 313,
+      "low_floor_records": 117,
+      "regular_records": 98,
+      "unknown_records": 98,
+      "lower_bound": 0.3738019169329074,
+      "upper_bound": 0.6869009584664537,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100312",
+      "route_name": "6637",
+      "records": 521,
+      "low_floor_records": 197,
+      "regular_records": 123,
+      "unknown_records": 201,
+      "lower_bound": 0.3781190019193858,
+      "upper_bound": 0.763915547024952,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100313",
+      "route_name": "6638",
+      "records": 295,
+      "low_floor_records": 183,
+      "regular_records": 0,
+      "unknown_records": 112,
+      "lower_bound": 0.6203389830508474,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100316",
+      "route_name": "6642",
+      "records": 270,
+      "low_floor_records": 86,
+      "regular_records": 122,
+      "unknown_records": 62,
+      "lower_bound": 0.31851851851851853,
+      "upper_bound": 0.5481481481481482,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100318",
+      "route_name": "6645",
+      "records": 270,
+      "low_floor_records": 62,
+      "regular_records": 100,
+      "unknown_records": 108,
+      "lower_bound": 0.22962962962962963,
+      "upper_bound": 0.6296296296296297,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100320",
+      "route_name": "6647",
+      "records": 378,
+      "low_floor_records": 86,
+      "regular_records": 144,
+      "unknown_records": 148,
+      "lower_bound": 0.2275132275132275,
+      "upper_bound": 0.6190476190476191,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100329",
+      "route_name": "6657",
+      "records": 162,
+      "low_floor_records": 135,
+      "regular_records": 0,
+      "unknown_records": 27,
+      "lower_bound": 0.8333333333333334,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "lower_meets"
+      }
+    },
+    {
+      "route_id": "100100330",
+      "route_name": "6712",
+      "records": 246,
+      "low_floor_records": 122,
+      "regular_records": 35,
+      "unknown_records": 89,
+      "lower_bound": 0.4959349593495935,
+      "upper_bound": 0.8577235772357723,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100331",
+      "route_name": "6714",
+      "records": 210,
+      "low_floor_records": 126,
+      "regular_records": 0,
+      "unknown_records": 84,
+      "lower_bound": 0.6,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100332",
+      "route_name": "6715",
+      "records": 411,
+      "low_floor_records": 134,
+      "regular_records": 114,
+      "unknown_records": 163,
+      "lower_bound": 0.3260340632603406,
+      "upper_bound": 0.7226277372262774,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100337",
+      "route_name": "7017",
+      "records": 353,
+      "low_floor_records": 231,
+      "regular_records": 0,
+      "unknown_records": 122,
+      "lower_bound": 0.6543909348441926,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100338",
+      "route_name": "7018",
+      "records": 351,
+      "low_floor_records": 190,
+      "regular_records": 0,
+      "unknown_records": 161,
+      "lower_bound": 0.5413105413105413,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100339",
+      "route_name": "7019",
+      "records": 431,
+      "low_floor_records": 170,
+      "regular_records": 84,
+      "unknown_records": 177,
+      "lower_bound": 0.39443155452436196,
+      "upper_bound": 0.8051044083526682,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100340",
+      "route_name": "7021",
+      "records": 398,
+      "low_floor_records": 254,
+      "regular_records": 0,
+      "unknown_records": 144,
+      "lower_bound": 0.6381909547738693,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100341",
+      "route_name": "7022",
+      "records": 363,
+      "low_floor_records": 201,
+      "regular_records": 0,
+      "unknown_records": 162,
+      "lower_bound": 0.5537190082644629,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100342",
+      "route_name": "7024",
+      "records": 201,
+      "low_floor_records": 0,
+      "regular_records": 90,
+      "unknown_records": 111,
+      "lower_bound": 0.0,
+      "upper_bound": 0.5522388059701493,
+      "official_exception_reason": "charging_and_medium_bus_supply",
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "operational_constraint"
+      }
+    },
+    {
+      "route_id": "100100344",
+      "route_name": "7211",
+      "records": 372,
+      "low_floor_records": 199,
+      "regular_records": 0,
+      "unknown_records": 173,
+      "lower_bound": 0.5349462365591398,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100345",
+      "route_name": "7611",
+      "records": 308,
+      "low_floor_records": 181,
+      "regular_records": 18,
+      "unknown_records": 109,
+      "lower_bound": 0.5876623376623377,
+      "upper_bound": 0.9415584415584416,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100346",
+      "route_name": "7612",
+      "records": 495,
+      "low_floor_records": 346,
+      "regular_records": 0,
+      "unknown_records": 149,
+      "lower_bound": 0.6989898989898989,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100347",
+      "route_name": "7613",
+      "records": 249,
+      "low_floor_records": 177,
+      "regular_records": 0,
+      "unknown_records": 72,
+      "lower_bound": 0.7108433734939759,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100348",
+      "route_name": "7711",
+      "records": 339,
+      "low_floor_records": 148,
+      "regular_records": 0,
+      "unknown_records": 191,
+      "lower_bound": 0.4365781710914454,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100349",
+      "route_name": "7713",
+      "records": 338,
+      "low_floor_records": 196,
+      "regular_records": 0,
+      "unknown_records": 142,
+      "lower_bound": 0.5798816568047337,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100352",
+      "route_name": "7720",
+      "records": 323,
+      "low_floor_records": 273,
+      "regular_records": 0,
+      "unknown_records": 50,
+      "lower_bound": 0.8452012383900929,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "lower_meets"
+      }
+    },
+    {
+      "route_id": "100100353",
+      "route_name": "7722",
+      "records": 312,
+      "low_floor_records": 153,
+      "regular_records": 0,
+      "unknown_records": 159,
+      "lower_bound": 0.49038461538461536,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100354",
+      "route_name": "7723",
+      "records": 288,
+      "low_floor_records": 108,
+      "regular_records": 36,
+      "unknown_records": 144,
+      "lower_bound": 0.375,
+      "upper_bound": 0.875,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100357",
+      "route_name": "7726",
+      "records": 165,
+      "low_floor_records": 0,
+      "regular_records": 95,
+      "unknown_records": 70,
+      "lower_bound": 0.0,
+      "upper_bound": 0.42424242424242425,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "low_composition",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100358",
+      "route_name": "7727",
+      "records": 291,
+      "low_floor_records": 236,
+      "regular_records": 0,
+      "unknown_records": 55,
+      "lower_bound": 0.8109965635738832,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "lower_meets"
+      }
+    },
+    {
+      "route_id": "100100359",
+      "route_name": "7728",
+      "records": 258,
+      "low_floor_records": 161,
+      "regular_records": 0,
+      "unknown_records": 97,
+      "lower_bound": 0.624031007751938,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100360",
+      "route_name": "7730",
+      "records": 356,
+      "low_floor_records": 214,
+      "regular_records": 0,
+      "unknown_records": 142,
+      "lower_bound": 0.601123595505618,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100363",
+      "route_name": "7737",
+      "records": 300,
+      "low_floor_records": 181,
+      "regular_records": 17,
+      "unknown_records": 102,
+      "lower_bound": 0.6033333333333334,
+      "upper_bound": 0.9433333333333334,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100364",
+      "route_name": "7738",
+      "records": 396,
+      "low_floor_records": 237,
+      "regular_records": 0,
+      "unknown_records": 159,
+      "lower_bound": 0.5984848484848485,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100383",
+      "route_name": "8541",
+      "records": 9,
+      "low_floor_records": 0,
+      "regular_records": 0,
+      "unknown_records": 9,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100387",
+      "route_name": "8774",
+      "records": 138,
+      "low_floor_records": 83,
+      "regular_records": 0,
+      "unknown_records": 55,
+      "lower_bound": 0.6014492753623188,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100407",
+      "route_name": "240",
+      "records": 261,
+      "low_floor_records": 187,
+      "regular_records": 0,
+      "unknown_records": 74,
+      "lower_bound": 0.7164750957854407,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100409",
+      "route_name": "421",
+      "records": 378,
+      "low_floor_records": 177,
+      "regular_records": 81,
+      "unknown_records": 120,
+      "lower_bound": 0.46825396825396826,
+      "upper_bound": 0.7857142857142857,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100410",
+      "route_name": "502",
+      "records": 292,
+      "low_floor_records": 206,
+      "regular_records": 0,
+      "unknown_records": 86,
+      "lower_bound": 0.7054794520547946,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100425",
+      "route_name": "1122",
+      "records": 450,
+      "low_floor_records": 0,
+      "regular_records": 200,
+      "unknown_records": 250,
+      "lower_bound": 0.0,
+      "upper_bound": 0.5555555555555556,
+      "official_exception_reason": "charging_and_medium_bus_supply",
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "operational_constraint"
+      }
+    },
+    {
+      "route_id": "100100427",
+      "route_name": "4319",
+      "records": 342,
+      "low_floor_records": 198,
+      "regular_records": 0,
+      "unknown_records": 144,
+      "lower_bound": 0.5789473684210527,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100437",
+      "route_name": "771",
+      "records": 159,
+      "low_floor_records": 90,
+      "regular_records": 0,
+      "unknown_records": 69,
+      "lower_bound": 0.5660377358490566,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100438",
+      "route_name": "3011",
+      "records": 303,
+      "low_floor_records": 159,
+      "regular_records": 13,
+      "unknown_records": 131,
+      "lower_bound": 0.5247524752475248,
+      "upper_bound": 0.9570957095709571,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100440",
+      "route_name": "700",
+      "records": 302,
+      "low_floor_records": 167,
+      "regular_records": 0,
+      "unknown_records": 135,
+      "lower_bound": 0.5529801324503312,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100446",
+      "route_name": "7025",
+      "records": 330,
+      "low_floor_records": 224,
+      "regular_records": 0,
+      "unknown_records": 106,
+      "lower_bound": 0.6787878787878788,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100447",
+      "route_name": "7016",
+      "records": 409,
+      "low_floor_records": 202,
+      "regular_records": 0,
+      "unknown_records": 207,
+      "lower_bound": 0.4938875305623472,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100448",
+      "route_name": "7013B",
+      "records": 135,
+      "low_floor_records": 85,
+      "regular_records": 0,
+      "unknown_records": 50,
+      "lower_bound": 0.6296296296296297,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100449",
+      "route_name": "7013A",
+      "records": 135,
+      "low_floor_records": 33,
+      "regular_records": 27,
+      "unknown_records": 75,
+      "lower_bound": 0.24444444444444444,
+      "upper_bound": 0.8,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100450",
+      "route_name": "7011",
+      "records": 318,
+      "low_floor_records": 236,
+      "regular_records": 0,
+      "unknown_records": 82,
+      "lower_bound": 0.7421383647798742,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100451",
+      "route_name": "6716",
+      "records": 390,
+      "low_floor_records": 180,
+      "regular_records": 0,
+      "unknown_records": 210,
+      "lower_bound": 0.46153846153846156,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100453",
+      "route_name": "6613",
+      "records": 202,
+      "low_floor_records": 21,
+      "regular_records": 140,
+      "unknown_records": 41,
+      "lower_bound": 0.10396039603960396,
+      "upper_bound": 0.3069306930693069,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "low_composition",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100454",
+      "route_name": "361",
+      "records": 288,
+      "low_floor_records": 156,
+      "regular_records": 36,
+      "unknown_records": 96,
+      "lower_bound": 0.5416666666666666,
+      "upper_bound": 0.875,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100459",
+      "route_name": "440",
+      "records": 333,
+      "low_floor_records": 222,
+      "regular_records": 0,
+      "unknown_records": 111,
+      "lower_bound": 0.6666666666666666,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100462",
+      "route_name": "7715",
+      "records": 301,
+      "low_floor_records": 224,
+      "regular_records": 0,
+      "unknown_records": 77,
+      "lower_bound": 0.7441860465116279,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100478",
+      "route_name": "3317",
+      "records": 343,
+      "low_floor_records": 0,
+      "regular_records": 246,
+      "unknown_records": 97,
+      "lower_bound": 0.0,
+      "upper_bound": 0.282798833819242,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "low_composition",
+        "50": "low_composition",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100495",
+      "route_name": "672",
+      "records": 228,
+      "low_floor_records": 154,
+      "regular_records": 0,
+      "unknown_records": 74,
+      "lower_bound": 0.6754385964912281,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100496",
+      "route_name": "333",
+      "records": 318,
+      "low_floor_records": 202,
+      "regular_records": 0,
+      "unknown_records": 116,
+      "lower_bound": 0.6352201257861635,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100497",
+      "route_name": "653",
+      "records": 216,
+      "low_floor_records": 24,
+      "regular_records": 84,
+      "unknown_records": 108,
+      "lower_bound": 0.1111111111111111,
+      "upper_bound": 0.6111111111111112,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100498",
+      "route_name": "3318",
+      "records": 282,
+      "low_floor_records": 182,
+      "regular_records": 0,
+      "unknown_records": 100,
+      "lower_bound": 0.6453900709219859,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100499",
+      "route_name": "7212",
+      "records": 273,
+      "low_floor_records": 217,
+      "regular_records": 0,
+      "unknown_records": 56,
+      "lower_bound": 0.7948717948717948,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100500",
+      "route_name": "4312",
+      "records": 315,
+      "low_floor_records": 176,
+      "regular_records": 0,
+      "unknown_records": 139,
+      "lower_bound": 0.5587301587301587,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100501",
+      "route_name": "3319",
+      "records": 252,
+      "low_floor_records": 144,
+      "regular_records": 0,
+      "unknown_records": 108,
+      "lower_bound": 0.5714285714285714,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100511",
+      "route_name": "760",
+      "records": 242,
+      "low_floor_records": 191,
+      "regular_records": 0,
+      "unknown_records": 51,
+      "lower_bound": 0.7892561983471075,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100521",
+      "route_name": "6515",
+      "records": 385,
+      "low_floor_records": 246,
+      "regular_records": 0,
+      "unknown_records": 139,
+      "lower_bound": 0.638961038961039,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100522",
+      "route_name": "2016",
+      "records": 273,
+      "low_floor_records": 158,
+      "regular_records": 46,
+      "unknown_records": 69,
+      "lower_bound": 0.5787545787545788,
+      "upper_bound": 0.8315018315018315,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100537",
+      "route_name": "740",
+      "records": 411,
+      "low_floor_records": 279,
+      "regular_records": 0,
+      "unknown_records": 132,
+      "lower_bound": 0.6788321167883211,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100549",
+      "route_name": "100",
+      "records": 370,
+      "low_floor_records": 281,
+      "regular_records": 0,
+      "unknown_records": 89,
+      "lower_bound": 0.7594594594594595,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100550",
+      "route_name": "662",
+      "records": 288,
+      "low_floor_records": 142,
+      "regular_records": 18,
+      "unknown_records": 128,
+      "lower_bound": 0.4930555555555556,
+      "upper_bound": 0.9375,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100551",
+      "route_name": "673",
+      "records": 210,
+      "low_floor_records": 118,
+      "regular_records": 0,
+      "unknown_records": 92,
+      "lower_bound": 0.5619047619047619,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100552",
+      "route_name": "7739",
+      "records": 234,
+      "low_floor_records": 66,
+      "regular_records": 70,
+      "unknown_records": 98,
+      "lower_bound": 0.28205128205128205,
+      "upper_bound": 0.7008547008547008,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100553",
+      "route_name": "350",
+      "records": 306,
+      "low_floor_records": 186,
+      "regular_records": 0,
+      "unknown_records": 120,
+      "lower_bound": 0.6078431372549019,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100564",
+      "route_name": "320",
+      "records": 420,
+      "low_floor_records": 259,
+      "regular_records": 12,
+      "unknown_records": 149,
+      "lower_bound": 0.6166666666666667,
+      "upper_bound": 0.9714285714285714,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100565",
+      "route_name": "750B",
+      "records": 272,
+      "low_floor_records": 155,
+      "regular_records": 0,
+      "unknown_records": 117,
+      "lower_bound": 0.5698529411764706,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100566",
+      "route_name": "1115",
+      "records": 288,
+      "low_floor_records": 144,
+      "regular_records": 0,
+      "unknown_records": 144,
+      "lower_bound": 0.5,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100574",
+      "route_name": "541",
+      "records": 288,
+      "low_floor_records": 176,
+      "regular_records": 0,
+      "unknown_records": 112,
+      "lower_bound": 0.6111111111111112,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100576",
+      "route_name": "6516",
+      "records": 210,
+      "low_floor_records": 115,
+      "regular_records": 0,
+      "unknown_records": 95,
+      "lower_bound": 0.5476190476190477,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100578",
+      "route_name": "3321",
+      "records": 240,
+      "low_floor_records": 168,
+      "regular_records": 0,
+      "unknown_records": 72,
+      "lower_bound": 0.7,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100579",
+      "route_name": "3420",
+      "records": 291,
+      "low_floor_records": 176,
+      "regular_records": 36,
+      "unknown_records": 79,
+      "lower_bound": 0.6048109965635738,
+      "upper_bound": 0.8762886597938144,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100583",
+      "route_name": "121",
+      "records": 444,
+      "low_floor_records": 229,
+      "regular_records": 51,
+      "unknown_records": 164,
+      "lower_bound": 0.5157657657657657,
+      "upper_bound": 0.8851351351351351,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100587",
+      "route_name": "705",
+      "records": 237,
+      "low_floor_records": 148,
+      "regular_records": 0,
+      "unknown_records": 89,
+      "lower_bound": 0.6244725738396625,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100595",
+      "route_name": "241",
+      "records": 339,
+      "low_floor_records": 126,
+      "regular_records": 113,
+      "unknown_records": 100,
+      "lower_bound": 0.37168141592920356,
+      "upper_bound": 0.6666666666666666,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100596",
+      "route_name": "400",
+      "records": 300,
+      "low_floor_records": 151,
+      "regular_records": 49,
+      "unknown_records": 100,
+      "lower_bound": 0.5033333333333333,
+      "upper_bound": 0.8366666666666667,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100597",
+      "route_name": "405",
+      "records": 234,
+      "low_floor_records": 116,
+      "regular_records": 73,
+      "unknown_records": 45,
+      "lower_bound": 0.49572649572649574,
+      "upper_bound": 0.688034188034188,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100599",
+      "route_name": "2311",
+      "records": 268,
+      "low_floor_records": 93,
+      "regular_records": 94,
+      "unknown_records": 81,
+      "lower_bound": 0.34701492537313433,
+      "upper_bound": 0.6492537313432836,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100601",
+      "route_name": "6640A",
+      "records": 266,
+      "low_floor_records": 30,
+      "regular_records": 150,
+      "unknown_records": 86,
+      "lower_bound": 0.11278195488721804,
+      "upper_bound": 0.43609022556390975,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "low_composition",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100602",
+      "route_name": "6640B",
+      "records": 270,
+      "low_floor_records": 60,
+      "regular_records": 118,
+      "unknown_records": 92,
+      "lower_bound": 0.2222222222222222,
+      "upper_bound": 0.562962962962963,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "100100604",
+      "route_name": "4211",
+      "records": 270,
+      "low_floor_records": 144,
+      "regular_records": 6,
+      "unknown_records": 120,
+      "lower_bound": 0.5333333333333333,
+      "upper_bound": 0.9777777777777777,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100605",
+      "route_name": "463",
+      "records": 360,
+      "low_floor_records": 201,
+      "regular_records": 12,
+      "unknown_records": 147,
+      "lower_bound": 0.5583333333333333,
+      "upper_bound": 0.9666666666666667,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100609",
+      "route_name": "4425",
+      "records": 223,
+      "low_floor_records": 98,
+      "regular_records": 6,
+      "unknown_records": 119,
+      "lower_bound": 0.43946188340807174,
+      "upper_bound": 0.9730941704035875,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100612",
+      "route_name": "3426",
+      "records": 331,
+      "low_floor_records": 168,
+      "regular_records": 18,
+      "unknown_records": 145,
+      "lower_bound": 0.5075528700906344,
+      "upper_bound": 0.945619335347432,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "100100613",
+      "route_name": "3322",
+      "records": 369,
+      "low_floor_records": 243,
+      "regular_records": 0,
+      "unknown_records": 126,
+      "lower_bound": 0.6585365853658537,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "102000001",
+      "route_name": "서울07출근",
+      "records": 12,
+      "low_floor_records": 0,
+      "regular_records": 0,
+      "unknown_records": 12,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "103000001",
+      "route_name": "8441",
+      "records": 39,
+      "low_floor_records": 0,
+      "regular_records": 0,
+      "unknown_records": 39,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "104000006",
+      "route_name": "242",
+      "records": 261,
+      "low_floor_records": 182,
+      "regular_records": 0,
+      "unknown_records": 79,
+      "lower_bound": 0.6973180076628352,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "104000009",
+      "route_name": "111",
+      "records": 156,
+      "low_floor_records": 108,
+      "regular_records": 0,
+      "unknown_records": 48,
+      "lower_bound": 0.6923076923076923,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "104000010",
+      "route_name": "2416",
+      "records": 211,
+      "low_floor_records": 150,
+      "regular_records": 0,
+      "unknown_records": 61,
+      "lower_bound": 0.7109004739336493,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "104000012",
+      "route_name": "0411",
+      "records": 262,
+      "low_floor_records": 202,
+      "regular_records": 0,
+      "unknown_records": 60,
+      "lower_bound": 0.7709923664122137,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "104000013",
+      "route_name": "3324",
+      "records": 252,
+      "low_floor_records": 167,
+      "regular_records": 0,
+      "unknown_records": 85,
+      "lower_bound": 0.6626984126984127,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "104000014",
+      "route_name": "040",
+      "records": 213,
+      "low_floor_records": 116,
+      "regular_records": 0,
+      "unknown_records": 97,
+      "lower_bound": 0.5446009389671361,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "106000001",
+      "route_name": "8221",
+      "records": 52,
+      "low_floor_records": 0,
+      "regular_records": 0,
+      "unknown_records": 52,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "106000005",
+      "route_name": "서울07퇴근",
+      "records": 6,
+      "low_floor_records": 0,
+      "regular_records": 0,
+      "unknown_records": 6,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "106000006",
+      "route_name": "8442퇴근",
+      "records": 6,
+      "low_floor_records": 0,
+      "regular_records": 0,
+      "unknown_records": 6,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "107000001",
+      "route_name": "1116",
+      "records": 211,
+      "low_floor_records": 43,
+      "regular_records": 80,
+      "unknown_records": 88,
+      "lower_bound": 0.2037914691943128,
+      "upper_bound": 0.6208530805687204,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "107000002",
+      "route_name": "343",
+      "records": 246,
+      "low_floor_records": 165,
+      "regular_records": 0,
+      "unknown_records": 81,
+      "lower_bound": 0.6707317073170732,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "107000004",
+      "route_name": "8003",
+      "records": 135,
+      "low_floor_records": 0,
+      "regular_records": 67,
+      "unknown_records": 68,
+      "lower_bound": 0.0,
+      "upper_bound": 0.5037037037037037,
+      "official_exception_reason": "narrow_road",
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "operational_constraint"
+      }
+    },
+    {
+      "route_id": "107000007",
+      "route_name": "1112",
+      "records": 288,
+      "low_floor_records": 182,
+      "regular_records": 0,
+      "unknown_records": 106,
+      "lower_bound": 0.6319444444444444,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "107000008",
+      "route_name": "422",
+      "records": 179,
+      "low_floor_records": 0,
+      "regular_records": 143,
+      "unknown_records": 36,
+      "lower_bound": 0.0,
+      "upper_bound": 0.2011173184357542,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "low_composition",
+        "50": "low_composition",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "107000009",
+      "route_name": "8111",
+      "records": 30,
+      "low_floor_records": 0,
+      "regular_records": 0,
+      "unknown_records": 30,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "108000001",
+      "route_name": "8551",
+      "records": 42,
+      "low_floor_records": 0,
+      "regular_records": 0,
+      "unknown_records": 42,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "108000002",
+      "route_name": "1167",
+      "records": 379,
+      "low_floor_records": 247,
+      "regular_records": 0,
+      "unknown_records": 132,
+      "lower_bound": 0.6517150395778364,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "109000002",
+      "route_name": "서울05출근",
+      "records": 12,
+      "low_floor_records": 0,
+      "regular_records": 0,
+      "unknown_records": 12,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "109000003",
+      "route_name": "서울10출근",
+      "records": 12,
+      "low_floor_records": 0,
+      "regular_records": 0,
+      "unknown_records": 12,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "109000004",
+      "route_name": "서울05퇴근",
+      "records": 6,
+      "low_floor_records": 0,
+      "regular_records": 0,
+      "unknown_records": 6,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "109000006",
+      "route_name": "서울10퇴근",
+      "records": 6,
+      "low_floor_records": 0,
+      "regular_records": 0,
+      "unknown_records": 6,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "110000002",
+      "route_name": "173",
+      "records": 323,
+      "low_floor_records": 180,
+      "regular_records": 0,
+      "unknown_records": 143,
+      "lower_bound": 0.5572755417956656,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "110000004",
+      "route_name": "8146",
+      "records": 12,
+      "low_floor_records": 0,
+      "regular_records": 0,
+      "unknown_records": 12,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "110000005",
+      "route_name": "8101",
+      "records": 21,
+      "low_floor_records": 0,
+      "regular_records": 0,
+      "unknown_records": 21,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0,
+      "official_exception_reason": "charging_and_medium_bus_supply",
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "110000006",
+      "route_name": "8112",
+      "records": 32,
+      "low_floor_records": 0,
+      "regular_records": 0,
+      "unknown_records": 32,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "110000007",
+      "route_name": "서울09출근",
+      "records": 11,
+      "low_floor_records": 0,
+      "regular_records": 0,
+      "unknown_records": 11,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "110000008",
+      "route_name": "서울09퇴근",
+      "records": 6,
+      "low_floor_records": 0,
+      "regular_records": 0,
+      "unknown_records": 6,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "110000009",
+      "route_name": "2155",
+      "records": 351,
+      "low_floor_records": 185,
+      "regular_records": 0,
+      "unknown_records": 166,
+      "lower_bound": 0.5270655270655271,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "111000008",
+      "route_name": "674",
+      "records": 264,
+      "low_floor_records": 68,
+      "regular_records": 79,
+      "unknown_records": 117,
+      "lower_bound": 0.25757575757575757,
+      "upper_bound": 0.7007575757575758,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "111000009",
+      "route_name": "8771",
+      "records": 36,
+      "low_floor_records": 0,
+      "regular_records": 0,
+      "unknown_records": 36,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "111000010",
+      "route_name": "7734",
+      "records": 421,
+      "low_floor_records": 218,
+      "regular_records": 0,
+      "unknown_records": 203,
+      "lower_bound": 0.517814726840855,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "111000014",
+      "route_name": "761",
+      "records": 321,
+      "low_floor_records": 226,
+      "regular_records": 0,
+      "unknown_records": 95,
+      "lower_bound": 0.7040498442367601,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "111000019",
+      "route_name": "2236",
+      "records": 252,
+      "low_floor_records": 69,
+      "regular_records": 117,
+      "unknown_records": 66,
+      "lower_bound": 0.27380952380952384,
+      "upper_bound": 0.5357142857142857,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "111000021",
+      "route_name": "서울04출근",
+      "records": 12,
+      "low_floor_records": 0,
+      "regular_records": 0,
+      "unknown_records": 12,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "111000022",
+      "route_name": "707",
+      "records": 314,
+      "low_floor_records": 248,
+      "regular_records": 0,
+      "unknown_records": 66,
+      "lower_bound": 0.7898089171974523,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "111000023",
+      "route_name": "서울08출근",
+      "records": 9,
+      "low_floor_records": 0,
+      "regular_records": 0,
+      "unknown_records": 9,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "111000025",
+      "route_name": "서울04퇴근",
+      "records": 9,
+      "low_floor_records": 0,
+      "regular_records": 0,
+      "unknown_records": 9,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "111000026",
+      "route_name": "서울08퇴근",
+      "records": 6,
+      "low_floor_records": 0,
+      "regular_records": 0,
+      "unknown_records": 6,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "111000027",
+      "route_name": "706",
+      "records": 279,
+      "low_floor_records": 122,
+      "regular_records": 20,
+      "unknown_records": 137,
+      "lower_bound": 0.43727598566308246,
+      "upper_bound": 0.9283154121863799,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "111000028",
+      "route_name": "709",
+      "records": 253,
+      "low_floor_records": 163,
+      "regular_records": 0,
+      "unknown_records": 90,
+      "lower_bound": 0.6442687747035574,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "111000029",
+      "route_name": "8775퇴근",
+      "records": 36,
+      "low_floor_records": 0,
+      "regular_records": 0,
+      "unknown_records": 36,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "112000005",
+      "route_name": "7716",
+      "records": 168,
+      "low_floor_records": 24,
+      "regular_records": 48,
+      "unknown_records": 96,
+      "lower_bound": 0.14285714285714285,
+      "upper_bound": 0.7142857142857143,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "112000006",
+      "route_name": "8762퇴근",
+      "records": 36,
+      "low_floor_records": 0,
+      "regular_records": 0,
+      "unknown_records": 36,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "113000002",
+      "route_name": "452",
+      "records": 370,
+      "low_floor_records": 155,
+      "regular_records": 122,
+      "unknown_records": 93,
+      "lower_bound": 0.4189189189189189,
+      "upper_bound": 0.6702702702702703,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "113000003",
+      "route_name": "8762출근",
+      "records": 42,
+      "low_floor_records": 0,
+      "regular_records": 0,
+      "unknown_records": 42,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "113000007",
+      "route_name": "8775출근",
+      "records": 36,
+      "low_floor_records": 0,
+      "regular_records": 0,
+      "unknown_records": 36,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "114000002",
+      "route_name": "8641",
+      "records": 6,
+      "low_floor_records": 0,
+      "regular_records": 0,
+      "unknown_records": 6,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "114000003",
+      "route_name": "8671",
+      "records": 30,
+      "low_floor_records": 0,
+      "regular_records": 0,
+      "unknown_records": 30,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "115000005",
+      "route_name": "6648",
+      "records": 233,
+      "low_floor_records": 147,
+      "regular_records": 0,
+      "unknown_records": 86,
+      "lower_bound": 0.630901287553648,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "115000007",
+      "route_name": "654",
+      "records": 273,
+      "low_floor_records": 151,
+      "regular_records": 13,
+      "unknown_records": 109,
+      "lower_bound": 0.5531135531135531,
+      "upper_bound": 0.9523809523809523,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "115000011",
+      "route_name": "서울02출근",
+      "records": 34,
+      "low_floor_records": 0,
+      "regular_records": 0,
+      "unknown_records": 34,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "115000012",
+      "route_name": "6633",
+      "records": 127,
+      "low_floor_records": 24,
+      "regular_records": 67,
+      "unknown_records": 36,
+      "lower_bound": 0.1889763779527559,
+      "upper_bound": 0.47244094488188976,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "low_composition",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "115000013",
+      "route_name": "서울02퇴근",
+      "records": 9,
+      "low_floor_records": 0,
+      "regular_records": 0,
+      "unknown_records": 9,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "115000014",
+      "route_name": "6611",
+      "records": 192,
+      "low_floor_records": 120,
+      "regular_records": 24,
+      "unknown_records": 48,
+      "lower_bound": 0.625,
+      "upper_bound": 0.875,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "116000001",
+      "route_name": "8552",
+      "records": 36,
+      "low_floor_records": 0,
+      "regular_records": 0,
+      "unknown_records": 36,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "116000002",
+      "route_name": "6615",
+      "records": 224,
+      "low_floor_records": 32,
+      "regular_records": 94,
+      "unknown_records": 98,
+      "lower_bound": 0.14285714285714285,
+      "upper_bound": 0.5803571428571429,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "116000004",
+      "route_name": "660",
+      "records": 252,
+      "low_floor_records": 84,
+      "regular_records": 62,
+      "unknown_records": 106,
+      "lower_bound": 0.3333333333333333,
+      "upper_bound": 0.753968253968254,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "116000005",
+      "route_name": "8561",
+      "records": 45,
+      "low_floor_records": 0,
+      "regular_records": 0,
+      "unknown_records": 45,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "116000006",
+      "route_name": "703",
+      "records": 164,
+      "low_floor_records": 116,
+      "regular_records": 0,
+      "unknown_records": 48,
+      "lower_bound": 0.7073170731707317,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "120000003",
+      "route_name": "8661",
+      "records": 27,
+      "low_floor_records": 0,
+      "regular_records": 0,
+      "unknown_records": 27,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "121000002",
+      "route_name": "8442출근",
+      "records": 12,
+      "low_floor_records": 0,
+      "regular_records": 0,
+      "unknown_records": 12,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "122000001",
+      "route_name": "4435",
+      "records": 229,
+      "low_floor_records": 50,
+      "regular_records": 91,
+      "unknown_records": 88,
+      "lower_bound": 0.2183406113537118,
+      "upper_bound": 0.6026200873362445,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "123000010",
+      "route_name": "741",
+      "records": 384,
+      "low_floor_records": 177,
+      "regular_records": 23,
+      "unknown_records": 184,
+      "lower_bound": 0.4609375,
+      "upper_bound": 0.9401041666666666,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "123000011",
+      "route_name": "708",
+      "records": 269,
+      "low_floor_records": 141,
+      "regular_records": 0,
+      "unknown_records": 128,
+      "lower_bound": 0.5241635687732342,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "124000008",
+      "route_name": "7719",
+      "records": 135,
+      "low_floor_records": 0,
+      "regular_records": 90,
+      "unknown_records": 45,
+      "lower_bound": 0.0,
+      "upper_bound": 0.3333333333333333,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "low_composition",
+        "80": "low_composition"
+      }
+    },
+    {
+      "route_id": "124000010",
+      "route_name": "8331",
+      "records": 36,
+      "low_floor_records": 0,
+      "regular_records": 0,
+      "unknown_records": 36,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "124000036",
+      "route_name": "345",
+      "records": 288,
+      "low_floor_records": 187,
+      "regular_records": 2,
+      "unknown_records": 99,
+      "lower_bound": 0.6493055555555556,
+      "upper_bound": 0.9930555555555556,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "124000038",
+      "route_name": "342",
+      "records": 324,
+      "low_floor_records": 208,
+      "regular_records": 12,
+      "unknown_records": 104,
+      "lower_bound": 0.6419753086419753,
+      "upper_bound": 0.9629629629629629,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "124000039",
+      "route_name": "3323",
+      "records": 222,
+      "low_floor_records": 159,
+      "regular_records": 0,
+      "unknown_records": 63,
+      "lower_bound": 0.7162162162162162,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "lower_meets",
+        "50": "lower_meets",
+        "80": "information_needed"
+      }
+    },
+    {
+      "route_id": "124000040",
+      "route_name": "8332",
+      "records": 33,
+      "low_floor_records": 0,
+      "regular_records": 0,
+      "unknown_records": 33,
+      "lower_bound": 0.0,
+      "upper_bound": 1.0,
+      "official_exception_reason": null,
+      "review_type_by_threshold": {
+        "30": "information_needed",
+        "50": "information_needed",
+        "80": "information_needed"
+      }
+    }
+  ],
+  "warning": "Exploratory thresholds, conditional historical classification; not replacement priority or measured accessibility. Exception absence does not prove feasibility. Location review remains a separate facility-level flag."
+}

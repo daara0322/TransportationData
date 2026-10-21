@@ -26,7 +26,7 @@
     "application_contact_consent_signature",
     "email_attachments_and_sending"
   ],
-  "warning": "Personalized confirmation copy is local and Git-ignored; public PDF is an anonymous working copy. Participant must review motivation and report, sign application and send email. Repository is public; raw data and credentials remain excluded.",
+  "warning": "Participant report prepared locally and Git-ignored; public PDF anonymous. Application contact, consent, date and signature are not completed; email not sent. Route review types are exploratory, not replacement priority.",
   "participation_mode": "individual",
   "research_scope": "low_floor_composition_facility_links_operational_constraints_location_sensitivity",
   "additional_data_collection_required": false,
@@ -43,5 +43,14 @@
   ],
   "repository_visibility": "public",
   "unauthenticated_branch_readme_access": true,
-  "private_submission_copy_prepared": true
+  "private_submission_copy_prepared": true,
+  "route_review_types_added": true,
+  "route_review_thresholds_percent": [
+    30,
+    50,
+    80
+  ],
+  "stable_low_routes_across_thresholds": 15,
+  "threshold_sensitive_routes": 316,
+  "test_count": 51
 }

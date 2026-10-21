@@ -50,9 +50,9 @@ def build(output,font_path,bold_path,profile_path=None):
         nonlocal y
         y=height-61
         pdf.setFillColor(MUTED);pdf.setFont('Korean',8)
-        pdf.drawString(left,height-30,'TransportationData / '+('개인 확인본' if personal else '검토용 초안')+' / 2026-10-21')
+        pdf.drawString(left,height-30,'TransportationData / '+('분석보고서' if personal else '검토용 초안')+' / 2026-10-21')
         pdf.setStrokeColor(colors.HexColor('#d8e1e6'));pdf.line(left,43,width-left,43)
-        pdf.drawString(left,29,'저상차량 구성·운영 제약 분석 / 개인 검토본 / 최종 제출 전 확인')
+        pdf.drawString(left,29,'저상차량 구성·운영 제약 분석')
         pdf.drawRightString(width-left,29,label)
     def draw(item,gap=9):
         nonlocal y
@@ -85,14 +85,14 @@ def build(output,font_path,bold_path,profile_path=None):
         location['reference_facilities']!=1 or location['coordinate_separation_metres']!=41.97):
         raise ValueError('Inputs changed: review the snapshot-specific narrative before rebuilding')
     start('표지')
-    para('분석보고서 / 제출 전 확인' if personal else '검토용 보고서','sub',26)
+    para('분석보고서' if personal else '검토용 보고서','sub',26)
     para('서울 버스의 전기저상 전환 검토를 위한<br/>저상차량 구성과 운영 제약 분석','cover',24)
     para('노선 구성 범위·시설 연계·공식 운영 제약의 교차 검토','sub',28)
     para('<b>이름 / 소속:</b> '+(escape(profile['name'])+' / '+escape(profile['affiliation']) if personal else '본인 직접 입력 필요'),gap=16)
-    para('<b>문서 상태:</b> '+('제출 전 개인 확인본.' if personal else '개인 검토용 초안.')+' 현재 자료로 저상차량 구성 차이와 공식 운영 제약을 분석했다. 탄소감축량·최적 교체 순위·실제 접근성 효과의 산정은 연구 범위에서 제외했다. 최종 해석과 제출 여부는 본인 확인이 필요하다.',gap=18)
+    para('<b>문서 상태:</b> '+('개인 참가 분석보고서.' if personal else '개인 검토용 초안.')+' 현재 자료로 저상차량 구성 차이와 공식 운영 제약을 분석했다. 탄소감축량·최적 교체 순위·실제 접근성 효과의 산정은 연구 범위에서 제외했다.',gap=18)
     table([['확인한 분석','이번 분석에서 산출하지 않은 것'],
            ['375개 후보 노선의 112,864행 운행기록 구성<br/>시설 좌표 후보와 주변 노선의 조건부 연결<br/>대표 위치·반경 민감도','탄소감축량과 최적 교체 순위<br/>실제 통행 수요·출입구 접근성<br/>정류장 실측 도착 비율·대기시간']], [usable/2]*2)
-    para('표지 + 본문 5쪽 + 참고자료 1쪽으로 구성했다. 신청서의 개인정보·동의·서명은 작성하지 않았다. 인증키와 원본 행 단위 자료는 문서에 포함하지 않았다.','small')
+    para('표지 + 본문 5쪽 + 참고자료 1쪽으로 구성했다. 인증키와 원본 행 단위 자료는 문서에 포함하지 않았다.','small')
     pdf.showPage()
 
     start('본문 1 / 5');title('1. 분석 배경·목적과 활용 데이터')
@@ -119,15 +119,21 @@ def build(output,font_path,bold_path,profile_path=None):
     t=supply['totals']
     para(f"현황 기록은 저상 확인 {t['low_floor_records']:,}행, 일반 확인 {t['regular_records']:,}행, 미확인 {t['unknown_records']:,}행이다. 기록 기준 분류 연결률은 63.3%다. 한 행을 완주 운행·승객 수·정류장 도착으로 간주하지 않았다.",'small')
     para('AI 기술 활용','sub',5)
-    para('사용 서비스는 OpenAI Codex다. 공개 자료 검색·명세 확인, 수집·연결·검증 코드, 그림과 문서 초안에 활용했다. AI가 연료·좌표·효과를 임의로 채운 결과는 사용하지 않았다. 본인의 최종 원문·결과 검토는 아직 남아 있다.','small')
+    para('사용 서비스는 OpenAI Codex다. 공개 자료 검색·명세 확인, 수집·연결·검증 코드, 그림과 문서 초안에 활용했다. AI가 연료·좌표·효과를 임의로 채운 결과는 사용하지 않았다. 집계 대조·자동 검사·그림 검토를 수행했으며 미확인 사항은 한계로 명시했다.','small')
     para('주요 실제 요청: “얻을수있는 데이터에서 다른팀이 하지않을거같은 생소한 문제점 찾아줘봐”, “쭉가보자 계획 짠거 확인하면서 진행해줘 앞으로 진행해야될거 체크리스트 만들어서 쭉해줘”. 전체 활용 기록은 docs/ai_usage.md에 있다.','small')
     pdf.showPage()
 
+    review=json.loads((ROOT/'outputs/public/route_review_types.json').read_text(encoding='utf-8'))
+    if review['route_count'] != 375: raise ValueError('Review population changed')
     start('본문 3 / 5');title('3. 노선 구성 차이와 전환 제약')
     para('과거 표본의 차량·노선 조합 수로 계산한 간선 사례의 조건부 저상 구성은 100번 70.0~100.0%, 104번 8.3~33.3%, 172번 0~25.9%였다. <b>100번의 하한이 104번의 상한보다 높아 미분류를 고려해도 두 노선의 구성 차이는 남는다.</b> 차량 구성과 기록 비중의 분모는 구분한다.')
-    figure('lowfloor_composition_bounds.png',205)
+    figure('lowfloor_composition_bounds.png',150)
     para('공식 예외승인표에는 25개 노선·235대가 있었다. 도로 조건 관련 59대, 충전·중형차 공급 조건 관련 192대는 16대가 겹쳐 합산하면 안 된다. 예외 목록에 없다는 사실이 즉시 교체 가능함을 보장하지 않는다.')
-    figure('policy_constraints.png',205)
+    figure('policy_constraints.png',130)
+    para('검토 유형과 기준 민감도 (운행기록 비중 기준)','sub',4)
+    table([['탐색 기준','낮은 구성 확인형','운영 제약 확인형','정보 보완형','하한 충족']]+[[str(r['percent'])+'%',r['counts']['low_composition'],r['counts']['operational_constraint'],r['counts']['information_needed'],r['counts']['lower_meets']] for r in review['thresholds']], [65,115,115,100,usable-395])
+    para('앞의 두 유형은 상한이 기준 미만인 노선을 공식 예외승인 사유 유무로 나눈 것이다. 정보 보완형은 범위가 기준에 걸치며, 하한 충족은 이동 편의 충족을 뜻하지 않는다. 기준은 정책 기준이 아니다. 차량 구성 사례와 달리 3일 기록 수를 합산한 비중을 사용했다.','small',5)
+    para(f"세 기준에서 모두 낮은 구성으로 분류된 노선은 {len(review['stable_low_below_30'])}개(예외 사유 없음 6개·있음 9개)였다. {review['threshold_sensitive_routes']}개는 기준에 따라 유형이 달라졌다. 이는 교체 순위가 아닌 추가 검토 유형이다.",'small',5)
     para('구성 차이는 사례 선택의 근거가 될 수 있으나 실제 대기시간·접근성 불이익·탄소효과를 입증하지 않는다. 현재 도로·차량규격·차고지 충전 조건과 기존 연료를 확인한 뒤 교체를 검토해야 한다.','small')
     pdf.showPage()
 
@@ -141,8 +147,8 @@ def build(output,font_path,bold_path,profile_path=None):
 
     start('본문 5 / 5');title('5. 정책 검토 방향·기대효과와 한계')
     para('첫째, 전기저상 도입 실적을 <b>기존 저상차량 대체 / 비저상차량 대체</b>로 나눠 공개한다. 전자는 저상차량 수가 늘지 않고, 후자는 늘어날 여지가 있다. 친환경 도입 대수와 저상차량 순증을 함께 제시하되 탄소효과는 기존 동력원·운행거리 등을 별도 확인해야 한다. 이번 연구는 실제 감축량을 산정하지 않았다.')
-    para('둘째, 단일 비율 대신 분류 연결률과 미확인 범위를 함께 공개한다. 노선 ID·기준일·동력원·저상 여부를 연결할 수 있는 자료가 제공되면 교체 후보 검토의 추적 가능성이 높아질 수 있다. 추가 이용자 수나 감축량의 정량 기대효과는 아직 검증하지 않았다.')
-    para('셋째, 전환 검토를 <b>① 저상 구성과 미확인 범위 점검 → ② 도로·충전·차종 제약 확인 → ③ 시설 출입구·이동 방향·대안 노선 확인</b> 순서로 진행한다. 낮은 구성만으로 순위를 정하지 않고 각 단계의 확인 내용을 남긴다. 약 42m 차이로 범주가 달라진 사례는 반경만으로 접근성을 확정할 수 없음을 보여준다.')
+    para('둘째, 단일 비율 대신 분류 연결률과 미확인 범위를 함께 공개한다. 낮은 구성 확인형은 차량·교체계획을, 운영 제약 확인형은 공식 제약을 먼저 검토한다. 정보 보완형은 차량 분류부터 확인한다. 예외 사유가 없다는 사실은 교체 가능함을 보장하지 않는다. 추가 이용자 수나 감축량의 정량 기대효과는 아직 검증하지 않았다.')
+    para('셋째, 전환 검토를 <b>① 저상 구성과 미확인 범위 점검 → ② 도로·충전·차종 제약 확인 → ③ 시설 출입구·이동 방향·대안 노선 확인</b> 순서로 진행한다. 낮은 구성만으로 순위를 정하지 않고 각 단계의 확인 내용을 남긴다. 위치에 따라 결과가 바뀌는 시설은 별도의 위치 검수형으로 표시하며 노선 유형 집계에 더하지 않는다. 약 42m 차이로 범주가 달라진 사례는 반경만으로 접근성을 확정할 수 없음을 보여준다.')
     table([['자료의 제한','이번 연구의 해석 범위'],
            ['차량·노선별 기존 연료','실제 탄소감축량·탄소 중심 순위 산출 불가'],
            ['거리 단위·한 행 정의','미터 규모를 지지하는 대조만 수행; 공식 km 실적 미확정'],
@@ -156,7 +162,7 @@ def build(output,font_path,bold_path,profile_path=None):
     para('코드 링크: '+link(repo)+'<br/><b>공개 저장소:</b> 2026-10-20 로그인 없는 분석 브랜치 README 접근을 확인했다. 원자료·인증키는 제외했으며 당시 스냅샷의 재현 한계는 실행 안내에 설명했다. 보관한 입력의 내부 재실행과 제3자의 원본 재확보 검증은 구분한다.','small')
     pdf.showPage()
 
-    start('참고자료');title('참고자료와 제출 전 확인')
+    start('참고자료');title('참고자료')
     references=[
         ('공고·참가신청서·보고서 양식 / 숲과나눔','https://koreashe.org/notice/?uid=95427&mod=document&pageid=1'),
         ('차량 운행통계 / 서울시 BIS·T-Data','https://t-data.seoul.go.kr/dataprovide/trafficdataviewfile.do?data_id=84'),
@@ -174,7 +180,7 @@ def build(output,font_path,bold_path,profile_path=None):
             para('<b>'+escape(label)+'</b><br/>'+'<br/>'.join(link(url+str(i)) for i in [53,54,58,60,64]),'small',8)
         else:para('<b>'+escape(label)+'</b><br/>'+link(url),'small',8)
     para('출처의 기준일은 다르다. 운행통계 10/13~15, 현재 차량 분류 10/17, 시설 페이지 갱신일 9/23, 버스 현황은 1월이다. 원본별 수집일·해시와 상세 이용조건은 data/README.md와 data/manifest.json을 대조한다.','small')
-    para('<b>최종 확인 필요:</b> '+('참여 동기와 결과 해석, 신청서·동의·서명, 제출 첨부파일.' if personal else '이름·참여 동기·신청서·동의·서명과 제출 첨부파일.')+' 탄소감축량·최적 교체 순위는 연구 범위에서 제외했다. 이 문서는 최종 제출 승인이나 서명 완료를 뜻하지 않는다.','small')
+    para('추가 분석의 탐색 기준은 30·50·80%이며 법적·정책적 적정 수준을 의미하지 않는다. 낮은 구성 유형의 안정성은 이 세 기준에 한정된다. 세 기준 모두에서 불확실한 노선도 있으므로 유형 유지와 정보 충분성을 구분한다. 상세 노선별 결과는 outputs/public/route_review_types.json에 있다.','small')
     pdf.save()
     return target
 

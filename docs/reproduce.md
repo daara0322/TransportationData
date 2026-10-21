@@ -119,3 +119,12 @@ python scripts/build_review_pdf.py --profile data/processed/submission/profile.j
 ```
 
 원본 신청서는 별도 동의·서명 작성이 필요하며 이 명령이 신청서 작성이나 메일 발송을 대신하지 않는다.
+
+## 노선 검토 유형과 기준 민감도
+
+```powershell
+python -m src.review_types
+python -m unittest discover -s tests -p test_review_types.py
+```
+
+공개된 노선·일별 기록의 수를 합산한다. 30/50/80%에서 상한이 기준 미만인 경우 공식 예외승인 사유 유무로 낮은 구성 확인형/운영 제약 확인형을 나눈다. 하한이 기준 이상이면 하한 충족, 나머지는 정보 보완형이다. 등호는 하한 충족에 포함하며 상한이 기준과 같으면 낮은 구성으로 확정하지 않는다. 차량 대수 비율이나 정류장 도착 비율이 아니다. 위치 검수형은 별도의 시설 수준 표시다.

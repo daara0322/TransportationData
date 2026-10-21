@@ -128,3 +128,12 @@ python -m unittest discover -s tests -p test_review_types.py
 ```
 
 공개된 노선·일별 기록의 수를 합산한다. 30/50/80%에서 상한이 기준 미만인 경우 공식 예외승인 사유 유무로 낮은 구성 확인형/운영 제약 확인형을 나눈다. 하한이 기준 이상이면 하한 충족, 나머지는 정보 보완형이다. 등호는 하한 충족에 포함하며 상한이 기준과 같으면 낮은 구성으로 확정하지 않는다. 차량 대수 비율이나 정류장 도착 비율이 아니다. 위치 검수형은 별도의 시설 수준 표시다.
+
+## 후보 노선의 시설 연결·다른 노선 비교
+
+```powershell
+python -m src.candidate_facilities
+python -m unittest discover -s tests -p test_candidate_facilities.py
+```
+
+기존 facility_supply_review.csv의 반경별 고유 노선 연결과 시설 원본 종류를 사용한다. 6개 후보 각각을 다른 노선 집합에서 제외하고 50/80% 진단을 재계산한다. 공개 출력은 시설별 개인정보 없이 노선·시설 유형별 집계만 포함한다.

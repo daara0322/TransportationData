@@ -137,12 +137,30 @@ def build(output,font_path,bold_path,profile_path=None):
     para('구성 차이는 사례 선택의 근거가 될 수 있으나 실제 대기시간·접근성 불이익·탄소효과를 입증하지 않는다. 현재 도로·차량규격·차고지 충전 조건과 기존 연료를 확인한 뒤 교체를 검토해야 한다.','small')
     pdf.showPage()
 
-    start('본문 4 / 5');title('4. 보조 분석: 시설 연결과 위치 민감도')
-    para(f"시설 274곳에서 좌표 후보 247곳을 얻었다. 도로명·건물번호가 일치한 {facility['address_matching_candidate_facilities']}곳을 노선 구성과 연결했으나 실제 건물·출입구 검수는 미완료다. 500m·탐색 기준 50%에서 하한 이상 노선 있음 232곳, 모든 연결노선 상한 미만 1곳, 불확실 4곳이었다.")
-    figure('facility_supply_sensitivity.png',190)
-    para('232곳은 이동 편의가 충분하다는 뜻이 아니라 조건을 충족하는 대상 노선이 하나 이상 있다는 뜻이다. 50%는 정책 기준이 아니다. 상한 미달 사례는 수어통역센터여서 휠체어 수요를 대표한다고 할 수 없다. 시설 종류별 연결률도 달랐다. 복지관 58곳 중 46곳, 주간이용시설 144곳 중 133곳이 연결돼 확인된 표본을 전체 수요로 일반화하지 않았다.','small')
-    figure('gangbuk_building_sensitivity.png',184)
-    para(f"강북장애인종합복지관의 두 주소 후보는 {location['coordinate_separation_metres']:.2f}m 차이였다. 한 정류장이 본관에서 301.0m, 별관에서 284.0m로 300m 경계 양쪽에 놓여 진단 범주가 바뀌었다. 한 시설의 두 위치 시나리오이며 시설 2곳으로 더하지 않았다. 실제 출입구·보행 경로 확인 전 취약지로 확정하지 않는다.",'small')
+    comparison=json.loads((ROOT/'outputs/public/candidate_facility_comparison.json').read_text(encoding='utf-8'))
+    if comparison['reference_facilities']!=237 or comparison['candidate_routes']!=6:
+        raise ValueError('Facility comparison scope changed')
+    start('본문 4 / 5');title('4. 시설 연결을 반영한 후보 비교')
+    para('시설 274곳 중 도로명·건물번호가 일치한 좌표 후보 237곳을 사용했다. 실제 건물·출입구는 미검수다. 후보 노선의 정류장과 시설의 직선거리가 300/500/800m 이내이면 연결하며 시설은 노선별로 한 번만 센다. 시설 수는 이용자 수가 아니고 노선 간 중복도 있어 합산하지 않는다.')
+    compared=sorted(comparison['routes'], key=lambda r:(-r['by_radius'][1]['linked_facilities'],r['route_id']))
+    rows=[['노선','300m','500m','800m','500m 시설 종류\n복/주/기','500m 다른 노선\n50% 하한 충족/불확실']]
+    for r in compared:
+        mid=r['by_radius'][1]
+        rehab=sum(n for k,n in mid['by_type'].items() if '복지관' in k)
+        day=sum(n for k,n in mid['by_type'].items() if '주간' in k)
+        other=mid['linked_facilities']-rehab-day
+        check=mid['alternative_checks'][0]
+        if check['no_other_route'] or check['all_upper_below']:
+            raise ValueError('Alternative narrative changed')
+        rows.append([r['route_name']+'번',*[x['linked_facilities'] for x in r['by_radius']],f'{rehab}/{day}/{other}',f"{check['lower_meets']}/{check['uncertain']}"])
+    table(rows,[50,45,45,45,130,usable-315])
+    para('복=복지관, 주=주간이용시설, 기=그 외 시설. 다른 노선은 후보 자신을 제외한 분석 범위 내 노선이다. 하한 충족은 해당 시설 주변에 기록 비중 하한이 50% 이상인 다른 노선이 하나 이상 있다는 뜻이다. 불확실은 다른 노선 모두의 하한은 기준 미만이나 상한까지 미달하지는 않는 경우다. 실제 목적지·방향이 같은 대체 교통편임을 확인한 것은 아니다.','small',6)
+    para('<b>172번은 500m에서 15곳(복지관 3·주간이용 9·기타 3)으로 연결 범위가 가장 넓었다.</b> 300m에서도 8곳으로 가장 많았지만 800m에서는 1137번 20곳이 172번 18곳보다 많았다. 시설 연결 수에 따른 순서는 반경에 따라 달라진다.','small',6)
+    para('<b>1137번은 500m에서 9곳 중 2곳의 다른 노선 구성이 50% 기준에서 불확실했다.</b> 300m에서는 3곳, 800m에서는 0곳이었다. 기준을 80%로 높이면 500m에서 2곳은 다른 노선 모두의 상한이 미달하고 7곳은 불확실했다. 이는 기준 민감도이며 서비스 부족의 확정 판정은 아니다. 나머지 5개 후보는 500m 연결 시설 모두에서 다른 노선의 하한이 50% 이상이었다.','small',6)
+    figure('facility_supply_sensitivity.png',105)
+    para('전체 237곳의 500m·50% 진단은 하한 충족 노선 있음 232곳·모든 상한 미달 1곳·불확실 4곳이었다. 후보별 비교에서는 후보 자신을 제외해 다른 노선 구성을 다시 계산했다.','small',5)
+    figure('gangbuk_building_sensitivity.png',110)
+    para('강북장애인종합복지관은 본관·별관 좌표가 약 42m 달랐고 한 정류장 거리는 301.0m·284.0m로 300m 경계를 넘나들었다. 반경·대표점에 민감한 결과는 출입구와 보행 경로를 확인해야 한다.','small',5)
     pdf.showPage()
 
     start('본문 5 / 5');title('5. 우선 교체 검토 후보와 정책 제안')
@@ -160,9 +178,9 @@ def build(output,font_path,bold_path,profile_path=None):
         candidate_table.append([r['route_name']+'번',f"{r['lower_bound']*100:.1f}~{r['upper_bound']*100:.1f}%",f'{low}/{regular}/{unknown}대',f'{100*low/total:.1f}~{100*(low+unknown)/total:.1f}%'])
     table(candidate_table,[45,130,190,usable-365])
     para('표는 기록 비중 상한 순으로 배열했으며 종합 교체 순위가 아니다. 기록 수와 관측 차량 수는 다른 분모다. 현재 차량 분류가 과거에도 유효하다는 조건이며 저상 확인 0대가 실제 저상차량 부재를 뜻하지 않는다.','small',6)
-    para('<b>구체적 검토 사례는 422번과 172번이다.</b> 422번은 6개 후보 중 기록 비중 상한이 20.1%로 가장 낮고, 관측 차량도 일반 확인 12대·미확인 3대였다. 172번은 일반 확인 20대·미확인 7대로 비저상 대체를 검토할 차량이 확인됐다. 두 노선의 교체계획·잔여 차령·도로와 충전 조건을 먼저 확인하고, 일반차량의 전기저상 전환 가능성을 검토할 것을 제안한다.')
+    para('<b>시설을 함께 고려한 구체적 검토 사례는 172번과 1137번이다.</b> 172번은 500m 연결 시설 15곳과 일반 확인 차량 20대를 근거로 시설 연결 범위와 비저상 대체 가능성을 검토한다. 1137번은 연결 시설 9곳 중 2곳에서 다른 노선의 50% 기준 판단이 불확실해 목적지·방향·분류를 추가 확인한다. 422번은 낮은 구성의 비교 사례로 유지하되 시설 연결을 고려한 최우선 사례로 제시하지 않는다.')
     para('검토 결과의 활용','sub',5)
-    para('① 위 6개는 차량 구성·교체계획을 확인한다. 별도로 낮은 비중과 공식 제약이 함께 확인된 9개는 도로·충전·차종 제약부터 검토한다. ② 정보 보완형은 차량 분류부터 보완한다. ③ 실제 시설 출입구·이동 방향·대안 노선을 확인한 뒤 교체 대상을 결정한다. 시설 분석을 422번·172번의 수요 우위 근거로 사용하지 않았다.','small')
+    para('① 위 6개는 차량 구성·교체계획을 확인한다. 별도로 낮은 비중과 공식 제약이 함께 확인된 9개는 도로·충전·차종 제약부터 검토한다. ② 정보 보완형은 차량 분류부터 보완한다. ③ 실제 시설 출입구·이동 방향·대안 노선을 확인한 뒤 교체 대상을 결정한다. 172번·1137번의 선정은 검토 목적별 사례이며 수요·탄소효율 기준의 종합 순위가 아니다.','small')
     para('전기저상 도입 실적은 <b>기존 저상차량 대체 / 비저상차량 대체</b>로 나누고 친환경 도입 대수와 저상차량 순증을 함께 공개한다. 비저상 대체는 저상차량 수를 늘릴 여지가 있다. 탄소효과는 기존 동력원·운행거리 등을 확인해 별도로 평가해야 한다.','small')
     table([['핵심 한계','제안의 범위'],
            ['3일 표본·현재 분류의 과거 적용','조건부 검토 후보; 확정 교체 순위 아님'],

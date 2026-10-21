@@ -1,0 +1,522 @@
+{
+  "reference_facilities": 237,
+  "candidate_routes": 6,
+  "routes": [
+    {
+      "route_id": "100100008",
+      "route_name": "103",
+      "by_radius": [
+        {
+          "radius_metres": 300,
+          "linked_facilities": 4,
+          "by_type": {
+            "(장애인지역사회재활시설) 수어통역센터": 2,
+            "(장애인지역사회재활시설) 장애인복지관": 1,
+            "(장애인지역사회재활시설) 장애인주간이용시설": 1
+          },
+          "facilities_with_missing_alternative_supply": 0,
+          "alternative_checks": [
+            {
+              "threshold": 0.5,
+              "lower_meets": 4,
+              "all_upper_below": 0,
+              "uncertain": 0,
+              "no_other_route": 0
+            },
+            {
+              "threshold": 0.8,
+              "lower_meets": 4,
+              "all_upper_below": 0,
+              "uncertain": 0,
+              "no_other_route": 0
+            }
+          ]
+        },
+        {
+          "radius_metres": 500,
+          "linked_facilities": 6,
+          "by_type": {
+            "(장애인지역사회재활시설) 수어통역센터": 2,
+            "(장애인지역사회재활시설) 장애인복지관": 1,
+            "(장애인지역사회재활시설) 장애인주간이용시설": 3
+          },
+          "facilities_with_missing_alternative_supply": 0,
+          "alternative_checks": [
+            {
+              "threshold": 0.5,
+              "lower_meets": 6,
+              "all_upper_below": 0,
+              "uncertain": 0,
+              "no_other_route": 0
+            },
+            {
+              "threshold": 0.8,
+              "lower_meets": 4,
+              "all_upper_below": 0,
+              "uncertain": 2,
+              "no_other_route": 0
+            }
+          ]
+        },
+        {
+          "radius_metres": 800,
+          "linked_facilities": 13,
+          "by_type": {
+            "(장애인지역사회재활시설) 수어통역센터": 4,
+            "(장애인지역사회재활시설) 장애인복지관": 1,
+            "(장애인지역사회재활시설) 장애인주간이용시설": 8
+          },
+          "facilities_with_missing_alternative_supply": 0,
+          "alternative_checks": [
+            {
+              "threshold": 0.5,
+              "lower_meets": 13,
+              "all_upper_below": 0,
+              "uncertain": 0,
+              "no_other_route": 0
+            },
+            {
+              "threshold": 0.8,
+              "lower_meets": 8,
+              "all_upper_below": 0,
+              "uncertain": 5,
+              "no_other_route": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route_id": "100100037",
+      "route_name": "172",
+      "by_radius": [
+        {
+          "radius_metres": 300,
+          "linked_facilities": 8,
+          "by_type": {
+            "(장애인지역사회재활시설) 수어통역센터": 1,
+            "(장애인지역사회재활시설) 장애인복지관": 2,
+            "(장애인지역사회재활시설) 장애인주간이용시설": 5
+          },
+          "facilities_with_missing_alternative_supply": 0,
+          "alternative_checks": [
+            {
+              "threshold": 0.5,
+              "lower_meets": 8,
+              "all_upper_below": 0,
+              "uncertain": 0,
+              "no_other_route": 0
+            },
+            {
+              "threshold": 0.8,
+              "lower_meets": 1,
+              "all_upper_below": 0,
+              "uncertain": 7,
+              "no_other_route": 0
+            }
+          ]
+        },
+        {
+          "radius_metres": 500,
+          "linked_facilities": 15,
+          "by_type": {
+            "(장애인지역사회재활시설) 수어통역센터": 2,
+            "(장애인지역사회재활시설) 장애인복지관": 3,
+            "(장애인지역사회재활시설) 장애인재활치료시설": 1,
+            "(장애인지역사회재활시설) 장애인주간이용시설": 9
+          },
+          "facilities_with_missing_alternative_supply": 0,
+          "alternative_checks": [
+            {
+              "threshold": 0.5,
+              "lower_meets": 15,
+              "all_upper_below": 0,
+              "uncertain": 0,
+              "no_other_route": 0
+            },
+            {
+              "threshold": 0.8,
+              "lower_meets": 4,
+              "all_upper_below": 0,
+              "uncertain": 11,
+              "no_other_route": 0
+            }
+          ]
+        },
+        {
+          "radius_metres": 800,
+          "linked_facilities": 18,
+          "by_type": {
+            "(장애인지역사회재활시설) 수어통역센터": 2,
+            "(장애인지역사회재활시설) 장애인복지관": 3,
+            "(장애인지역사회재활시설) 장애인재활치료시설": 1,
+            "(장애인지역사회재활시설) 장애인주간이용시설": 12
+          },
+          "facilities_with_missing_alternative_supply": 0,
+          "alternative_checks": [
+            {
+              "threshold": 0.5,
+              "lower_meets": 18,
+              "all_upper_below": 0,
+              "uncertain": 0,
+              "no_other_route": 0
+            },
+            {
+              "threshold": 0.8,
+              "lower_meets": 4,
+              "all_upper_below": 0,
+              "uncertain": 14,
+              "no_other_route": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route_id": "100100152",
+      "route_name": "1137",
+      "by_radius": [
+        {
+          "radius_metres": 300,
+          "linked_facilities": 7,
+          "by_type": {
+            "(장애인지역사회재활시설) 수어통역센터": 1,
+            "(장애인지역사회재활시설) 장애인재활치료시설": 1,
+            "(장애인지역사회재활시설) 장애인주간이용시설": 5
+          },
+          "facilities_with_missing_alternative_supply": 0,
+          "alternative_checks": [
+            {
+              "threshold": 0.5,
+              "lower_meets": 4,
+              "all_upper_below": 0,
+              "uncertain": 3,
+              "no_other_route": 0
+            },
+            {
+              "threshold": 0.8,
+              "lower_meets": 0,
+              "all_upper_below": 3,
+              "uncertain": 4,
+              "no_other_route": 0
+            }
+          ]
+        },
+        {
+          "radius_metres": 500,
+          "linked_facilities": 9,
+          "by_type": {
+            "(장애인지역사회재활시설) 수어통역센터": 1,
+            "(장애인지역사회재활시설) 장애인복지관": 1,
+            "(장애인지역사회재활시설) 장애인재활치료시설": 1,
+            "(장애인지역사회재활시설) 장애인주간이용시설": 6
+          },
+          "facilities_with_missing_alternative_supply": 0,
+          "alternative_checks": [
+            {
+              "threshold": 0.5,
+              "lower_meets": 7,
+              "all_upper_below": 0,
+              "uncertain": 2,
+              "no_other_route": 0
+            },
+            {
+              "threshold": 0.8,
+              "lower_meets": 0,
+              "all_upper_below": 2,
+              "uncertain": 7,
+              "no_other_route": 0
+            }
+          ]
+        },
+        {
+          "radius_metres": 800,
+          "linked_facilities": 20,
+          "by_type": {
+            "(장애인지역사회재활시설) 수어통역센터": 1,
+            "(장애인지역사회재활시설) 장애인복지관": 4,
+            "(장애인지역사회재활시설) 장애인재활치료시설": 2,
+            "(장애인지역사회재활시설) 장애인주간이용시설": 12,
+            "(장애인지역사회재활시설) 장애인체육시설": 1
+          },
+          "facilities_with_missing_alternative_supply": 0,
+          "alternative_checks": [
+            {
+              "threshold": 0.5,
+              "lower_meets": 20,
+              "all_upper_below": 0,
+              "uncertain": 0,
+              "no_other_route": 0
+            },
+            {
+              "threshold": 0.8,
+              "lower_meets": 0,
+              "all_upper_below": 0,
+              "uncertain": 20,
+              "no_other_route": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route_id": "100100191",
+      "route_name": "2112",
+      "by_radius": [
+        {
+          "radius_metres": 300,
+          "linked_facilities": 7,
+          "by_type": {
+            "(장애인지역사회재활시설) 수어통역센터": 3,
+            "(장애인지역사회재활시설) 장애인복지관": 1,
+            "(장애인지역사회재활시설) 장애인재활치료시설": 1,
+            "(장애인지역사회재활시설) 장애인주간이용시설": 2
+          },
+          "facilities_with_missing_alternative_supply": 0,
+          "alternative_checks": [
+            {
+              "threshold": 0.5,
+              "lower_meets": 6,
+              "all_upper_below": 0,
+              "uncertain": 1,
+              "no_other_route": 0
+            },
+            {
+              "threshold": 0.8,
+              "lower_meets": 1,
+              "all_upper_below": 1,
+              "uncertain": 5,
+              "no_other_route": 0
+            }
+          ]
+        },
+        {
+          "radius_metres": 500,
+          "linked_facilities": 12,
+          "by_type": {
+            "(장애인지역사회재활시설) 수어통역센터": 3,
+            "(장애인지역사회재활시설) 장애인복지관": 2,
+            "(장애인지역사회재활시설) 장애인재활치료시설": 1,
+            "(장애인지역사회재활시설) 장애인주간이용시설": 6
+          },
+          "facilities_with_missing_alternative_supply": 0,
+          "alternative_checks": [
+            {
+              "threshold": 0.5,
+              "lower_meets": 12,
+              "all_upper_below": 0,
+              "uncertain": 0,
+              "no_other_route": 0
+            },
+            {
+              "threshold": 0.8,
+              "lower_meets": 2,
+              "all_upper_below": 0,
+              "uncertain": 10,
+              "no_other_route": 0
+            }
+          ]
+        },
+        {
+          "radius_metres": 800,
+          "linked_facilities": 13,
+          "by_type": {
+            "(장애인지역사회재활시설) 수어통역센터": 3,
+            "(장애인지역사회재활시설) 장애인복지관": 2,
+            "(장애인지역사회재활시설) 장애인재활치료시설": 2,
+            "(장애인지역사회재활시설) 장애인주간이용시설": 6
+          },
+          "facilities_with_missing_alternative_supply": 0,
+          "alternative_checks": [
+            {
+              "threshold": 0.5,
+              "lower_meets": 13,
+              "all_upper_below": 0,
+              "uncertain": 0,
+              "no_other_route": 0
+            },
+            {
+              "threshold": 0.8,
+              "lower_meets": 2,
+              "all_upper_below": 0,
+              "uncertain": 11,
+              "no_other_route": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route_id": "100100478",
+      "route_name": "3317",
+      "by_radius": [
+        {
+          "radius_metres": 300,
+          "linked_facilities": 6,
+          "by_type": {
+            "(장애인지역사회재활시설) 장애인복지관": 1,
+            "(장애인지역사회재활시설) 장애인주간이용시설": 4,
+            "(장애인지역사회재활시설) 장애인체육시설": 1
+          },
+          "facilities_with_missing_alternative_supply": 0,
+          "alternative_checks": [
+            {
+              "threshold": 0.5,
+              "lower_meets": 6,
+              "all_upper_below": 0,
+              "uncertain": 0,
+              "no_other_route": 0
+            },
+            {
+              "threshold": 0.8,
+              "lower_meets": 0,
+              "all_upper_below": 0,
+              "uncertain": 6,
+              "no_other_route": 0
+            }
+          ]
+        },
+        {
+          "radius_metres": 500,
+          "linked_facilities": 8,
+          "by_type": {
+            "(장애인지역사회재활시설) 수어통역센터": 1,
+            "(장애인지역사회재활시설) 장애인복지관": 2,
+            "(장애인지역사회재활시설) 장애인주간이용시설": 4,
+            "(장애인지역사회재활시설) 장애인체육시설": 1
+          },
+          "facilities_with_missing_alternative_supply": 0,
+          "alternative_checks": [
+            {
+              "threshold": 0.5,
+              "lower_meets": 8,
+              "all_upper_below": 0,
+              "uncertain": 0,
+              "no_other_route": 0
+            },
+            {
+              "threshold": 0.8,
+              "lower_meets": 0,
+              "all_upper_below": 0,
+              "uncertain": 8,
+              "no_other_route": 0
+            }
+          ]
+        },
+        {
+          "radius_metres": 800,
+          "linked_facilities": 10,
+          "by_type": {
+            "(장애인지역사회재활시설) 수어통역센터": 1,
+            "(장애인지역사회재활시설) 장애인복지관": 3,
+            "(장애인지역사회재활시설) 장애인주간이용시설": 5,
+            "(장애인지역사회재활시설) 장애인체육시설": 1
+          },
+          "facilities_with_missing_alternative_supply": 0,
+          "alternative_checks": [
+            {
+              "threshold": 0.5,
+              "lower_meets": 10,
+              "all_upper_below": 0,
+              "uncertain": 0,
+              "no_other_route": 0
+            },
+            {
+              "threshold": 0.8,
+              "lower_meets": 0,
+              "all_upper_below": 0,
+              "uncertain": 10,
+              "no_other_route": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route_id": "107000008",
+      "route_name": "422",
+      "by_radius": [
+        {
+          "radius_metres": 300,
+          "linked_facilities": 4,
+          "by_type": {
+            "(장애인지역사회재활시설) 장애인재활치료시설": 1,
+            "(장애인지역사회재활시설) 장애인주간이용시설": 3
+          },
+          "facilities_with_missing_alternative_supply": 0,
+          "alternative_checks": [
+            {
+              "threshold": 0.5,
+              "lower_meets": 4,
+              "all_upper_below": 0,
+              "uncertain": 0,
+              "no_other_route": 0
+            },
+            {
+              "threshold": 0.8,
+              "lower_meets": 0,
+              "all_upper_below": 0,
+              "uncertain": 4,
+              "no_other_route": 0
+            }
+          ]
+        },
+        {
+          "radius_metres": 500,
+          "linked_facilities": 8,
+          "by_type": {
+            "(장애인지역사회재활시설) 수어통역센터": 2,
+            "(장애인지역사회재활시설) 장애인복지관": 1,
+            "(장애인지역사회재활시설) 장애인재활치료시설": 1,
+            "(장애인지역사회재활시설) 장애인주간이용시설": 4
+          },
+          "facilities_with_missing_alternative_supply": 0,
+          "alternative_checks": [
+            {
+              "threshold": 0.5,
+              "lower_meets": 8,
+              "all_upper_below": 0,
+              "uncertain": 0,
+              "no_other_route": 0
+            },
+            {
+              "threshold": 0.8,
+              "lower_meets": 0,
+              "all_upper_below": 0,
+              "uncertain": 8,
+              "no_other_route": 0
+            }
+          ]
+        },
+        {
+          "radius_metres": 800,
+          "linked_facilities": 15,
+          "by_type": {
+            "(장애인지역사회재활시설) 수어통역센터": 2,
+            "(장애인지역사회재활시설) 장애인복지관": 3,
+            "(장애인지역사회재활시설) 장애인재활치료시설": 3,
+            "(장애인지역사회재활시설) 장애인주간이용시설": 7
+          },
+          "facilities_with_missing_alternative_supply": 0,
+          "alternative_checks": [
+            {
+              "threshold": 0.5,
+              "lower_meets": 15,
+              "all_upper_below": 0,
+              "uncertain": 0,
+              "no_other_route": 0
+            },
+            {
+              "threshold": 0.8,
+              "lower_meets": 0,
+              "all_upper_below": 0,
+              "uncertain": 15,
+              "no_other_route": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warning": "Counts are distinct facilities per route and overlap across routes. Candidate excluded from other-route checks. Whole-route record composition, not verified alternatives for a trip, demand, station arrivals or accessible walking paths. Address coordinates unreviewed. Thresholds are exploratory. Missing alternative supply uses [0,1]. No replacement ranking or carbon effect estimated."
+}

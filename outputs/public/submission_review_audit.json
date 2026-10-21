@@ -52,5 +52,10 @@
   ],
   "stable_low_routes_across_thresholds": 15,
   "threshold_sensitive_routes": 316,
-  "test_count": 51
+  "test_count": 53,
+  "candidate_facility_comparison_added": true,
+  "case_routes_after_facility_review": [
+    "172",
+    "1137"
+  ]
 }

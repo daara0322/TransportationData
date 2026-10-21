@@ -42,7 +42,7 @@ python -m src.figures
 python -m src.distance_reference --operations data/raw/tdata_vehicle_operations.csv --nodes data/raw/tdata_route_nodes.csv --stations data/raw/tdata_stations.csv --route-audit outputs/public/route_master_audit.json --output outputs/public/distance_reference_audit.json
 ```
 
-시설 좌표 수집은 별도 키와 건물 위치 검수가 필요하다. 절차와 해석 한계는 `research/2026-10-18-distance-and-geocoding.md`에 기록했다. 주소 API 응답은 확보했지만 실제 건물·출입구는 검수하지 않았다.
+시설 좌표 수집은 별도 키와 건물 위치 검수가 필요하다. 절차와 해석 한계는 `archive/2026-10-18-distance-and-geocoding.md`에 기록했다. 주소 API 응답은 확보했지만 실제 건물·출입구는 검수하지 않았다.
 
 ## 시설 후보의 주소·거리 진단
 
@@ -52,7 +52,7 @@ python -m src.distance_reference --operations data/raw/tdata_vehicle_operations.
 python -m src.facility_catchments --facilities data/processed/facility_geocode_candidates_full.csv --edges data/processed/route_station_edges.csv --output outputs/public/facility_catchment_initial_diagnostic.json --details-output data/processed/facility_address_review_v2.csv
 ```
 
-이는 미검수 좌표의 진단이다. 완전한 도로명·건물번호 문자열 일치도 건물 위치 확인으로 취급하지 않는다. 결과의 분모와 해석은 `research/2026-10-18-facility-catchments.md`를 참고한다.
+이는 미검수 좌표의 진단이다. 완전한 도로명·건물번호 문자열 일치도 건물 위치 확인으로 취급하지 않는다. 결과의 분모와 해석은 `archive/2026-10-18-facility-catchments.md`를 참고한다.
 
 미검색 시설의 상세 표기 분리 재조회와 최신 진단은 다음 순서다. `work-dir`와 출력 파일은 존재하지 않는 새 경로여야 한다. 재조회에는 로컬 카카오 키와 네트워크가 필요하며 응답은 주소별 캐시를 재사용한다. 원본 시설 주소는 바꾸지 않는다.
 
@@ -70,7 +70,7 @@ python -m src.facility_supply --facilities data/processed/facility_geocode_candi
 python -m src.facility_supply_figure
 ```
 
-시설별 출력은 새 경로만 허용하며 입력·출력 경로가 서로 같으면 중단한다. 이 분석은 노선 전체의 기록 구성을 연결한 사전 진단이고 정류장 단위 실측 도착비율이 아니다. 해석은 `research/2026-10-18-facility-supply.md`를 참고한다.
+시설별 출력은 새 경로만 허용하며 입력·출력 경로가 서로 같으면 중단한다. 이 분석은 노선 전체의 기록 구성을 연결한 사전 진단이고 정류장 단위 실측 도착비율이 아니다. 해석은 `archive/2026-10-18-facility-supply.md`를 참고한다.
 
 ## 시설 종류별 연결 범위 점검
 

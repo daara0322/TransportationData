@@ -25,7 +25,7 @@ python -m unittest discover -s tests
 python -m src.review_types --output data/processed/route_review_check.json
 ```
 
-공개 집계를 사용한 두 번째 명령은 별도 원자료나 API 키가 필요 없다. 출력 폴더가 없으면 먼저 준비한다. 시설 연결 재계산과 원자료부터의 전체 실행은 [재현 순서](docs/reproduce.md)를 따른다.
+공개 집계를 사용한 두 번째 명령은 별도 원자료나 API 키가 필요 없다. 출력 폴더는 자동 생성한다. 시설 연결 재계산과 원자료부터의 전체 실행은 [재현 순서](docs/reproduce.md)를 따른다.
 
 ```powershell
 python -m pip install -r requirements-report.txt
@@ -44,8 +44,10 @@ python scripts/build_review_pdf.py --output data/processed/report_check.pdf
 | `tests/` | 중복·분모·미확인 분류·주소·후보 비교 검사 |
 | `configs/` | 후보 노선, 공식 예외승인 사실표, 위치 시나리오 |
 | `outputs/public/` | 공개 가능한 집계와 결과 그림 |
-| `docs/` | 방법·해석·재현 안내, 검증 근거가 담긴 연구 기록 |
+| `docs/` | 최종 방법·해석·재현 안내; 과거 검증 메모는 `docs/archive/` |
 
 자료의 출처·이용조건은 [데이터 안내](data/README.md), 확보 당시 크기·해시는 `data/manifest.json`에 있다. 원자료·행 단위 가공자료·인증키·개인 신청서는 Git에서 제외한다. API를 새로 수집할 때만 `.env.example`을 참고해 로컬 인증키를 설정한다.
 
-심사용 코드는 [분석 브랜치](https://github.com/daara0322/TransportationData/tree/codex/supply-analysis)를 사용한다. 공개 보고서는 개인정보가 없는 작업본이며, 개인 제출 파일과 발송 여부는 이 저장소에서 관리하지 않는다. AI 서비스·활용 범위·주요 요청 요약은 보고서에 기재했다. [공모전 제출 요건](docs/submission-requirements.md).
+최신 결과는 기본 브랜치 `main`에서 확인할 수 있다. 보고서에 기재한 [분석 브랜치](https://github.com/daara0322/TransportationData/tree/codex/supply-analysis)에도 같은 최종 결과를 유지한다. 공개 보고서는 개인정보가 없는 작업본이며, 개인 제출 파일과 발송 여부는 이 저장소에서 관리하지 않는다. AI 서비스·활용 범위·주요 요청 요약은 보고서에 기재했다. [공모전 제출 요건](docs/submission-requirements.md).
+
+과거 검증 근거가 필요하면 [보관 문서 안내](docs/archive/README.md)를 참고한다. 보류·미착수 계획과 현재 결과는 분리했다.

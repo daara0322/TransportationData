@@ -1,5 +1,5 @@
 import unittest
-from src.candidate_facilities import compare, index_supply
+from src.candidate_facilities import compare, index_supply, joint_selection
 
 
 class CandidateFacilityTests(unittest.TestCase):
@@ -30,6 +30,18 @@ class CandidateFacilityTests(unittest.TestCase):
     def test_duplicate_supply_route_must_not_silently_overwrite(self):
         with self.assertRaises(ValueError):
             index_supply([{'route_id': 'a'}, {'route_id': 'a'}])
+
+    def test_joint_selection_keeps_tradeoffs_and_changes_with_radius(self):
+        candidates = [dict(route_id=k, route_name=k, records=10,
+                           low_floor_records=0, unknown_records=u)
+                      for k, u in [('a', 1), ('b', 2), ('c', 3), ('d', 2)]]
+        counts = {'a': [3, 3, 3], 'b': [5, 5, 5], 'c': [4, 4, 8], 'd': [5, 5, 5]}
+        facilities = {'routes': [dict(route_id=k, by_radius=[
+            dict(radius_metres=r, linked_facilities=n)
+            for r, n in zip((300, 500, 800), values)]) for k, values in counts.items()]}
+        result = joint_selection(candidates, facilities)
+        self.assertEqual(result['by_radius'][1]['nondominated_routes'], ['a', 'b', 'd'])
+        self.assertEqual(result['by_radius'][2]['nondominated_routes'], ['a', 'b', 'c', 'd'])
 
 
 if __name__ == '__main__':

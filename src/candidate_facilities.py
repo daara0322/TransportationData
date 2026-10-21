@@ -1,6 +1,7 @@
 """Compare candidate routes' facility connections and other-route composition."""
 import argparse
 from collections import Counter
+from fractions import Fraction
 import csv
 import json
 from pathlib import Path
@@ -8,6 +9,36 @@ from pathlib import Path
 
 RADII = (300, 500, 800)
 THRESHOLDS = (.5, .8)
+
+
+def joint_selection(candidates, comparison):
+    """Keep tradeoffs without inventing weights or an overall replacement rank."""
+    facilities = index_supply(comparison['routes'])
+    if set(index_supply(candidates)) != set(facilities):
+        raise ValueError('Candidate and facility route identities differ')
+    upper = {r['route_id']: Fraction(r['low_floor_records'] + r['unknown_records'], r['records'])
+             for r in candidates}
+    results = []
+    for radius in RADII:
+        connections = {}
+        for route_id, route in facilities.items():
+            matches = [r for r in route['by_radius'] if r['radius_metres'] == radius]
+            if len(matches) != 1:
+                raise ValueError('Missing or duplicate comparison radius')
+            connections[route_id] = matches[0]['linked_facilities']
+        frontier = []
+        for route in candidates:
+            current = route['route_id']
+            dominated = any(
+                upper[other] <= upper[current] and connections[other] >= connections[current]
+                and (upper[other] < upper[current] or connections[other] > connections[current])
+                for other in facilities if other != current
+            )
+            if not dominated:
+                frontier.append(route['route_name'])
+        results.append({'radius_metres': radius, 'nondominated_routes': sorted(frontier)})
+    return {'criteria': 'Minimize conditional low-floor record-share upper bound and maximize distinct linked facilities within the six prefiltered candidates. No weights or total ranking.',
+            'by_radius': results}
 
 
 def index_supply(rows):
@@ -93,6 +124,7 @@ if __name__ == '__main__':
     candidates = [r for r in review['routes'] if r['review_type_by_threshold']['30'] == 'low_composition']
     supply = index_supply(source['by_route'])
     result = compare(facilities, types, candidates, supply)
+    result['joint_selection'] = joint_selection(candidates, result)
     output = Path(args.output)
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(result, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')

@@ -126,7 +126,7 @@ def build(output,font_path,bold_path,profile_path=None):
     start('표지')
     para('분석보고서' if personal else '검토용 보고서','sub',26)
     para('서울 버스의 전기저상 전환 검토를 위한<br/>저상차량 구성과 운영 제약 분석','cover',24)
-    para('노선 구성 범위·시설 연계·공식 운영 제약의 교차 검토','sub',28)
+    para('저상 구성과 시설 연결을 함께 고려한 전환 검토','sub',28)
     para('<b>이름 / 소속:</b> '+(escape(profile['name'])+' / '+escape(profile['affiliation']) if personal else '본인 직접 입력 필요'),gap=16)
     para('<b>문서 상태:</b> '+('개인 참가 분석보고서.' if personal else '개인 검토용 초안.')+' 현재 자료로 저상차량 구성 차이와 공식 운영 제약을 분석했다. 탄소감축량·최적 교체 순위·실제 접근성 효과의 산정은 연구 범위에서 제외했다.',gap=18)
     table([['확인한 분석','이번 분석에서 산출하지 않은 것'],
@@ -135,7 +135,7 @@ def build(output,font_path,bold_path,profile_path=None):
     pdf.showPage()
 
     start('본문 1 / 5');title('1. 분석 배경·목적과 활용 데이터')
-    para('전기저상 전환을 검토할 때 차량 도입 대수만으로 이용 기회와 운영 가능성을 판단하기 어렵다. 이번 분석은 미분류를 고려해도 남는 노선별 저상차량 구성 차이, 관련 시설 주변의 대상 노선 대안, 공식 예외승인 제약을 함께 살핀다. 탄소중립과의 연결은 전기저상 전환이라는 정책 대상에 두며 실제 탄소저감 효과를 검증한 연구로 제시하지 않는다.')
+    para('전기저상 전환을 검토할 때 차량 도입 대수만으로 이용 기회와 운영 가능성을 판단하기 어렵다. 이번 분석은 미분류를 고려해도 남는 노선별 저상차량 구성 차이, 관련 시설 주변의 대상 노선 대안, 공식 예외승인 제약을 함께 살핀다. 저상 기록 비중 상한이 낮으면서 시설 연결 수가 많은 후보를 함께 비교해 전환 검토 대상을 좁힌다. 탄소중립과의 연결은 전기저상 전환이라는 정책 대상에 두며 실제 탄소저감 효과를 검증한 연구로 제시하지 않는다.')
     para('<b>참여 동기:</b> '+(escape(profile['motivation']) if personal else '본인의 실제 참여 동기는 최종 원고에서 직접 작성해야 한다.')+' 기존 정책이 불공정하다는 결론은 전제하지 않았다.','small')
     sources=[
       ('차량 운행통계','서울시 BIS / T-Data','노선·차량·기록 연결, 10/13~15','https://t-data.seoul.go.kr/dataprovide/trafficdataviewfile.do?data_id=84'),
@@ -195,31 +195,35 @@ def build(output,font_path,bold_path,profile_path=None):
     table(rows,[50,45,45,45,130,usable-315])
     para('복=복지관, 주=주간이용시설, 기=그 외 시설. 다른 노선은 후보 자신을 제외한 분석 범위 내 노선이다. 하한 충족은 해당 시설 주변에 기록 비중 하한이 50% 이상인 다른 노선이 하나 이상 있다는 뜻이다. 불확실은 다른 노선 모두의 하한은 기준 미만이나 상한까지 미달하지는 않는 경우다. 실제 목적지·방향이 같은 대체 교통편임을 확인한 것은 아니다.','small',6)
     para('<b>172번은 500m에서 15곳(복지관 3·주간이용 9·기타 3)으로 연결 범위가 가장 넓었다.</b> 300m에서도 8곳으로 가장 많았지만 800m에서는 1137번 20곳이 172번 18곳보다 많았다. 시설 연결 수에 따른 순서는 반경에 따라 달라진다.','small',6)
-    para('<b>1137번은 500m에서 9곳 중 2곳의 다른 노선 구성이 50% 기준에서 불확실했다.</b> 300m에서는 3곳, 800m에서는 0곳이었다. 기준을 80%로 높이면 500m에서 2곳은 다른 노선 모두의 상한이 미달하고 7곳은 불확실했다. 이는 기준 민감도이며 서비스 부족의 확정 판정은 아니다. 나머지 5개 후보는 500m 연결 시설 모두에서 다른 노선의 하한이 50% 이상이었다.','small',6)
+    para('보조 점검으로 1137번은 500m에서 9곳 중 2곳의 다른 노선 구성이 50% 기준에서 불확실했다. 300m에서는 3곳, 800m에서는 0곳이었다. 기준을 80%로 높이면 500m에서 2곳은 다른 노선 모두의 상한이 미달하고 7곳은 불확실했다. 이는 기준 민감도이며 서비스 부족의 확정 판정은 아니다. 나머지 5개 후보는 500m 연결 시설 모두에서 다른 노선의 하한이 50% 이상이었다.','small',6)
     figure('facility_supply_sensitivity.png',105)
     para('전체 237곳의 500m·50% 진단은 하한 충족 노선 있음 232곳·모든 상한 미달 1곳·불확실 4곳이었다. 후보별 비교에서는 후보 자신을 제외해 다른 노선 구성을 다시 계산했다.','small',5)
     figure('gangbuk_building_sensitivity.png',110)
     para('강북장애인종합복지관은 본관·별관 좌표가 약 42m 달랐고 한 정류장 거리는 301.0m·284.0m로 300m 경계를 넘나들었다. 반경·대표점에 민감한 결과는 출입구와 보행 경로를 확인해야 한다.','small',5)
     pdf.showPage()
 
-    start('본문 5 / 5');title('5. 우선 교체 검토 후보와 정책 제안')
+    start('본문 5 / 5');title('5. 두 조건을 함께 고려한 후보 선정')
     candidates=sorted([r for r in review['routes'] if r['review_type_by_threshold']['30']=='low_composition'], key=lambda r:(r['upper_bound'],r['route_id']))
     vehicle_rows=json.loads((ROOT/'outputs/public/lowfloor_linkage_authorization.json').read_text(encoding='utf-8'))['routes']
     vehicles={r['route_id']:r for r in vehicle_rows}
     if {r['route_name'] for r in candidates}!={'422','172','103','3317','2112','1137'}:
         raise ValueError('Candidate set changed: review the recommendation')
     para('<b>일반차량의 전기저상 전환을 우선 검토할 후보로 6개 노선을 제안한다.</b> 미확인 기록을 모두 저상으로 보아도 기록 비중 상한이 30% 미만이고, 확보한 공식 예외승인표와 연결되지 않은 노선이다. 30%는 탐색 기준이며 실제 교체 가능성을 보장하지 않는다.')
-    candidate_table=[['노선','저상 기록 비중 범위','관측 차량: 저상/일반/미확인','저상 차량 구성 범위']]
+    joint=select(comparison['joint_selection']['by_radius'], 'radius_metres', 500)
+    if set(joint['nondominated_routes']) != {'172','422'}: raise ValueError('Joint selection changed')
+    facility_counts={r['route_id']:select(r['by_radius'], 'radius_metres', 500)['linked_facilities'] for r in comparison['routes']}
+    candidate_table=[['노선','저상 기록 비중 범위','500m 연결 시설','관측 차량: 저상/일반/미확인']]
     for r in candidates:
         v=vehicles[r['route_id']]
         low,regular,unknown,total=(v[k] for k in ['low_floor_vehicles','regular_vehicles','unclassified_vehicles','historical_vehicles'])
         if low+regular+unknown!=total: raise ValueError('Vehicle counts do not sum')
-        candidate_table.append([r['route_name']+'번',f"{r['lower_bound']*100:.1f}~{r['upper_bound']*100:.1f}%",f'{low}/{regular}/{unknown}대',f'{100*low/total:.1f}~{100*(low+unknown)/total:.1f}%'])
-    table(candidate_table,[45,130,190,usable-365])
-    para('표는 기록 비중 상한 순으로 배열했으며 종합 교체 순위가 아니다. 기록 수와 관측 차량 수는 다른 분모다. 현재 차량 분류가 과거에도 유효하다는 조건이며 저상 확인 0대가 실제 저상차량 부재를 뜻하지 않는다.','small',6)
-    para('<b>시설을 함께 고려한 구체적 검토 사례는 172번과 1137번이다.</b> 172번은 500m 연결 시설 15곳과 일반 확인 차량 20대를 근거로 시설 연결 범위와 비저상 대체 가능성을 검토한다. 1137번은 연결 시설 9곳 중 2곳에서 다른 노선의 50% 기준 판단이 불확실해 목적지·방향·분류를 추가 확인한다. 422번은 낮은 구성의 비교 사례로 유지하되 시설 연결을 고려한 최우선 사례로 제시하지 않는다.')
+        candidate_table.append([r['route_name']+'번',f"{r['lower_bound']*100:.1f}~{r['upper_bound']*100:.1f}%",str(facility_counts[r['route_id']])+'곳',f'{low}/{regular}/{unknown}대'])
+    table(candidate_table,[45,140,100,usable-285])
+    para('표는 기록 비중 상한 순으로 배열했다. 시설 수와 함께 비교하며 종합 교체 순위가 아니다. 기록 수와 관측 차량 수는 다른 분모다. 현재 차량 분류가 과거에도 유효하다는 조건이며 저상 확인 0대가 실제 저상차량 부재를 뜻하지 않는다.','small',6)
+    para('<b>선정 규칙은 저상 기록 비중 상한은 낮고, 연결 시설 수는 많은 후보를 함께 남기는 것이다.</b> 다른 후보가 두 지표에서 모두 같거나 유리하고 한 지표 이상에서 더 유리하면 비교 대상에서 제외한다. 500m에서는 172번이 103·3317·2112·1137번보다 상한이 낮고 시설이 많아, 172번과 422번이 남는다. 임의 가중치나 합산 점수는 부여하지 않았다.')
+    para('<b>172번을 시설 연결을 중시한 주요 검토 사례, 422번을 장단점이 갈리는 비교 사례로 제안한다.</b> 172번은 상한 24.2%·시설 15곳·일반 확인 20대, 422번은 상한 20.1%·시설 8곳·일반 확인 12대다. 172번이 모든 지표에서 우월한 것은 아니다. 300m에서도 두 노선이 남지만 800m에서는 시설 20곳인 1137번도 남는다. 선정 결과는 6개 후보와 반경 선택에 한정된다.')
     para('검토 결과의 활용','sub',5)
-    para('① 위 6개는 차량 구성·교체계획을 확인한다. 별도로 낮은 비중과 공식 제약이 함께 확인된 9개는 도로·충전·차종 제약부터 검토한다. ② 정보 보완형은 차량 분류부터 보완한다. ③ 실제 시설 출입구·이동 방향·대안 노선을 확인한 뒤 교체 대상을 결정한다. 172번·1137번의 선정은 검토 목적별 사례이며 수요·탄소효율 기준의 종합 순위가 아니다.','small')
+    para('① 위 6개는 차량 구성·교체계획을 확인한다. 별도로 낮은 비중과 공식 제약이 함께 확인된 9개는 도로·충전·차종 제약부터 검토한다. ② 정보 보완형은 차량 분류부터 보완한다. ③ 실제 시설 출입구·이동 방향·대안 노선을 확인한 뒤 교체 대상을 결정한다. 172번·422번의 교체계획·차령·도로·충전 조건을 확인해 일반차량의 전기저상 전환을 검토한다. 수요·탄소효율 기준의 종합 순위는 아니다.','small')
     para('전기저상 도입 실적은 <b>기존 저상차량 대체 / 비저상차량 대체</b>로 나누고 친환경 도입 대수와 저상차량 순증을 함께 공개한다. 비저상 대체는 저상차량 수를 늘릴 여지가 있다. 탄소효과는 기존 동력원·운행거리 등을 확인해 별도로 평가해야 한다.','small')
     table([['핵심 한계','제안의 범위'],
            ['3일 표본·현재 분류의 과거 적용','조건부 검토 후보; 확정 교체 순위 아님'],

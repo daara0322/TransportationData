@@ -518,5 +518,32 @@
       ]
     }
   ],
-  "warning": "Counts are distinct facilities per route and overlap across routes. Candidate excluded from other-route checks. Whole-route record composition, not verified alternatives for a trip, demand, station arrivals or accessible walking paths. Address coordinates unreviewed. Thresholds are exploratory. Missing alternative supply uses [0,1]. No replacement ranking or carbon effect estimated."
+  "warning": "Counts are distinct facilities per route and overlap across routes. Candidate excluded from other-route checks. Whole-route record composition, not verified alternatives for a trip, demand, station arrivals or accessible walking paths. Address coordinates unreviewed. Thresholds are exploratory. Missing alternative supply uses [0,1]. No replacement ranking or carbon effect estimated.",
+  "joint_selection": {
+    "criteria": "Minimize conditional low-floor record-share upper bound and maximize distinct linked facilities within the six prefiltered candidates. No weights or total ranking.",
+    "by_radius": [
+      {
+        "radius_metres": 300,
+        "nondominated_routes": [
+          "172",
+          "422"
+        ]
+      },
+      {
+        "radius_metres": 500,
+        "nondominated_routes": [
+          "172",
+          "422"
+        ]
+      },
+      {
+        "radius_metres": 800,
+        "nondominated_routes": [
+          "1137",
+          "172",
+          "422"
+        ]
+      }
+    ]
+  }
 }

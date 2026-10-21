@@ -114,7 +114,7 @@
 - [ ] 별도 환경에서 표·그림 재현 후 GitHub 링크를 로그아웃 상태로 확인.
 - [ ] 신청서 서명·PDF·파일명·메일 제목 점검. 10/21 제출 목표, 공고 마감 10/22.
 
-예정 구조: data/README.md, data/raw/(Git 제외), src/prepare.py, src/coverage.py, src/emissions.py, src/scenarios.py, src/figures.py, configs/analysis.json, tests/, outputs/public/, docs/methods.md, docs/ai_usage.md, README.md, requirements.txt, .gitignore.
+예정 구조: data/README.md, data/raw/(Git 제외), src/prepare.py, src/coverage.py, src/emissions.py, src/scenarios.py, src/figures.py, configs/analysis.json, tests/, outputs/public/, docs/methods.md, README.md, requirements.txt, .gitignore.
 
 ## 10. 역할과 글쓰기
 

@@ -120,7 +120,7 @@ def build(output,font_path,bold_path,profile_path=None):
     para(f"현황 기록은 저상 확인 {t['low_floor_records']:,}행, 일반 확인 {t['regular_records']:,}행, 미확인 {t['unknown_records']:,}행이다. 기록 기준 분류 연결률은 63.3%다. 한 행을 완주 운행·승객 수·정류장 도착으로 간주하지 않았다.",'small')
     para('AI 기술 활용','sub',5)
     para('사용 서비스는 OpenAI Codex다. 공개 자료 검색·명세 확인, 수집·연결·검증 코드, 그림과 문서 초안에 활용했다. AI가 연료·좌표·효과를 임의로 채운 결과는 사용하지 않았다. 집계 대조·자동 검사·그림 검토를 수행했으며 미확인 사항은 한계로 명시했다.','small')
-    para('주요 실제 요청: “얻을수있는 데이터에서 다른팀이 하지않을거같은 생소한 문제점 찾아줘봐”, “쭉가보자 계획 짠거 확인하면서 진행해줘 앞으로 진행해야될거 체크리스트 만들어서 쭉해줘”. 전체 활용 기록은 docs/ai_usage.md에 있다.','small')
+    para('주요 요청 요약: 교통약자와 탄소저감을 함께 고려할 수 있는 공개 데이터 탐색, 저상버스 관련 자료의 분석 가능성 검토, 확보한 자료를 활용한 분석과 보고서 정리. 이는 대화 원문 인용이 아니라 실제 요청의 요약이다.','small')
     pdf.showPage()
 
     review=json.loads((ROOT/'outputs/public/route_review_types.json').read_text(encoding='utf-8'))

@@ -37,7 +37,7 @@ python -m src.audit_route_master --master data/raw/tdata_route_master.csv --vehi
 
 원본 경로와 출처는 `data/README.md`, 연구 진행상황은 `docs/research/2026-10-17-data-feasibility.md`에 기록했다. 저장소에는 코드·문서·노선별 집계 결과를 포함하고, 인증키와 원자료는 제외한다. 원자료는 출처에서 별도로 내려받아 `data/raw/`에 준비해야 한다.
 
-API 수집에는 `.env.example`을 참고해 로컬 `.env`에 인증키를 설정한다. `.env`는 Git 제외 대상이다. `python -m src.bus_positions --routes-file configs/probe_routes.json`으로 최대 40개 노선을 수집한다. 매번 API 호출을 사용하며 응답 시점에 따라 결과가 달라진다. AI 활용 내역은 `docs/ai_usage.md`에 기록한다.
+API 수집에는 `.env.example`을 참고해 로컬 `.env`에 인증키를 설정한다. `.env`는 Git 제외 대상이다. `python -m src.bus_positions --routes-file configs/probe_routes.json`으로 최대 40개 노선을 수집한다. 매번 API 호출을 사용하며 응답 시점에 따라 결과가 달라진다. AI 서비스·활용 범위·주요 요청 요약은 분석보고서에 기재한다.
 
 시설 주소 대조와 미검수 좌표의 정류장 거리 사전 진단: [진행 결과](docs/research/2026-10-18-facility-catchments.md). 좌표 후보는 확정 접근성이나 실제 이용 수요를 뜻하지 않는다.
 

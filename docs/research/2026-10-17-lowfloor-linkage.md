@@ -31,7 +31,7 @@ API 기록 중 2건은 같은 차량·노선 조합이 과거 3일 자료에서 
 
 예를 들어 104번은 과거 차량·노선 조합 24개 가운데 이번 응답으로 18개를 분류했고 저상 2개, 일반 16개였다. 나머지 6개가 미확인이므로 이 노선의 전체 저상 비율을 2/24로 발표할 수 없다. 관측된 일반 차량이 많다는 이유만으로 전환 우선순위가 높다고 결론 내리지 않는다. 차량규격, 노선 유형, 도로·충전 제약, 연료, 수요를 함께 확인해야 한다.
 
-노선별 결과는 `outputs/public/lowfloor_linkage_authorization.json`, 요약은 `outputs/public/lowfloor_linkage_summary.json`에 있다. 차량 ID와 위치가 포함된 원본 응답은 Git 제외 폴더에 보관한다.
+최종 연결 결과는 `outputs/public/lowfloor_linkage_authorization.json`에 있다. 초기 실험용 요약은 최종 결과와 중복돼 정리했다. 차량 ID와 위치가 포함된 원본 응답은 Git 제외 폴더에 보관한다.
 
 ## 주제에 도움이 되는 공식 통계
 
@@ -58,7 +58,7 @@ API 기록 중 2건은 같은 차량·노선 조합이 과거 3일 자료에서 
 
 ```powershell
 python -m unittest discover -s tests -v
-python -m src.bus_positions --routes-file configs/probe_routes.json
+# 새 수집은 최대 40개 노선 ID를 담은 로컬 JSON을 별도로 준비한다.
 python -m src.link_positions --operations data/raw/tdata_vehicle_operations.csv --snapshot data/raw/bus_positions/authorization_snapshot.json --output outputs/public/lowfloor_linkage_authorization.json
 ```
 

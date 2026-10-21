@@ -5,7 +5,6 @@ from html import escape
 from pathlib import Path
 
 from reportlab.lib import colors
-from reportlab.lib.enums import TA_LEFT
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import ParagraphStyle
 from reportlab.pdfbase import pdfmetrics
@@ -20,6 +19,84 @@ TEAL=colors.HexColor('#177e8c')
 MUTED=colors.HexColor('#566773')
 
 
+class ReportLayout:
+    """Page drawing kept separate from report content and data selection."""
+
+    def __init__(self, pdf, personal):
+        self.pdf = pdf
+        self.personal = personal
+        self.width, self.height = A4
+        self.left = 46
+        self.usable = self.width - self.left * 2
+        self.y = self.height - 61
+        self.styles={
+            'body':ParagraphStyle('body',fontName='Korean',fontSize=9.4,leading=14.8,wordWrap='CJK',textColor=INK),
+            'small':ParagraphStyle('small',fontName='Korean',fontSize=8,leading=11.8,wordWrap='CJK',textColor=MUTED),
+            'cell':ParagraphStyle('cell',fontName='Korean',fontSize=7.8,leading=11,wordWrap='CJK',textColor=INK),
+            'h':ParagraphStyle('h',fontName='KoreanBold',fontSize=17,leading=23,wordWrap='CJK',textColor=INK),
+            'sub':ParagraphStyle('sub',fontName='KoreanBold',fontSize=10.8,leading=16,wordWrap='CJK',textColor=TEAL),
+            'cover':ParagraphStyle('cover',fontName='KoreanBold',fontSize=25,leading=35,wordWrap='CJK',textColor=INK),
+        }
+
+    def start(self, label):
+        self.y = self.height - 61
+        self.pdf.setFillColor(MUTED)
+        self.pdf.setFont('Korean', 8)
+        status = '분석보고서' if self.personal else '검토용 초안'
+        self.pdf.drawString(self.left, self.height-30, f'TransportationData / {status} / 2026-10-21')
+        self.pdf.setStrokeColor(colors.HexColor('#d8e1e6'))
+        self.pdf.line(self.left, 43, self.width-self.left, 43)
+        self.pdf.drawString(self.left, 29, '저상차량 구성·운영 제약 분석')
+        self.pdf.drawRightString(self.width-self.left, 29, label)
+
+    def draw(self, item, gap=9):
+        _, height = item.wrap(self.usable, self.y-56)
+        if self.y-height < 56:
+            raise ValueError('Page content exceeds bottom margin')
+        item.drawOn(self.pdf, self.left, self.y-height)
+        self.y -= height+gap
+
+    def para(self, text, style='body', gap=9):
+        self.draw(Paragraph(text, self.styles[style]), gap)
+
+    def title(self, text):
+        self.para(text, 'h', 13)
+
+    def table(self, rows, widths):
+        values = [[Paragraph(str(value), self.styles['cell']) for value in row] for row in rows]
+        item = Table(values, colWidths=widths, hAlign='LEFT')
+        item.setStyle(TableStyle([
+            ('BACKGROUND', (0,0), (-1,0), colors.HexColor('#e9f2f3')),
+            ('VALIGN', (0,0), (-1,-1), 'TOP'),
+            ('LEFTPADDING', (0,0), (-1,-1), 7),
+            ('RIGHTPADDING', (0,0), (-1,-1), 7),
+            ('TOPPADDING', (0,0), (-1,-1), 6),
+            ('BOTTOMPADDING', (0,0), (-1,-1), 6),
+            ('LINEBELOW', (0,0), (-1,0), .7, TEAL),
+            ('LINEBELOW', (0,1), (-1,-1), .35, colors.HexColor('#dce3e7')),
+        ]))
+        self.draw(item, 10)
+
+    def figure(self, name, maximum_height):
+        item = Image(str(ROOT/'outputs/public/figures'/name))
+        ratio = min(self.usable/item.imageWidth, maximum_height/item.imageHeight)
+        item.drawWidth = item.imageWidth*ratio
+        item.drawHeight = item.imageHeight*ratio
+        self.draw(item, 8)
+
+
+def link(url, label=None):
+    return '<a color="#177e8c" href="'+escape(url, quote=True)+'">'+escape(label or url)+'</a>'
+
+
+def select(rows, key, value):
+    """Find one labelled result, regardless of input array order."""
+    matches = [row for row in rows if row[key] == value]
+    if len(matches) != 1:
+        raise ValueError(f'Expected one {key}={value}, found {len(matches)}')
+    return matches[0]
+
+
 def build(output,font_path,bold_path,profile_path=None):
     profile=json.loads(Path(profile_path).read_text(encoding='utf-8')) if profile_path else {}
     personal=bool(profile_path)
@@ -28,14 +105,6 @@ def build(output,font_path,bold_path,profile_path=None):
     pdfmetrics.registerFont(TTFont('Korean',str(font_path)))
     pdfmetrics.registerFont(TTFont('KoreanBold',str(bold_path)))
     pdfmetrics.registerFontFamily('Korean',normal='Korean',bold='KoreanBold')
-    styles={
-        'body':ParagraphStyle('body',fontName='Korean',fontSize=9.4,leading=14.8,wordWrap='CJK',textColor=INK),
-        'small':ParagraphStyle('small',fontName='Korean',fontSize=8,leading=11.8,wordWrap='CJK',textColor=MUTED),
-        'cell':ParagraphStyle('cell',fontName='Korean',fontSize=7.8,leading=11,wordWrap='CJK',textColor=INK),
-        'h':ParagraphStyle('h',fontName='KoreanBold',fontSize=17,leading=23,wordWrap='CJK',textColor=INK),
-        'sub':ParagraphStyle('sub',fontName='KoreanBold',fontSize=10.8,leading=16,wordWrap='CJK',textColor=TEAL),
-        'cover':ParagraphStyle('cover',fontName='KoreanBold',fontSize=25,leading=35,wordWrap='CJK',textColor=INK),
-    }
     target=Path(output);target.parent.mkdir(parents=True,exist_ok=True)
     if target.suffix.lower()!='.pdf':
         raise ValueError('Review output must use a .pdf extension')
@@ -44,39 +113,9 @@ def build(output,font_path,bold_path,profile_path=None):
     pdf=canvas.Canvas(str(target),pagesize=A4,pageCompression=1)
     pdf.setTitle('서울 버스의 전기저상 전환 검토 - 저상차량 구성과 운영 제약 분석')
     pdf.setAuthor(profile['name'] if personal else '검토용 초안 - 이름 미입력')
-    width,height=A4
-    left=46; usable=width-left*2;y=height-61
-    def start(label):
-        nonlocal y
-        y=height-61
-        pdf.setFillColor(MUTED);pdf.setFont('Korean',8)
-        pdf.drawString(left,height-30,'TransportationData / '+('분석보고서' if personal else '검토용 초안')+' / 2026-10-21')
-        pdf.setStrokeColor(colors.HexColor('#d8e1e6'));pdf.line(left,43,width-left,43)
-        pdf.drawString(left,29,'저상차량 구성·운영 제약 분석')
-        pdf.drawRightString(width-left,29,label)
-    def draw(item,gap=9):
-        nonlocal y
-        w,h=item.wrap(usable,y-56)
-        if y-h<56:raise ValueError('Page content exceeds bottom margin')
-        item.drawOn(pdf,left,y-h);y-=h+gap
-    def para(text,style='body',gap=9):draw(Paragraph(text,styles[style]),gap)
-    def title(text):para(text,'h',13)
-    def table(rows,widths):
-        values=[[Paragraph(str(value),styles['cell']) for value in row] for row in rows]
-        item=Table(values,colWidths=widths,hAlign='LEFT')
-        item.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),colors.HexColor('#e9f2f3')),
-                                 ('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),7),
-                                 ('RIGHTPADDING',(0,0),(-1,-1),7),('TOPPADDING',(0,0),(-1,-1),6),
-                                 ('BOTTOMPADDING',(0,0),(-1,-1),6),
-                                 ('LINEBELOW',(0,0),(-1,0),.7,TEAL),
-                                 ('LINEBELOW',(0,1),(-1,-1),.35,colors.HexColor('#dce3e7'))]))
-        draw(item,10)
-    def figure(name,maximum_height):
-        item=Image(str(ROOT/'outputs/public/figures'/name))
-        ratio=min(usable/item.imageWidth,maximum_height/item.imageHeight)
-        item.drawWidth=item.imageWidth*ratio;item.drawHeight=item.imageHeight*ratio
-        draw(item,8)
-    def link(url,label=None):return '<a color="#177e8c" href="'+escape(url,quote=True)+'">'+escape(label or url)+'</a>'
+    layout = ReportLayout(pdf, personal)
+    start, para, title = layout.start, layout.para, layout.title
+    table, figure, usable = layout.table, layout.figure, layout.usable
     supply=json.loads((ROOT/'outputs/public/supply_records.json').read_text(encoding='utf-8'))
     facility=json.loads((ROOT/'outputs/public/facility_supply_diagnostic.json').read_text(encoding='utf-8'))
     location=json.loads((ROOT/'outputs/public/gangbuk_building_sensitivity.json').read_text(encoding='utf-8'))
@@ -142,17 +181,17 @@ def build(output,font_path,bold_path,profile_path=None):
         raise ValueError('Facility comparison scope changed')
     start('본문 4 / 5');title('4. 시설 연결을 반영한 후보 비교')
     para('시설 274곳 중 도로명·건물번호가 일치한 좌표 후보 237곳을 사용했다. 실제 건물·출입구는 미검수다. 후보 노선의 정류장과 시설의 직선거리가 300/500/800m 이내이면 연결하며 시설은 노선별로 한 번만 센다. 시설 수는 이용자 수가 아니고 노선 간 중복도 있어 합산하지 않는다.')
-    compared=sorted(comparison['routes'], key=lambda r:(-r['by_radius'][1]['linked_facilities'],r['route_id']))
+    compared=sorted(comparison['routes'], key=lambda r:(-select(r['by_radius'], 'radius_metres', 500)['linked_facilities'],r['route_id']))
     rows=[['노선','300m','500m','800m','500m 시설 종류\n복/주/기','500m 다른 노선\n50% 하한 충족/불확실']]
     for r in compared:
-        mid=r['by_radius'][1]
+        mid=select(r['by_radius'], 'radius_metres', 500)
         rehab=sum(n for k,n in mid['by_type'].items() if '복지관' in k)
         day=sum(n for k,n in mid['by_type'].items() if '주간' in k)
         other=mid['linked_facilities']-rehab-day
-        check=mid['alternative_checks'][0]
+        check=select(mid['alternative_checks'], 'threshold', .5)
         if check['no_other_route'] or check['all_upper_below']:
             raise ValueError('Alternative narrative changed')
-        rows.append([r['route_name']+'번',*[x['linked_facilities'] for x in r['by_radius']],f'{rehab}/{day}/{other}',f"{check['lower_meets']}/{check['uncertain']}"])
+        rows.append([r['route_name']+'번',*[select(r['by_radius'], 'radius_metres', radius)['linked_facilities'] for radius in (300, 500, 800)],f'{rehab}/{day}/{other}',f"{check['lower_meets']}/{check['uncertain']}"])
     table(rows,[50,45,45,45,130,usable-315])
     para('복=복지관, 주=주간이용시설, 기=그 외 시설. 다른 노선은 후보 자신을 제외한 분석 범위 내 노선이다. 하한 충족은 해당 시설 주변에 기록 비중 하한이 50% 이상인 다른 노선이 하나 이상 있다는 뜻이다. 불확실은 다른 노선 모두의 하한은 기준 미만이나 상한까지 미달하지는 않는 경우다. 실제 목적지·방향이 같은 대체 교통편임을 확인한 것은 아니다.','small',6)
     para('<b>172번은 500m에서 15곳(복지관 3·주간이용 9·기타 3)으로 연결 범위가 가장 넓었다.</b> 300m에서도 8곳으로 가장 많았지만 800m에서는 1137번 20곳이 172번 18곳보다 많았다. 시설 연결 수에 따른 순서는 반경에 따라 달라진다.','small',6)

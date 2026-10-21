@@ -10,6 +10,17 @@ RADII = (300, 500, 800)
 THRESHOLDS = (.5, .8)
 
 
+def index_supply(rows):
+    """Build a route lookup without silently replacing duplicate input."""
+    indexed = {}
+    for row in rows:
+        route_id = row['route_id']
+        if not route_id or route_id in indexed:
+            raise ValueError('Empty or duplicate supply route identity')
+        indexed[route_id] = row
+    return indexed
+
+
 def compare(facilities, types, candidates, supply):
     seen = set()
     for f in facilities:
@@ -32,15 +43,24 @@ def compare(facilities, types, candidates, supply):
                 nearby = {x for x in f['route_ids_'+str(radius)].split(';') if x}
                 if route_id in nearby:
                     linked.append((f, nearby - {route_id}))
+            # Bounds depend on the other routes, not on the diagnostic threshold.
+            intervals = []
+            for _, others in linked:
+                lower = max((supply.get(i, {'lower': 0})['lower'] for i in others), default=0)
+                upper = max((supply.get(i, {'upper': 1})['upper'] for i in others), default=1)
+                intervals.append((bool(others), lower, upper))
             checks = []
             for threshold in THRESHOLDS:
                 counts = Counter()
-                for _, others in linked:
-                    # Unknown other routes have interval [0, 1]. The candidate is excluded.
-                    lower = max((supply.get(i, {'lower': 0})['lower'] for i in others), default=0)
-                    upper = max((supply.get(i, {'upper': 1})['upper'] for i in others), default=1)
-                    category = ('no_other_route' if not others else 'lower_meets' if lower >= threshold
-                                else 'all_upper_below' if upper < threshold else 'uncertain')
+                for has_other, lower, upper in intervals:
+                    if not has_other:
+                        category = 'no_other_route'
+                    elif lower >= threshold:
+                        category = 'lower_meets'
+                    elif upper < threshold:
+                        category = 'all_upper_below'
+                    else:
+                        category = 'uncertain'
                     counts[category] += 1
                 checks.append({'threshold': threshold, **{k: counts[k] for k in
                               ['lower_meets', 'all_upper_below', 'uncertain', 'no_other_route']}})
@@ -61,7 +81,6 @@ if __name__ == '__main__':
     parser.add_argument('--supply', default='outputs/public/facility_supply_diagnostic.json')
     parser.add_argument('--output', default='outputs/public/candidate_facility_comparison.json')
     args = parser.parse_args()
-    read = lambda p: json.loads(Path(p).read_text(encoding='utf-8'))
     with Path(args.details).open(encoding='utf-8-sig', newline='') as stream:
         facilities = list(csv.DictReader(stream))
     with Path(args.master).open(encoding='cp949', newline='') as stream:
@@ -69,8 +88,12 @@ if __name__ == '__main__':
     types = {r['시설코드']: r['시설종류명(시설유형)'] for r in master}
     if len(types) != len(master):
         raise ValueError('Duplicate master facility identity')
-    candidates = [r for r in read(args.review)['routes'] if r['review_type_by_threshold']['30'] == 'low_composition']
-    supply = {r['route_id']: r for r in read(args.supply)['by_route']}
+    review = json.loads(Path(args.review).read_text(encoding='utf-8'))
+    source = json.loads(Path(args.supply).read_text(encoding='utf-8'))
+    candidates = [r for r in review['routes'] if r['review_type_by_threshold']['30'] == 'low_composition']
+    supply = index_supply(source['by_route'])
     result = compare(facilities, types, candidates, supply)
-    Path(args.output).write_text(json.dumps(result, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+    output = Path(args.output)
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text(json.dumps(result, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
     print(json.dumps({'reference_facilities': result['reference_facilities'], 'candidate_routes': result['candidate_routes']}))

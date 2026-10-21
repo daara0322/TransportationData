@@ -1,5 +1,5 @@
 import unittest
-from src.candidate_facilities import compare
+from src.candidate_facilities import compare, index_supply
 
 
 class CandidateFacilityTests(unittest.TestCase):
@@ -26,6 +26,10 @@ class CandidateFacilityTests(unittest.TestCase):
         row = dict(facility_id='f', route_ids_300='', route_ids_500='', route_ids_800='')
         with self.assertRaises(ValueError):
             compare([row, row], {'f': 'type'}, [], {})
+
+    def test_duplicate_supply_route_must_not_silently_overwrite(self):
+        with self.assertRaises(ValueError):
+            index_supply([{'route_id': 'a'}, {'route_id': 'a'}])
 
 
 if __name__ == '__main__':

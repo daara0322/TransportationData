@@ -1,58 +1,51 @@
-# 버스 전환 우선순위 분석
+# 서울 버스의 전기저상 전환 검토
 
-현재 주제는 **서울 버스의 전기저상 전환 검토를 위한 저상차량 구성과 운영 제약 분석**이다. 기존 자료로 구성 차이·시설 연계·공식 제약과 위치 민감도를 분석한다. 2026-10-20 결정에 따라 추가 자료 확보를 기다리지 않으며 탄소감축량·최적 교체 순위는 범위에서 제외한다. 자세한 기준은 [범위 결정](docs/scope-decision.md)에 있다.
+노선별 저상차량 구성과 운영 제약을 분석하고, 관련 시설 연결을 고려해 전기저상 전환의 검토 대상을 제안한다. 간선·지선 후보 375개 노선의 2026-10-13~15 운행기록 112,864행을 사용했다.
 
-## 확보한 자료
+## 주요 결과
 
-- 서울 T-Data 차량 운행통계 CSV: 2026-10-13~15, 291,637행, 42열.
-- 서울시 2026년 1월 시내버스 인가현황 엑셀.
-- 서울시 2026년 저상버스 예외승인 노선표 이미지.
-- 서울 버스위치 API: 2026-10-17 오후, 인가현황과 이름을 대조한 후보 393개에 요청해 차량 위치 기록 4,433건 확보.
-- T-Data 노선 마스터 1,751행, 차량별운행노선정보 16,130행, 노선 부가 정보 1,797행.
+- 미확인 차량을 고려해도 일부 노선의 저상 구성 차이가 남는다. 미확인을 일반버스로 채우지 않고 하한·상한으로 제시한다.
+- 저상 기록 비중 상한이 30% 미만이며 확보한 예외승인표와 연결되지 않은 후보는 6개다. 공식 예외 사유가 없다는 사실이 즉시 교체 가능함을 보장하지 않는다.
+- **172번**은 후보 중 500m 연결 시설이 15곳으로 가장 많고, 일반 확인 차량은 20대다. 시설 연결 범위와 비저상 대체 가능성을 검토할 사례다.
+- **1137번**은 500m 연결 시설 9곳 중 2곳에서 다른 노선의 저상 비중이 50% 기준을 충족하는지 불확실하다. 실제 목적지·방향과 차량 분류를 확인할 사례다.
+- 반경을 800m로 넓히면 시설 연결 순서와 다른 노선 진단이 달라진다. 확정 교체 순위로 제시하지 않는다.
 
-후보 노선의 과거 차량·노선 조합 7,251개 중 4,431개에 현재 저상 분류를 연결했다(61.1%). 서울 전체 보급률이 아니며, 미분류 2,820개를 일반버스로 취급하지 않는다. 현재 분류의 과거 시점 유효성도 추가 확인이 필요하다. 자세한 결과와 한계는 `docs/research/2026-10-17-lowfloor-linkage.md`에 적었다.
-
-393개 후보 중 391개가 공식 노선 마스터에서 발견됐고, 이름이 다른 1개와 마스터에 없는 2개를 별도로 기록했다. 미확인 차량이 결과를 얼마나 바꿀 수 있는지 노선별 가능한 범위도 계산했다. 해석과 사례는 `docs/research/2026-10-17-route-master-validation.md`를 참고한다.
-
-현황 분석은 ID·명칭과 유형을 확인한 간선·지선 후보 375개, 운행통계 112,864행으로 진행했다. 현재 분류를 연결한 저상 55,989행·일반 15,449행과 미확인 41,426행을 구분했다. 이 기록은 완주 운행 횟수나 승객 수로 확정하지 않았다.
-
-정류장·경로와 시설 주소도 확보했다. 미검수 시설 좌표 후보를 이용한 거리·주변 노선 구성 사전 진단까지 진행했다. 실제 공간 수요 격차와 탄소 전환안은 아직 검증하지 않았다. 배차 이력은 시각의 규칙성이 높고 역전 기록이 있어 실제 관측인지 확인 전 대기시간 분석에 사용하지 않는다.
-
-전체 상태는 [진행 체크리스트](docs/progress-checklist.md), 실행은 [재현 순서](docs/reproduce.md), 새 집계는 [진행 기록](docs/research/2026-10-17-supply-and-spatial-progress.md), 제출 조건은 [요건 확인](docs/submission-requirements.md)에 정리했다.
+[공개 보고서](output/pdf/analysis_review_draft.pdf) · [후보별 시설 비교](docs/candidate-facility-comparison.md) · [검토 유형·기준 민감도](docs/route-review-types.md)
 
 ![운행기록 구성](outputs/public/figures/supply_record_composition.png)
 
-운행통계에는 서울 외 지역 차량도 포함된다. 거리 단위와 비정상 기록을 확인하기 전에는 탄소계산에 사용하지 않는다. 공개 파일의 수정일을 장기 시계열 제공의 증거로 해석하지 않는다.
+시설 수는 통행 수요·휠체어 이용자 수가 아니다. 주변 노선은 실제 목적지와 방향이 같은 대체 교통편으로 검증되지 않았다. 탄소감축량·실측 대기시간·접근성 개선 효과는 산출하지 않았다. [전체 범위와 한계](docs/scope-decision.md).
 
-## 품질 점검 실행
+## 실행
 
-Python 표준 라이브러리만 사용한다.
+Python 3.12 기준이다. 수집·집계·검사는 표준 라이브러리로 실행한다. 그림은 `requirements.txt`, PDF는 `requirements-report.txt`의 추가 패키지가 필요하다.
 
 ```powershell
-python -m unittest discover -s tests -v
-python -m src.audit_operations data/raw/tdata_vehicle_operations.csv --output outputs/public/operations_audit.json
-python -m src.link_positions --operations data/raw/tdata_vehicle_operations.csv --snapshot data/raw/bus_positions/authorization_snapshot.json --output outputs/public/lowfloor_linkage_authorization.json
-python -m src.audit_route_master --master data/raw/tdata_route_master.csv --vehicle-routes data/raw/tdata_vehicle_routes.csv --candidates outputs/public/authorization_route_candidates.json --linkage outputs/public/lowfloor_linkage_authorization.json --snapshot data/raw/bus_positions/authorization_snapshot.json --output outputs/public/route_master_audit.json
+python -m unittest discover -s tests
+python -m src.review_types --output data/processed/route_review_check.json
 ```
 
-원본 경로와 출처는 `data/README.md`, 연구 진행상황은 `docs/research/2026-10-17-data-feasibility.md`에 기록했다. 저장소에는 코드·문서·노선별 집계 결과를 포함하고, 인증키와 원자료는 제외한다. 원자료는 출처에서 별도로 내려받아 `data/raw/`에 준비해야 한다.
+공개 집계를 사용한 두 번째 명령은 별도 원자료나 API 키가 필요 없다. 출력 폴더가 없으면 먼저 준비한다. 시설 연결 재계산과 원자료부터의 전체 실행은 [재현 순서](docs/reproduce.md)를 따른다.
 
-API 수집에는 `.env.example`을 참고해 로컬 `.env`에 인증키를 설정한다. `.env`는 Git 제외 대상이다. `python -m src.bus_positions --routes-file configs/probe_routes.json`으로 최대 40개 노선을 수집한다. 매번 API 호출을 사용하며 응답 시점에 따라 결과가 달라진다. AI 서비스·활용 범위·주요 요청 요약은 분석보고서에 기재한다.
+```powershell
+python -m pip install -r requirements-report.txt
+python scripts/build_review_pdf.py --output data/processed/report_check.pdf
+```
 
-시설 주소 대조와 미검수 좌표의 정류장 거리 사전 진단: [진행 결과](docs/research/2026-10-18-facility-catchments.md). 좌표 후보는 확정 접근성이나 실제 이용 수요를 뜻하지 않는다.
+보고서는 당시 분석 결과를 설명하는 고정 원고다. 입력 결과를 바꾸면 수치·해석과 그림도 함께 검토해야 한다. 현재 API 재호출로 2026-10-17 분류 스냅샷을 그대로 재현할 수는 없다.
 
-시설 주변 노선의 저상 기록 구성은 [사전 진단](docs/research/2026-10-18-facility-supply.md)에 정리했다. 노선 전체 기록을 연결했으며 정류장 도착비율·대기시간·수요·탄소 효과는 미검증이다.
+## 구성
 
-과거 탄소 비교 계획의 입력 점검과 시설 종류별 연결 범위는 [준비 상태 점검](docs/research/2026-10-18-readiness-and-facility-types.md)에 있다. [기관 문의 초안](docs/requests/bus-data-questions.md)은 보류된 과거 기록이며 보내지 않았다.
+| 경로 | 역할 |
+|---|---|
+| `src/` | API 수집, 원자료 검사, 노선·시설 분석, 그림 생성 |
+| `src/route_records.py` | 일별 기록 검증과 노선 합산의 공통 구현 |
+| `scripts/build_review_pdf.py` | 페이지 그리기와 보고서 내용 조립 |
+| `tests/` | 중복·분모·미확인 분류·주소·후보 비교 검사 |
+| `configs/` | 후보 노선, 공식 예외승인 사실표, 위치 시나리오 |
+| `outputs/public/` | 공개 가능한 집계와 결과 그림 |
+| `docs/` | 방법·해석·재현 안내, 검증 근거가 담긴 연구 기록 |
 
-한 시설의 두 주소 후보가 약 42m 차이로 300m 진단을 바꾼 [위치 민감도 사례](docs/research/2026-10-19-building-location-sensitivity.md)도 확인했다. 원래 전체 집계와 별도이며 실제 접근성 격차로 확정하지 않았다.
+자료의 출처·이용조건은 [데이터 안내](data/README.md), 확보 당시 크기·해시는 `data/manifest.json`에 있다. 원자료·행 단위 가공자료·인증키·개인 신청서는 Git에서 제외한다. API를 새로 수집할 때만 `.env.example`을 참고해 로컬 인증키를 설정한다.
 
-검토용 PDF는 [보고서 작업본](output/pdf/analysis_review_draft.pdf), 최종 제출 전 부족 항목은 [제출 준비 대조표](docs/submission-gap-check.md)에 있다. 본문은 5쪽이며 확정한 구성·제약 분석 범위를 담았다. 공개 작업본은 개인 정보가 없는 검토본이다. 본인 정보가 들어간 제출 확인본은 Git 제외 폴더에 보관한다.
-
-2026-10-20부터 1인 개인 참가로 진행한다. 현재 역할과 중복 작업을 줄이는 기준은 [작업 기준](docs/working-agreement.md)에 정리했다.
-
-저장소는 2026-10-20 참가자 승인으로 공개 전환했다. 심사용 코드는 [현재 분석 브랜치](https://github.com/daara0322/TransportationData/tree/codex/supply-analysis)를 사용한다. 로그인 없는 README 접근을 확인했으며 원자료와 인증키는 공개하지 않는다.
-
-### 시설 연결을 반영한 전환 검토 사례
-
-저상 기록 비중 상한 30% 미만이며 확보한 예외승인표와 연결되지 않은 6개 후보를 시설 연결·다른 노선 구성으로 비교했다. 172번은 500m 연결 시설 15곳으로 가장 많아 시설 연결 범위와 일반 확인 차량 20대의 대체 가능성을 검토할 사례다. 1137번은 500m 연결 시설 9곳 중 2곳에서 다른 노선의 50% 기준 판단이 불확실해 이동 방향·목적지와 차량 분류를 확인할 사례다. 800m에서는 연결 시설 수의 순서와 대안 진단이 달라져 확정 교체 순위로 제시하지 않는다. [상세 비교](docs/candidate-facility-comparison.md).
+심사용 코드는 [분석 브랜치](https://github.com/daara0322/TransportationData/tree/codex/supply-analysis)를 사용한다. 공개 보고서는 개인정보가 없는 작업본이며, 개인 제출 파일과 발송 여부는 이 저장소에서 관리하지 않는다. AI 서비스·활용 범위·주요 요청 요약은 보고서에 기재했다. [공모전 제출 요건](docs/submission-requirements.md).

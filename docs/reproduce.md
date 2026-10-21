@@ -6,7 +6,7 @@ Python 3.12에서 확인했다. 수집·집계·테스트는 표준 라이브러
 
 `data/README.md`의 공식 링크에서 파일을 내려받아 명시된 이름으로 `data/raw/`에 둔다. 확보 당시 파일의 크기·해시는 `data/manifest.json`과 대조한다. 제공기관의 파일이 바뀌면 예전 해시와 결과가 달라질 수 있으므로 새 수집일과 해시를 기록한다.
 
-실시간 API 원본은 2026-10-17 당시 스냅샷이며 Git에 없다. 지금 재호출하면 동일 표본이 되지 않는다. 당시 분류를 그대로 재현하려면 팀이 보관한 스냅샷이 필요하다. 공개 저장소의 노선별 결과는 확인할 수 있지만 그 집계만으로 차량 단위 분류를 복원할 수는 없다.
+실시간 API 원본은 2026-10-17 당시 스냅샷이며 Git에 없다. 지금 재호출하면 동일 표본이 되지 않는다. 당시 분류를 그대로 재현하려면 분석 당시 보관한 스냅샷이 필요하다. 공개 저장소의 노선별 결과는 확인할 수 있지만 그 집계만으로 차량 단위 분류를 복원할 수는 없다.
 
 시설 CSV는 CP949, T-Data CSV는 셀 내부 BOM을 포함한 UTF-8이다. 원본을 덮어쓰지 않는다. 배차 차량 이력에는 운전자 ID 열이 있어 원본·행 단위 자료를 공개 결과에 포함하지 않는다.
 
@@ -42,7 +42,7 @@ python -m src.figures
 python -m src.distance_reference --operations data/raw/tdata_vehicle_operations.csv --nodes data/raw/tdata_route_nodes.csv --stations data/raw/tdata_stations.csv --route-audit outputs/public/route_master_audit.json --output outputs/public/distance_reference_audit.json
 ```
 
-시설 좌표 수집은 별도 키와 건물 위치 검수가 필요하다. 절차와 해석 한계는 `research/2026-10-18-distance-and-geocoding.md`에 기록했다. 아직 실제 지오코딩 요청을 검증한 단계는 아니다.
+시설 좌표 수집은 별도 키와 건물 위치 검수가 필요하다. 절차와 해석 한계는 `research/2026-10-18-distance-and-geocoding.md`에 기록했다. 주소 API 응답은 확보했지만 실제 건물·출입구는 검수하지 않았다.
 
 ## 시설 후보의 주소·거리 진단
 

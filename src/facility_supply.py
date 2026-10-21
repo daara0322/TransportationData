@@ -8,36 +8,10 @@ from pathlib import Path
 from src.distance_reference import geodesic_metres
 from src.facility_catchments import RADII, address_check, point
 
+from src.route_records import aggregate_routes
+
 
 THRESHOLDS=(.3,.5,.8)
-COUNTS=('records','low_floor_records','regular_records','unknown_records')
-
-
-def aggregate_routes(rows):
-    routes={}
-    seen=set()
-    for row in rows:
-        key=(row['route_id'],row['date'])
-        if not all(key) or key in seen:
-            raise ValueError('Empty or duplicate route/date')
-        seen.add(key)
-        if any(type(row[k]) is not int or row[k]<0 for k in COUNTS):
-            raise ValueError('Record counts must be nonnegative integers')
-        if row['records']!=sum(row[k] for k in COUNTS[1:]):
-            raise ValueError('Classification counts do not sum to route records')
-        route=routes.setdefault(row['route_id'],dict(route_name=row.get('route_name',row['route_id']),
-                                                    **{k:0 for k in COUNTS},dates=[]))
-        if route['route_name']!=row.get('route_name',row['route_id']):
-            raise ValueError('Inconsistent route name')
-        for field in COUNTS:
-            route[field]+=row[field]
-        route['dates'].append(row['date'])
-    for route in routes.values():
-        total=route['records']
-        route['lower']=route['low_floor_records']/total if total else None
-        route['upper']=(route['low_floor_records']+route['unknown_records'])/total if total else None
-        route['dates'].sort()
-    return routes
 
 
 def link_supply(facilities,edges,route_days):

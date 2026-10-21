@@ -1,6 +1,6 @@
 # 분석 설정과 정책 사실표
 
-`probe_routes.json`은 초기 연결 실험용 목적표본이다. `authorization_matched_routes.json`은 1월 인가현황의 노선명과 운행기록을 대조해 만든 잠정 후보 ID 목록이며 공식 전체 노선 목록이 아니다.
+초기 연결 실험용 목적표본은 제거했다. `authorization_matched_routes.json`은 1월 인가현황의 노선명과 운행기록을 대조해 만든 잠정 후보 ID 목록이며 공식 전체 노선 목록이 아니다.
 
 `lowfloor_exceptions_2026.csv`는 [서울시 저상버스 예외승인 현황](https://news.seoul.go.kr/traffic/archives/513625)의 2026년 게시용 표에서 노선·대수·제약 유형의 사실관계를 수기로 정리한 것이다. 원본 이미지는 `data/raw/seoul_lowfloor_exceptions_2026_03.png`에 보존하고 재배포하지 않는다. 여러 업체가 있는 노선은 대수를 합쳤으며 번호의 앞자리 0을 보존한다. 적용기간과 변경 여부는 추가 확인이 필요하다.
 
